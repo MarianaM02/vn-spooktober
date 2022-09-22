@@ -14,7 +14,7 @@ define silbon = Character("Silbón", color="#ade1e5")
 
 label start:
 
-    $ playerName = renpy.input("Mi nombre es..", default = "Alba")
+    $ playerName = renpy.input("Mi nombre es..", default = "Alba", length=12)
     $ playerName = playerName.strip()
 
     if playerName == "":
@@ -267,22 +267,146 @@ label missionAccepted:
     madreMonte "Gracias... Sé que esto no es fácil. Prometo ayudarte en todo lo que pueda. Nombra una Leyenda y yo me encargaré de lo demás."
     menu:
         "Calchona":
-            jump calchonaRute
+            jump calchonaRoute
         "Pombero":
-            jump pomberoRute
+            jump pomberoRoute
         "Silbón":
-            jump silbonRute
+            jump silbonRoute
 
             
-label calchonaRute:
-    pass
+label calchonaRoute:
+    default goodAnswersCalchona = 0
+    "Ruta de la Calchona"
+    calchona "Decisión 1"
+    menu:
+        "Elección Buena":
+            $ goodAnswersCalchona += 1
+            calchona "Respuesta Positiva"
+        "Elección Mala":
+            calchona "Respuesta Negativa"
+    calchona "Decisión 2"
+    menu:
+        "Elección Buena":
+            $ goodAnswersCalchona += 1
+            calchona "Respuesta Positiva"
+        "Elección Mala":
+            calchona "Respuesta Negativa"
+    calchona "Decisión 3"
+    menu:
+        "Elección Buena":
+            $ goodAnswersCalchona += 1
+            calchona "Respuesta Positiva"
+        "Elección Mala":
+            calchona "Respuesta Negativa"
 
-label pomberoRute:
-    pass
+    if goodAnswersCalchona == 3:
+        jump calchonaGoodEnding
+    else:
+        jump calchonaBadEnding
 
-label silbonRute:
-    pass
+
+label pomberoRoute:
+    default goodAnswersPombero = 0
+    "Ruta del Pombero"
+    pombero "Decisión 1"
+    menu:
+        "Elección Buena":
+            $ goodAnswersPombero += 1
+            pombero "Respuesta Positiva"
+        "Elección Mala":
+            pombero "Respuesta Negativa"
+    pombero "Decisión 2"
+    menu:
+        "Elección Buena":
+            $ goodAnswersPombero += 1
+            pombero "Respuesta Positiva"
+        "Elección Mala":
+            pombero "Respuesta Negativa"
+    pombero "Decisión 3"
+    menu:
+        "Elección Buena":
+            $ goodAnswersPombero += 1
+            pombero "Respuesta Positiva"
+        "Elección Mala":
+            pombero "Respuesta Negativa"
+
+    if goodAnswersPombero == 3:
+        jump pomberoGoodEnding
+    else:
+        jump pomberoBadEnding
 
 
+label silbonRoute:
+    default goodAnswersSilbon = 0
+    "Ruta del Silbón"
+    silbon "Decisión 1"
+    menu:
+        "Elección Buena":
+            $ goodAnswersSilbon += 1
+            silbon "Respuesta Positiva"
+        "Elección Mala":
+            silbon "Respuesta Negativa"
+    silbon "Decisión 2"
+    menu:
+        "Elección Buena":
+            $ goodAnswersSilbon += 1
+            silbon "Respuesta Positiva"
+        "Elección Mala":
+            silbon "Respuesta Negativa"
+    silbon "Decisión 3"
+    menu:
+        "Elección Buena":
+            $ goodAnswersSilbon += 1
+            silbon "Respuesta Positiva"
+        "Elección Mala":
+            silbon "Respuesta Negativa"
+
+    if goodAnswersSilbon == 3:
+        jump silbonGoodEnding
+    else:
+        jump silbonBadEnding
+
+
+label calchonaGoodEnding:
+    $ persistent.calchonaEnding = True
+    "Good Ending Calchona :)"
+    jump normalEnding
+
+label calchonaBadEnding:
+    "Bad Ending Calchona :("
     # Finaliza el juego:
     return
+
+label pomberoGoodEnding:
+    $ persistent.pomberoEnding = True
+    "Good Ending Pombero :)"
+    jump normalEnding
+
+label pomberoBadEnding:
+    "Bad Ending :("
+    # Finaliza el juego:
+    return
+
+label silbonGoodEnding:
+    $ persistent.silbonEnding = True
+    "Good Ending Silbón :)"
+    jump normalEnding
+
+label silbonBadEnding:
+    "Bad Ending :("
+    # Finaliza el juego:
+    return
+
+label normalEnding:
+    "Normal Ending :)"
+    if persistent.calchonaEnding == True and persistent.pomberoEnding == True and persistent.silbonEnding == True:
+        jump trueEnding
+    else: 
+        # Finaliza el juego:
+        return
+
+label trueEnding:
+    "True Ending!!!! :D"
+    # Finaliza el juego:
+    return
+    
