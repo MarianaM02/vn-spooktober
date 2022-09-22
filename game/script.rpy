@@ -225,7 +225,7 @@ label preMission:
     madreMonte "Ahora, ellos también están recobrando sus fuerzas, pero no les llevará mucho hasta que empiecen a moverse nuevamente."
     "Me pregunto si realmente puedo confiar en ella de la manera que ella espera que lo haga..."
     madreMonte "¿Estás segura?"
-    "!!"
+    playerName "!!"
     "Su voz me saca de mis pensamientos, y un fuerte sentimiento de inseguridad me invade de repente."
     "Algo que no estaba allí un momento antes."
     "¿Es esto lo que pueden causar las Leyendas solo con su voz? ¿Miedo, dudas?"
