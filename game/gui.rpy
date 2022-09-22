@@ -56,6 +56,9 @@ define gui.interface_text_color = '#ffffff'
 ## El tipo de letra del texto del juego
 define gui.text_font = "DejaVuSans.ttf"
 
+# define gui.text_layout = "subtitle"
+
+
 ## El tipo de letra de los nombres de personajes
 define gui.name_text_font = "DejaVuSans.ttf"
 

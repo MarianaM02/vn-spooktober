@@ -4,10 +4,10 @@
 
 define player = Character(["playerName"], color="#c3acce")
 define grandpa = Character("Abuelo", color="#dfd9e2")
-define madreMonte = Character("Madre Monte", color="#2a7f62")
-define pombero = Character("Pombero", color="#89909f")
-define calchona = Character("Calchona", color="#538083")
-define silbon = Character("Silbón", color="#ade1e5")
+define madreMonte = Character("Inaru", color="#2a7f62")
+define pombero = Character("Har", color="#89909f")
+define calchona = Character("Fisa", color="#538083")
+define silbon = Character("Wiija", color="#ade1e5")
 
 
 # El juego comienza aquí.
@@ -21,7 +21,7 @@ label start:
         $ playerName = "Alba"
 
 
-    "30 de Octubre. 4.00pm"
+    centered "30 de Octubre\n4:00pm"
     playerName "¡Phew! ¡Ya era hora!"
     playerName "Después de un viaje tan largo..."
     playerName "...finalmente estoy de vuelta."
@@ -68,14 +68,15 @@ label start:
     "Me pregunto como reaccionará ella cuando venga mañana..."
 
     # Fade out
-    "\"[playerName]...\""
-    "\"No le creas.\""
-    "\"No lo busques.\""
-    "\"Está aquí.\""
-    "\"Esperándote...\""
+    centered "\"[playerName]...\""
+    centered "\"No le creas.\""
+    centered "\"No lo busques.\""
+    centered "\"Está aquí.\""
+    centered "\"Esperándote...\""
     #Fade in
 
-    "30 de Octubre. 8pm"
+    pause
+    centered "30 de Octubre.\n8:00pm"
     playerName "¡Esa fue una gran siesta!"
     playerName "¡Será mejor que ya vuelva a salir antes de que se haga muy tarde."
     playerName ". . ."
@@ -93,7 +94,7 @@ label start:
     "Ella dice que se sentía más cómoda como un monstruo entre humanos. Me encantaría volverla a ver así."
 
 
-    "23.55"
+    centered "30 de Octubre.\n11:55pm"
     playerName "Phew... Estoy agotada, ha sido realmente divertido!"
     playerName "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut--"
     playerName "¿Eh?"
@@ -134,13 +135,15 @@ label start:
     # Tinnitus?
     # Siguiente
 
+    # personaje ???
     madreMonte "Vaya..."
     menu:
         "\"¿Quien eres?\"":
             pass
 
     madreMonte "¿Quien soy yo? ¿Que no te han enseñado nada?"
-    madreMonte "Me llamo *, soy una protectora de los bosques, por supuesto!"
+    # Cambia a Inaru
+    madreMonte "Me llamo Inaru, soy una protectora de los bosques, por supuesto!"
     madreMonte "O lo era, hasta que quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años!"
     playerName "¿¡Cómo!? ¿¡Mi abuelo es tu maestro!?"
     madreMonte "Pues parece que sí, tanto yo como los otros estábamos bajo sus ord-"
@@ -255,9 +258,15 @@ label preMission:
             jump missionDenied
 
 label missionDenied:
-    madreMonte "\". . .\""
-    madreMonte "Chicuela egoista!! Nos condenarás a todos!!"
-    "Y así el mundo se acercó a su destrucción..."
+    playerName "No puedo... No soy la persona que buscas."
+    madreMonte "Vaya, que decepción."
+    madreMonte "Pero supongo que no te puedo forzar."
+    "Me di vuelta, y caminé hacia la puerta."
+    madreMonte "Pero aún así puedo usarte."
+    playerName "!!!!"
+    "No llegué a voltear, mi cuerpo entumecido solo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
+    "Luego... Oscuridad."
+    "F en el chat"
     "THE END (Gracias por nada)"
     "Bad Ending :("
     # Finaliza el juego:
@@ -276,35 +285,209 @@ label missionAccepted:
             
 label calchonaRoute:
     default goodAnswersCalchona = 0
-    "Ruta de la Calchona"
-    calchona "Decisión 1"
+    
+    centered "00:30am\nLos Campos"
+    "Siempre me gustó venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
+    "Ahora, estoy buscando a una bruja, y parece ser el peor lugar del mundo."
+    "El viento soplaba con suavidad, y con él, lograba escuchar los susurros de las ovejas que dormían dentro de sus corrales. Parecía que cotilleaban entre ellas en sueños."
+    playerName "Nghh.."
+    playerName "!!!"
+    "Unos gemidos forzaron que me detuviera. Mi cuerpo se tensó, mientras escaneaba cerca de los corrales."
+    "Allí la vi, una figura encorvada que forcejeaba para entrar a uno de los corrales"
+    "Pobre oveja, no debieron notar que quedó afuera."
+    playerName ". . ."
+    playerName "!!!"
+    "Al ser iluminada bajo la luz de la Luna, pude ver un rostro humano, el cual se inclinaba para pasar la cabeza entre los postes del corral y alcanzar el bebedero."
+    playerName "AH!"
+    # personaje ???
+    calchona "?"
+    "Apenas me oyó, la oveja volteó a verme, y su espalda se irguió para levantarse en las patas traseras. Sus ojos brillantes se posaron en mí, dorados y muertos."
+    "¿Qué hago?"
+    "¿Qué hago?"
+    "¿Qué hago?"
+    "Puedo verla tensar sus manos, y sus ojos se mueven lejos de mí. Si se escapa, podría estar perdiendo la única oportunidad que tengo de ayudar al abuelo."
+    playerName "AGUA!"
+    calchona "..."
+    "La criatura se volvió a verme"
+    playerName "Te puedo ayudar..."
+    "Me fui acercando despacio, mis ojos en la criatura. Ella me observaba de regreso, dando unos pasos atrás. Pero no se alejaba."
+    "Una vez llegué a la valla, puse las dos manos sobre ella y le trepé para llegar al otro lado. Las ovejas seguían dormidas. La criatura me miraba expectante."
+    "Mi mano se extendió para abrir el grifo y el agua empezó a correr. En un instante, la criatura puso ambas manos dentro del corral y bajo el agua y luego se las llevó al hocico, bebiendo desesperadamente."
+    "Sus ojos nunca me abandonaban."
+    calchona "Gracias."
+    calchona "¿Qué estás haciendo aquí?"
+    "Vaya, no me lo esperaba."
+    "Aún así, me miraba con desconfianza. No puedo decirle la completa verdad, o sino se irá. Me pregunto si se dará cuenta que le estoy mintiendo..."
+    # Siguiente
+
+    playerName "Yo..."
     menu:
-        "Elección Buena":
+        "\"Te estaba buscando.\"":
             $ goodAnswersCalchona += 1
-            calchona "Respuesta Positiva"
-        "Elección Mala":
-            calchona "Respuesta Negativa"
-    calchona "Decisión 2"
+            playerName "Te estaba buscando. En el pueblo, se oyen historias sobre leyendas que vagan en esta noche, pensé que si comenzaba a explorar, podría encontrar alguna. Lamento haberte asustado."
+            calchona "Los campesinos jamás hablan conmigo. Pero siempre me dejan algo de beber. Jamás había estado aquí antes."
+            "Puedo ver como comienza a relajarse, y en respuesta, siento como mis hombros bajan a la par."
+        "\"Me escapé del festival.\"":
+            playerName "Me escapé del festival. Había mucho estruendo, y quería ver como se encontraban los animales." 
+            playerName"Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
+            calchona "No serías la primera. Es normal teniendo en cuenta como... Luzco."
+            "Puedo notar que aún me mira con desconfianza, pero no hace ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
+ 
+    
+    playerName "Si tienes hambre, puedo ayudarte a buscar algo para comer!"
+    calchona "..."
+    playerName "Soy [playerName] ¿cuál es tu nombre?"
+    calchona "..."
+    # Cambia a Fisa
+    calchona "Fisa."
+    playerName "Bueno, entonces es un placer conocerte! Ven, vamos a buscar algo para comer."
+    "Mientras me alejaba, me puse a pensar acerca de como le estaba yendo a Inaru..."
+    "Mi mano comenzaba escocer al recordar todo lo que conllevaba esto, y en el problema en que me había metido."
+    "¿Por qué abrí esa caja?"
+    # (recuerdo)
+    centered "No lo veas"
+    centered "No lo escuches"
+    "¿Quién era esa voz?"
+    calchona "No tendrías que haber venido."
+    playerName "?!"
+    calchona "Los campos son peligrosos, en especial por la noche. No sabes lo que puede haber aquí."
+    playerName "Podría decir lo mismo de tí."
+    calchona "..."
+    calchona "Peras."
+    playerName "?"
+    "Fisa levanta un brazo, señalando a los árboles que contenían una gran cantidad de peras maduras."
+    playerName "¡Bingo!"
+    "Poniéndome en puntas de pie, logré alcanzar varias frutas. Sin pensarlo, le extendí una a Fisa."
+    playerName "Buen provecho."
+    "En un instante, Fisa tomó la pera de mis manos y a pesar de mantener la apariencia hasta ahora, la devoró en un instante. La lana de sus mejillas se llenó del líquido de la pera y se volvió pegajosa."
+    "Me senté en el suelo con varias peras entre mis brazos, y esparcí la mayoría sobre el cesped."
+    "Precavida, Fisa se sentó frente a mí."
+    calchona "¿Por qué eres buena conmigo?"
+    playerName "¿Mh?"
+    calchona "¿No me estás viendo? ¿Cómo estás tan tranquila?"
+    
     menu:
-        "Elección Buena":
+        "\"No lo estoy\"":
             $ goodAnswersCalchona += 1
-            calchona "Respuesta Positiva"
-        "Elección Mala":
-            calchona "Respuesta Negativa"
-    calchona "Decisión 3"
+            playerName "No lo estoy."
+            playerName "No realmente al menos."
+            playerName "Estar asustada de algo que no conozco no me va a llevar a ningún sitio."
+            playerName "¿No es eso la vida? ¿Tomar riesgos?"
+            calchona "... Eres valiente, me recuerdas a mis hijos."
+            playerName "¿Hijos?"
+            "Me giré a observarla, sus ojos moribundos parecían brillar como el fuego de las hogueras mientras se llevaba otra pera a la boca."
+            calchona "Mi esposo y yo trabajábamos en los campos. Él no sabía que yo era una bruja. Por las noches, me sentía libre, tomaba mis pociones y vagaba por las afueras, como una oveja."
+            calchona "Un día, volví, y no había nada. Ni mi esposo, ni mis hijos, y todas mis pociones habían sido destruidas. Solo pude tomar los restos de una."
+            calchona "Y quedé... Así."
+            calchona "La pena, o vaya a saber que, me ató a este mundo desde ese entonces, condenada a caminar solo por el borde. Ni humana, ni animal."
+            calchona "Y simplemente, la gente empezó a morir, y a olvidarse de mí."
+            calchona "Me volví nada más que una Leyenda..."
+        "\"Me inspiras confianza\"":
+            "Me encogí de hombros, tratando de poner el rostro más impasible que podía."
+            playerName "Supongo que me inspiras confianza."
+            playerName "Desde que te vi, no has hecho nada más que tratado de alejarse."
+            playerName "Si algo parecía, era que tú tenías más miedo de mí que yo."
+            "Fisa parpadeó varias veces, usando el revés de su mano para limpiarse los restos de pera."
+            calchona "Eres valiente. He visto gente intrépida como tú cometer errores muy graves."
+            calchona "Hay muchas otras criaturas... Más grandes, fuertes, y crueles que yo."
+            "La manera en que Fisa perdía la vista en la comida, me hacía pensar que ella también tenía algo de aquella fuerza y crueldad de la que hablaba."
+    
+    calchona "Hace mucho conocí a un hombre, no muy distinto a tí. Fue el primer humano que me trató como una persona."
+    calchona "Y luego... Solo sentí calor."
+    "Está hablando del abuelo..."
     menu:
-        "Elección Buena":
+        "Hablar sobre mamá":
             $ goodAnswersCalchona += 1
-            calchona "Respuesta Positiva"
-        "Elección Mala":
-            calchona "Respuesta Negativa"
+            playerName "Yo no sé que haría si no pudiera volver a ver mi mamá..."
+            playerName "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... No había absolutamente nada, como si alguien hubiera puesto un lienzo y solo me puso a mí, y allí me dejó."
+            playerName "Cuando desperté me di cuenta que no le temía a estar sola, sino a la posibilidad de que hubiera algo más allí lo cual no me podría enfrentar."
+            "Fisa hizo silencio, pero luego, sujetó mi mano."
+            calchona "Siempre cuando uno de mis hijos tenía miedo, yo les decía, que cerrara el puño fuertemente e imaginara que estaba apretando mi mano."
+            "Con sus palabras, podía sentir como su agarre se hacía más firme, y en un reflejo, hice lo mismo."
+            calchona "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo. Eso... Nos hace sentir menos solos."
+            "Así, nos quedamos hablando por horas."
+            pause
+        "Consolarla":
+            playerName "Cometer un error no nos hace menos humanos. Lamento mucho lo que te ha pasado."
+            "Fisa volteó su mirada, y en el reflejo de aquellos ojos pude ver... Compasión."
+            calchona "No lo hagas. No era una buena persona. Los humanos pueden guardar muchos buenos sentimientos y a su vez
+            ser un animal..."
+            calchona "Significaba que podía hacer lo que quisiera, sin consecuencias. Podía robar, podía matar... Y no tenía que mirar atrás."
+            calchona "Eso era la verdadera libertad."
+            calchona "Pero al final, tenemos que enfrentar que no estamos solos, y lo que hacemos, repercute a todo nuestro alrededor."
+            "El silencio volvió a caer entre nosotras, mientras me quedé pensando en lo que había dicho..."
+            pause
+
+    centered "5:00am\nLos Campos"
+    "La noche comenzaba a desaparecer."
+    calchona "Yaaaawn"
+    "Al fin, pude ver que Fisa estaba agotada..."
 
     if goodAnswersCalchona == 3:
         jump calchonaGoodEnding
     else:
         jump calchonaBadEnding
 
+label calchonaGoodEnding:
+    $ persistent.calchonaEnding = True
+    "De pronto, se levantó, y se alejó caminando."
+    playerName "?!"
+    calchona "Ven, quiero ver el amanecer."
+    "Me levanté del cesped, sacudí un poco mi pantalón, y la seguí. Era ahora o nunca, tenía que sellarla."
+    "Finalmente, Fisa se detuvo a campo abierto, justo donde el Sol empezaría a caer con toda su fuerza."
+    calchona "He vivido oculta por cientos de años, ya había olvidado lo que se siente el calor."
+    playerName "... Pero-"
+    calchona "No puedo culpar a mi Vestigio, he vivido fuera del Sol mucho antes que estar en él."
+    calchona "¿Tú lo tienes, verdad?"
+    "Al oir esas palabras, pude sentir como mi cuerpo se tensaba. Ella sabía."
+    calchona "Ven, siéntate. Correr de mí será inútil."
+    "Lentamente, me acerqué a ella. Mi corazón estaba latiendo cada vez más fuerte."
+    calchona "Eres una buena niña, ..."
+    calchona "Veamos el amanecer juntas."
+    "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá la Madre Monte pueda lidiar con ella."
+    "Su lana, tan pálida bajo la luna, comenzaba a verse del blanco más hermoso que había visto. Fisa cerró los ojos."
+    calchona "Desearía... Poder llorar. Por mi familia, por mi pasado."
+    calchona "Por las cosas que vas a pasar de ahora en más."
+    "Llorar..."
+    "La marca está..."
+    "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra."
+    calchona "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
+    "Si no lo hacía ahora... No llegaría a tiempo. Mis uñas arrancaron las cáscaras que contenían la sangre de mi palma. Y sin más, apreté la mano contra los brillantes ojos de Fisa. Podía ver como dos hilos carmesí caían por sus mejillas, tiñiendo la suave lana. Sus ojos quemaban sobre mi mano."
+    calchona "Nghhh--!!"
+    playerName "¡Lo siento! ¡Tengo que hacerlo por mi abuelo!"
+    "Ambas manos sujetaron mi brazo con fuerza."
+    calchona "Tu abuelo es parte de tí."
+    calchona "Y..."
+    calchona "Ahora..."
+    calchona "Yo también."
+    "Antes de que me diera cuenta, caí hacia adelante. El sol estaba iluminando el campo. Estaba sola. De mi bolsillo, cayó el vestigio, reluciente y lleno de vida."
+    "Pero yo... Sentía que una parte mía se había desvanecido."
+    "Lo que sea que haya hecho mi abuelo, espero haya valido la pena."
+    "Por ahora, me levanté, volví a guardar el Vestigio y caminé de regreso a casa."
+    jump normalEnding
 
+label calchonaBadEnding:
+    playerName "Quizá debamos descansar, no era mi intención quedarnos toda la noche."
+    calchona "Lo sé."
+    calchona "Quieres encerrarme de nuevo, verdad...?"
+    "!!!"
+    calchona "Te envió ella. Dejaste que te convenciera de que esto era por tu bien."
+    calchona "Ojalá... No tuviera que ser así."
+    playerName "No, espera. Escuchame, mi abuel-"
+    "Antes de terminar, Fisa se abalanzó sobre mi, una mano me sujetó la cabeza con fuerza y la empujó contra el cesped."
+    calchona "¡Lo siento, no puedo dejar que me entregues!"
+    "Por favor..." #(Golpe)
+    calchona "¿¡Que has hecho!?"
+    "Basta..." #(Golpe)
+    calchona "¡Todo por lo que él ha peleado, ahora ha valido nada!"
+    "No..." #(Golpe)
+    calchona "Lo arruinaste... Todo."
+    #(Golpe)
+    "BAD ENDING."
+    # Finaliza el juego:
+    return
+
+##########################################################
 label pomberoRoute:
     default goodAnswersPombero = 0
     "Ruta del Pombero"
@@ -335,6 +518,17 @@ label pomberoRoute:
     else:
         jump pomberoBadEnding
 
+label pomberoGoodEnding:
+    $ persistent.pomberoEnding = True
+    "Good Ending Pombero :)"
+    jump normalEnding
+
+label pomberoBadEnding:
+    "Bad Ending :("
+    # Finaliza el juego:
+    return
+
+##########################################################
 
 label silbonRoute:
     default goodAnswersSilbon = 0
@@ -367,26 +561,6 @@ label silbonRoute:
         jump silbonBadEnding
 
 
-label calchonaGoodEnding:
-    $ persistent.calchonaEnding = True
-    "Good Ending Calchona :)"
-    jump normalEnding
-
-label calchonaBadEnding:
-    "Bad Ending Calchona :("
-    # Finaliza el juego:
-    return
-
-label pomberoGoodEnding:
-    $ persistent.pomberoEnding = True
-    "Good Ending Pombero :)"
-    jump normalEnding
-
-label pomberoBadEnding:
-    "Bad Ending :("
-    # Finaliza el juego:
-    return
-
 label silbonGoodEnding:
     $ persistent.silbonEnding = True
     "Good Ending Silbón :)"
@@ -396,6 +570,8 @@ label silbonBadEnding:
     "Bad Ending :("
     # Finaliza el juego:
     return
+
+############################################
 
 label normalEnding:
     "Normal Ending :)"
