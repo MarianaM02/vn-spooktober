@@ -3,7 +3,7 @@
 # Declara los personajes usados en el juego como en el ejemplo:
 
 define player = Character(["playerName"], color="#c3acce")
-define grandpa = Character("Abuelo", color="#dfd9e2")
+#define grandpa = Character("Abuelo", color="#dfd9e2")
 define madreMonte = Character("Inaru", color="#2a7f62")
 define pombero = Character("Har", color="#89909f")
 define calchona = Character("Fisa", color="#538083")
@@ -21,23 +21,19 @@ label start:
         $ playerName = "Alba"
 
 
-    centered "30 de Octubre\n4:00pm"
+    centered "{cps=10}30 de Octubre\n4:00pm{/cps}"
     playerName "¡Phew! ¡Ya era hora!"
     playerName "Después de un viaje tan largo..."
     playerName "...finalmente estoy de vuelta."
-    # Muestra una imagen de fondo: Aquí se usa un marcador de posición por
-    # defecto. Es posible añadir un archivo en el directorio 'images' con el
-    # nombre "bg room.png" or "bg room.jpg" para que se muestre aquí.
-    scene bg room
+    
+    scene pueblo with dissolve
     "No había visitado el pueblo de mamá desde hace dos veranos, justo cuando el abuelo cayó enfermo."
     "Han sido unos meses muy tristes, y mamá no ha sido la misma desde que se enteró."
     "Pero estoy segura que venir le hará bien."
 
-    # Muestra un personaje: Se usa un marcador de posición. Es posible
-    # reemplazarlo añadiendo un archivo llamado "eileen happy.png" al directorio
-    # 'images'.
-    # show eileen happy
+    show prota with moveinbottom
     playerName "Ahora... La casa del abuelo estaba al final de la calle..."
+    scene casa with fade
     playerName "¡Whoa! Siempre olvido lo grande que es."
     "Mamá me dijo que pidió que la limpiaran antes que llegáramos, ¡Cuanto trabajo!"
     "Mis padres estaban muy ocupados para venir hoy, pero yo no puedo perderme el festival de Halloween."
@@ -47,13 +43,15 @@ label start:
     menu:
         "Examinar cocina":
             pass
-
+    scene cocina with fade
+    show prota with moveinright
     playerName "Está mucho más limpia de lo que recuerdo..."
     "Cuando era pequeña, solía ayudar al abuelo a hacer alfajores. Hacíamos un desastre, ¡pero quedaban deliciosos!"
     menu:
         "Examinar sala":
             pass
-
+    scene sala with fade
+    show prota with moveinright
     "Está lleno de fotos de nosotros. Mamá y el abuelo siempre habían sido muy compañeros."
     "Pero mamá dejó el pueblo a los 18 para irse a estudiar y jamás volvió."
     "El abuelo nunca dijo nada, y siempre que volvían a verse era como si el tiempo no hubiera pasado."
@@ -67,22 +65,29 @@ label start:
     "Esta casa posee muchos recuerdos... Tanto para mí como para mi mamá."
     "Me pregunto como reaccionará ella cuando venga mañana..."
 
+    scene black with fade
     # Fade out
-    centered "\"[playerName]...\""
+    scene dream with dissolve
+    centered "\"{cps=10}[playerName]...{/cps}\""
     centered "\"No le creas.\""
     centered "\"No lo busques.\""
     centered "\"Está aquí.\""
-    centered "\"Esperándote...\""
-    #Fade in
+    centered "\"{cps=5}Esperándote...{/cps}\""
 
     pause
-    centered "30 de Octubre.\n8:00pm"
+    scene black with fade
+    centered "{cps=10}30 de Octubre.\n8:00pm{/cps}"
+    #Fade in
+    scene sala with fade
+    show prota with moveinbottom
     playerName "¡Esa fue una gran siesta!"
     playerName "¡Será mejor que ya vuelva a salir antes de que se haga muy tarde."
     playerName ". . ."
     "Que frío hace aquí dentro..."
     "Debo recordar prender la calefacción cuando vuelva."
 
+
+    scene white with fade
     playerName "Vamos al pueblo!"
     playerName "¡Wow! Hay muchísima más gente de la que recordaba."
     "Todos los años, el pueblo hace un gran festival por Halloween. Los preparativos empiezan muchas semanas antes, y dura dos días."
@@ -94,7 +99,7 @@ label start:
     "Ella dice que se sentía más cómoda como un monstruo entre humanos. Me encantaría volverla a ver así."
 
 
-    centered "30 de Octubre.\n11:55pm"
+    centered "{cps=10}30 de Octubre.\n11:55pm{/cps}"
     playerName "Phew... Estoy agotada, ha sido realmente divertido!"
     playerName "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut--"
     playerName "¿Eh?"
@@ -155,7 +160,7 @@ label start:
         "\"¿¡Que está pasando!?\"":
             pass
 
-    madreMonte "Miralo tu misma"
+    madreMonte "Míralo tu misma"
     # ((Paneo a la caja, con los cuatro objetos inanimados, sin luz))
     madreMonte "Estos son Vestigios."
     madreMonte "Reliquias que tu abuelo perfeccionó para capturar a las Leyendas que habitan este mundo."
@@ -189,24 +194,24 @@ label info:
             madreMonte "Yo soy un espíritu protector de los bosques. Estaba perdida hasta que tu abuelo me encontró."
             madreMonte "Él me salvó de morir cegada por la ira y el rencor, y desde entonces, juré estar siempre a su lado."
             madreMonte "Es por eso que tienes que conseguir que las otras Leyendas vuelvan a sus Vestigios."
-            madreMonte ""
+            pause
             jump info
         "Pombero":
             madreMonte "El Pombero es un duende, muy peludo y del color de la noche. Con los humanos es el más impredecible, pero posee un gran cariño y respeto por los bosques."
-            madreMonte ""
+            pause
             jump info
         "Silbón":
             madreMonte "El silbón es un espectro con la forma de un joven, le encanta silbar y tiene un particular odio hacia los hombres."
-            madreMonte ""
+            pause
             jump info
         "Calchona":
             madreMonte "La calchona solía ser una bruja, pero sufrió una maldición por sus actos. Ahora es condenada a vagar el mundo sin poder volver a su forma humana."
-            madreMonte ""
+            pause
             jump info
         "Abuelo":
             madreMonte "Tu abuelo fue un hombre muy hábil e inteligente, ha dedicado su vida entera a buscar y capturar Leyendas que podrían ser dañinas para los humanos."
             madreMonte "Él solía hablar con nosotros, lo hizo hasta sus últimos días..."
-            madreMonte ""
+            pause
             jump info
         "Estoy bien":
             jump preMission
@@ -214,7 +219,7 @@ label info:
 label preMission:
     madreMonte "Bueno, entonces ya está decidido."
     madreMonte "Luego de vivir tantas décadas con ellos, puedo sentirlos."
-    "La Madremonte camina hacia un mapa del Pueblo colgado en la pared."
+    "Inaru camina hacia un mapa del Pueblo colgado en la pared."
     # Paneo al mapa con tres marcas
     madreMonte "Al Silbón le gusta estar entre gente, así que es probable que lo encuentres caminando en el pueblo. "
     madreMonte "Si hay un lugar donde seguro el Pombero iría primero, son los bosques."
@@ -262,12 +267,11 @@ label missionDenied:
     madreMonte "Vaya, que decepción."
     madreMonte "Pero supongo que no te puedo forzar."
     "Me di vuelta, y caminé hacia la puerta."
-    madreMonte "Pero aún así puedo usarte."
+    madreMonte "Pero aún así {cps=7}puedo usarte.{/cps}"
     playerName "!!!!"
     "No llegué a voltear, mi cuerpo entumecido solo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
     "Luego... Oscuridad."
     "F en el chat"
-    "THE END (Gracias por nada)"
     "Bad Ending :("
     # Finaliza el juego:
     return
@@ -286,7 +290,7 @@ label missionAccepted:
 label calchonaRoute:
     default goodAnswersCalchona = 0
     
-    centered "00:30am\nLos Campos"
+    centered "{cps=10}31 de Octubre.\n00:30am\nLos Campos{/cps}"
     "Siempre me gustó venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
     "Ahora, estoy buscando a una bruja, y parece ser el peor lugar del mundo."
     "El viento soplaba con suavidad, y con él, lograba escuchar los susurros de las ovejas que dormían dentro de sus corrales. Parecía que cotilleaban entre ellas en sueños."
@@ -418,7 +422,7 @@ label calchonaRoute:
             "El silencio volvió a caer entre nosotras, mientras me quedé pensando en lo que había dicho..."
             pause
 
-    centered "5:00am\nLos Campos"
+    centered "{cps=10}31 de Octubre.\n5:00am\nLos Campos{/cps}"
     "La noche comenzaba a desaparecer."
     calchona "Yaaaawn"
     "Al fin, pude ver que Fisa estaba agotada..."
@@ -481,7 +485,7 @@ label calchonaBadEnding:
     "Basta..." #(Golpe)
     calchona "¡Todo por lo que él ha peleado, ahora ha valido nada!"
     "No..." #(Golpe)
-    calchona "Lo arruinaste... Todo."
+    calchona "Lo arruinaste... {cps=4}Todo.{/cps}"
     #(Golpe)
     "BAD ENDING."
     # Finaliza el juego:

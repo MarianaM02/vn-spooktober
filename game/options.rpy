@@ -13,7 +13,7 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("Leyendas")
+define config.name = _("VN Spooktober")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## Nombre breve del juego para ejecutables y directorios en la distribución.
 ## Debe contener solo carácteres ASCII, sin espacios, comas o puntos y coma.
 
-define build.name = "Leyendas"
+define build.name = "VNSpooktober"
 
 
 ## Sonidos y música ############################################################
@@ -121,7 +121,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## infinito; cualquier otro número indica el número de caracteres por segundo
 ## que se mostrarán.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 25
 
 
 ## El retraso por defecto del auto-avance. Números más grandes indican esperas
@@ -144,7 +144,7 @@ default preferences.afm_time = 15
 ## Normalmente, este valor no debe ser modificado. Si lo es, debe ser siempre
 ## una cadena literal y no una expresión.
 
-define config.save_directory = "Leyendas-1663795418"
+define config.save_directory = "VNSpooktober-1663898896"
 
 
 ## Icono #######################################################################
