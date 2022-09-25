@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 111: expected end of line.
+    pause music fadeout 1.0
+                ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sun Sep 25 17:55:16 2022
