@@ -14,6 +14,7 @@ define mm = Character("????", color="#2a7f62")
 define pom = Character("????", color="#89909f")
 define cal = Character("????", color="#538083")
 define sil = Character("????", color="#ade1e5")
+define abu = Character("????", color="#5a80d3")
 # $ pomberoName = "Har"
 # $ silbonName = "Wiija"
 define flash = Fade(0.9, 0.0, 0.5, color="#fff")
@@ -302,7 +303,7 @@ label preMission:
     mm "Cierra los ojos."
     "En un reflejo, cerré los ojos justo cuando sentí la piel de mi palma abrirse."
     show player asustada with dissolve
-    p "Agh!"
+    p "Agh!" with vpunch
     "El líquido comenzó a brotar, mojando mi mano."
     "Sus dedos rígidos pasaron sobre mi palma."
     "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí."
@@ -339,7 +340,6 @@ label missionDenied:
     return
 
 label missionAccepted:
-    stop music fadeout 3.0
     show player feliz with dissolve
     mm "Gracias... Sé que esto no es fácil."
     mm "Bueno, entonces ya está decidido."
@@ -541,10 +541,13 @@ label calchonaGoodEnding:
     cal "Ven, quiero ver el amanecer."
     "Me levanté del cesped, sacudí un poco mi pantalón, y la seguí. Era ahora o nunca, tenía que sellarla."
     "Finalmente, Fisa se detuvo a campo abierto, justo donde el Sol empezaría a caer con toda su fuerza."
+    show player feliz at left with dissolve
+    show calchona 1 at right with dissolve
     cal "He vivido oculta por cientos de años, ya había olvidado lo que se siente el calor."
     p "... Pero-"
     cal "No puedo culpar a mi Vestigio, he vivido fuera del Sol mucho antes que estar en él."
     cal "¿Tú lo tienes, verdad?"
+    show player triste with dissolve
     "Al oir esas palabras, pude sentir como mi cuerpo se tensaba. Ella sabía."
     cal "Ven, siéntate. Correr de mí será inútil."
     "Lentamente, me acerqué a ella. Mi corazón estaba latiendo cada vez más fuerte."
@@ -564,10 +567,13 @@ label calchonaGoodEnding:
     cal "Nghhh--!!"
     p "¡Lo siento! ¡Tengo que hacerlo por mi abuelo!"
     "Ambas manos sujetaron mi brazo con fuerza."
+    hide player with dissolve
+    show calchona at center with move
     cal "Tu abuelo es parte de tí."
     cal "Y..."
     cal "Ahora..."
     cal "Yo también."
+    hide calchona with flash
     "Antes de que me diera cuenta, caí hacia adelante. El sol estaba iluminando el campo. Estaba sola. De mi bolsillo, cayó el vestigio, reluciente y lleno de vida."
     "Pero yo... Sentía que una parte mía se había desvanecido."
     "Lo que sea que haya hecho mi abuelo, espero haya valido la pena."
@@ -575,22 +581,27 @@ label calchonaGoodEnding:
     jump normalEnding
 
 label calchonaBadEnding:
+    show player feliz at left with dissolve
+    show calchona 1 at right with dissolve
     p "Quizá debamos descansar, no era mi intención quedarnos toda la noche."
     cal "Lo sé."
     cal "Quieres encerrarme de nuevo, verdad...?"
+    show player asustada with dissolve
     "!!!"
     cal "Te envió ella. Dejaste que te convenciera de que esto era por tu bien."
     cal "Ojalá... No tuviera que ser así."
     p "No, espera. Escuchame, mi abuel-"
     "Antes de terminar, Fisa se abalanzó sobre mi, una mano me sujetó la cabeza con fuerza y la empujó contra el cesped."
+    hide player with dissolve
+    show calchona at center with move
     cal "¡Lo siento, no puedo dejar que me entregues!"
-    "Por favor..." #(Golpe)
+    "Por favor..." with vpunch 
     cal "¿¡Que has hecho!?"
-    "Basta..." #(Golpe)
+    "Basta..." with vpunch
     cal "¡Todo por lo que él ha peleado, ahora ha valido nada!"
-    "No..." #(Golpe)
+    "No..." with vpunch
     cal "Lo arruinaste... {cps=4}Todo.{/cps}"
-    #(Golpe)
+    scene black with fade
     "BAD ENDING."
     # Finaliza el juego:
     return
@@ -598,29 +609,188 @@ label calchonaBadEnding:
 ##########################################################
 label pomberoRoute:
     default goodAnswersPombero = 0
-    "Ruta del Pombero"
-    pom "Decisión 1"
+    scene black with fade
+    centered "Bosques - 00.30am"
+    "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
+    "Había oído historias de como niños como yo entraban al bosque a jugar por la noche, nunca pensé que sería yo quien entrara voluntariamente alguna vez."
+    "..."
+    "Las copas de los árboles se mecían sobre mí, danzando con el viento en un arruyo. Y aún así, puedo sentir como un peso caía sobre mí."
+    pom "Mh mh mh~!"
+    "Un tarareo sonó en eco contra los troncos de los árboles, y luego pude verlo. "
+    "Unos metros más adelante, una figura oscura se acercaba a un arroyo, cantando para sí."
+    p "Está... Alegre?"
+    "Antes de ser descubierta, me escondí atrás de un árbol, observando." 
+    "Era un duende, pero no se parece a nada que haya visto antes."
+    pom "De los montes vengo... A los montes voy... A conocer a la niña que me ha visto hoy~"
+    "!!!!"
+    "Un escalofrío corrió por mi espalda. Sentía que estaban por cazarme. Me di vuelta al instante."
+    pom "Ho-laa~!"
+    p "¡Ah!"
+    "Mis piernas se movieron por sí solas, y en un instante, me moví hacia un lado antes de quedar acorralada."
+    "El duende bajó del árbol, una gran sonrisa adornando su rostro. Cada paso que daba hacia adelante, yo lo retrodecía."
+    pom "Jaja... Ja. La niña tiene miedo!"
+    "¡Necesito reaccionar rápido antes de que se acerque!"
+    "¿Qué hago?"
     menu:
-        "Elección Buena":
+        "Correr":
             $ goodAnswersPombero += 1
-            pom "Respuesta Positiva"
-        "Elección Mala":
-            pom "Respuesta Negativa"
-    pom "Decisión 2"
+            "Sin pensarlo dos veces, me giré y eché a correr, internándome así en los bosques. Según Inari, el lugar preferido de esta criatura."
+            "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. No sabía si estaba lejos o cerca de él, pero sabía que estaba cerca mío."
+            "De pronto, la risa se desvaneció. Esos instantes fueron los únicos que necesite para determe a recuperar el aliento."
+            pom "Niña lista, muy lista."
+            "!!!"
+            "Levanté la mirada, y estaba en cuclillas frente a mí! Incluso en la oscuridad, podía ver una enorme sonrisa, brillando frente a mí."
+            pom "Para encontrarse, uno debe perdese, si si si. Niña lista, muy lista."
+        "Enfrentarlo":
+            "Sentía que mi corazón iba a salirse de mi pecho. Aún así, di un paso hacia adelante."
+            p "¡No! ¡No le tengo miedo a criaturas como tú!"
+            "De pronto, el Pombero dejó de reírse. Por unos segundos, aquel silencio sentía que me iba a devorar."
+            "Finalmente, empezó a reir de nuevo."
+            pom "Niña tontaa~!"
+            "Con eso, desapareció entre los árboles."
+            p "¿Qué? ¡Espera!"
+            "Salí a perseguirlo, las ramas tan cerca de mi rostro que sentía me golpearían en cualquier momento."
+            "Cuando me quede sin aire, tuve que detenerme, con las manos descansando sobre mis rodillas."
+            p "¿Donde... Donde se metió?"
+            pom "Niña tonta"
+            "El duende se apreció frente a mí."
+            pom "Eres como un toro, corres hacia adelante lista para atacar, no puedes atravesar una montaña yendo hacia adelante~!"
+    
+    p "Deja de llamarme sí."
+    pom "Mh?"
+    p "Me llamo [playerName]."
+    pom "Ugh, los humnos y sus nombres pretenciosos. Ustedes me llaman de mil maneras, ¿por qué no podría hacer lo mismo?"
+    p "¿Cómo te gusta a tí que te llamen?"
+    $ pom = Character("Har", color="#89909f")
+    pom "Har! Es fuerte, intrépido, y solemne, si si si. ¡Digno nombre para mi persona!"
+    "¿Y eso no es pretencioso?"
+    pom "Niñas como tú no deberían estar vagando solas en el bosque, ¡hay monstruos, y cazadores, y hombres malos dando vueltas."
+    p "¿Y qué haces tú aquí?"
+    "Har ladeó la cabeza, y luego se echó hacia atrás, mirando a su alrededor."
+    pom "Busco divertirme, los humanos son MUY divertidos, ¿sabes?"
+    "De pronto, sentí como el aire empezaba a volverse denso, como si los árboles estuvieran a punto de caer sobre nosotros."
+    pom "¡Se creen realmente ingeniosos cuando en realidad son"
+    pom "Torpes"
+    pom "Egoístas"
+    pom "Y débiles"
+    pom "piden, piden, piden, y no saben que uno es más inteligente que ellos, jaja~!"
+    "Incluso entre sus risas, podía ver lo enojado que estaba. Era aterrador."
+    p "¿Quizá podemos hacer algo juntos?"
+    pom "¿Quieres jugar conmigo? Niña tonta, pero valiente!"
+    "De un salto, Har comenzo a alejarse."
+    pom "Ven, niña lenta!"
+    p "¡Espérame!"
+    "Salí corriendo tras él, de nuevo. Solo unos minutos más tarde, llegamos a una pequeña laguna."
+    pom "¡Tú eliges! ¿Qué quieres hacer?"
+    p ". . ."
+    p "Vamos a..."
     menu:
-        "Elección Buena":
+        "Nadar":
             $ goodAnswersPombero += 1
-            pom "Respuesta Positiva"
-        "Elección Mala":
-            pom "Respuesta Negativa"
-    pom "Decisión 3"
+            p "Quiero ir a nadar."
+            pom "¿Hm?"
+            "Me di vuelta y observé la laguna, no había notado hasta ahora, pero los árboles daban completo paso a la luz de la luna para caer sobre el agua, haciendo del agua un espejo brillante."
+            p "¡A que llego primero!"
+            "Luego de gritar, eché a correr hacia el lago, y pude oir como los pies de Har trastabillaban antes de salir corriendo tras de mí."
+            "De un salto me metí en el agua, dejando que me cubriera por completo por un momento antes de sacar la cabeza."
+            pom "¡Niña astuta, cree que puede ganarme!"
+            "A diferencia de antes, Har parecía realmente entretenido dentro del agua."
+            pom "Sígueme."
+            "Tomando una gran bocanada de aire , que parecía más pretendida que otra cosa, él se sumergió en el agua."
+            "Una vez de nuevo, nadamos un poco hacia el fondo, donde pude ver la forma de los peces que habitaban el lago."
+            pom "Mira bien."
+            p "?!"
+            "Las manos de Har en mis hombros, me forzaron a parpadear varias veces, y las formas de los peces y las algas se veían más claramente. ¡Era increíble!"
+            "A pesar de que las criaturas en el bosque aún dormían, las del agua estaban llenas de energía."
+            "Volvimos a la superficie para recobrar el aliento, y Har ya estaba allí, flotando boca arriba, admirando a la Luna."
+            p "Es hermoso."
+            pom "Lo sé. No en todos lados es así."
+            pom "Los bosques son fuertes, pero se mueven muy lentamente. Los humanos son rápidos. Quitan sin pensar."
+            pom "No ven lo que hay a su alrededor."
+            pom "¡Peeero yo soy más rápido!"
+            "En un instante, lo pude ver moverse cerca mío."
+            pom "Nadie es más rápido, o más fuerte que yo en los bosques. Si estoy aquí, nadie sería lastimado por un humano. Ningún árbol, o pez, ni nadie."
+            "No estaba segura si era un comentario, o una amenaza. Sin embargo, no pude evitar sentir la fuerte conexión que Har tenía con los bosques."
+            p "Entonces es bueno que estés aquí."
+            "Har volteó la mirada."
+            pom ". . ."
+            pom "Niña lista."
+        "Pescar":
+            p "Podemos pescar aquí, o no?"
+            pom "¿Hm?"
+            "Me acerqué a uno de los árboles, de la cual sobresalía una rama larga y delgada."
+            p "Podemos usar esto y mis cordones para hacer una caña!"
+            "Ambas manos estaban sujetando la rama para tratar de romperla, cuando Har puso una mano en mi hombro y con mucha fuerza me arrojó al agua."
+            "Logré pedalear de nuevo a la superficie, solo para ver a Har nadando hacia mí."
+            pom "¡Sorpresa! Niña tonta necesita prestar más atención~"
+            p "{i}cof cof{/i} ¡Eso no fue nada amable!"
+            pom "Tú no has querido ser amable con los peces tampoco"
+            "Con una pequeña risa, Har empezó a nadar en círculos a mi alrededor. Me recordaba a los tiburones."
+    
+    "Eventualmente, salimos del agua, y me tiré en el cesped."
+    "La noche se sentía aún bastante calurosa, así que la ropa mojada no me molestaba en lo absoluto. Al mismo tiempo, Har se sentó contra un árbol."
+    "Por el rabillo del ojo, pude ver como desenterraba un cigarro de entre las raíces y se lo ponía entre los labios. ¿Hace cuanto que tenía eso ahí?"
+    p "Quiero preguntarte algo."
+    pom "Bien por ti."
+    p "¿Qué haces aquí?"
+    "Del suelo, levantaba una hoja seca, y con un chasquido de sus dedos, causó un chispazo que encendió la hoja."
+    "Lentamente la guió al cigarro, sacudiendo los restos de la hoja una vez éste estaba encendido."
+    pom "Me recuerda a mi hogar. Vengo de un lugar parecido a éste."
+    "Har exhaló el humo de su cigarro, como si hubiera estado perdido en sus pensamienos."
+    pom "¿Qué hay de tí? ¿Por qué estás aquí?"
+    "Por un largo rato, me quedé en silencio."
+    p "Quiero hacer un trato."
+    pom ". . ."
+    pom "¿Ah sí?"
+    "Volvió a dar una calada. Mi corazón se encogió."
+    pom "Que... Coincidencia. Parece que estás en el lugar ideal."
+    pom "¿Y qué podría querer una niña como tú de mi?"
     menu:
-        "Elección Buena":
+        "Seamos amigos.":
             $ goodAnswersPombero += 1
-            pom "Respuesta Positiva"
-        "Elección Mala":
-            pom "Respuesta Negativa"
+            p "Seamos amigos."
+            pom ". . ."
+            pom "Ja... Jaja"
+            pom "Jajajajajajajaja!"
+            "Sacándose el cigarro de la boca, Har lanzó una carcajada al cielo."
+            p "¿Q-Qué? ¡¿Qué dije?!"
+            pom "¿Tú quieres que seamos amigos? Eso sí que es nuevo."
+            pom "Ciertamente no dirías eso si supieras todo lo que dicen de mí en mi pueblo, niña tonta."
+            pom "Soy un protector del bosque, no un humano."
+            p "¿Por qué odias tanto a los humanos?"
+            pom "¿Odiarlos? No no no, niña tonta, no es así Los humanos son quienes me detestan a mí."
+            pom "Cazadores, pescadores, leñadores..."
+            pom "A mí no me interesa lo que los humanos hagan, pero cuando destrozan, matan, corrompen... Me enfurecen."
+            "Otra exhalación, dejó el rastro de humo desvanecerse en el aire."
+            pom "Podría decirse que me convertí en el monstruo que les convenía a ellos. Dicen que huyas porque podría atacar en los pastizales, les dicen a las mujeres que no salgan de sus casas."
+            pom "Algunos humanos son listos. Y hábiles cuando se trata de desviar la atención de sus monstruosas acciones."
+            pom "Ya no quedan criaturas como yo. Casi todas están muertas, y las que no, como yo, son antagonizadas."
+            pom "Sólo somos leyendas destinadas a olvidarse."
+            p "..."
+            p "Yo no voy a olvidarte."
+            pom "Ja..."
+            pom "Niña inocente."
+            "Luego de ello, nos quedamos hablando por horas. Har me contó sobre las selvas donde vivía. Y antes de darme cuenta, comenzó a amanecer."
+        "Cuida de este bosque.":
+            p "A tí te preocupan los bosques, ¿verdad? No quisiera que lastimes a nadie. Pero me gustaría que siguieras cuidando de los bosques."
+            "Har exhaló el humo de su cigarro, y giró la cabeza hacia mí."
+            pom "Dime, ¿por qué las vidas humanas valen más que las de cualquier otra criatura?"
+            p ". . ."
+            pom "Humanos matan a sus propios niños, arrancan las plumas de las aves para descansar cómodamente."
+            pom "Desuellan mamíferos vivos por moda. Torturan en vida. Queman. Ahogan. Electrocutan. Dime, ¿por qué no puedo devolverles la gentileza?"
+            pom "¿Quien te da la autoridad y el poder de decirme que sería o no correcto?"
+            "Me quedé en silencio. Con cada palabra, podía sentir la tierra temblar a través de las raíces."
+            p "Lo siento."
+            pom "No tienes que disculparte. Eres solo una niña."
+            "Seguimos hablando el resto de la noche... Y pude entender un poco más de la relación de Har con los humanos."
 
+    scene black with fade
+    centered "El Bosque - 5:00am"
+    "Cuando los primeros haces de luz empezaron a aparecer entre los árboles, Har volvió a hablar."
+    pom "Creo recordar que tú querías hacer un trato."
+    p "¿Eh?"
+    "No pensé que hubiera estado dispuesto a aceptar..."
+    pom "Quizá es momento de discutir mis condiciones."
     if goodAnswersPombero == 3:
         jump pomberoGoodEnding
     else:
@@ -628,6 +798,35 @@ label pomberoRoute:
 
 label pomberoGoodEnding:
     $ persistent.pomberoEnding = True
+    pom "Sabes, hace años, conocí a este hombre."
+    pom "Era astuto, pero también tenía esto... Humanos siempre le dicen \'corazón\', pero todos tienen uno."
+    pom "Era algo distinto. Algo como tú lo tienes."
+    pom "Luz."
+    pom "Si... Eso es lo que era... Luz."
+    p "..."
+    pom "Jamás lo resentí por encerrarme, sabía que cuando el tiempo sea el correcto, volvería a este mundo, y aún habría mucho por hacer."
+    pom "Él me decía 'el mundo no puede depender de tí. Si tiene que morir, morirá y no habrá nada que podrás hacer'."
+    pom "Y él tenía razón, este mundo ya no es para criaturas como yo."
+    pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
+    pom "Este mundo... Es más tuyo que mío."
+    p "Har..."
+    pom "Mis condiciones."
+    pom "Escucha lo que el mundo tiene que decir. Hay voces que merecen ser oídas."
+    pom "Yo no soy de dar regalos. Así que toma esto y no lo cuestiones."
+    pom "No creas en las intenciones de nadie. Nadie es altruista, y todo el mundo tiene una razón para hacer algo. Escucha a sus acciones más que su palabras."
+    "Sabía que no respondería ninguna de mis preguntas, no importa cuanto me gustaría hacerlas... Y me estaba quedando si tiempo."
+    p "¿Qué quieres a cambio?"
+    "Otra vez, sonrío. Una mano sujeto la mía y rasgó la piel de mi palma. Luego se la llevó al oído."
+    pom "Ah, sí... Justo lo que imaginaba..."
+    pom "Hasta Luego [playerName]."
+    "En cuestión de segundos, en lugar de ver el rostro de Har, estaba viendo mi mano ensangrentada."
+    "!!"
+    "De mi bolsillo el Vestigio cayó contra el suelo, brillante, pesado y lleno de vida. Har sabía de mi abuelo, estoy segura. Me hubiera gustado saber más de lo que hacía."
+    "Me gustaría saber... Que hubiera hecho él en este momento."
+    "Tomé el Vestigio y volví a guardarmelo en el bolsillo."
+    p "Hasta luego, Har."
+    "Es hora de volver a casa..."
+
     "Good Ending Pombero :)"
     jump normalEnding
 
@@ -639,7 +838,26 @@ label pomberoBadEnding:
 ##########################################################
 label silbonRoute:
     default goodAnswersSilbon = 0
-    "Ruta del Silbón"
+    scene black with fade
+    centered "31 de Octubre, 00.30 am - Pueblo"
+    "Si había un lugar donde podía sentirme en mi elemento, era el pueblo.. Los festivales ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
+    "Me hubiera gustado poder disfrutarlos mejor..."
+    "Al caminar a través de los puestos de comida, vi una figura que escondía su rostro bajo su sombrero, una mano sujetando una gran bolsa sobre su hombro."
+    sil "ciervo ciervo... Si si si... En tiras, en cubos, en rebanadas..."
+    "Aguardiente, ohhh, aguardiente, calienta los huesos. El polvo de hueso que se rompe, y se rompe y se rompe."
+    p "Ese es...?"
+    "Aquel joven caminaba encorvado, murmurando para sí mismo, con cada palabra, podía sentir como su lengua se pegaba a sus dientes y dejaba pasar un leve silbido."
+    "Se veía... Horripilante."
+    "Lentamente caminé hacia él, fijando la mirada en los puestos cercanos. Nadie parece prestarle atención, como si no existiera."
+    "{i}Fiu...{/i}"
+    "El silbido chirrió junto a mi oído, y mis ojos se abrieron de par en par."
+    sil "¿Qué crees que haces?"
+    "Me giré hacia él."
+    p "¿Eh?"
+    sil "Miras, miras y miras, ¿Qué buscas, que quieres?"
+    "Bajo el sombrero, podía ver el destello de unos ojos llenos de odio. Nunca había visto algo así."
+    "¿Que hago? Necesito pensar rápido."
+
     sil "Decisión 1"
     menu:
         "Elección Buena":
@@ -679,15 +897,80 @@ label silbonBadEnding:
 
 ##########################################################
 label normalEnding:
-    "Normal Ending :)"
+    scene black with fade
+    centered "Casa del Abuelo - 6.00am"
+    "A esta hora, ya apenas podía oírse el festival, ya no había gente en la calle, y la música estaba apagada. "
+    "Siento que todo el peso de una larga noche caía sobre mí y no estaba pensando en nada más que dormir."
+    "Solo espero que Inari haya tenido suerte..."
+    # Entra a la casa
+    "Veo este lugar, y es como si no hubiera estado esta mañana."
+    # Entra a la habitación del abuelo
+    "..."
+    # Aparece la Madre Monte OP
+    mm "Vaya, al fin llegas, ¿cómo te fue?"
+    "Sin decir mucho, saqué el Vestigio de mi bolsillo, y lo puse en la caja."
+    "Los otros dos lucen preciosos..."
+    "..."
+    "Se sienten... Tan familiares."
+    mm "¿Cómo te sientes?"
+    p "Estoy... Muy cansada."
+    mm "Lo has hecho bien. Superaste mis expectativas."
+    p "Hm?"
+    mm "Quizá debería habertelo dicho antes."
+    mm "Estos Vestigios... Usaron algo más que la sangre de tu abuelo."
+    mm "Se necesita un gran poder para mantener a una Leyenda dentro de ellas."
+    mm "Es por eso que su alma era necesaria."
+    p "!!!!"
+    mm "O una porción de su alma, para ser precisa."
+    mm "Usando tu sangre, pude sellar parte de tu alma en dos de las Leyendas."
+    mm "Y tú me ayudaste con el tercero."
+    "Su mano se apoyó contra su pecho."
+    mm "Ahora parte del alma de Lucio vive aquí. Y tú tienes la otra parte."
+    mm "No por mucho."
+    p "¿Qué? ¡AGH!" with vpunch
+    "Mi cabeza... Duele."
+    "Sí que caíste, niña tonta."
+    "Pobrecilla."
+    "No no no, ¡dejame salir!"
+    "Son demasiadas voces. Gritando. Gritando."
+    p "¡Aghh! ¡Basta!"
+    mm "¿Duele verdad? Imagino que tu abuelo habrá lidiado con algo similar con años. Merece ser liberado de esa tortura."
+    mm "Que suerte que apareciste. Ahora es tu alma la que las mantendrá a raya."
+    "Las ramas de sus manos todavía estaban enrojecidas. Esa era... Mi sangre."
+    "Un dedo presionó en mi frente."
+    # Madre Monte se transforma y se vuelve OP
+    p "AHHH!"
+    mm "Ah... Lucio... Allí estás."
+    mm "No te preocupes, pequeña Nombre. No te dejaré pasar por lo que tu querido abuelo tuvo que pasar."
+    mm "Cuando te suelte... Ya no sentirás tanto dolor. Guardaré lo que quede tu alma en mi Vestigio."
+    p ". . ."
+    mm "Hasta siempre, Nombre. Descansa sabiendo que has liberado a tu abuelo."
+    p "¡No! ¡Espera!"
+    "Todo se vuelve blanco"
+    "Ya no estoy en la casa del abuelo... Inari no está."
+    "Realmente... ¿estoy encerrada en su Vestigio?"
+    p ". . ."
+    p "No..."
+    p "No, no, no..."
+    p "¿Qué hice?"
+    p "¿¡Alguien me escucha!?"
+    "No veo a nadie a mi alrededor. Y las voces en mi cabeza desaparecieron."
+    "Estoy sola..."
+    p "No, por favor..."
+    p "Por favor, mamá... Ayúdame."
+    abu "[playerName]..."
+    p "!!!"
+    p "¿¡ABUELO!?"
     if persistent.calchonaEnding == True and persistent.pomberoEnding == True and persistent.silbonEnding == True:
         jump trueEnding
     else: 
+        "Normal Ending."
         # Finaliza el juego:
         return
 
 ##########################################################
 label trueEnding:
+    $ abu = Character("Lucio", color="#5a80d3")
     "True Ending!!!! :D"
     # Finaliza el juego:
     return
