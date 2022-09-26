@@ -78,7 +78,7 @@ label intro:
     menu:
         "No quiero investigar mas":
             pass
-    #play sound "audio/bostezo.wav"
+    #play sound "audio/bostezo.ogg"
     show player bostezo with dissolve
     p "Yaaawwwwnn..."
     p "Creo que mejor voy a descansar un poco."
@@ -118,7 +118,7 @@ label festival:
     show player feliz with dissolve
     "Debo recordar prender la calefacción cuando vuelva."
     play music "audio/introv2.mp3" fadein 1
-    p "Vamos al pueblo!"
+    p "¡Vamos al pueblo!"
     hide player with fade
     scene festival with fade
     play music "audio/introv2.mp3" if_changed fadein 1
@@ -162,7 +162,7 @@ label grampasBox:
     menu:
         "Entrar":
             pass
-    play sound "audio/puerta.wav"
+    play sound "audio/puerta.ogg"
     scene dormitorio with fade
     # "Se abre la puerta, la habitación está vacía, se ve la cama, y junto a ella, la caja de donde sale esa luz."
     # "Hay más susurros, el ambiente es cada vez más tenso"
@@ -180,12 +180,12 @@ label grampasBox:
 
     # Se abre la caja, se ven luces salir
     # Siguiente
-    play sound "audio/cofre.wav"
+    play sound "audio/cofre.ogg"
     show cofre abierto with dissolve
     # Pantalla toda en blanco.
     scene white with flash
     p "AGHHH!"
-    play sound "audio/tinnitus2.wav"
+    # play sound "audio/tinnitus2.ogg"
     # Tinnitus?
     # Siguiente
 
@@ -209,7 +209,7 @@ label meetMadreMonte:
     p "¿¡Cómo!? ¿¡Mi abuelo es tu maestro!?"
     mm "Pues parece que sí, tanto yo como los otros estábamos bajo sus ord-"
     mm ". . ."
-    mm "¿¡Qué hiciste!? ¿¡Fuíste tú!?"
+    mm "¿¡Qué hiciste!? ¿¡Fuíste tú!?" with vpunch
     mm "¡No debiste haber hecho eso, niña tonta!"
     mm "... Si yo estoy afuera, quiere decir que los demás también."
     menu:
@@ -237,8 +237,8 @@ label meetMadreMonte:
     mm "Ahí tu corres ventaja, van a subestimarte."
     show player enojada with dissolve
     p ". . ."
-    show player triste with dissolve
     mm "Tu familia usó un hechizo para encerrarlos, si escaparon, es porque éste se ha debilitado, pero aún tienes la oportunidad de volver a darle fuerza."
+    show player triste with dissolve
     mm "Cada Leyenda tiene una marca, si tienes la sangre de tu abuelo, usar un poco de tu sangre sobre la marca será suficiente para devolver su alma a los Vestigios."
     p "Mi sangre..." 
     p "Nada tiene sentido, ¿por qué mi abuelo nunca nos lo diría?"
@@ -278,7 +278,7 @@ label info:
 
 label preMission:
     "Sabía que había un gran peligro por delante. Al mismo tiempo, sentía que algo me empujaba hacia ello." 
-    "Dentro mío, estaba segura que la Madre Monte no me mentía, y que mi abuelo estaba fuertemente conectado a esto."
+    "Dentro mío, estaba segura que Inaru no me mentía, y que mi abuelo estaba fuertemente conectado a esto."
     mm "Se que es mucha información, y no tenemos mucho tiempo."
     p "Hay mucha gente que corre peligro, ¿No causarán el caos?"
     mm "Los humanos no ven nada que no quieran ver, y las Leyendas no se hacen notar a menos que quieran ser vistas."
@@ -292,20 +292,20 @@ label preMission:
     show player triste with dissolve
     "¿Es esto lo que pueden causar las Leyendas solo con su voz? ¿Miedo, dudas?"
     "O quizá también... Protección y seguridad."
-    "La Madre Monte me mira impaciente. Yo tardo unos momentos antes de hablar de nuevo."
+    "Inaru me mira impaciente. Yo tardo unos momentos antes de hablar de nuevo."
     p "¿De verdad no hay nadie más que pueda resolver esto? Mamá vendrá mañana y-"
     mm "Mañana ya será demasiado tarde. No, lo siento, si tú no lo haces, nadie podrá."
     p "¿Por qué no podemos llamar a la policía?"
     mm "Nada de lo que hagan podrá resultar. Solo puedes tú. Solo tú tienes la sangre de tu abuelo."
     p "¿Cómo?"
-    "En un instante, la Madre Monte sujetó mi mano."
+    "En un instante, Inaru sujetó mi mano."
     mm "Cierra los ojos."
     "En un reflejo, cerré los ojos justo cuando sentí la piel de mi palma abrirse."
     show player asustada with dissolve
     p "Agh!"
     "El líquido comenzó a brotar, mojando mi mano."
-    "Los dedos rígidos de la Madre Monte pasaron sobre la palma."
-    "Cuando abrí los ojos, mi mano estaba seca y las yemas de la madre monte brillaban de un color carmesí."
+    "Sus dedos rígidos pasaron sobre mi palma."
+    "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí."
     mm "Para encerrar nuevamente a las Leyendas, necesitas encontrar el lugar donde tu abuelo ha puesto el hechizo y debes marcarlo con tu sangre."
     show player triste with dissolve
     mm "Yo puedo forzar a dos de las Leyendas de nuevo dentro de su Vestigio usándola tambien, pero enfrentarme a los tres podría matarme."
@@ -325,10 +325,15 @@ label missionDenied:
     mm "Pero supongo que no te puedo forzar."
     "Me di vuelta, y caminé hacia la puerta."
     mm "Pero aún así {cps=7}puedo usarte.{/cps}"
-    p "!!!!"
+    show player asustada with dissolve
+    p "!!!!" with vpunch 
+    hide player with dissolve
+    show mmonte at center with move
     "No llegué a voltear, mi cuerpo entumecido solo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
+    scene black with fade
     "Luego... Oscuridad."
-    "F en el chat"
+
+    pause
     "Bad Ending :("
     # Finaliza el juego:
     return
@@ -362,37 +367,49 @@ label calchonaRoute:
     
     scene black with fade
     centered "{cps=10}31 de Octubre.\n00:30am\nLos Campos{/cps}"
-    scene white with fade
+    scene campo with fade
+    show player feliz at left with easeinleft
     "Siempre me gustó venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
+    show player triste with dissolve
     "Ahora, estoy buscando a una bruja, y parece ser el peor lugar del mundo."
     "El viento soplaba con suavidad, y con él, lograba escuchar los susurros de las ovejas que dormían dentro de sus corrales. Parecía que cotilleaban entre ellas en sueños."
+    show player asustada with dissolve
     p "Nghh.."
     p "!!!"
     "Unos gemidos forzaron que me detuviera. Mi cuerpo se tensó, mientras escaneaba cerca de los corrales."
     "Allí la vi, una figura encorvada que forcejeaba para entrar a uno de los corrales"
+    show player triste with dissolve
     "Pobre oveja, no debieron notar que quedó afuera."
     p ". . ."
+    show player asustada with dissolve
     p "!!!"
     "Al ser iluminada bajo la luz de la Luna, pude ver un rostro humano, el cual se inclinaba para pasar la cabeza entre los postes del corral y alcanzar el bebedero."
     p "AH!"
+    hide player with dissolve
     # personaje ???
-    show cal 1 with fade
+    show calchona 1 with fade
     cal "?"
     "Apenas me oyó, la oveja volteó a verme, y su espalda se irguió para levantarse en las patas traseras. Sus ojos brillantes se posaron en mí, dorados y muertos."
     "¿Qué hago?"
     "¿Qué hago?"
     "¿Qué hago?"
     "Puedo verla tensar sus manos, y sus ojos se mueven lejos de mí. Si se escapa, podría estar perdiendo la única oportunidad que tengo de ayudar al abuelo."
+
+    show calchona at right with move 
+    show player asustada at left with easeinleft
     p "AGUA!"
     cal "..."
     "La criatura se volvió a verme"
+    show player triste with dissolve
     p "Te puedo ayudar..."
     "Me fui acercando despacio, mis ojos en la criatura. Ella me observaba de regreso, dando unos pasos atrás. Pero no se alejaba."
     "Una vez llegué a la valla, puse las dos manos sobre ella y le trepé para llegar al otro lado. Las ovejas seguían dormidas. La criatura me miraba expectante."
     "Mi mano se extendió para abrir el grifo y el agua empezó a correr. En un instante, la criatura puso ambas manos dentro del corral y bajo el agua y luego se las llevó al hocico, bebiendo desesperadamente."
     "Sus ojos nunca me abandonaban."
+    show player feliz with dissolve
     cal "Gracias."
     cal "¿Qué estás haciendo aquí?"
+    show player triste with dissolve
     "Vaya, no me lo esperaba."
     "Aún así, me miraba con desconfianza. No puedo decirle la completa verdad, o sino se irá. Me pregunto si se dará cuenta que le estoy mintiendo..."
     # Siguiente
@@ -401,12 +418,14 @@ label calchonaRoute:
     menu:
         "\"Te estaba buscando.\"":
             $ goodAnswersCalchona += 1
+            show player feliz with dissolve
             p "Te estaba buscando. En el pueblo, se oyen historias sobre leyendas que vagan en esta noche, pensé que si comenzaba a explorar, podría encontrar alguna. Lamento haberte asustado."
             cal "Los campesinos jamás hablan conmigo. Pero siempre me dejan algo de beber. Jamás había estado aquí antes."
             "Puedo ver como comienza a relajarse, y en respuesta, siento como mis hombros bajan a la par."
         "\"Me escapé del festival.\"":
+            show player feliz with dissolve
             p "Me escapé del festival. Había mucho estruendo, y quería ver como se encontraban los animales." 
-            p"Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
+            p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
             cal "No serías la primera. Es normal teniendo en cuenta como... Luzco."
             "Puedo notar que aún me mira con desconfianza, pero no hace ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
  
@@ -421,10 +440,13 @@ label calchonaRoute:
     p "Bueno, entonces es un placer conocerte! Ven, vamos a buscar algo para comer."
     "Mientras me alejaba, me puse a pensar acerca de como le estaba yendo a Inaru..."
     "Mi mano comenzaba escocer al recordar todo lo que conllevaba esto, y en el problema en que me había metido."
+    show player triste with dissolve
     "¿Por qué abrí esa caja?"
     # (recuerdo)
+    show dream at truecenter with fade
     centered "No lo veas"
     centered "No lo escuches"
+    hide dream with fade
     "¿Quién era esa voz?"
     cal "No tendrías que haber venido."
     p "?!"
@@ -434,6 +456,7 @@ label calchonaRoute:
     cal "Peras."
     p "?"
     "Fisa levanta un brazo, señalando a los árboles que contenían una gran cantidad de peras maduras."
+    show player feliz with dissolve
     p "¡Bingo!"
     "Poniéndome en puntas de pie, logré alcanzar varias frutas. Sin pensarlo, le extendí una a Fisa."
     p "Buen provecho."
@@ -455,6 +478,7 @@ label calchonaRoute:
             p "¿Hijos?"
             "Me giré a observarla, sus ojos moribundos parecían brillar como el fuego de las hogueras mientras se llevaba otra pera a la boca."
             cal "Mi esposo y yo trabajábamos en los campos. Él no sabía que yo era una bruja. Por las noches, me sentía libre, tomaba mis pociones y vagaba por las afueras, como una oveja."
+            show player triste with dissolve
             cal "Un día, volví, y no había nada. Ni mi esposo, ni mis hijos, y todas mis pociones habían sido destruidas. Solo pude tomar los restos de una."
             cal "Y quedé... Así."
             cal "La pena, o vaya a saber que, me ató a este mundo desde ese entonces, condenada a caminar solo por el borde. Ni humana, ni animal."
@@ -468,6 +492,7 @@ label calchonaRoute:
             "Fisa parpadeó varias veces, usando el revés de su mano para limpiarse los restos de pera."
             cal "Eres valiente. He visto gente intrépida como tú cometer errores muy graves."
             cal "Hay muchas otras criaturas... Más grandes, fuertes, y crueles que yo."
+            show player triste with dissolve
             "La manera en que Fisa perdía la vista en la comida, me hacía pensar que ella también tenía algo de aquella fuerza y crueldad de la que hablaba."
     
     cal "Hace mucho conocí a un hombre, no muy distinto a tí. Fue el primer humano que me trató como una persona."
@@ -483,6 +508,7 @@ label calchonaRoute:
             cal "Siempre cuando uno de mis hijos tenía miedo, yo les decía, que cerrara el puño fuertemente e imaginara que estaba apretando mi mano."
             "Con sus palabras, podía sentir como su agarre se hacía más firme, y en un reflejo, hice lo mismo."
             cal "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo. Eso... Nos hace sentir menos solos."
+            show player feliz with dissolve
             "Así, nos quedamos hablando por horas."
             pause
         "Consolarla":
@@ -498,7 +524,7 @@ label calchonaRoute:
 
     scene black with fade
     centered "{cps=10}31 de Octubre.\n5:00am\nLos Campos{/cps}"
-    scene white with fade
+    scene campo with fade
     "La noche comenzaba a desaparecer."
     cal "Yaaaawn"
     "Al fin, pude ver que Fisa estaba agotada..."
@@ -524,7 +550,7 @@ label calchonaGoodEnding:
     "Lentamente, me acerqué a ella. Mi corazón estaba latiendo cada vez más fuerte."
     cal "Eres una buena niña, ..."
     cal "Veamos el amanecer juntas."
-    "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá la Madre Monte pueda lidiar con ella."
+    "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá Inaru pueda lidiar con ella."
     "Su lana, tan pálida bajo la luna, comenzaba a verse del blanco más hermoso que había visto. Fisa cerró los ojos."
     cal "Desearía... Poder llorar. Por mi familia, por mi pasado."
     cal "Por las cosas que vas a pasar de ahora en más."
@@ -532,7 +558,9 @@ label calchonaGoodEnding:
     "La marca está..."
     "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra."
     cal "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
-    "Si no lo hacía ahora... No llegaría a tiempo. Mis uñas arrancaron las cáscaras que contenían la sangre de mi palma. Y sin más, apreté la mano contra los brillantes ojos de Fisa. Podía ver como dos hilos carmesí caían por sus mejillas, tiñiendo la suave lana. Sus ojos quemaban sobre mi mano."
+    "Si no lo hacía ahora... No llegaría a tiempo."
+    "Mis uñas arrancaron las cáscaras que contenían la sangre de mi palma. Y sin más, apreté la mano contra los brillantes ojos de Fisa."
+    "Podía ver como dos hilos carmesí caían por sus mejillas, tiñiendo la suave lana. Sus ojos quemaban sobre mi mano."
     cal "Nghhh--!!"
     p "¡Lo siento! ¡Tengo que hacerlo por mi abuelo!"
     "Ambas manos sujetaron mi brazo con fuerza."
