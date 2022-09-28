@@ -2,10 +2,16 @@
     scene black
     with Pause(1)
 
-    show text "Onda Dinamita presenta..." with dissolve
+    show jam at truecenter with dissolve
     with Pause(2)
 
-    hide text with dissolve
+    scene black with fade
+    with Pause(0.2)
+
+    show text "Onda Dinamita presenta..." with dissolve
+    with Pause(2.5)
+
+    scene black with fade
     with Pause(1)
 
     return
@@ -15,11 +21,11 @@ define pom = Character("????", color="#89909f")
 define cal = Character("????", color="#538083")
 define sil = Character("????", color="#ade1e5")
 define abu = Character("????", color="#5a80d3")
-# $ pomberoName = "Har"
-# $ silbonName = "Wiija"
+
 define flash = Fade(0.9, 0.0, 0.5, color="#fff")
 
 label start:
+    stop music fadeout 2.5
 
     $ playerName = renpy.input("Mi nombre es..", default = "Alba", length=12)
     $ playerName = playerName.strip()
@@ -29,13 +35,13 @@ label start:
     jump intro
 
 label intro:
-    centered "{cps=10}30 de Octubre\n4:00pm{/cps}"
+    centered "30 de Octubre\n4:00pm"
     p "¡Phew! ¡Ya era hora!"
     p "Después de un viaje tan largo..."
     p "...finalmente estoy de vuelta."
     
-    play music "audio/introv2.mp3" fadein 1
-    scene pueblo with dissolve
+    play music "audio/intro-loop.wav" fadein 1
+    scene fondo pueblo frente with dissolve
     show player feliz with moveinbottom
     "No había visitado el pueblo de mamá desde hace dos veranos, justo cuando el abuelo cayó enfermo."
     show player triste with dissolve
@@ -45,30 +51,30 @@ label intro:
 
     show player pensativa with dissolve
     p "Ahora... La casa del abuelo estaba al final de la calle..."
-    scene casa with fade
-    p "¡Whoa! Siempre olvido lo grande que es."
-    "Mamá me dijo que pidió que la limpiaran antes que llegáramos, ¡Cuanto trabajo!"
+    scene fondo casa lejos with fade
+    show player feliz at right with easeinright
     "Mis padres estaban muy ocupados para venir hoy, pero yo no puedo perderme el festival de Halloween."
     "¡Siempre fue mi preferida!"
+    scene fondo casa frente with fade
+    p "¡Whoa! Siempre olvido lo grande que es."
+    "Mamá me dijo que pidió que la limpiaran antes que llegáramos, ¡Cuánto trabajo!"
     "Todavía es un poco temprano, así que podría investigar un poco antes de volver a salir."
-    p "¿Dónde voy?"
-    menu:
-        "Examinar cocina":
-            # TODO cross fade musica
-            pass
-    scene cocina with fade
-    play music "audio/ambiente-lento-001.mp3" fadein 2
+    # p "¿Dónde voy?"
+    # menu:
+    #     "Examinar cocina":
+    #         # TODO cross fade musica
+    #         pass
+    scene fondo sala with fade
+    play music "audio/ambiente-lento-loop.wav" fadein 2
     show player feliz at right with easeinright
     p "Está mucho más limpia de lo que recuerdo..."
     show alfajores at truecenter with dissolve
     "Cuando era pequeña, solía ayudar al abuelo a hacer alfajores. "
     "Hacíamos un desastre, ¡pero quedaban deliciosos!"
     hide alfajores with dissolve
-    menu:
-        "Examinar sala":
-            pass
-    scene sala with fade
-    show player feliz at left with easeinleft
+    # menu:
+    #     "Examinar sala":
+    #         pass
     show retrato at truecenter with dissolve
     "Está lleno de fotos de nosotros. Mamá y el abuelo siempre habían sido muy compañeros."
     "Pero mamá dejó el pueblo a los 18 para irse a estudiar y jamás volvió."
@@ -104,10 +110,10 @@ label dream:
     jump festival
 
 label festival:
-    centered "{cps=10}30 de Octubre.\n8:00pm{/cps}"
+    centered "30 de Octubre.\n8:00pm"
     #Fade in
-    scene sala with fade
-    play music "audio/introv2.mp3" fadein 1
+    scene fondo sala with fade
+    play music "audio/intro-loop.wav" fadein 1
     show player feliz with moveinbottom
     p "¡Esa fue una gran siesta!"
     p "¡Será mejor que ya vuelva a salir antes de que se haga muy tarde!"
@@ -118,12 +124,12 @@ label festival:
     "Que frío hace aquí dentro..."
     show player feliz with dissolve
     "Debo recordar prender la calefacción cuando vuelva."
-    play music "audio/introv2.mp3" fadein 1
+    play music "audio/intro-loop.wav" fadein 1
     p "¡Vamos al pueblo!"
     hide player with fade
-    scene festival with fade
-    play music "audio/introv2.mp3" if_changed fadein 1
-    show player feliz with moveinbottom
+    scene fondo pueblo decorado with fade
+    play music "audio/intro-loop.wav" if_changed fadein 1
+    show player feliz at left with moveinbottom
     p "¡Wow! Hay muchísima más gente de la que recordaba."
     "Todos los años, el pueblo hace un gran festival por Halloween. Los preparativos empiezan muchas semanas antes, y dura dos días."
     "Pero siempre lo mejor es durante la noche del 31:\nhay danzas, disfraces y muchísima comida."
@@ -137,15 +143,15 @@ label festival:
 label grampasBox:
     scene black with fade
     stop music fadeout 3.0
-    centered "{cps=10}30 de Octubre.\n11:55pm{/cps}"
-    scene sala with fade
-    show player bostezo at left with easeinleft
+    centered "30 de Octubre.\n11:55pm"
+    scene fondo sala with fade
+    show player bostezo at right with easeinright
     p "Phew... Estoy agotada, ha sido realmente divertido!"
     show player feliz with dissolve
     p "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut--"
     show player triste at center with move
     p "¿Eh?"
-    play music "audio/ambiente-lento-001.mp3" fadein 2
+    play music "audio/ambiente-lento-loop.wav" fadein 2
     show player asustada with dissolve
     "Veo la luz saliendo de la puerta entreabierta, las luces del resto de la casa se encuentran apagadas"
     p "¿Qué... Es eso...?"
@@ -155,7 +161,7 @@ label grampasBox:
         "Acercarse":
             pass
     stop music fadeout 2.0
-    scene puerta with fade
+    scene fondo escaleras with fade
     p "¿Hola?"
     p ". . ."
     "Que extraño, nadie me dijo que habría alguien aquí, ¿Será una broma?"
@@ -164,7 +170,7 @@ label grampasBox:
         "Entrar":
             pass
     play sound "audio/puerta.ogg"
-    scene dormitorio with fade
+    scene fondo dormitorio with fade
     # "Se abre la puerta, la habitación está vacía, se ve la cama, y junto a ella, la caja de donde sale esa luz."
     # "Hay más susurros, el ambiente es cada vez más tenso"
     "Tal y como recordaba este lugar... Es como si el abuelo jamás se hubiese ido. Pero... Esa caja..."
@@ -180,21 +186,18 @@ label grampasBox:
             pass
 
     # Se abre la caja, se ven luces salir
-    # Siguiente
     play sound "audio/cofre.ogg"
     show cofre abierto with dissolve
     # Pantalla toda en blanco.
     scene white with flash
     p "AGHHH!"
-    # play sound "audio/tinnitus2.ogg"
-    # Tinnitus?
-    # Siguiente
+
 
 label meetMadreMonte:
     # personaje ???
-    play music "audio/madre-monte-002.mp3" fadein 0.5
-    scene dormitorio with fade
-    show mmonte full with dissolve
+    play music "audio/madre-monte-loop.wav" fadein 0.5
+    scene fondo dormitorio with fade
+    show mmonte neutra with dissolve
     mm "Vaya..."
     menu:
         "\"¿Quien eres?\"":
@@ -262,11 +265,11 @@ label info:
             pause
             jump info
         "Silbón":
-            mm "El silbón es un espectro con la forma de un joven, le encanta silbar y tiene un particular odio hacia los hombres."
+            mm "El Silbón es un espectro con la forma de un joven, le encanta silbar y tiene un particular odio hacia los hombres."
             pause
             jump info
         "Calchona":
-            mm "La cal solía ser una bruja, pero sufrió una maldición por sus actos. Ahora es condenada a vagar el mundo sin poder volver a su forma humana."
+            mm "La Calchona solía ser una bruja, pero sufrió una maldición por sus actos. Ahora es condenada a vagar el mundo sin poder volver a su forma humana."
             pause
             jump info
         "Abuelo":
@@ -361,12 +364,13 @@ label missionAccepted:
             jump pomberoRoute
         "Silbón":
             jump silbonRoute
-            
+
+##########################################################
 label calchonaRoute:
     default goodAnswersCalchona = 0
     
     scene black with fade
-    centered "{cps=10}31 de Octubre.\n00:30am\nLos Campos{/cps}"
+    centered "31 de Octubre.\n00:30am\nLos Campos"
     scene campo with fade
     show player feliz at left with easeinleft
     "Siempre me gustó venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
@@ -387,7 +391,7 @@ label calchonaRoute:
     p "AH!"
     hide player with dissolve
     # personaje ???
-    show calchona 1 with fade
+    show calchona neutra with fade
     cal "?"
     "Apenas me oyó, la oveja volteó a verme, y su espalda se irguió para levantarse en las patas traseras. Sus ojos brillantes se posaron en mí, dorados y muertos."
     "¿Qué hago?"
@@ -523,7 +527,7 @@ label calchonaRoute:
             pause
 
     scene black with fade
-    centered "{cps=10}31 de Octubre.\n5:00am\nLos Campos{/cps}"
+    centered "31 de Octubre.\n5:00am\nLos Campos"
     scene campo with fade
     "La noche comenzaba a desaparecer."
     cal "Yaaaawn"
@@ -542,7 +546,7 @@ label calchonaGoodEnding:
     "Me levanté del cesped, sacudí un poco mi pantalón, y la seguí. Era ahora o nunca, tenía que sellarla."
     "Finalmente, Fisa se detuvo a campo abierto, justo donde el Sol empezaría a caer con toda su fuerza."
     show player feliz at left with dissolve
-    show calchona 1 at right with dissolve
+    show calchona neutra at right with dissolve
     cal "He vivido oculta por cientos de años, ya había olvidado lo que se siente el calor."
     p "... Pero-"
     cal "No puedo culpar a mi Vestigio, he vivido fuera del Sol mucho antes que estar en él."
@@ -582,7 +586,7 @@ label calchonaGoodEnding:
 
 label calchonaBadEnding:
     show player feliz at left with dissolve
-    show calchona 1 at right with dissolve
+    show calchona neutra at right with dissolve
     p "Quizá debamos descansar, no era mi intención quedarnos toda la noche."
     cal "Lo sé."
     cal "Quieres encerrarme de nuevo, verdad...?"
@@ -601,7 +605,9 @@ label calchonaBadEnding:
     cal "¡Todo por lo que él ha peleado, ahora ha valido nada!"
     "No..." with vpunch
     cal "Lo arruinaste... {cps=4}Todo.{/cps}"
+
     scene black with fade
+    pause
     "BAD ENDING."
     # Finaliza el juego:
     return
@@ -611,6 +617,8 @@ label pomberoRoute:
     default goodAnswersPombero = 0
     scene black with fade
     centered "Bosques - 00.30am"
+    scene campo with fade
+    show player feliz at left with easeinleft
     "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
     "Había oído historias de como niños como yo entraban al bosque a jugar por la noche, nunca pensé que sería yo quien entrara voluntariamente alguna vez."
     "..."
@@ -619,10 +627,14 @@ label pomberoRoute:
     "Un tarareo sonó en eco contra los troncos de los árboles, y luego pude verlo. "
     "Unos metros más adelante, una figura oscura se acercaba a un arroyo, cantando para sí."
     p "Está... Alegre?"
+    hide player with dissolve
     "Antes de ser descubierta, me escondí atrás de un árbol, observando." 
     "Era un duende, pero no se parece a nada que haya visto antes."
+    show pombero neutro with fade
     pom "De los montes vengo... A los montes voy... A conocer a la niña que me ha visto hoy~"
     "!!!!"
+    show pombero at right with move
+    show player asustada at left with easeinleft
     "Un escalofrío corrió por mi espalda. Sentía que estaban por cazarme. Me di vuelta al instante."
     pom "Ho-laa~!"
     p "¡Ah!"
@@ -831,6 +843,27 @@ label pomberoGoodEnding:
     jump normalEnding
 
 label pomberoBadEnding:
+    p "Uhm, de acuerdo."
+    p "¿Qué quieres a cambio?"
+    "Una sonrisa se dibujó en sus labios antes de salir corriendo."
+    p "No de nuevo.. ¡Har, espera!"
+    "Salí tras él una vez más. Corriendo entre los árboles, como persiguiendo el aire."
+    "Me detuve de pronto, y miré para todos lados."
+    p "¡Har!"
+    pom "Esa bruja realmente se cree lista, ¿no?"
+    "Giré la mirada, pero no podía verlo. Su voz hacía eco por todas partes."
+    pom "Pobre, pobre niña, cayó en los encantos de una bruja del bosque y pensó que podía ser amiga de todas las criaturitas del bosque."
+    "El aire dejó mis pulmones."
+    pom "Pobrecilla~ "
+    pom "Pero no te preocupes, puedo hacer lo que me pides. Este bosque estará a salvo y tú y yo seremos amigos."
+    pom "Te quedarás aquí."
+    pom "Para siempre."
+    "De golpe, sentí un fuerte empujón, y las hojas detrás mío desaparecieron."
+    "Estaba cayendo... La sonrisa del duende alejándose."
+    pom "Adios, niña tonta~!"
+    "!!!" with vpunch
+    scene black with fade
+    pause
     "Bad Ending :("
     # Finaliza el juego:
     return
@@ -839,12 +872,12 @@ label pomberoBadEnding:
 label silbonRoute:
     default goodAnswersSilbon = 0
     scene black with fade
-    centered "31 de Octubre, 00.30 am - Pueblo"
+    centered "31 de Octubre.\n00:30am\nPueblo"
     "Si había un lugar donde podía sentirme en mi elemento, era el pueblo.. Los festivales ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
     "Me hubiera gustado poder disfrutarlos mejor..."
     "Al caminar a través de los puestos de comida, vi una figura que escondía su rostro bajo su sombrero, una mano sujetando una gran bolsa sobre su hombro."
-    sil "ciervo ciervo... Si si si... En tiras, en cubos, en rebanadas..."
-    "Aguardiente, ohhh, aguardiente, calienta los huesos. El polvo de hueso que se rompe, y se rompe y se rompe."
+    sil "Ciervo ciervo... Si si si... En tiras, en cubos, en rebanadas..."
+    sil "Aguardiente, ohhh, aguardiente, calienta los huesos. El polvo de hueso que se rompe, y se rompe y se rompe."
     p "Ese es...?"
     "Aquel joven caminaba encorvado, murmurando para sí mismo, con cada palabra, podía sentir como su lengua se pegaba a sus dientes y dejaba pasar un leve silbido."
     "Se veía... Horripilante."
@@ -898,8 +931,8 @@ label silbonBadEnding:
 ##########################################################
 label normalEnding:
     scene black with fade
-    centered "Casa del Abuelo - 6.00am"
-    "A esta hora, ya apenas podía oírse el festival, ya no había gente en la calle, y la música estaba apagada. "
+    centered "31 de Octubre\n6.00am\nCasa del Abuelo"
+    "A esta hora, ya apenas podía oírse el festival, ya no había gente en la calle y la música estaba apagada."
     "Siento que todo el peso de una larga noche caía sobre mí y no estaba pensando en nada más que dormir."
     "Solo espero que Inari haya tenido suerte..."
     # Entra a la casa

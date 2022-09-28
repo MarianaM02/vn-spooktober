@@ -13,14 +13,13 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("VN Spooktober")
+define config.name = _("Vestigios")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
 ## Ajústalo a 'False' para ocultar el título.
 
-define gui.show_name = True
-
+define gui.show_name = False
 
 ## Versión del juego.
 
@@ -37,7 +36,7 @@ define gui.about = _p("""
 ## Nombre breve del juego para ejecutables y directorios en la distribución.
 ## Debe contener solo carácteres ASCII, sin espacios, comas o puntos y coma.
 
-define build.name = "VNSpooktober"
+define build.name = "Vestigios"
 
 
 ## Sonidos y música ############################################################
@@ -48,7 +47,7 @@ define build.name = "VNSpooktober"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## Para permitir al usuario probar el volumen de los canales de sonido o voz,
@@ -62,7 +61,7 @@ define config.has_voice = True
 ## el menú principal. Este archivo seguirá sonando en el juego hasta que sea
 ## detenido o se reproduzca otro archivo.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/madre-monte-loop.wav"
 
 
 ## Transiciones ################################################################
@@ -84,12 +83,12 @@ define config.intra_transition = dissolve
 
 ## Transición tras la carga de una partida.
 
-define config.after_load_transition = None
+define config.after_load_transition = fade
 
 
 ## Transición de acceso al menú principal tras finalizar el juego.
 
-define config.end_game_transition = None
+define config.end_game_transition = fade
 
 
 ## No existe la variable que ajusta la transición cuando el juego comienza. Para
