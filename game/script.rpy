@@ -89,6 +89,7 @@ label intro:
             pass
     #play sound "audio/bostezo.ogg"
     show player bostezo with dissolve
+    play sound "audio/yawn-002.wav"
     p "Yaaawwwwnn..."
     p "Creo que mejor voy a descansar un poco."
     hide player with dissolve
@@ -923,7 +924,7 @@ label silbonRoute:
     default goodAnswersSilbon = 0
     stop music fadeout 2.5
     scene black with fade
-    centered "31 de Octubre.\n00:30am\nPueblo"
+    centered "31 de Octubre.\n00:30am\nPueblo Liwen"
     scene fondo pueblo decorado with fade
     show player feliz at left with easeinleft
     "Si había un lugar donde podía sentirme en mi elemento, era el pueblo.. Los festivales ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
@@ -944,34 +945,218 @@ label silbonRoute:
     sil "¿Qué crees que haces?"
     "Me giré hacia él."
     p "¿Eh?"
-    show player triste with dissolve
     sil "Miras, miras y miras, ¿Qué buscas, que quieres?"
     "Bajo el sombrero, podía ver el destello de unos ojos llenos de odio. Nunca había visto algo así."
     show player pensativa with dissolve
     "¿Que hago? Necesito pensar rápido."
 
-    "Decisión 1"
     menu:
-        "Elección Buena":
+        "\"Quiero saber sobre tí.\"":
             $ goodAnswersSilbon += 1
-            sil "Respuesta Positiva"
-        "Elección Mala":
-            sil "Respuesta Negativa"
-    sil "Decisión 2"
+            show player feliz with dissolve
+            p "Quería saber sobre tí."
+            sil "?"
+            show player asustada with dissolve
+            p "!!"
+            p "Eh... ¡Tu disfraz! Es muy bonito."
+            sil "Dis...Fraz."
+            sil " ..."
+            p "..."
+            sil "Si si. Mi disfraz, colorido, de fiesta, todos están con disfraces."
+            show player feliz with dissolve
+            p "¡Aja, exacto!"
+        "\"Quiero comer lo que veías.\"":
+            show player feliz with dissolve
+            p "Quiero comer lo que veías, ¡se veía delicioso!"
+            sil "..."
+            p "Es ciervo, ¿verdad?"
+            sil "Ciervo."
+            show player triste with dissolve
+            sil "¡Ciervos engañosos, mentirosos, traicioneros! Corren, y corren, y no se dejan atrapar."
+            sil "Estos... Ya... No... Corren."
+            p "..."
+    
+    show player feliz with dissolve 
+    p "¡No me has dicho tu nombre! Yo me llamo [playerName], vengo aquí de visita."
+    sil "Nadie me llama por mi nombre, todos gritan, todos huyen. No muy rápido."
+    $ sil = Character("Wiija", color="#ade1e5")
+    sil "Pero cuando tenía nombre... Era Wiija."
+    p "Wiija..."
+    show player triste with dissolve 
+    "Su rostro estaba cubierto bajo aquella máscara. Era imposible saber como reaccionaba a mis palabras."
+    "Su tonó de voz de siseante apenas dejaba entrever una agresividad que jamás había visto."
+    "Estar en el festival era lo único que me daba un poco de alivio. Había mucha gente a nuestro alrededor."
+    show player feliz with dissolve 
+    "Así que a ese nombre, sonreí."
+    p "¡Es un placer conocerte, Wiija!"
+    p "Sé que no eres de por aquí, ya que no sabías mucho del festival, si quieres puedo mostrarte un poco del lugar."
+    sil "..."
+    "Se ha quedado callado."
+    "¿Lo está pensando?"
+    sil "¿Qué tiene esto de especial?"
     menu:
-        "Elección Buena":
+        "\"Puedes hacer nuevos amigos.\"":
             $ goodAnswersSilbon += 1
-            sil "Respuesta Positiva"
-        "Elección Mala":
-            sil "Respuesta Negativa"
-    sil "Decisión 3"
+            p "¡Puedes hacer nuevos amigos!"
+            sil "..."
+            "Se ha quedado en silencio."
+            sil "Amigos."
+            sil "Nunca tuve amigos."
+            show player triste with dissolve
+            p "¿No?"
+            sil "Siempre solo. Siempre en casa. Sin amigos."
+            p "¿Nunca estuviste en una feria así?"
+            sil "Siempre en casa. Con mamá y papá. Ellos temían. Así que no salía."
+            sil "El abuelo a veces... Salía con el abuelo."
+            p "¿Tu abuelo?"
+            "Wiija asintió, una mano moviendo su saco. En su interior, el contenido se movía, chocando entre sí."
+            show player feliz with dissolve
+            p "Si quieres... Podríamos ser amigos."
+            sil "No."
+            show player triste with dissolve
+            p "!"
+            p "?"
+            sil "No podríamos. No, no. Mala. No. Terrible idea."
+            p "... ¿Por qué no?"
+            sil "No tengo amigos, nunca los tuve. Solo eran mamá y papá."
+            sil "Y el abuelo."
+            p "..."
+            sil "El Maestro... Me recordaba a mi abuelo."
+            # Flashback? dale
+            scene black with fade
+            show mmonte neutra with dissolve
+            mm "Quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años"
+            scene fondo pueblo decorado with fade
+            show player triste at left with dissolve
+            show silbon neutro at right with dissolve
+            # Fin del Flashback?
+            "Inaru llamaba a mi abuelo Maestro. Estoy segura que Wiija también estaba hablando de él."
+            sil "Fuerte. Listo. Severo. Si si, severo era él."
+            sil "Menos severo que mi abuelo."
+            sil "Un día hice algo... Malo."
+            sil "Si si, era malo. Lo recuerdo. Era divertido, entretenido, pero también malo."
+            sil "A mamá no le gustó, y al abuelo mucho menos."
+            sil "Con látigos y perros me hizo escarmentar y ahora no puedo volver."
+            sil "Quería odiarlo. ODIARLO ODIARLO, me convirtió en esto."
+            sil "Pero no pude, no puedo."
+            sil "Odio a papá. Siempre odié a papá."
+            sil "Apestaba a aguardiente."
+            sil "¡Lo odiaba, lo odiaba!"
+        "\"Puedes pasarla bien en familia.\"":
+            p "Puedes passarla bien en familia."
+            sil "..."
+            p "Recuerdo que mi mamá adoraba este lugar y-"
+            sil "No tengo familia."
+            p "¿Eh? ¿Y tus padres?"
+            sil "..."
+            "Sus puños se apretaron fuertemente."
+            sil "No. Tengo."
+            p "...?"
+            "Con cada palabra, se empezó a proximar a mí. Estando tan cerca, pude ver sus ojos a través de la máscara. Poseían tanto odio que me hizo retroceder varios pasos. Wiija siguió avanzando, arrastrando su bolsa."
+            sil "Mi madre no está. Se ha ido. No existe."
+            sil "Mi padre..."
+            "Hizo silencio, su cabeza torciéndose hacia un lado."
+            sil "Aún me acompaña."
+    
+    p "Triste Wiija..."
+    show player feliz with dissolve
+    p "Ven conmigo."
+    "Me di media vuelta y me acerqué a unos puestos a comprar helado."
+    p "¿has probado alguna vez?"
+    "Wiija negó con la cabeza."
+    "Una vez el vendedor me los entregó. Me di vuelta y caminé fuera del area principal. La feria aún estaba visible. Pero menos gente pasaba cerca de nosotros."
+    p "Ten."
+    "Le ofrecí el helado."
+    "Podía ver que estaba desconfiado. Pero aún así, se sentó junto a mí, llevándose el helado en la abertura de la boca."
+    sil "Está frío."
+    p "¡Es la idea! ¡Es dulce! ¿Te gusta lo dulce?"
+    sil "Es extraño. Raro. No es carne."
+    p "No lo es, no."
+    "Por un largo rato, seguimos disfrutando del helado. A veces, Wiija hacia preguntas, y yo hacia lo mejor para contestarla."
+    "Con cada respuesta, quizá el silbaba en una tonada particular."
+    "Otras veces, llevaba su mano a su saco, que descansaba junto a nuestra banca. Hacia tintinear su interior y luego volvía a su helado."
+    show player pensativa with dissolve
+    "La curiosidad me invadió. Quizá era la forma de acercarme a él."
     menu:
-        "Elección Buena":
+        "\"¿Quién te enseñó a silbar?\"":
             $ goodAnswersSilbon += 1
-            sil "Respuesta Positiva"
-        "Elección Mala":
-            sil "Respuesta Negativa"
+            show player feliz with dissolve
+            p "¿Quién te enseñó a silbar?"
+            sil "¿Hm?"
+            "Wiija se quedó pensativo. Por un largo momento hubo silencio, como si él se hubiera ido a un lugar lejos. Muy lejos de aquí."
+            sil "Mi abuelo me enseñó."
+            show player triste with dissolve
+            sil "Era un niño, era débil, asustaba a los demás cuando silbaba."
+            sil "Lo oían lejos, y creían que no había peligro."
+            sil "Lo oían cerca, y el miedo los invadía"
+            sil "Yo era listo, muy muy listo."
+            sil "Mi abuelo era severo."
+            sil "Pero era bueno conmigo."
+            sil "Por eso..."
+            "Giró la cabeza de lado a lado, una mano se la llevó a su hombro."
+            sil "Duele..."
+            sil "El cuero. Chocando contra la piel."
+            sil "Y los perros."
+            sil "Perros malos. Odio a los perros."
+            sil "El abuelo..."
+            p "..."
+            "Una mano se posó sobre su brazo."
+            sil "!!"
+            "Wiija saltó sobresaltado. Realmente estaba perdido en sus pensamientos."
+            sil "La familia tendría que ser algo imporante. Sí sí."
+            sil "Yo no era familia."
+            sil "Mi abuelo me traicionó"
+            sil "Y yo lo traicioné a él."
+            p "Te ha causado mucho dolor, ¿verdad?"
+            sil "No fueron los latigazos. Ni los perros."
+            sil "Ni las heridas."
+            sil "Él no me sacó a tiempo. No hubo amigos. No hubo abrazos."
+            sil "Yo les hice pagar. Le hice pagar a él."
+            sil "Y él me hizo pagar a mi."
+            sil "Él me hizo desaparecer."
+            sil "Puff."
+            sil "Él murió con su pena."
+            sil "Y yo vivo cargando con la mía."
+            sil "Vago..."
+            sil "Como Leyenda."
+        "\"¿Qué hay en la bolsa?\"":
+            p "Wiija..."
+            show player feliz with dissolve
+            p "¿Qué hay en la bolsa?"
+            sil "Ja... Jaja."
+            "Una mano palmó el costado de la bolsa."
+            sil "Cosas malas."
+            show player triste with dissolve
+            sil "La gente es mal. Hace cosas malas."
+            sil "Miente, engaña, bebe, bebe mucho."
+            sil "y es tonta."
+            sil "Odio a la gente mala."
+            sil "Y odio a la gente tonta."
+            "Su cabeza se giró hacia mi, el helado chorrendo por sus dedos."
+            sil "Eres mala, [playerName]"
+            show player asustada with dissolve
+            p "!!"
+            "Mi nombre en su boca... Se oía como si lo estuviera masticando. Saboreando..."
+            sil "No. Nono. No eres mala."
+            show player triste with dissolve
+            sil "Pero eres tonta."
+            sil "¿Qué has hecho para merecer esto?"
+            sil "Nunca lo sabré. Nunca lo sabrás."
+            "Luego, volvió a su helado, murmurando para sí."
+            sil "La bolsa... Apesta a aguardiente."
 
+    p "..."
+    "Luego de eso, busqué cambiar el tema. Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
+    scene black with fade
+    centered "Pueblo Liwen.\n6:00am"
+    scene fondo pueblo temprano with fade
+    "Wiija era... Una criatura como ninguna otra."
+    "Hablamos y hablamos hasta que el Sol comenzó a aparecer entre los edificios. Para ese entonces, la mayoría de la gente se había marchado."
+    "De pronto, Wiija se levantó."
+    show player triste at left with dissolve
+    show silbon neutro at right with dissolve
+    p "Wiija?"
+    "Me levanté con él. Aún no sabía como sellarlo y él parecía que estaba a punto de marcharse."
     if goodAnswersSilbon == 3:
         jump silbonGoodEnding
     else:
@@ -979,10 +1164,102 @@ label silbonRoute:
 
 label silbonGoodEnding:
     $ persistent.silbonEnding = True
-    "Good Ending Silbón :)"
+    sil "¿Por qué haces esto?"
+    p "¿Eh?"
+    "De pronto, comenzó a alejarse."
+    hide silbon with dissolve
+    p "¡Espera!"
+    hide player with dissolve
+    "Lo empecé a seguir. Se metía cada vez más entre los edificios. Ya no había nadie en las calles. Solo los restos del festival."
+    show silbon neutro at right with dissolve
+    show player triste at left with easeinleft
+    sil "¿Vas a castigarme, verdad? ¿Cómo él me castigó?"
+    "Lo sabe..."
+    p "..."
+    p "No."
+    p "No voy a castigarte."
+    sil "Sí lo harás. Eres como mi abuelo."
+    sil "Eres igual al Maestro también."
+    p "Wiija."
+    p "Necesito ayudar a mi abuelo."
+    p "Él... Es importante para mí."
+    sil "¿Importante?"
+    p "Si pudieras volver atrás, ¿No querrías hacer lo mismo?"
+    p "Huir con tu abuelo, protegerlo. Tener amigos."
+    "Wiija miró al suelo. Sumido en sus pensamientos. Dí un paso adelante y luego otro."
+    show player feliz with dissolve
+    p "Seamos amigos."
+    sil "Te iras. Me abandonarás."
+    show player triste with dissolve
+    sil "Las personas como tú, se cansan de personas como yo. Merecen más. Mucho más."
+    p "..."
+    "Comencé a dudar. Wiija... Tenía miedo. Y yo no sabía que decir. Era cierto, ¿Qué haría con los Vestigios una vez los sellara nuevamente? ¿Abandonaría la caja para siempre?"
+    "..."
+    "No. No podía hacer eso."
+    show player feliz with dissolve
+    p "No te voy abandonar."
+    p "Estaremos juntos. E iremos a otros festivales."
+    p "Lo prometo."
+    p "Solo... Déjame hacer esto, dejame salvar a mi abuelo. Ayúdame a salvar a mi abuelo"
+    sil "..."
+    sil "A tu abuelo."
+    sil "..."
+    sil "Tu abuelo. Era bueno."
+    
+    show player asustada with dissolve
+    "Su mano tomó la mía, y se llevó mi dedo a su boca."
+    "En un lento movimiento, sus dientes presionaron contra la piel, cortando en ella. Luego, sus labios presionaron contra la yema. Allí se quedó un rato."
+    p "..." with vpunch
+    sil "Ja... Jaja."
+    sil "Seamos amigos."
+    hide silbon with flash
+    "Un parpadeo, y Wiija desapareció. Bajé la mano, y vi solo el costal que venía cargando desde que lo vi la primera vez."
+    show player triste with dissolve
+    "Jamás había visto a alguien cargar con sus pecados así. Y no podía armarme de valor para juzgarlo."
+    "Sin su dueño... La bolsa comenzó a hacerse polvo, envejeciendo frente a mis ojos."
+    hide player with dissolve
+    "Ya no había más que hacer aquí. Así que di la vuelta, y volví a casa."
+
     jump normalEnding
 
 label silbonBadEnding:
+    sil "Niña tonta. Mentirosa..."
+    show player asustada with dissolve
+    p "¿Eh?"
+    "!!" with vpunch
+    "Una fuerte mano se apretó contra mi cuello. Sus dedos apretando. Apretando..."
+    show silbon at center with move
+    p "AGH-!" with vpunch
+    hide player with dissolve
+    sil "¿Me ibas a entregar a ella, verdad?"
+    sil "Niña tonta. Niña mala."
+    sil "¡No me vas a encerrar! ¡NO ERES MI PADRE, NO PUEDES DECIRME QUE HACER!"
+    p "Unghh--!" with vpunch
+    sil "Tu abuelo. Es tu abuelo. Yo lo sé. Yo lo sé."
+    sil "Era como el mío. Bueno y malo. Malo y bueno."
+    sil "No te preocupes."
+    sil "Te voy a ayudar."
+    "Mis pies abandonaron el suelo cuando él me levantó, haciendo presión. No podía pelear, me estaba debilitando."
+    "Y luego, sentí mi cuerpo chocar. ¿La banca, la pared? No lo sabía..."
+    "{i}CRACK{/i}" with vpunch
+    "Me siento... Cansada..."
+    scene black with fade
+    "... Negro"
+    "Todo negro"
+    p "..."
+    "No puedo hablar. No puedo moverme."
+    "Ayuda... Auxilio."
+    "Siento movimiento, mi cuerpo está..."
+    "..."
+    "Una bolsa..."
+    "¿Qué- Qué es esto?"
+    "..."
+    "Huesos."
+    "Son huesos."
+    sil "Somos amigos ahora. Sí sí sí. Tú cuida de papá allí."
+    sil "Es hora de ir a hacer más amigos."
+    pause
+
     "Bad Ending :("
     # Finaliza el juego:
     return
@@ -1104,6 +1381,9 @@ label trueEnding:
     show player pensativa with dissolve
     p "¿Como si los conociera...?"
     # Recuerdo
+    $ cal = Character("Fisa", color="#538083")
+    $ sil = Character("Wiija", color="#ade1e5")
+    $ pom = Character("Har", color="#89909f")
     scene black with fade
     show calchona neutra with dissolve
     cal "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo."

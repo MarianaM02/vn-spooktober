@@ -1,28 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 1030, in script
-    show mmonte at center with easeout
-  File "game/script.rpy", line 1030, in <module>
-    show mmonte at center with easeout
-NameError: name 'easeout' is not defined
+  File "game/script.rpy", line 1074, in script
+    P"or un largo rato, seguimos disfrutando del helado. A veces, Wiija hacia preguntas, y yo hacia lo mejor para contestarla. Con cada respuesta, quizá el silbaba en una tonada particular. Otras veces, llevaba su mano a su saco, que descansaba junto a nuestra banca. Hacia tintinear su interior y luego volvía a su helado."
+Exception: Sayer 'P' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 1030, in script
-    show mmonte at center with easeout
-  File "C:\Users\marys\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1654, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "C:\Users\marys\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\marys\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 1030, in <module>
-    show mmonte at center with easeout
-NameError: name 'easeout' is not defined
+  File "game/script.rpy", line 1074, in script
+    P"or un largo rato, seguimos disfrutando del helado. A veces, Wiija hacia preguntas, y yo hacia lo mejor para contestarla. Con cada respuesta, quizá el silbaba en una tonada particular. Otras veces, llevaba su mano a su saco, que descansaba junto a nuestra banca. Hacia tintinear su interior y luego volvía a su helado."
+  File "C:\Users\marys\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\marys\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.0.3.22090809
 Vestigios 1.0
-Thu Sep 29 01:15:24 2022
+Thu Sep 29 12:38:05 2022
