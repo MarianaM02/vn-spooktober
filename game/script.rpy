@@ -35,7 +35,7 @@ label start:
     jump intro
 
 label intro:
-    centered "30 de Octubre\n4:00pm"
+    #centered "Casa del abuelo.\n30 de Octubre\n4:00pm"
     p "¡Phew! ¡Ya era hora!"
     p "Después de un viaje tan largo..."
     p "...finalmente estoy de vuelta."
@@ -50,14 +50,30 @@ label intro:
     "Pero estoy segura que venir le hará bien."
 
     show player pensativa with dissolve
-    p "Ahora... La casa del abuelo estaba al final de la calle..."
+    p "Ahora... La casa del abuelo estaba hacia el final de la calle..."
+    "Recordaba que estaba alejada del pueblo. Esa era una de las mejores cosas."
+    "Está cercana a los campos, por lo que hay mucho espacio."
+    "Mamá siempre me contaba que el abuelo adoraba eso."
+    "Que desde pequeño siempre salía a explorar y se internaba en los bosques."
+    show player asustada with dissolve
+    "Una vez, el abuelo me mostró su colección de insectos, ¡Guacala!"
+    show player feliz with dissolve
+    p "Será mejor que me de prisa."
+    centered "Casa del abuelo.\n30 de Octubre.\n4:00pm."
     scene fondo casa lejos with fade
     show player feliz at right with easeinright
     "Mis padres estaban muy ocupados para venir hoy, pero yo no puedo perderme el festival de Halloween."
     "¡Siempre fue mi preferida!"
+    
     scene fondo casa frente with fade
     p "¡Whoa! Siempre olvido lo grande que es."
     "Mamá me dijo que pidió que la limpiaran antes que llegáramos, ¡Cuánto trabajo!"
+    "El abuelo nunca la cuidaba demasiado. Sé que era la abuela quien le gustaba quedarse en casa."
+    "Yo no la conocí. Así que me crié solo con las historias del abuelo y sus aventuras."
+    "Mamá siempre se enfadaba porque cada vez que veníamos había algo que reparar."
+    "Pero siempre las cosas de la abuela las mantenía pulidas con mucho cariño."
+    "Supongo que era una una relación de mucho afecto."
+    "Él cuidaba de los jardines y los campos. Ella del hogar. Ambos parecían ser un gran equipo." 
     "Todavía es un poco temprano, así que podría investigar un poco antes de volver a salir."
     stop music fadeout 3.0
     pause
@@ -69,7 +85,7 @@ label intro:
     scene fondo sala with fade
     show player feliz at right with easeinright
     play music ["audio/ambiente-lento-loop.wav"] fadein 3.0
-    p "Está mucho más limpia de lo que recuerdo..."
+    p "La cocina está en mejor estado de lo que recuerdo..."
     show alfajores at truecenter with dissolve
     "Cuando era pequeña, solía ayudar al abuelo a hacer alfajores."
     "Hacíamos un desastre, ¡pero quedaban deliciosos!"
@@ -78,7 +94,7 @@ label intro:
     #     "Examinar sala":
     #         pass
     show retrato at truecenter with dissolve
-    "Está lleno de fotos de nosotros. Mamá y el abuelo siempre habían sido muy compañeros."
+    "La sala está llena de fotos de nosotros. Mamá y el abuelo solían ser muy compañeros."
     "Pero mamá dejó el pueblo a los 18 para irse a estudiar y jamás volvió."
     "El abuelo nunca dijo nada, y siempre que volvían a verse era como si el tiempo no hubiera pasado."
     show player triste with dissolve
@@ -91,10 +107,11 @@ label intro:
     show player bostezo with dissolve
     play sound "audio/yawn-002.wav"
     p "Yaaawwwwnn..."
+    p "El viaje ha sido realmente agotador."
     p "Creo que mejor voy a descansar un poco."
     hide player with dissolve
     "Esta casa posee muchos recuerdos... Tanto para mí como para mi mamá."
-    "Me pregunto como reaccionará ella cuando venga mañana..."
+    "Ya quiero ver su reacción cuando venga..."
     jump dream
 
 label dream:
@@ -104,14 +121,14 @@ label dream:
     pause
     centered "\"{cps=10}[playerName!q]...{/cps}\""
     centered "\"No le creas.\""
-    centered "\"No lo busques.\""
+    centered "\"Ten cuidado.\""
     centered "\"Está aquí.\""
     centered "\"{cps=5}Esperándote...{/cps}\""
     pause
     jump festival
 
 label festival:
-    centered "30 de Octubre.\n8:00pm"
+    #centered "Casa del Abuelo.\n 30 de Octubre.\n8:00pm."
     #Fade in
     scene fondo sala with fade
     play music "audio/intro-loop.wav" fadein 1
@@ -127,36 +144,37 @@ label festival:
     "Debo recordar prender la calefacción cuando vuelva."
     play music "audio/intro-loop.wav" fadein 1
     p "¡Vamos al pueblo!"
+    centered "Pueblo Liwen.\n30 de Octubre.\n8:00pm."
     scene fondo pueblo decorado with fade
     play music "audio/intro-loop.wav" if_changed fadein 1
     show player feliz at left with moveinbottom
     p "¡Wow! Hay muchísima más gente de la que recordaba."
-    "Todos los años, el pueblo hace un gran festival por Halloween. Los preparativos empiezan muchas semanas antes, y dura dos días."
+    "Todos los años, el pueblo hace un gran festival por Halloween. Los preparativos empiezan muchas semanas antes, y el evento dura dos días."
     "Pero siempre lo mejor es durante la noche del 31:\nhay danzas, disfraces y muchísima comida."
     show player at right with move
-    "El abuelo me contó que cuando mamá era adolescente, ponía a coserse la ropa desde un mes antes, y salía a las calles con sus amigos cantando."
+    "El abuelo me contó que cuando mamá era adolescente, ella ponía a coserse la ropa desde un mes antes, y salía a las calles con sus amigos."
     "Siempre se maquillaba de maneras espeluznantes y todo el mundo quedaba encantado. Es la fiesta turística del pueblo."
     "Mamá siempre contaba que desde hacía siglos, el pueblo tenía una gran conexión con el Otro Mundo"
     "...y mientras conociéramos nuestras raíces y quienes éramos, nada podía hacernos daño."
-    "Ella dice que se sentía más cómoda como un monstruo entre humanos. Me encantaría volverla a ver así."
+    "Ella dice que se sentía más cómoda como un monstruo entre humanos. Me encantaría volver a verla así."
     jump grampasBox
 
 label grampasBox:
     scene black with fade
     stop music fadeout 3.0
-    centered "30 de Octubre.\n11:55pm"
+    centered "Casa del Abuelo.\n30 de Octubre.\n11:55pm"
     scene fondo casa lejos with fade
     show player bostezo at right with easeinright
-    p "Phew... Estoy agotada, ha sido realmente divertido!"
+    p "Phew... Estoy agotada, pero ha sido realmente divertido!"
     show player feliz with dissolve
-    p "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut--"
+    p "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut-"
     show player triste with dissolve
     p "¿Eh?"
     play music "audio/ambiente-lento-loop.wav" fadein 2
     show player asustada with dissolve
-    "Veo la luz saliendo de la puerta entreabierta, las luces del resto de la casa se encuentran apagadas"
-    p "¿Qué... Es eso...?"
-    "Viene de la habitación de mi abuelo... No he estado allí desde hace años."
+    "Veo luz saliendo de la puerta entreabierta, las luces del resto de la casa se encuentran apagadas"
+    p "¿Quién anda ahí...?"
+    "Viene de la habitación del abuelo... No he estado allí desde hace años."
     show player triste with dissolve
     menu:
         "Acercarse":
@@ -165,7 +183,7 @@ label grampasBox:
     scene fondo escaleras with fade
     p "¿Hola?"
     p ". . ."
-    "Que extraño, nadie me dijo que habría alguien aquí, ¿Será una broma?"
+    "Que extraño, nadie me dijo que alguien vendría hoy, ¿Será una broma?"
     # [Empiezan a oirse susurros, la luz se ve saliendo desde la puerta entreabierta
     menu:
         "Entrar":
@@ -174,7 +192,7 @@ label grampasBox:
     scene fondo dormitorio with fade
     # "Se abre la puerta, la habitación está vacía, se ve la cama, y junto a ella, la caja de donde sale esa luz."
     # "Hay más susurros, el ambiente es cada vez más tenso"
-    "Tal y como recordaba este lugar... Es como si el abuelo jamás se hubiese ido. Pero... Esa caja..."
+    "Este lugar está tal y como recordaba... Es como si el abuelo jamás se hubiese ido. {w}Pero... {w}Esa caja..."
     menu:
         "Acercarse":
             pass
@@ -191,7 +209,7 @@ label grampasBox:
     show cofre abierto with dissolve
     # Pantalla toda en blanco.
     scene white with flash
-    p "AGHHH!"
+    p "¡AGHHH!"
 
 label meetMadreMonte:
     # personaje ???
@@ -200,35 +218,43 @@ label meetMadreMonte:
     show mmonte neutra with dissolve
     mm "Vaya..."
     menu:
-        "\"¿Quien eres?\"":
+        "\"¿Quién eres?\"":
             pass
 
-    mm "¿Quien soy yo? ¿Que no te han enseñado nada?"
+    mm "¿Quién soy yo? ¿Qué no te han enseñado nada?"
     # Cambia a Inaru
     $ mm = Character("Inaru", color="#2a7f62")
-    mm "Me llamo Inaru, soy una protectora de los bosques, por supuesto!"
-    mm "O lo era, hasta que quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años!"
+    mm "Vaya, ese fue un descanso largo..."
     show mmonte at right with move
     show player asustada at left with easeinleft
+    p "Pero... ¿¡De dónde has salido!?"
+    p "Yo abrí esa caja... Y de pronto estabas aquí."
+    mm "... No sabes nada, ¿verdad?"
+    mm "Me llamo Inaru. Soy una protectora de los bosques, ¡por supuesto!"
+    mm "O lo era, hasta que quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años!"
     p "¿¡Cómo!? ¿¡Mi abuelo es tu maestro!?"
     mm "Pues parece que sí, tanto yo como los otros estábamos bajo sus ord-"
-    mm ". . ."
+    mm "..."
+    "Inaru se volteó a ver la caja.{w} Se quedó mirándola en silencio antes de voltear a verme."
     mm "¿¡Qué hiciste!? ¿¡Fuíste tú!?" with vpunch
     mm "¡No debiste haber hecho eso, niña tonta!"
     mm "... Si yo estoy afuera, quiere decir que los demás también."
     menu:
-        "\"¿¡Que está pasando!?\"":
+        "\"¿¡Los demás!?\"":
             pass
+    mm "..."
+    mm "Realmente no sabes nada."
     mm "Míralo tu misma"
     show player triste with dissolve
     # ((Paneo a la caja, con los cuatro objetos inanimados, sin luz))
     mm "Estos son Vestigios."
     mm "Reliquias que tu abuelo perfeccionó para capturar a las Leyendas que habitan este mundo."
     mm "Una Leyenda puede ser cualquier cosa: un espíritu, un monstruo, un objeto poseído, cualquier criatura atrapada en una época que no le pertenezca."
-    mm "Tu abuelo ha dedicado su vida a capturar y atrapar sus Leyendas, al igual que su padre antes que él."
-    mm "Hasta ahora, tu familia ha podido capturar a tres Leyendas: Ellos son el Silbón, la Calchona y el Pombero." 
+    mm "Tu abuelo ha dedicado su vida a capturar y atrapar Leyendas, al igual que su padre antes que él."
+    mm "Aparte de mí, ha podido capturar a tres Leyendas: {w}el Silbón, {w}la Calchona {w}y el Pombero." 
     mm "Criaturas que vagaban el mundo causando terror antes de que tú las liberaras nuevamente." 
     mm "Ahora es tu responsabilidad encontrarlas y capturarlas de nuevo dentro de los Vestigios."
+    "Estaba bromando... Debía ser una broma."
     show player asustada with dissolve
     menu:
         "\"¿Y cómo voy a hacer eso?\"":
@@ -237,16 +263,16 @@ label meetMadreMonte:
     mm "Tendrás que convencerlos, por supuesto!"
     mm "No estoy esperando que puedas derrotarlos y forzarlos dentro del Vestigio, no pareces muy fuerte."
     show player triste with dissolve
-    mm "Las Leyendas son criaturas suspicaces, si sienten que eres una amenaza, será más difícil encontrarlos."
+    mm "Las Leyendas son criaturas suspicaces, si sienten que eres una amenaza, será más difícil atraparlos."
     mm "Ahí tu corres ventaja, van a subestimarte."
     show player enojada with dissolve
     p ". . ."
-    mm "Tu familia usó un hechizo para encerrarlos, si escaparon, es porque éste se ha debilitado, pero aún tienes la oportunidad de volver a darle fuerza."
+    mm "Tu familia usó un hechizo para encerrarlos.{w} Si escaparon, es porque éste se ha debilitado, pero aún tienes la oportunidad de volver a darle fuerza."
     show player triste with dissolve
     mm "Cada Leyenda tiene una marca, si tienes la sangre de tu abuelo, usar un poco de tu sangre sobre la marca será suficiente para devolver su alma a los Vestigios."
     p "Mi sangre..." 
-    p "Nada tiene sentido, ¿por qué mi abuelo nunca nos lo diría?"
-    mm "Te veo preocupada"
+    p "Esto no tiene sentido, ¿por qué mi abuelo nunca nos lo diría?"
+    mm "No lo sé. Pero ahora no tienes elección."
     menu:
         "\". . .\"":
             jump info
@@ -261,7 +287,7 @@ label info:
             pause
             jump info
         "Pombero":
-            mm "El Pombero es un duende, muy peludo y del color de la noche. Con los humanos es el más impredecible, pero posee un gran cariño y respeto por los bosques."
+            mm "El Pombero es un duende, del color de la noche. Con los humanos es el más impredecible, pero posee un gran cariño y respeto por los bosques."
             pause
             jump info
         "Silbón":
@@ -281,14 +307,14 @@ label info:
             jump preMission
 
 label preMission:
-    "Sabía que había un gran peligro por delante. Al mismo tiempo, sentía que algo me empujaba hacia ello." 
-    "Dentro mío, estaba segura que Inaru no me mentía, y que mi abuelo estaba fuertemente conectado a esto."
+    "Sabía que había un gran peligro por delante. Al mismo tiempo, sentía que algo me empujaba hacia ello."
+    "Estaba segura de que tenía una fuerte conexión con lo que estaba ocurriendo."
     mm "Se que es mucha información, y no tenemos mucho tiempo."
-    p "Hay mucha gente que corre peligro, ¿No causarán el caos?"
-    mm "Los humanos no ven nada que no quieran ver, y las Leyendas no se hacen notar a menos que quieran ser vistas."
+    p "Hoy es el festival, y hay mucha gente aquí que podría correr peligro, ¿No causarán el caos?"
+    mm "Los humanos no ven nada que no quieren ver, y las Leyendas no se hacen notar a menos que quieran ser vistas."
     mm "Ahora, ellos también están recobrando sus fuerzas, pero no les llevará mucho hasta que empiecen a moverse nuevamente."
-    "Me pregunto si realmente puedo confiar en ella de la manera que ella espera que lo haga..."
-    mm "¿Estás segura?"
+    "Me pregunto si realmente puedo confiar en Inaru de la manera que ella espera que lo haga..."
+    mm "Oye..."
     show player asustada with dissolve
     p "!!"
     "Su voz me saca de mis pensamientos, y un fuerte sentimiento de inseguridad me invade de repente."
@@ -300,16 +326,16 @@ label preMission:
     p "¿De verdad no hay nadie más que pueda resolver esto? Mamá vendrá mañana y-"
     mm "Mañana ya será demasiado tarde. No, lo siento, si tú no lo haces, nadie podrá."
     p "¿Por qué no podemos llamar a la policía?"
-    mm "Nada de lo que hagan podrá resultar. Solo puedes tú. Solo tú tienes la sangre de tu abuelo."
-    p "¿Cómo?"
+    mm "Nada de lo que hagan podrá resultar. Solo tú tienes la sangre de tu abuelo."
+    p "Pero, ¿Cómo puedo usar mi sangre?"
     "En un instante, Inaru sujetó mi mano."
     mm "Cierra los ojos."
-    "En un reflejo, cerré los ojos justo cuando sentí la piel de mi palma abrirse."
+    "En un reflejo, obedecí justo cuando sentí la piel de mi palma abrirse."
     show player asustada with dissolve
     p "Agh!" with vpunch
-    "El líquido comenzó a brotar, mojando mi mano."
+    "El líquido comenzó a brotar, humedeciendo mi mano."
     "Sus dedos rígidos pasaron sobre mi palma."
-    "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí."
+    "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí.{w} La herida de mi mano rapidamente comenzó a cicatrizar."
     mm "Para encerrar nuevamente a las Leyendas, necesitas encontrar el lugar donde tu abuelo ha puesto el hechizo y debes marcarlo con tu sangre."
     show player triste with dissolve
     mm "Yo puedo forzar a dos de las Leyendas de nuevo dentro de su Vestigio usándola tambien, pero enfrentarme a los tres podría matarme."
@@ -319,7 +345,7 @@ label preMission:
     menu:
         "\"Sí, voy a ayudarte.\"":
             jump missionAccepted
-        "\"No! De ninguna manera!\"":
+        "\"¡No! ¡De ninguna manera!\"":
             jump missionDenied
 
 label missionDenied:
@@ -338,24 +364,31 @@ label missionDenied:
     "Luego... Oscuridad."
 
     pause
-    "Bad Ending :("
+    "Bad Ending."
     # Finaliza el juego:
     return
 
 label missionAccepted:
     show player feliz with dissolve
     mm "Gracias... Sé que esto no es fácil."
-    mm "Bueno, entonces ya está decidido."
+    mm "Entonces ya está decidido."
     mm "Luego de vivir tantas décadas con ellos, puedo sentirlos."
     "Inaru camina hacia un mapa del Pueblo colgado en la pared."
     # Paneo al mapa con tres marcas
     show mapa at truecenter with dissolve
-    mm "Al Silbón le gusta estar entre gente, así que es probable que lo encuentres caminando en el pueblo. "
-    mm "Si hay un lugar donde seguro el Pombero iría primero, son los bosques."
-    mm "Y la Calchona... Debe estar buscando algo que comer, así que seguramente la encontrarás en los campos."
+    mm "Al Silbón le gusta estar entre la gente, así que es probable que lo encuentres caminando en el pueblo. "
+    mm "Si hay un lugar donde seguro el Pombero iría primero, es en el bosque Suas Agascuana."
+    mm "Y la Calchona... Debe estar buscando algo que comer, así que seguramente la encontrarás en los campos Lania."
     hide mapa with dissolve
     mm "Hay mucho terreno por cubrir y poco tiempo-"
     mm "Prometo ayudarte en todo lo que pueda. Nombra una Leyenda y yo me encargaré de lo demás."
+    show player pensativa with dissolve
+    "Debo tomar una decisión, ¿Tras de quién iré?"
+    p "Elijo a..."
+    #Hay alguna chance de que estas dos lineas vayan LUEGO de elegir la opción y antes de hacer el salto?
+    show player feliz with dissolve
+    mm "Buena suerte. Te estaré esperando aquí al amanecer"
+    "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
 
     menu:
         "Calchona":
@@ -364,13 +397,12 @@ label missionAccepted:
             jump pomberoRoute
         "Silbón":
             jump silbonRoute
-
 ##########################################################
 label calchonaRoute:
     default goodAnswersCalchona = 0
     stop music fadeout 2.5
     scene black with fade
-    centered "31 de Octubre.\n00:30am\nLos Campos"
+    centered "Campos Liwen\n.31 de Octubre.\n00:30am"
     scene campo with fade
     show player feliz at left with easeinleft
     "Siempre me gustó venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
