@@ -59,6 +59,7 @@ label intro:
     "Una vez, el abuelo me mostró su colección de insectos, ¡Guacala!"
     show player feliz with dissolve
     p "Será mejor que me de prisa."
+    scene black with fade
     centered "Casa del abuelo. \n30 de Octubre. \n4:00pm."
     scene fondo casa lejos with fade
     show player feliz at right with easeinright
@@ -453,25 +454,28 @@ label calchonaRoute:
         "\"Te estaba buscando.\"":
             $ goodAnswersCalchona += 1
             show player feliz with dissolve
-            p "Te estaba buscando. En el pueblo, se oyen historias sobre leyendas que vagan en esta noche, pensé que si comenzaba a explorar, podría encontrar alguna. Lamento haberte asustado."
-            cal "Los campesinos jamás hablan conmigo. Pero siempre me dejan algo de beber. Jamás había estado aquí antes."
-            "Puedo ver como comienza a relajarse, y en respuesta, siento como mis hombros bajan a la par."
+            p "Te estaba buscando. {w}En el pueblo se oyen historias sobre leyendas que vagan en la noche. {w}Pensé que si comenzaba a explorar podría encontrar alguna."
+            show player triste with dissolve
+            p "Lamento haberte asustado."
+            cal "Los campesinos no hablan conmigo. Pero siempre me dejan algo de beber."
+            cal "Jamás había estado aquí antes."
+            show player feliz with dissolve
+            "Pude ver como comienza a relajarse, y en respuesta, sentí mis hombros bajando a la par."
         "\"Me escapé del festival.\"":
             show player feliz with dissolve
-            p "Me escapé del festival. Había mucho estruendo, y quería ver como se encontraban los animales." 
-            p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
+            p "Me escapé del festival. {w}Había mucho ruido, y quería ver como se encontraban los animales." 
+            p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. {w}Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
             cal "No serías la primera. Es normal teniendo en cuenta como... Luzco."
-            "Puedo notar que aún me mira con desconfianza, pero no hace ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
- 
-    
-    p "Si tienes hambre, puedo ayudarte a buscar algo para comer!"
+            "Pude notar que aún me mira con desconfianza, pero no hizo ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
+   
+    p "Si tienes hambre, ¡puedo ayudarte a buscar algo para comer!"
     cal "..."
     p "Soy [playerName!q] ¿cuál es tu nombre?"
     cal "..."
     # Cambia a Fisa
     $ cal = Character("Fisa", color="#538083")
     cal "Fisa."
-    p "Bueno, entonces es un placer conocerte! Ven, vamos a buscar algo para comer."
+    p "Bueno, ¡es un placer conocerte, Fisa! Ven, vamos a buscar algo para comer."
     "Mientras me alejaba, me puse a pensar acerca de como le estaba yendo a Inaru..."
     "Mi mano comenzaba escocer al recordar todo lo que conllevaba esto, y en el problema en que me había metido."
     show player triste with dissolve
@@ -494,9 +498,9 @@ label calchonaRoute:
     p "¡Bingo!"
     "Poniéndome en puntas de pie, logré alcanzar varias frutas. Sin pensarlo, le extendí una a Fisa."
     p "Buen provecho."
-    "En un instante, Fisa tomó la pera de mis manos y a pesar de mantener la apariencia hasta ahora, la devoró en un instante. La lana de sus mejillas se llenó del líquido de la pera y se volvió pegajosa."
-    "Me senté en el suelo con varias peras entre mis brazos, y esparcí la mayoría sobre el cesped."
-    "Precavida, Fisa se sentó frente a mí."
+    "En un instante, Fisa tomó la pera de mis manos y a pesar de mantener la apariencia hasta ahora, la devoró en un instante."
+    "La lana de sus mejillas se llenó del líquido de la pera y se volvió pegajosa."
+    "Me senté en el suelo con varias peras entre mis brazos, y esparcí la mayoría sobre el cesped. {w}Precavida, Fisa se sentó frente a mí."
     cal "¿Por qué eres buena conmigo?"
     show player pensativa with dissolve
     p "¿Mh?"
@@ -514,49 +518,53 @@ label calchonaRoute:
             cal "... Eres valiente, me recuerdas a mis hijos."
             p "¿Hijos?"
             "Me giré a observarla, sus ojos moribundos parecían brillar como el fuego de las hogueras mientras se llevaba otra pera a la boca."
-            cal "Mi esposo y yo trabajábamos en los campos. Él no sabía que yo era una bruja. Por las noches, me sentía libre, tomaba mis pociones y vagaba por las afueras, como una oveja."
+            cal "Mi esposo y yo trabajábamos en los campos. Él no sabía que yo era una bruja. {w}Por las noches, me sentía libre, tomaba mis pociones y vagaba por los campos como una oveja."
             show player triste with dissolve
-            cal "Un día, volví, y no había nada. Ni mi esposo, ni mis hijos, y todas mis pociones habían sido destruidas. Solo pude tomar los restos de una."
+            cal "Un día volví y no había nada. {w}Ni mi esposo, ni mis hijos. {w}Y todas mis pociones habían sido destruidas. Solo pude tomar los restos de una."
             cal "Y quedé... Así."
             cal "La pena, o vaya a saber que, me ató a este mundo desde ese entonces, condenada a caminar solo por el borde. Ni humana, ni animal."
-            cal "Y simplemente, la gente empezó a morir, y a olvidarse de mí."
+            cal "Y simplemente, la gente empezó a morir y a olvidarse de mí."
             cal "Me volví nada más que una Leyenda..."
         "\"Me inspiras confianza\"":
             show player feliz with dissolve
             "Me encogí de hombros, tratando de poner el rostro más impasible que podía."
             p "Supongo que me inspiras confianza."
-            p "Desde que te vi, no has hecho nada más que tratado de alejarse."
+            p "Desde que te vi, no has hecho nada más que tratar de alejarte."
             p "Si algo parecía, era que tú tenías más miedo de mí que yo."
             "Fisa parpadeó varias veces, usando el revés de su mano para limpiarse los restos de pera."
-            cal "Eres valiente. He visto gente intrépida como tú cometer errores muy graves."
-            cal "Hay muchas otras criaturas... Más grandes, fuertes, y crueles que yo."
+            cal "Eres valiente. {w} Pero he visto gente intrépida como tú cometer errores muy graves."
+            cal "Hay muchas otras criaturas... Más grandes, fuertes y crueles que yo."
             show player triste with dissolve
-            "La manera en que Fisa perdía la vista en la comida, me hacía pensar que ella también tenía algo de aquella fuerza y crueldad de la que hablaba."
+            "La manera en que Fisa perdía la vista en la comida me hacía pensar que ella también tenía algo de aquella fuerza y crueldad de la que hablaba."
     
-    cal "Hace mucho conocí a un hombre, no muy distinto a tí. Fue el primer humano que me trató como una persona."
+    cal "Hace mucho conocí a un hombre no muy distinto a tí. {w}Fue el primer humano que me trató como una persona."
+    cal "Era amable. Y me miraba a los ojos con una sonrisa."
+    cal "Un día, me ofreció ir con él."
     cal "Y luego... Solo sentí calor."
     "Está hablando del abuelo..."
     menu:
         "Hablar sobre mamá":
             $ goodAnswersCalchona += 1
+            p "Estar sola... Suena difícil."
             p "Yo no sé que haría si no pudiera volver a ver mi mamá..."
-            p "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... No había absolutamente nada, como si alguien hubiera puesto un lienzo y solo me puso a mí, y allí me dejó."
-            p "Cuando desperté me di cuenta que no le temía a estar sola, sino a la posibilidad de que hubiera algo más allí lo cual no me podría enfrentar."
+            p "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... {w}No había absolutamente nada, como si alguien hubiera puesto un lienzo y solo me puso a mí, y allí me dejó."
+            p "Cuando desperté me di cuenta que no le temía a estar sola, {w}sino a la posibilidad de que hubiera algo más allí lo cual no me podría enfrentar."
             "Fisa hizo silencio, pero luego, sujetó mi mano."
-            cal "Siempre cuando uno de mis hijos tenía miedo, yo les decía, que cerrara el puño fuertemente e imaginara que estaba apretando mi mano."
+            cal "Siempre cuando uno de mis hijos tenía miedo, yo les decía que cerrara el puño fuertemente e imaginara que estaba apretando mi mano."
             "Con sus palabras, podía sentir como su agarre se hacía más firme, y en un reflejo, hice lo mismo."
-            cal "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo. Eso... Nos hace sentir menos solos."
+            cal "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo. {w}Eso... Nos hace sentir menos solos."
             show player feliz with dissolve
             "Así, nos quedamos hablando por horas."
             pause
-        "Consolarla":
-            p "Cometer un error no nos hace menos humanos. Lamento mucho lo que te ha pasado."
+        "Hablar de su pasado":
+            p "Cometer un error no nos hace menos humanos. Lamento mucho lo que te ocurrió."
             "Fisa volteó su mirada, y en el reflejo de aquellos ojos pude ver... Compasión."
-            cal "No lo hagas. No era una buena persona. Los humanos pueden guardar muchos buenos sentimientos y a su vez ser un animal..."
-            cal "Significaba que podía hacer lo que quisiera, sin consecuencias. Podía robar, podía matar... Y no tenía que mirar atrás."
+            cal "No lo hagas. No era una buena persona. Los humanos pueden guardar muchos buenos sentimientos.."
+            cal "Pero ser un animal significaba que podía hacer lo que quisiera, sin consecuencias. Podía robar, podía matar sin mirar atrás."
             cal "Eso era la verdadera libertad."
             cal "Pero al final, tenemos que enfrentar que no estamos solos, y lo que hacemos, repercute a todo nuestro alrededor."
-            "El silencio volvió a caer entre nosotras, mientras me quedé pensando en lo que había dicho..."
+            "El silencio volvió a caer entre nosotras."
+            "Por un largo rato, me quedé pensando en lo que había dicho..."
             pause
 
     scene black with fade
@@ -576,30 +584,30 @@ label calchonaGoodEnding:
     "De pronto, se levantó, y se alejó caminando."
     p "?!"
     cal "Ven, quiero ver el amanecer."
-    "Me levanté del cesped, sacudí un poco mi pantalón, y la seguí. Era ahora o nunca, tenía que sellarla."
-    "Finalmente, Fisa se detuvo a campo abierto, justo donde el Sol empezaría a caer con toda su fuerza."
-    show player feliz at left with dissolve
+    "Me levanté del cesped, sacudí un poco mi pantalón y la seguí. Era ahora o nunca, tenía que sellarla."
+    "Fisa se detuvo a campo abierto, justo donde el Sol empezaría a alumbrar."
+    show player triste at left with dissolve
     show calchona neutra at right with dissolve
     cal "He vivido oculta por cientos de años, ya había olvidado lo que se siente el calor."
-    p "... Pero-"
     cal "No puedo culpar a mi Vestigio, he vivido fuera del Sol mucho antes que estar en él."
+    "Lentamente, se sentó, sus manos acariciando el rocío del cesped."
     cal "¿Tú lo tienes, verdad?"
-    show player triste with dissolve
+    show player asustada with dissolve
     "Al oir esas palabras, pude sentir como mi cuerpo se tensaba. Ella sabía."
-    cal "Ven, siéntate. Correr de mí será inútil."
-    "Lentamente, me acerqué a ella. Mi corazón estaba latiendo cada vez más fuerte."
+    cal "Ven, siéntate. Correr de mí sería inútil."
+    "Lentamente, me aproximé a ella. Mi corazón estaba latiendo cada vez más fuerte."
     cal "Eres una buena niña, ..."
-    cal "Veamos el amanecer juntas."
-    "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá Inaru pueda lidiar con ella."
-    "Su lana, tan pálida bajo la luna, comenzaba a verse del blanco más hermoso que había visto. Fisa cerró los ojos."
+    show player triste at left with dissolve
+    "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá Inaru podría lidiar con ella."
+    "Su lana, tan pálida bajo la luna, comenzaba a verse del blanco más hermoso que había visto.{w} Fisa cerró los ojos."
     cal "Desearía... Poder llorar. Por mi familia, por mi pasado."
     cal "Por las cosas que vas a pasar de ahora en más."
     "Llorar..."
-    "La marca está..."
+    "Quizá... La marca estaba..."
     "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra."
     cal "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
     "Si no lo hacía ahora... No llegaría a tiempo."
-    "Mis uñas arrancaron las cáscaras que contenían la sangre de mi palma. Y sin más, apreté la mano contra los brillantes ojos de Fisa."
+    "Mis uñas arrancaron la cáscara que contenían la sangre en mi palma. {w}Y sin más, apreté la mano contra los brillantes ojos de Fisa."
     "Podía ver como dos hilos carmesí caían por sus mejillas, tiñiendo la suave lana. Sus ojos quemaban sobre mi mano."
     cal "Nghhh--!!" with vpunch
     show player asustada with dissolve
@@ -612,9 +620,12 @@ label calchonaGoodEnding:
     cal "Ahora..."
     cal "Yo también."
     hide calchona with flash
-    "Antes de que me diera cuenta, caí hacia adelante. El sol estaba iluminando el campo. Estaba sola. De mi bolsillo, cayó el vestigio, reluciente y lleno de vida."
+    "Antes de que me diera cuenta, caí hacia adelante. {w}El sol estaba iluminando el campo por completo."
+    show player triste with dissolve
+    "Estaba sola."
+    "De mi bolsillo, cayó el vestigio, reluciente y lleno de vida."
     "Pero yo... Sentía que una parte mía se había desvanecido."
-    "Lo que sea que haya hecho mi abuelo, espero haya valido la pena."
+    "Lo que sea que había hecho mi abuelo, esperaba que haya valido la pena."
     "Por ahora, me levanté, volví a guardar el Vestigio y caminé de regreso a casa."
     jump normalEnding
 
