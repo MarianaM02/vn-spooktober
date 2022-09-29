@@ -666,104 +666,107 @@ label pomberoRoute:
     scene campo with fade
     show player feliz at left with easeinleft
     "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
-    "Había oído historias de como niños como yo entraban al bosque a jugar por la noche, nunca pensé que sería yo quien entrara voluntariamente alguna vez."
+    "Había oído historias de niños como yo que entraban al bosque a jugar por la noche. {w}Nunca pensé que sería yo quien se metiera voluntariamente alguna vez."
     "..."
-    "Las copas de los árboles se mecían sobre mí, danzando con el viento en un arruyo. Y aún así, puedo sentir como un peso caía sobre mí."
+    "Las copas de los árboles se mecían sobre mí, danzando con el viento en un arruyo. Y aún así, podía sentir como un gran peso caía sobre mí."
     show player triste with dissolve
     pom "Mh mh mh~!"
-    "Un tarareo sonó en eco contra los troncos de los árboles, y luego pude verlo. "
+    "Un tarareo sonó en eco contra los troncos de los árboles. {w} Luego pude verlo. "
     "Unos metros más adelante, una figura oscura se acercaba a un arroyo, cantando para sí."
     show player pensativa with dissolve
-    p "Está... Alegre?"
+    p "¿Está... {w}Alegre?"
     hide player with dissolve
-    "Antes de ser descubierta, me escondí atrás de un árbol, observando." 
-    "Era un duende, pero no se parece a nada que haya visto antes."
+    "Antes de ser descubierta, me escondí detrás de un árbol, observando." 
+    "Parecía un duende, pero no era como nada que haya visto antes en cuentos."
     show pombero neutro with fade
-    pom "De los montes vengo...{w} A los montes voy...{w} A conocer a la niña que me ha visto hoy~"
+    pom "De los montes vengo...{w} A los montes voy...{w} A hablar con la niña que me ha visto hoy~"
     "!!!!"
-    "Un escalofrío corrió por mi espalda. Sentía que estaban por cazarme. Me di vuelta al instante."
+    "Un escalofrío corrió por mi espalda. Sentía que estaban por cazarme."
+    "Me di vuelta."
     scene campo with fade
     show player triste at center 
     show pombero neutro at right with easeinright
-    pom "Ho-laa~!"
+    pom "¡Ho-laa~!"
     show player asustada with dissolve
     p "¡Ah!"
     show player at left with move
     "Mis piernas se movieron por sí solas, y en un instante, me moví hacia un lado antes de quedar acorralada."
-    "El duende bajó del árbol, una gran sonrisa adornando su rostro. Cada paso que daba hacia adelante, yo lo retrodecía."
-    pom "Jaja... Ja. La niña tiene miedo!"
+    "El duende bajó del árbol, una gran sonrisa adornando su rostro. {w}Cada paso que daba hacia adelante, yo lo retrodecía."
+    pom "Jaja... Ja. ¡La niña tiene miedo!"
     "¡Necesito reaccionar rápido antes de que se acerque!"
     "¿Qué hago?"
     menu:
         "Correr":
             $ goodAnswersPombero += 1
             scene campo with fade
-            "Sin pensarlo dos veces, me giré y eché a correr, internándome así en los bosques. Según Inaru, el lugar preferido de esta criatura."
+            "Sin pensarlo dos veces, me giré y eché a correr, internándome en los bosques."
             show player triste at left with moveinleft
-            "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. No sabía si estaba lejos o cerca de él, pero sabía que estaba cerca mío."
-            "De pronto, la risa se desvaneció. Esos instantes fueron los únicos que necesite para determe a recuperar el aliento."
+            "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. {w}No sabía si estaba lejos o cerca de él, pero estaba segura de que se estaba aproximando."
+            "De pronto, la risa se desvaneció. {w}Esos instantes fueron los únicos que necesite para determe a recuperar el aliento."
             pom "Niña lista, muy lista."
             show player asustada with dissolve
             "!!!"
             show pombero neutro at right with dissolve
-            "Levanté la mirada, y estaba en cuclillas frente a mí! Incluso en la oscuridad, podía ver una enorme sonrisa, brillando frente a mí."
-            pom "Para encontrarse, uno debe perdese, si si si. Niña lista, muy lista."
+            "Levanté la mirada, y estaba en cuclillas frente a mí. Incluso en la oscuridad, podía ver brillando su enorme sonrisa."
+            pom "Para encontrarse, uno debe perdese. Si si si.{w} Niña lista, muy lista."
         "Enfrentarlo":
             "Sentía que mi corazón iba a salirse de mi pecho. Aún así, di un paso hacia adelante."
             show player enojada with dissolve
             p "¡No! ¡No le tengo miedo a criaturas como tú!"
-            "De pronto, el Pombero dejó de reírse. Por unos segundos, aquel silencio sentía que me iba a devorar."
-            "Finalmente, empezó a reir de nuevo."
-            pom "Niña tontaa~!"
+            "El Pombero dejó de reírse. Sentía que aquel silencio me iba a devorar."
+            "Luego, empezó a reir de nuevo."
+            pom "¡Niña tonta~!"
             hide pombero with dissolve
-            "Con eso, desapareció entre los árboles."
+            "... Desapareció."
             show player asustada with dissolve
             p "¿Qué? ¡Espera!"
             scene campo with fade
             "Salí a perseguirlo, las ramas tan cerca de mi rostro que sentía me golpearían en cualquier momento."
-            "Cuando me quede sin aire, tuve que detenerme, con las manos descansando sobre mis rodillas."
+            "Cuando me quedé sin aire, tuve que detenerme, las manos descansando sobre mis rodillas."
             show player triste at left with moveinleft
-            p "¿Donde... Donde se metió?"
+            p "¿Dónde... {w}Dónde se metió?"
             pom "Niña tonta"
             show pombero neutro at right with dissolve
             "El duende se apareció frente a mí."
-            pom "Eres como un toro, corres hacia adelante lista para atacar, no puedes atravesar una montaña yendo hacia adelante~!"
+            pom "Eres como un toro, corres hacia adelante lista para atacar. {w}No puedes atravesar una montaña yendo hacia adelante~!"
     
     show player enojada with dissolve
-    p "Deja de llamarme sí."
+    p "Deja de llamarme así."
     pom "Mh?"
     p "Me llamo [playerName]."
-    pom "Ugh, los humanos y sus nombres pretenciosos. Ustedes me llaman de mil maneras, ¿por qué no podría hacer lo mismo?"
+    pom "Ugh, los humanos y sus nombres pretenciosos. {w}Ustedes me llaman de mil maneras, ¿por qué no podría hacer lo mismo?"
     p "¿Cómo te gusta a tí que te llamen?"
     $ pom = Character("Har", color="#89909f")
     pom "Har! Es fuerte, intrépido, y solemne, si si si. ¡Digno nombre para mi persona!"
     "¿Y eso no es pretencioso?"
     pom "Niñas como tú no deberían estar vagando solas en el bosque, ¡hay monstruos, y cazadores, y hombres malos dando vueltas."
     p "¿Y qué haces tú aquí?"
-    "Har ladeó la cabeza, y luego se echó hacia atrás, mirando a su alrededor."
+    "Har ladeó la cabeza, y luego se echó hacia atrás, la mirada fija en sus alrededores."
     pom "Busco divertirme, los humanos son MUY divertidos, ¿sabes?"
     show player triste with dissolve
-    "De pronto, sentí como el aire empezaba a volverse denso, como si los árboles estuvieran a punto de caer sobre nosotros."
+    "El aire comenzó a sentirse dneso, como si los árboles estuvieran a punto de caer sobre nosotros."
     pom "¡Se creen realmente ingeniosos cuando en realidad son"
     pom "Torpes"
     pom "Egoístas"
-    pom "Y débiles"
-    pom "piden, piden, piden, y no saben que uno es más inteligente que ellos, jaja~!"
-    "Incluso entre sus risas, podía ver lo enojado que estaba. Era aterrador."
+    pom "Y débiles."
+    pom "Piden, piden, piden, y no saben que uno es más inteligente que ellos, ¡jaja~!"
+    "Incluso entre sus risas, podía ver lo enojado que estaba. {w}Era aterrador."
     show player feliz with dissolve
-    p "¿Quizá podemos hacer algo juntos?"
-    pom "¿Quieres jugar conmigo? Niña tonta, pero valiente!"
+    p "Quizá podemos hacer algo juntos."
+    pom "¿Quieres jugar conmigo? Niña tonta, ¡pero valiente!"
     "De un salto, Har comenzo a alejarse."
     hide pombero with dissolve
-    pom "Ven, niña lenta!"
+    pom "¡Ven, niña lenta!"
     show player asustada with dissolve
     p "¡Espérame!"
     hide player with dissolve
     "Salí corriendo tras él, de nuevo. Solo unos minutos más tarde, llegamos a una pequeña laguna."
     show pombero neutro at right with easeinright
     show player triste at left with easeinleft
-    pom "¡Tú eliges! ¿Qué quieres hacer?"
+    p "¿Un lago? ¿Quieres jugar en un lago?"
+    pom "¡Sip, tú eliges! ¿Qué quieres hacer?"
     p ". . ."
+    "Si esto era lo que necesitaba para que él confiara en mí..."
     p "Vamos a..."
     menu:
         "Nadar":
