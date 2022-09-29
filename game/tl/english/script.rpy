@@ -154,7 +154,7 @@ translate english intro_70f3a669:
 translate english dream_aa627995:
 
     # centered "\"{cps=10}[playerName!q]...{/cps}\""
-    centered ""
+    centered "\"{cps=10}[playerName!q]...{/cps}\""
 
 # game/script.rpy:97
 translate english dream_6e7b6847:

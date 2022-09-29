@@ -19,7 +19,7 @@ define config.name = _("Vestigios")
 ## Determina si el título dado más arriba se muestra en el menú principal.
 ## Ajústalo a 'False' para ocultar el título.
 
-define gui.show_name = False
+define gui.show_name = True
 
 ## Versión del juego.
 
