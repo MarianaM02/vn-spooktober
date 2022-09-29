@@ -59,7 +59,7 @@ label intro:
     "Una vez, el abuelo me mostró su colección de insectos, ¡Guacala!"
     show player feliz with dissolve
     p "Será mejor que me de prisa."
-    centered "Casa del abuelo.\n30 de Octubre.\n4:00pm."
+    centered "Casa del abuelo. \n30 de Octubre. \n4:00pm."
     scene fondo casa lejos with fade
     show player feliz at right with easeinright
     "Mis padres estaban muy ocupados para venir hoy, pero yo no puedo perderme el festival de Halloween."
@@ -144,7 +144,7 @@ label festival:
     "Debo recordar prender la calefacción cuando vuelva."
     play music "audio/intro-loop.wav" fadein 1
     p "¡Vamos al pueblo!"
-    centered "Pueblo Liwen.\n30 de Octubre.\n8:00pm."
+    centered "Pueblo Liwen. \n30 de Octubre. \n8:00pm."
     scene fondo pueblo decorado with fade
     play music "audio/intro-loop.wav" if_changed fadein 1
     show player feliz at left with moveinbottom
@@ -162,7 +162,7 @@ label festival:
 label grampasBox:
     scene black with fade
     stop music fadeout 3.0
-    centered "Casa del Abuelo.\n30 de Octubre.\n11:55pm"
+    centered "Casa del Abuelo. \n30 de Octubre. \n11:55pm"
     scene fondo casa lejos with fade
     show player bostezo at right with easeinright
     p "Phew... Estoy agotada, pero ha sido realmente divertido!"
@@ -402,50 +402,50 @@ label calchonaRoute:
     default goodAnswersCalchona = 0
     stop music fadeout 2.5
     scene black with fade
-    centered "Campos Liwen\n.31 de Octubre.\n00:30am"
+    centered "Campos Liwen. \n31 de Octubre. \n00:30am."
     scene campo with fade
     show player feliz at left with easeinleft
-    "Siempre me gustó venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
+    "Me encantaba venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
     show player triste with dissolve
-    "Ahora, estoy buscando a una bruja, y parece ser el peor lugar del mundo."
+    "Ahora estoy buscando a una bruja, y parece ser el peor lugar del mundo."
     "El viento soplaba con suavidad, y con él, lograba escuchar los susurros de las ovejas que dormían dentro de sus corrales. Parecía que cotilleaban entre ellas en sueños."
     show player asustada with dissolve
-    p "Nghh.."
+    cal "Nghh.."
     p "!!!"
     "Unos gemidos forzaron que me detuviera. Mi cuerpo se tensó, mientras escaneaba cerca de los corrales."
     "Allí la vi, una figura encorvada que forcejeaba para entrar a uno de los corrales"
     show player pensativa with dissolve
-    "Pobre oveja, no debieron notar que quedó afuera."
+    "Pobre oveja, no debieron darse cuenta que quedó afuera."
     p ". . ."
     show player asustada with dissolve
     p "!!!"
     "Al ser iluminada bajo la luz de la Luna, pude ver un rostro humano, el cual se inclinaba para pasar la cabeza entre los postes del corral y alcanzar el bebedero."
-    p "AH!"
+    p "¡AH!"
     hide player with dissolve
     # personaje ???
     show calchona neutra with fade
     cal "?"
-    "Apenas me oyó, la oveja volteó a verme, y su espalda se irguió para levantarse en las patas traseras. Sus ojos brillantes se posaron en mí, dorados y muertos."
+    "Apenas me oyó, la oveja volteó a verme. Su espalda comenzó a erguirse para levantarse en las patas traseras. Un par de ojos brillantes se posaron en mí, dorados y muertos."
     "¿Qué hago?{w} ¿Qué hago?{w} ¿Qué hago?"
-    "Puedo verla tensar sus manos, y sus ojos se mueven lejos de mí. Si se escapa, podría estar perdiendo la única oportunidad que tengo de ayudar al abuelo."
+    "Puedo verla tensar sus manos, sus ojos se mueven lejos de mí. Si se escapa, podría estar perdiendo la única oportunidad que tengo de ayudar al abuelo."
 
     show calchona at right with move 
     show player asustada at left with easeinleft
-    p "AGUA!"
+    p "¡AGUA!"
     cal "..."
-    "La criatura se volvió a verme"
+    "La criatura se volvió a verme."
     show player triste with dissolve
     p "Te puedo ayudar..."
-    "Me fui acercando despacio, mis ojos en la criatura. Ella me observaba de regreso, dando unos pasos atrás. Pero no se alejaba."
+    "Me fui acercando despacio, mis ojos sobre la criatura. Ella me observaba de regreso, dando unos pasos atrás. Pero no se alejaba."
     "Una vez llegué a la valla, puse las dos manos sobre ella y le trepé para llegar al otro lado. Las ovejas seguían dormidas. La criatura me miraba expectante."
-    "Mi mano se extendió para abrir el grifo y el agua empezó a correr. En un instante, la criatura puso ambas manos dentro del corral y bajo el agua y luego se las llevó al hocico, bebiendo desesperadamente."
-    "Sus ojos nunca me abandonaban."
+    "Mi mano se extendió para abrir el grifo y el agua empezó a correr. En un instante, la criatura puso ambas manos dentro del corral, bajo el agua, y luego se las llevó al hocico, bebiendo desesperadamente."
+    "Sus mirada nunca me abandonaba."
     show player feliz with dissolve
     cal "Gracias."
     cal "¿Qué estás haciendo aquí?"
     show player triste with dissolve
     "Vaya, no me lo esperaba."
-    "Aún así, me miraba con desconfianza. No puedo decirle la completa verdad, o sino se irá. Me pregunto si se dará cuenta que le estoy mintiendo..."
+    "Aún así, sabía que estaba desconfiada. No puedo decirle la completa verdad, o sino se irá. Me pregunto si se dará cuenta que le estoy mintiendo..."
 
     show player pensativa with dissolve
     p "Yo..."
@@ -478,8 +478,8 @@ label calchonaRoute:
     "¿Por qué abrí esa caja?"
     # (recuerdo)
     show black at truecenter with dissolve
-    centered "No lo veas"
-    centered "No lo escuches"
+    centered "No le veas."
+    centered "Ten cuidado."
     hide black with fade
     "¿Quién era esa voz?"
     cal "No tendrías que haber venido."
@@ -560,7 +560,7 @@ label calchonaRoute:
             pause
 
     scene black with fade
-    centered "31 de Octubre.\n5:00am\nLos Campos"
+    centered "Campos Lania. \n31 de Octubre. \n6:00am."
     scene campo with fade
     "La noche comenzaba a desaparecer."
     cal "Yaaaawn"
@@ -642,7 +642,7 @@ label calchonaBadEnding:
 
     scene black with fade
     pause
-    "Bad Ending :("
+    "Bad Ending."
     # Finaliza el juego:
     return
 
@@ -651,7 +651,7 @@ label pomberoRoute:
     default goodAnswersPombero = 0
     stop music fadeout 2.5
     scene black with fade
-    centered "31 de Octubre.\n00:30am\nBosque de Suas Agascuana"
+    centered "Bosque Suas Agascuana. \n31 de Octubre. \n00:30am."
     scene campo with fade
     show player feliz at left with easeinleft
     "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
@@ -867,7 +867,7 @@ label pomberoRoute:
             "Seguimos hablando el resto de la noche... Y pude entender un poco más de la relación de Har con los humanos."
 
     scene black with fade
-    centered "31 de Octubre\n5:00am"
+    centered "Campos Suas Aguascana. \n31 de Octubre. \n6:00am."
     scene campo with fade
     show player feliz at left with dissolve
     show pombero neutro at right with dissolve
@@ -947,7 +947,7 @@ label pomberoBadEnding:
     "!!!" with vpunch
     scene black with fade
     pause
-    "Bad Ending :("
+    "Bad Ending."
     # Finaliza el juego:
     return
 
@@ -956,7 +956,7 @@ label silbonRoute:
     default goodAnswersSilbon = 0
     stop music fadeout 2.5
     scene black with fade
-    centered "31 de Octubre.\n00:30am\nPueblo Liwen"
+    centered "Pueblo Liwen. \n31 de Octubre. \n00:30am."
     scene fondo pueblo decorado with fade
     show player feliz at left with easeinleft
     "Si había un lugar donde podía sentirme en mi elemento, era el pueblo.. Los festivales ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
@@ -1180,7 +1180,7 @@ label silbonRoute:
     p "..."
     "Luego de eso, busqué cambiar el tema. Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
     scene black with fade
-    centered "Pueblo Liwen.\n6:00am"
+    centered "Pueblo Liwen. \n31 de Octubre. \n6:00am."
     scene fondo pueblo temprano with fade
     "Wiija era... Una criatura como ninguna otra."
     "Hablamos y hablamos hasta que el Sol comenzó a aparecer entre los edificios. Para ese entonces, la mayoría de la gente se había marchado."
@@ -1223,7 +1223,7 @@ label silbonGoodEnding:
     p "Seamos amigos."
     sil "Te iras. Me abandonarás."
     show player triste with dissolve
-    sil "Las personas como tú, se cansan de personas como yo. Merecen más. Mucho más."
+    sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más."
     p "..."
     "Comencé a dudar. Wiija... Tenía miedo. Y yo no sabía que decir. Era cierto, ¿Qué haría con los Vestigios una vez los sellara nuevamente? ¿Abandonaría la caja para siempre?"
     "..."
@@ -1292,14 +1292,14 @@ label silbonBadEnding:
     sil "Es hora de ir a hacer más amigos."
     pause
 
-    "Bad Ending :("
+    "Bad Ending."
     # Finaliza el juego:
     return
 
 ##########################################################
 label normalEnding:
     scene black with fade
-    centered "31 de Octubre\n6:00am"
+    centered "Casa del Abuelo. \n31 de Octubre. \n6:00am."
 
     scene fondo casa lejos with fade
     show player triste at right with easeinright
@@ -1424,7 +1424,7 @@ label trueEnding:
     pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
     scene black with fade
     show silbon neutro with dissolve
-    sil "(Frase)"
+    sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más."
     scene black with fade
     scene white with flash
     # Fin Recuerdo
@@ -1447,7 +1447,7 @@ label trueEnding:
     abu "Bueno siempre he estado aquí."
     "Su mano se apoya en su esternón."
     abu "Siempre he estado contigo, ..."
-    abu "Tú eres mi vestigio."
+    abu "Tú eres mi Vestigio."
     p "..."
     p "¿Eh?"
     abu "Quizá haya mucho que explicar."
