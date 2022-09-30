@@ -905,24 +905,24 @@ label pomberoRoute:
 label pomberoGoodEnding:
     $ persistent.pomberoEnding = True
     pom "¿Sabes? Hace años, conocí a este hombre."
-    pom "Era astuto, pero también tenía esto... Humanos siempre le dicen \'corazón\', pero todos tienen uno."
+    pom "Era astuto, pero también tenía esto... {w}Humanos siempre le dicen \'corazón\', pero todos tienen uno."
     pom "Era algo distinto. Algo como tú lo tienes."
     pom "Luz."
-    pom "Si... Eso es lo que era... Luz."
+    pom "Si... {w}Eso es lo que era... {w}Luz."
     p "..."
-    pom "Jamás lo resentí por encerrarme, sabía que cuando el tiempo sea el correcto, volvería a este mundo, y aún habría mucho por hacer."
+    pom "Jamás lo resentí por encerrarme. Sabía que cuando el tiempo sea el correcto, volvería a este mundo y aún habría mucho por hacer."
     pom "Él me decía 'el mundo no puede depender de tí. Si tiene que morir, morirá y no habrá nada que podrás hacer'."
-    pom "Y él tenía razón, este mundo ya no es para criaturas como yo."
+    pom "Y tenía razón. {w]Este mundo ya no es para criaturas como yo."
     pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
-    pom "Este mundo... Es más tuyo que mío."
+    pom "Este mundo... {w}Es más tuyo que mío. {w}Ahora es tu responsabilidad."
     p "Har..."
     pom "Mis condiciones."
-    pom "Escucha lo que el mundo tiene que decir. Hay voces que merecen ser oídas."
-    pom "Yo no soy de dar regalos. Así que toma esto y no lo cuestiones."
-    pom "No creas en las intenciones de nadie. Nadie es altruista, y todo el mundo tiene una razón para hacer algo. Escucha a sus acciones más que su palabras."
-    "Sabía que no respondería ninguna de mis preguntas, no importa cuanto me gustaría hacerlas... Y me estaba quedando sin tiempo."
+    pom "Escucha lo que el mundo tiene que decir. {w}Hay voces que merecen ser oídas."
+    pom "Yo no soy de dar regalos. {w}Así que toma esto y no lo cuestiones."
+    pom "No creas en las intenciones de nadie. {w}Todo el mundo tiene una razón para hacer algo. {w}Escucha sus acciones más que su palabras."
+    "Sabía que no respondería ninguna de mis preguntas, no importa cuanto me gustaría hacerlas... {w}Y me estaba quedando sin tiempo."
     p "¿Qué quieres a cambio?"
-    "Otra vez, sonrió. Una mano sujeto la mía y rasgó la piel de mi palma. Luego se la llevó al oído."
+    "Otra vez, sonrió.{w} Una mano sujeto la mía y rasgó la piel de mi palma. {w}Luego se la llevó al oído."
     show player asustada with dissolve
     pom "Ah, sí... Justo lo que imaginaba..."
     show player triste with dissolve
@@ -930,8 +930,8 @@ label pomberoGoodEnding:
     hide pombero with flash
     "En cuestión de segundos, en lugar de ver el rostro de Har, estaba viendo mi mano ensangrentada."
     "!!"
-    "De mi bolsillo el Vestigio cayó contra el suelo, brillante, pesado y lleno de vida. Har sabía de mi abuelo, estoy segura. Me hubiera gustado saber más de lo que hacía."
-    "Me gustaría saber... Que hubiera hecho él en este momento."
+    "De mi bolsillo el Vestigio cayó contra el suelo, brillante, pesado y lleno de vida. {w}Har sabía de mi abuelo, estoy segura. {w}Me hubiera gustado saber más."
+    "Si tan solo supiera que haría él en este momento."
     "Tomé el Vestigio y volví a guardarmelo en el bolsillo."
     p "Hasta luego, Har."
     hide player with dissolve
@@ -944,23 +944,23 @@ label pomberoBadEnding:
     p "¿Qué quieres a cambio?"
     "Una sonrisa se dibujó en sus labios antes de salir corriendo."
     scene campo with fade
-    p "No de nuevo.. ¡Har, espera!"
-    "Salí tras él una vez más. Corriendo entre los árboles, como persiguiendo el aire."
+    p "No de nuevo.. {w}¡Har, espera!"
+    "Salí tras él. {w}Corriendo entre los árboles, persiguiendo el aire."
     "Me detuve de pronto, y miré para todos lados."
     show player triste at center with moveinleft
     p "¡Har!"
     pom "Esa bruja realmente se cree lista, ¿no?"
-    "Giré la mirada, pero no podía verlo. Su voz hacía eco por todas partes."
-    pom "Pobre, pobre niña, cayó en los encantos de una bruja del bosque y pensó que podía ser amiga de todas las criaturitas del bosque."
+    "Giré la mirada, pero no podía verlo. {w}Su voz hacía eco por todas partes."
+    pom "Pobre, pobre niña, cayó en los encantos de una bruja y pensó que podía ser amiga de todas las criaturitas del bosque."
     "El aire dejó mis pulmones."
     pom "Pobrecilla~ "
-    pom "Pero no te preocupes, puedo hacer lo que me pides. Este bosque estará a salvo y tú y yo seremos amigos."
+    pom "Pero no te preocupes, puedo hacer lo que me pides. {w}Este bosque estará a salvo y tú y yo podremos seguir jugando."
     pom "Te quedarás aquí."
     pom "Para siempre."
     show pombero neutro at right with dissolve
     show player asustada with dissolve
     "De golpe, sentí un fuerte empujón, y las hojas detrás mío desaparecieron." with vpunch
-    "Estaba cayendo... La sonrisa del duende alejándose."
+    "Estaba cayendo... {w}La sonrisa del duende alejándose."
     hide player with dissolve
     show pombero at center with move
     pom "Adios, niña tonta~!"
