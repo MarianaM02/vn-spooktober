@@ -979,17 +979,17 @@ label silbonRoute:
     centered "Pueblo Liwen. \n31 de Octubre. \n00:30am."
     scene fondo pueblo decorado with fade
     show player feliz at left with easeinleft
-    "Si había un lugar donde podía sentirme en mi elemento, era el pueblo.. Los festivales ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
-    "Me hubiera gustado poder disfrutarlos mejor..."
-    "Al caminar a través de los puestos de comida, vi una figura que escondía su rostro bajo su sombrero, una mano sujetando una gran bolsa sobre su hombro."
+    "Si había un lugar donde podía sentirme en mi elemento, era éste. {w}Las festividades ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
+    "Me hubiera gustado poder disfrutarlo..."
+    "Al caminar a través de los puestos de comida, vi una figura que escondía su rostro bajo su sombrero, una mano sujetaba una gran bolsa sobre su hombro."
     hide player with dissolve
     show silbon neutro with dissolve
-    sil "Ciervo ciervo... Si si si... En tiras, en cubos, en rebanadas..."
-    sil "Aguardiente, ohhh, aguardiente, calienta los huesos. El polvo de hueso que se rompe, y se rompe y se rompe."
+    sil "Ciervo ciervo... {w}Si si si... {w}En tiras, en cubos, en rebanadas..."
+    sil "Aguardiente, ohhh, aguardiente, calienta los huesos. {w}El polvo de hueso que se rompe, {w}y se rompe {w}y se rompe."
     p "Ese es...?"
-    "Aquel joven caminaba encorvado, murmurando para sí mismo, con cada palabra, podía sentir como su lengua se pegaba a sus dientes y dejaba pasar un leve silbido."
-    "Se veía... Horripilante."
-    "Lentamente caminé hacia él, fijando la mirada en los puestos cercanos. Nadie parece prestarle atención, como si no existiera."
+    "Aquel joven caminaba encorvado, murmurando para sí mismo. Con cada palabra, podía sentir como su lengua se pegaba a los dientes y dejaba pasar el aire. {w}Como un silbido."
+    "Se veía... {w}Horripilante."
+    "Caminé hacia él, fijando la mirada en los puestos cercanos. {w}Nadie parece prestarle atención, como si no existiera."
     "{i}Fiu...{/i}"
     "El silbido chirrió junto a mi oído, y mis ojos se abrieron de par en par."
     show silbon at right with move
@@ -997,12 +997,22 @@ label silbonRoute:
     sil "¿Qué crees que haces?"
     "Me giré hacia él."
     p "¿Eh?"
-    sil "Miras, miras y miras, ¿Qué buscas, que quieres?"
-    "Bajo el sombrero, podía ver el destello de unos ojos llenos de odio. Nunca había visto algo así."
+    sil "Miras, miras y miras, {w}¿Qué buscas, que quieres?"
+    "Bajo el sombrero, podía ver el destello de unos ojos llenos de odio."
     show player pensativa with dissolve
-    "¿Que hago? Necesito pensar rápido."
+    "¿Qué hago? Necesitaba pensar rápido."
 
     menu:
+        "\"Quiero comer lo que veías.\"":
+            show player feliz with dissolve
+            p "Quiero comer lo que veías, ¡se veía delicioso!"
+            sil "..."
+            p "Es ciervo, ¿verdad?"
+            sil "Ciervo."
+            show player triste with dissolve
+            sil "¡Ciervos engañosos, {w}mentirosos, {w}traicioneros! Corren, y corren, y no se dejan atrapar."
+            sil "Estos... {w}Ya... {w}No... {w}Corren."
+            p "..."
         "\"Quiero saber sobre tí.\"":
             $ goodAnswersSilbon += 1
             show player feliz with dissolve
@@ -1011,39 +1021,29 @@ label silbonRoute:
             show player asustada with dissolve
             p "!!"
             p "Eh... ¡Tu disfraz! Es muy bonito."
-            sil "Dis...Fraz."
+            sil "Dis...{w}Fraz."
             sil " ..."
             p "..."
-            sil "Si si. Mi disfraz, colorido, de fiesta, todos están con disfraces."
+            sil "Si si. {w}Mi disfraz. Colorido, de fiesta, todos están con disfraces."
             show player feliz with dissolve
             p "¡Aja, exacto!"
-        "\"Quiero comer lo que veías.\"":
-            show player feliz with dissolve
-            p "Quiero comer lo que veías, ¡se veía delicioso!"
-            sil "..."
-            p "Es ciervo, ¿verdad?"
-            sil "Ciervo."
-            show player triste with dissolve
-            sil "¡Ciervos engañosos, mentirosos, traicioneros! Corren, y corren, y no se dejan atrapar."
-            sil "Estos... Ya... No... Corren."
-            p "..."
     
     show player feliz with dissolve 
     p "¡No me has dicho tu nombre! Yo me llamo [playerName], vengo aquí de visita."
-    sil "Nadie me llama por mi nombre, todos gritan, todos huyen. No muy rápido."
+    sil "Nadie me llama por mi nombre. Todos gritan, todos huyen. {w}No muy rápido."
     $ sil = Character("Wiija", color="#ade1e5")
-    sil "Pero cuando tenía nombre... Era Wiija."
+    sil "Pero cuando tenía nombre... {w}Era Wiija."
     p "Wiija..."
     show player triste with dissolve 
-    "Su rostro estaba cubierto bajo aquella máscara. Era imposible saber como reaccionaba a mis palabras."
-    "Su tonó de voz de siseante apenas dejaba entrever una agresividad que jamás había visto."
-    "Estar en el festival era lo único que me daba un poco de alivio. Había mucha gente a nuestro alrededor."
+    "Su rostro estaba cubierto bajo aquella máscara. {w}Era imposible saber como reaccionaba a mis palabras."
+    "Su tono de voz siseante apenas dejaba entrever una agresividad internalizada."
+    "Estar en el festival era lo único que me daba un poco de alivio. {w}Había mucha gente a nuestro alrededor."
     show player feliz with dissolve 
-    "Así que a ese nombre, sonreí."
+    "Al oir ese nombre, sonreí."
     p "¡Es un placer conocerte, Wiija!"
-    p "Sé que no eres de por aquí, ya que no sabías mucho del festival, si quieres puedo mostrarte un poco del lugar."
+    p "Sé que no eres de por aquí, ya que no sabías mucho del festival. Si quieres puedo mostrarte un poco del lugar."
     sil "..."
-    "Se ha quedado callado."
+    "Se había quedado callado."
     "¿Lo está pensando?"
     sil "¿Qué tiene esto de especial?"
     menu:
@@ -1056,25 +1056,24 @@ label silbonRoute:
             sil "Nunca tuve amigos."
             show player triste with dissolve
             p "¿No?"
-            sil "Siempre solo. Siempre en casa. Sin amigos."
-            p "¿Nunca estuviste en una feria así?"
-            sil "Siempre en casa. Con mamá y papá. Ellos temían. Así que no salía."
-            sil "El abuelo a veces... Salía con el abuelo."
+            sil "Siempre solo. {w}Siempre en casa. {w}Sin amigos."
+            sil "Siempre en casa. {w}Con mamá y papá. {w}Ellos temían. {w}Así que no salía."
+            sil "Con el abuelo a veces... {w}Salía con el abuelo."
             p "¿Tu abuelo?"
-            "Wiija asintió, una mano moviendo su saco. En su interior, el contenido se movía, chocando entre sí."
+            "Wiija asintió, una mano moviendo su saco. En su interior, el contenido se movía chocando entre sí."
             show player feliz with dissolve
-            p "Si quieres... Podríamos ser amigos."
+            p "Si quieres... {w}Podríamos ser amigos."
             sil "No."
             show player triste with dissolve
             p "!"
             p "?"
-            sil "No podríamos. No, no. Mala. No. Terrible idea."
+            sil "No podríamos. {w}No, no. Mala. No. Terrible idea."
             p "... ¿Por qué no?"
-            sil "No tengo amigos, nunca los tuve. Solo eran mamá y papá."
+            sil "No tengo amigos, nunca los tuve. {w}Solo eran mamá y papá."
             sil "Y el abuelo."
             p "..."
-            sil "El Maestro... Me recordaba a mi abuelo."
-            # Flashback? dale
+            sil "El Maestro... {w}Me recordaba a mi abuelo."
+            # Flashback? dale Gracias uwu
             scene black with fade
             show mmonte neutra with dissolve
             mm "Quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años"
@@ -1082,109 +1081,69 @@ label silbonRoute:
             show player triste at left with dissolve
             show silbon neutro at right with dissolve
             # Fin del Flashback?
-            "Inaru llamaba a mi abuelo Maestro. Estoy segura que Wiija también estaba hablando de él."
-            sil "Fuerte. Listo. Severo. Si si, severo era él."
+            "Inaru llamaba a mi abuelo Maestro. Estaba segura que Wiija también estaba hablando de él."
+            sil "Fuerte. {w}Listo. {w}Severo. {w}Si si, severo era él."
             sil "Menos severo que mi abuelo."
             sil "Un día hice algo... Malo."
-            sil "Si si, era malo. Lo recuerdo. Era divertido, entretenido, pero también malo."
+            sil "Si si, era malo. Lo recuerdo. {w}Era divertido, entretenido, pero también malo."
             sil "A mamá no le gustó, y al abuelo mucho menos."
             sil "Con látigos y perros me hizo escarmentar y ahora no puedo volver."
-            sil "Quería odiarlo. ODIARLO ODIARLO, me convirtió en esto."
+            sil "Quería odiarlo. {w}ODIARLO. {w}ODIARLO. {w}Me convirtió en esto."
             sil "Pero no pude, no puedo."
-            sil "Odio a papá. Siempre odié a papá."
+            sil "Odio a papá. {w}Siempre odié a papá."
             sil "Apestaba a aguardiente."
             sil "¡Lo odiaba, lo odiaba!"
         "\"Puedes pasarla bien en familia.\"":
-            p "Puedes passarla bien en familia."
+            p "Puedes pasarla bien en familia."
             sil "..."
             p "Recuerdo que mi mamá adoraba este lugar y-"
             sil "No tengo familia."
             p "¿Eh? ¿Y tus padres?"
             sil "..."
             "Sus puños se apretaron fuertemente."
-            sil "No. Tengo."
+            sil "No {w}tengo."
             p "...?"
-            "Con cada palabra, se empezó a proximar a mí. Estando tan cerca, pude ver sus ojos a través de la máscara. Poseían tanto odio que me hizo retroceder varios pasos. Wiija siguió avanzando, arrastrando su bolsa."
-            sil "Mi madre no está. Se ha ido. No existe."
+            "Con cada palabra, se empezó a proximar hacia mí. {w}Estando tan cerca, pude ver sus ojos a través de la máscara. {w}Poseían tanto odio que me hizo retroceder varios pasos. {w}Wiija siguió avanzando, arrastrando su bolsa."
+            sil "Mi madre no está. {w}Se ha ido. {w}No existe."
             sil "Mi padre..."
             "Hizo silencio, su cabeza torciéndose hacia un lado."
             sil "Aún me acompaña."
     
-    p "Triste Wiija..."
+    show player triste with dissolve
+    p "Wiija..."
     show player feliz with dissolve
     p "Ven conmigo."
     "Me di media vuelta y me acerqué a unos puestos a comprar helado."
-    p "¿has probado alguna vez?"
+    p "¿Has probado alguna vez?"
     "Wiija negó con la cabeza."
     "Una vez el vendedor me los entregó. Me di vuelta y caminé fuera del area principal. La feria aún estaba visible. Pero menos gente pasaba cerca de nosotros."
     p "Ten."
     "Le ofrecí el helado."
-    "Podía ver que estaba desconfiado. Pero aún así, se sentó junto a mí, llevándose el helado en la abertura de la boca."
+    "Podía ver que estaba desconfiado. {w}Pero aún así, se sentó junto a mí, llevándose el helado en la abertura de la boca."
     sil "Está frío."
     p "¡Es la idea! ¡Es dulce! ¿Te gusta lo dulce?"
-    sil "Es extraño. Raro. No es carne."
+    sil "Es extraño. Raro. {w}No es carne."
     p "No lo es, no."
-    "Por un largo rato, seguimos disfrutando del helado. A veces, Wiija hacia preguntas, y yo hacia lo mejor para contestarla."
-    "Con cada respuesta, quizá el silbaba en una tonada particular."
-    "Otras veces, llevaba su mano a su saco, que descansaba junto a nuestra banca. Hacia tintinear su interior y luego volvía a su helado."
+    "Por un largo rato, seguimos disfrutando del helado. {w}A veces, Wiija hacia preguntas, y yo hacia lo mejor para contestarla."
+    "Con cada respuesta, él silbaba en una tonada particular."
+    "Otras veces llevaba su mano al saco que descansaba junto a nuestra banca. {w}Hacia tintinear su interior y luego volvía a su helado."
     show player pensativa with dissolve
-    "La curiosidad me invadió. Quizá era la forma de acercarme a él."
-    menu:
-        "\"¿Quién te enseñó a silbar?\"":
-            $ goodAnswersSilbon += 1
-            show player feliz with dissolve
-            p "¿Quién te enseñó a silbar?"
-            sil "¿Hm?"
-            "Wiija se quedó pensativo. Por un largo momento hubo silencio, como si él se hubiera ido a un lugar lejos. Muy lejos de aquí."
-            sil "Mi abuelo me enseñó."
-            show player triste with dissolve
-            sil "Era un niño, era débil, asustaba a los demás cuando silbaba."
-            sil "Lo oían lejos, y creían que no había peligro."
-            sil "Lo oían cerca, y el miedo los invadía"
-            sil "Yo era listo, muy muy listo."
-            sil "Mi abuelo era severo."
-            sil "Pero era bueno conmigo."
-            sil "Por eso..."
-            "Giró la cabeza de lado a lado, una mano se la llevó a su hombro."
-            sil "Duele..."
-            sil "El cuero. Chocando contra la piel."
-            sil "Y los perros."
-            sil "Perros malos. Odio a los perros."
-            sil "El abuelo..."
-            p "..."
-            "Una mano se posó sobre su brazo."
-            sil "!!"
-            "Wiija saltó sobresaltado. Realmente estaba perdido en sus pensamientos."
-            sil "La familia tendría que ser algo imporante. Sí sí."
-            sil "Yo no era familia."
-            sil "Mi abuelo me traicionó"
-            sil "Y yo lo traicioné a él."
-            p "Te ha causado mucho dolor, ¿verdad?"
-            sil "No fueron los latigazos. Ni los perros."
-            sil "Ni las heridas."
-            sil "Él no me sacó a tiempo. No hubo amigos. No hubo abrazos."
-            sil "Yo les hice pagar. Le hice pagar a él."
-            sil "Y él me hizo pagar a mi."
-            sil "Él me hizo desaparecer."
-            sil "Puff."
-            sil "Él murió con su pena."
-            sil "Y yo vivo cargando con la mía."
-            sil "Vago..."
-            sil "Como Leyenda."
+    "La curiosidad me invadió. Quizá esa era la forma de acercarme a él."
+    menu:       
         "\"¿Qué hay en la bolsa?\"":
             p "Wiija..."
             show player feliz with dissolve
             p "¿Qué hay en la bolsa?"
-            sil "Ja... Jaja."
+            sil "Ja... Jaja." with vpunch
             "Una mano palmó el costado de la bolsa."
             sil "Cosas malas."
             show player triste with dissolve
-            sil "La gente es mal. Hace cosas malas."
-            sil "Miente, engaña, bebe, bebe mucho."
-            sil "y es tonta."
+            sil "La gente es mala. Hace cosas malas."
+            sil "Miente, engaña. Bebe, bebe mucho."
+            sil "yY es tonta."
             sil "Odio a la gente mala."
             sil "Y odio a la gente tonta."
-            "Su cabeza se giró hacia mi, el helado chorrendo por sus dedos."
+            "Su cabeza se giró hacia mi, el helado chorrendo entre sus dedos."
             sil "Eres mala, [playerName]"
             show player asustada with dissolve
             p "!!"
@@ -1195,20 +1154,61 @@ label silbonRoute:
             sil "¿Qué has hecho para merecer esto?"
             sil "Nunca lo sabré. Nunca lo sabrás."
             "Luego, volvió a su helado, murmurando para sí."
-            sil "La bolsa... Apesta a aguardiente."
+            sil "La bolsa... {w}Apesta a aguardiente."
+        "\"¿Quién te enseñó a silbar?\"":
+            $ goodAnswersSilbon += 1
+            show player feliz with dissolve
+            p "¿Quién te enseñó a silbar?"
+            sil "¿Hm?"
+            "Wiija se quedó pensativo. {w}Por un largo momento hubo silencio, como si él se hubiera ido a otro lugar. {w}Muy lejos de aquí."
+            sil "Mi abuelo me enseñó."
+            show player triste with dissolve
+            sil "Era un niño, era débil, asustaba a los demás cuando silbaba."
+            sil "Lo oían lejos, y creían que no había peligro."
+            sil "Lo oían cerca, y el miedo los invadía"
+            sil "Yo era listo. Muy, muy listo."
+            sil "Mi abuelo era severo."
+            sil "Pero era bueno conmigo."
+            sil "Por eso..."
+            "Giró la cabeza de lado a lado, una mano se la llevó a su hombro."
+            sil "Duele..."
+            sil "El cuero. {w}Chocando contra la piel."
+            sil "Y los perros."
+            sil "Perros malos. {w}Odio a los perros."
+            sil "El abuelo..."
+            p "..."with vpunch
+            "Mi mano se posó sobre su brazo."
+            sil "!!"
+            "Wiija se movió sobresaltado."
+            sil "La familia tendría que ser algo imporante. Sí sí."
+            sil "Yo no era familia."
+            sil "Mi abuelo me traicionó"
+            sil "Y yo lo traicioné a él."
+            p "Te ha causado mucho dolor, ¿verdad?"
+            sil "No fueron los latigazos. Ni los perros."
+            sil "Ni las heridas."
+            sil "Él no me sacó a tiempo. {w}No hubo amigos. No hubo abrazos."
+            sil "Yo les hice pagar. Le hice pagar a él."
+            sil "Y él me hizo pagar a mi."
+            sil "Él me hizo desaparecer."
+            sil "Puff."
+            sil "Él murió con su pena."
+            sil "Y yo vivo cargando con la mía."
+            sil "Vago..."
+            sil "Como Leyenda."
 
-    p "..."
-    "Luego de eso, busqué cambiar el tema. Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
+    p "..."with vpunch
+    "Luego de eso, busqué cambiar el tema. {w}Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
     scene black with fade
     centered "Pueblo Liwen. \n31 de Octubre. \n6:00am."
     scene fondo pueblo temprano with fade
-    "Wiija era... Una criatura como ninguna otra."
-    "Hablamos y hablamos hasta que el Sol comenzó a aparecer entre los edificios. Para ese entonces, la mayoría de la gente se había marchado."
+    "Wiija era... {w}Una criatura como ninguna otra."
+    "Hablamos y hablamos hasta que el Sol comenzó a aparecer entre los edificios. {w}Para ese entonces, la mayoría de la gente se había marchado."
     "De pronto, Wiija se levantó."
     show player triste at left with dissolve
     show silbon neutro at right with dissolve
     p "Wiija?"
-    "Me levanté con él. Aún no sabía como sellarlo y él parecía que estaba a punto de marcharse."
+    "Me levanté con él. {w}Aún no sabía como sellarlo y él parecía que estaba a punto de marcharse."
     if goodAnswersSilbon == 3:
         jump silbonGoodEnding
     else:
@@ -1222,15 +1222,15 @@ label silbonGoodEnding:
     hide silbon with dissolve
     p "¡Espera!"
     hide player with dissolve
-    "Lo empecé a seguir. Se metía cada vez más entre los edificios. Ya no había nadie en las calles. Solo los restos del festival."
+    "Lo empecé a seguir. {w}Se metía cada vez más entre los edificios. {w}Ya no había nadie en las calles. Solo los restos del festival."
     show silbon neutro at right with dissolve
     show player triste at left with easeinleft
     sil "¿Vas a castigarme, verdad? ¿Cómo él me castigó?"
     "Lo sabe..."
-    p "..."
+    p "..."with vpunch
     p "No."
     p "No voy a castigarte."
-    sil "Sí lo harás. Eres como mi abuelo."
+    sil "Sí lo harás. {w}Eres como mi abuelo."
     sil "Eres igual al Maestro también."
     p "Wiija."
     p "Necesito ayudar a mi abuelo."
@@ -1238,19 +1238,19 @@ label silbonGoodEnding:
     sil "¿Importante?"
     p "Si pudieras volver atrás, ¿No querrías hacer lo mismo?"
     p "Huir con tu abuelo, protegerlo. Tener amigos."
-    "Wiija miró al suelo. Sumido en sus pensamientos. Dí un paso adelante y luego otro."
+    "Wiija miró al suelo. {w}Sumido en sus pensamientos. Dí un paso adelante. Y luego otro."
     show player feliz with dissolve
     p "Seamos amigos."
-    sil "Te iras. Me abandonarás."
+    sil "Te iras. {w}Me abandonarás."
     show player triste with dissolve
     sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más."
     p "..."
-    "Comencé a dudar. Wiija... Tenía miedo. Y yo no sabía que decir. Era cierto, ¿Qué haría con los Vestigios una vez los sellara nuevamente? ¿Abandonaría la caja para siempre?"
+    "Comencé a dudar. {w}Wiija... Tenía miedo. Y yo no sabía que decir. {w}Era cierto, ¿Qué haría con los Vestigios una vez los sellara nuevamente? {w}¿Abandonaría la caja para siempre?"
     "..."
     "No. No podía hacer eso."
     show player feliz with dissolve
     p "No te voy abandonar."
-    p "Estaremos juntos. E iremos a otros festivales."
+    p "Estaremos juntos. {w}E iremos a otros festivales."
     p "Lo prometo."
     p "Solo... Déjame hacer esto, dejame salvar a mi abuelo. Ayúdame a salvar a mi abuelo"
     sil "..."
@@ -1260,15 +1260,15 @@ label silbonGoodEnding:
     
     show player asustada with dissolve
     "Su mano tomó la mía, y se llevó mi dedo a su boca."
-    "En un lento movimiento, sus dientes presionaron contra la piel, cortando en ella. Luego, sus labios presionaron contra la yema. Allí se quedó un rato."
+    "En un lento movimiento, sus dientes presionaron contra la piel, cortando en ella. Luego, sus labios se posaron contra la yema. Allí se quedó un rato."
     p "..." with vpunch
     sil "Ja... Jaja."
-    sil "Seamos amigos."
+    sil "Amigos..."
     hide silbon with flash
     "Un parpadeo, y Wiija desapareció. Bajé la mano, y vi solo el costal que venía cargando desde que lo vi la primera vez."
     show player triste with dissolve
     "Jamás había visto a alguien cargar con sus pecados así. Y no podía armarme de valor para juzgarlo."
-    "Sin su dueño... La bolsa comenzó a hacerse polvo, envejeciendo frente a mis ojos."
+    "Sin su dueño, la bolsa comenzó a hacerse polvo, envejeciendo frente a mis ojos."
     hide player with dissolve
     "Ya no había más que hacer aquí. Así que di la vuelta, y volví a casa."
 
@@ -1286,7 +1286,7 @@ label silbonBadEnding:
     sil "¿Me ibas a entregar a ella, verdad?"
     sil "Niña tonta. Niña mala."
     sil "¡No me vas a encerrar! ¡NO ERES MI PADRE, NO PUEDES DECIRME QUE HACER!"
-    p "Unghh--!" with vpunch
+    p "Unghh-!" with vpunch
     sil "Tu abuelo. Es tu abuelo. Yo lo sé. Yo lo sé."
     sil "Era como el mío. Bueno y malo. Malo y bueno."
     sil "No te preocupes."
@@ -1294,13 +1294,13 @@ label silbonBadEnding:
     "Mis pies abandonaron el suelo cuando él me levantó, haciendo presión. No podía pelear, me estaba debilitando."
     "Y luego, sentí mi cuerpo chocar. ¿La banca, la pared? No lo sabía..."
     "{i}CRACK{/i}" with vpunch
-    "Me siento... Cansada..."
+    "Me siento... {w}Cansada..."
     scene black with fade
     "... Negro"
     "Todo negro"
     p "..."
     "No puedo hablar. No puedo moverme."
-    "Ayuda... Auxilio."
+    "Ayuda... {w}Auxilio."
     "Siento movimiento, mi cuerpo está..."
     "..."
     "Una bolsa..."
@@ -1308,8 +1308,8 @@ label silbonBadEnding:
     "..."
     "Huesos."
     "Son huesos."
-    sil "Somos amigos ahora. Sí sí sí. Tú cuida de papá allí."
-    sil "Es hora de ir a hacer más amigos."
+    sil "Somos amigos ahora. {w}Sí sí sí. {w}Tú cuida de papá allí."
+    sil "Es hora de ir a hacer más amigos."with vpunch
     pause
 
     "Bad Ending."
