@@ -1323,8 +1323,8 @@ label normalEnding:
 
     scene fondo casa lejos with fade
     show player triste at right with easeinright
-    "A esta hora, ya apenas podía oírse el festival, ya no había gente en la calle y la música estaba apagada."
-    "Siento que todo el peso de una larga noche caía sobre mí y no estaba pensando en nada más que dormir."
+    "A esta hora el festival había terminado. Ya no quedaba gente en la calle y la música estaba apagada."
+    "Siento que todo el peso de una larga noche caía sobre mí, y no podía pensar en nada más que dormir."
     # Entra a la casa
     scene fondo sala with fade
     show player triste at right with dissolve
@@ -1338,17 +1338,18 @@ label normalEnding:
     play music "audio/madre-monte-loop.wav" fadein 1
     show mmonte neutra at right with dissolve
     mm "Vaya, al fin llegas, ¿cómo te fue?"
-    "Sin decir mucho, saqué el Vestigio de mi bolsillo, y lo puse en la caja."
+    "Sin decir mucho, saqué el Vestigio de mi bolsillo y lo puse en la caja."
     "Los otros dos lucen preciosos..."
     "..."
     "Se sienten... Tan familiares."
     mm "¿Cómo te sientes?"
     p "Estoy... Muy cansada."
     mm "Lo has hecho bien. Superaste mis expectativas."
-    p "Hm?"
+    p "¿Hm?"
     mm "Quizá debería habertelo dicho antes."
+    "Inaru se acercó a la caja, las ramas de sus dedos acariciando los Vestigios con suavidad."
     mm "Estos Vestigios...{w} Usaron algo más que la sangre de tu abuelo."
-    mm "Se necesita un gran poder para mantener a una Leyenda dentro de ellas."
+    mm "Se necesita un gran poder para mantener a una Leyenda dentro de ellos."
     mm "Es por eso que su alma era necesaria."
     # Madre Monte se transforma y se vuelve OP
     show mmonte ulti with flash
@@ -1358,25 +1359,25 @@ label normalEnding:
     mm "Usando tu sangre, pude sellar parte de tu alma en dos de las Leyendas."
     mm "Y tú me ayudaste con el tercero."
     "Su mano se apoyó contra su pecho."
-    mm "Ahora parte del alma de Lucio vive aquí. Y tú tienes la otra parte."
+    mm "Ahora casi toda el alma de Lucio vive aquí. {w}Y tú tienes la otra parte."
     mm "No por mucho."
     stop music fadeout 5
     show mmonte at center with easeoutright
     p "¿Qué? ¡AGH!" with vpunch
     "Mi cabeza... Duele."
-    "Sí que caíste, niña tonta."
-    "Pobrecilla."
-    "No no no, ¡dejame salir!"
+    "Sí que caíste, niña tonta."with vpunch
+    "Pobrecilla."with vpunch
+    "No no no, ¡dejame salir!"with vpunch
     "Son demasiadas voces. Gritando. Gritando."
     p "¡Aghh! ¡Basta!" with vpunch
-    mm "¿Duele verdad? Imagino que tu abuelo habrá lidiado con algo similar con años. Merece ser liberado de esa tortura."
-    mm "Que suerte que apareciste. Ahora es tu alma la que las mantendrá a raya."
-    "Las ramas de sus manos todavía estaban enrojecidas. Esa era... Mi sangre."
+    mm "¿Duele verdad? Imagino que tu abuelo habrá lidiado con algo similar por años. Merece ser liberado de esa tortura."
+    mm "Que suerte que apareciste. Ahora es tu alma la que los mantendrá a raya."
+    "Las ramas de sus manos todavía estaban enrojecidas. Esa era... {w}Mi sangre."
     "Un dedo presionó en mi frente."
     p "AHHH!" with vpunch
-    mm "Ah... Lucio... Allí estás."
+    mm "Ah, Lucio... {w}Allí estás."
     mm "No te preocupes, pequeña [playerName]. No te dejaré pasar por lo que tu querido abuelo tuvo que pasar."
-    mm "Cuando te suelte... Ya no sentirás tanto dolor. Guardaré lo que quede tu alma en mi Vestigio."
+    mm "Cuando te suelte... Ya no sentirás tanto dolor. {w}Guardaré lo que quede tu alma en mi Vestigio."
     p ". . ."
     mm "Hasta siempre, [playerName]. Descansa sabiendo que has liberado a tu abuelo."
     p "¡No! ¡Espera!"
@@ -1392,7 +1393,7 @@ label normalEnding:
     "No veo a nadie a mi alrededor. Y las voces en mi cabeza desaparecieron."
     "Estoy sola..."
     p "No, por favor..."
-    p "Por favor, mamá... Ayúdame."
+    p "Por favor, mamá. Ayúdame."
     abu "[playerName]..."
     p "!!!"
     p "¿¡ABUELO!?"
@@ -1407,38 +1408,38 @@ label normalEnding:
 label trueEnding:
     $ abu = Character("Lucio", color="#5a80d3")
     show abuelo neutro with dissolve
-    abu "Hola, ..."
+    abu "Hola, [playerName]"
     p "ABUELO."
-    "No sé si realmente es parte de un sueño, apenas puedo verlo."
-    "Mi vista empieza a volverse borrosa, pero yo me muevo para adelante. Cuando lo abrazo, puedo sentir allí, es real..."
-    "Mi abuelo..."
-    "Estaba conmigo."
+    "¿Era esto un sueño? Apenas podía verlo."
+    "Mi vista ese volvía borrosa, pero yo me movía para adelante. Cuando lo abracé, podía sentirlo. Era real."
+    "Mi abuelo... Estaba conmigo."
     show abuelo at right with move
     show player feliz at left with dissolve
-    abu "Lo siento mucho, calabaza.. Hay tanto de que hablar..."
+    abu "Lo siento mucho, calabaza. Hay tanto de que hablar..."
     abu "Lamento todo lo que has tenido que pasar por mí."
-    show player triste with dissolve
-    p "Pero abuelo... Me atrapó. Inaru... Todo esto lo hizo para..."
+
+    p "Pero abuelo... Me atrapó. Inaru. {w}Todo esto lo hizo para-"
     abu "Lo sé."
+    show player triste at left with dissolve
     p "..."
     abu "Inaru solo es un eco de mis sentimientos y mis recuerdos, igual que todos los demás."
     p "?!"
-    abu "Verás, .... Hay algo especial en las Leyendas."
+    abu "Verás, [playerName]. Hay algo especial en las Leyendas."
     abu "Algunas son temidas, otras son admiradas."
     abu "Las historias corren a través de los años. Pero son eso. Historias."
-    abu "Una Leyenda no puede ser buena, ni mala. No conoce de eso. Nosotros, los humanos, somos quienes juzgamos su valor."
-    abu "Una leyenda, no es más que energía. Y como tal, se alimenta de lo que absorbe a su alrededor."
-    abu "Es lo que solía hacer, otorgaba mi energía a las Leyendas que encontraba. Les daba un poco de mi ser."
-    abu "Así, dentro tuyo, puedes sentir como si ya los conocieras."
+    abu "Una Leyenda no puede ser buena, ni mala. No conoce de eso. {w}Nosotros, los humanos, somos quienes juzgamos su valor."
+    abu "Ellos no es más que energía. {w}Y como tal, se alimentan de lo que absorben a su alrededor."
+    abu "Es lo que solía hacer. {w}Otorgaba mi energía a las Leyendas que encontraba. {w}Les daba un poco de mi ser."
+    abu "Dentro mío podía sentir como si ya los conociera."
     show player pensativa with dissolve
-    p "¿Como si los conociera...?"
+    p "¿Como si los conocieras...?"
     # Recuerdo
     $ cal = Character("Fisa", color="#538083")
     $ sil = Character("Wiija", color="#ade1e5")
     $ pom = Character("Har", color="#89909f")
     scene black with fade
     show calchona neutra with dissolve
-    cal "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo."
+    cal "¿Debe doler, no? Ser una buena persona forzada a hacer cosas malas..."
     scene black with fade
     show pombero neutro with dissolve
     pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
@@ -1456,8 +1457,8 @@ label trueEnding:
     abu "Eran parte mi alma."
     abu "Y ahora son parte de la tuya. Son un reflejo de lo que eres. Lo bueno, y lo malo."
     p "..."
-    "Fisa... Har... Wiija..."
-    "Ahora son parte de mí. De pronto, eso me causa mucha tranquilidad. Como si aquel miedo comenzara a desvanecerse por completo."
+    "Fisa... {w}Har... {w}Wiija..."
+    "Ahora son parte de mí. {w}De una manera extraña, me causaba mucha tranquilidad. {w}El miedo comenzaba a desvanecerse."
     "Lo único que queda... Es un cabo suelto."
     show player triste with dissolve
     p "Abuelo..."
@@ -1471,13 +1472,13 @@ label trueEnding:
     p "..."
     p "¿Eh?"
     abu "Quizá haya mucho que explicar."
-    abu "Tu madre... Amaba a este lugar, y era igual a tí. Intrépida, aventurera. Pero ella no quería capturar a las leyendas, creía que era un precio alto que pagar."
-    abu "Ella decía, que eso les quitaba su libertad de decidir, de ser su propio ser, para bien o para mal."
+    abu "Tu madre... {w}Amaba a este lugar, y era igual a tí. Intrépida, aventurera. Pero ella no quería capturar a las leyendas, creía que era un precio alto que pagar."
+    abu "Ella decía que eso les quitaba su libertad de decidir, de ser su propio ser, para bien o para mal."
     abu "Y temía por mí, por lo que ocurriría con mi alma una vez ésta abandonase mi cuerpo."
-    abu "Así que... Selló una parte de mí en sí misma antes de irse."
-    abu "Creía que así podría protegerme y ella nunca se volvería a acercar a los Vestigios."
-    abu "Pero luego, tú naciste. Creo que ninguno de nosotros sabía realmente que ahora tú llevabas mi alma."
-    abu "Cuando me di cuenta, ya era demasiado tarde y con una conexión tan débil, no pude advertirte."
+    abu "Así que selló una parte de mí en sí misma antes de irse."
+    abu "Creía que así podría protegerme. Y ella nunca se volvería a acercar a los Vestigios."
+    abu "Pero luego, tú naciste. {w}Creo que ninguno de nosotros sabía realmente que ahora tú llevabas mi alma."
+    abu "Cuando me di cuenta, ya era demasiado tarde. {w}Y con una conexión tan débil, no pude advertirte."
     p "Entonces esa voz que oí..."
     abu "Era yo."
     abu "Sabía que Inaru intentaría recuperar los fragmentos de mi alma."
@@ -1487,8 +1488,8 @@ label trueEnding:
     p "Lo sé."
     abu "..."
     show player feliz with dissolve
-    p "Está bien, abuelo. Mamá, papá y tú... Son mi familia. Haría lo que sea por ustedes."
-    p "Inaru me pidió que selle a las Leyendas, usando mi sangre. Eso hizo que las Leyendas volvieran a quedar encerradas en los Vestigios."
+    p "Está bien, abuelo. Mamá, papá y tú... {w}Son mi familia. Haría lo que sea por ustedes."
+    p "Inaru me pidió que selle a las Leyendas, usando mi sangre. {w}Eso hizo que ellas volvieran a quedar encerradas en los Vestigios."
     abu "Todas las Leyendas. Menos una."
     p "Significa que ahora..."
     abu "Debes sellar a Inaru. Si."
@@ -1498,13 +1499,13 @@ label trueEnding:
     p "¿Cómo haré eso?"
     abu "A través de mí. Por supuesto."
     show player triste with dissolve
-    abu "Tú tienes la última parte de mi alma. Ella tiene las demás, pero es tu sangre la que mantiene la conexión."
+    abu "Tú tienes la última parte de mi alma. {w}Ella tiene las demás, pero es tu sangre la que mantiene la conexión."
     abu "Si lo haces-"
     p "Los sello a ambos."
     p "..."
     show player pensativa with dissolve
     p "¿Qué pasará contigo?"
-    abu "Yo no tengo un Vestigio. Este lugar le pertenece a Inaru. Así que mi alma desaparecerá."
+    abu "Yo no tengo un Vestigio. Este lugar le pertenece a Inaru. {w}Cuando lo hagas, mi alma se irá."
     show player triste with dissolve
     p "Abuelo..."
     abu "Lo siento, calabaza."
@@ -1512,12 +1513,12 @@ label trueEnding:
     abu "¿Desaparecer?"
     abu "Por supuesto que no."
     abu "Seré libre. Podré ser lo que yo quiera."
-    abu "Tu madre... Ella tenía razón."
-    abu "Yo ya hice todo lo que pude. El resto, te lo encargo."
-    "Bajé la mirada. Podía sentir aún la cicatriz de mi palma, aún no terminaba de sanar. Cuando la otra mano la cubrió, pude sentir a mi abuelo abrazándome nuevamente. Cerré los ojos con fuerza."
+    abu "Tu madre... {w}Ella tenía razón."
+    abu "Yo ya hice todo lo que pude. {w}El resto, te lo encargo."
+    "Bajé la mirada. Podía sentir aún la herida en mi mano no terminaba de sanar. Cuando la otra mano la cubrió, pude sentir a mi abuelo abrazándome nuevamente. {w}Cerré los ojos con fuerza."
     abu "Lo hiciste muy bien... Cuidate mucho, calabaza."
     show player feliz with dissolve
-    "Podía sentir su corazón latiendo. Cuando era pequeña, eso siempre me calmaba. Me hacía sentir protegida. Ahora, mi mano se apoyaba sobre él."
+    "Su corazón con fuerza. {w}Cuando era pequeña, aquel sonido siempre me calmaba. {w}Me hacía sentir protegida. Ahora, mi mano se apoyaba sobre él."
     p "Adios, abuelo"
     # Volvemos a la habitación del abuelo
     scene fondo dormitorio with flash 
@@ -1528,28 +1529,27 @@ label trueEnding:
     mm "Ngh-!" with vpunch
     show player asustada with dissolve
     p "!!!!"
-    "Al voltear, pude ver a Inaru de rodillas, su cuerpo templaba, como si estuviera resistiendo el desaparecer."
+    "Al voltear, pude ver a Inaru de rodillas. Su cuerpo temblaba, como si estuviera resistiendo el desaparecer."
     show player triste with dissolve
-    "Mi pecho se encogió. Debería estar furiosa. Había hecho tanto mal. A mí, a las otras Leyendas."
-    "Pero lo hizo por mi abuelo... Y ahora estaba desvaneciendose nuevamente en el Vestigio."
-    mm "No, Lucio, él..."
-    "Me arrodillé frente a ella. Inaru de regreso, me miró a los ojos."
+    "Mi pecho se encogió. {w}Debería estar furiosa. Había hecho tanto mal. A mí, a las otras Leyendas."
+    "Pero lo hizo por mi abuelo... {w}Y ahora estaba desvaneciendose nuevamente dentro del Vestigio."
+    mm "No, Lucio. Él..."
+    "Me arrodillé frente a ella. {w}Inaru de regreso, me miró a los ojos."
     mm "Lo estoy perdiendo."
-    "Una mano se apoyó en su brazo. Era quizá una de las decisiones más difíciles que tuve que tomar."
-    p "Está bien..."
+    "Una mano se apoyó en su brazo. {w}Ésta era una de las decisiones más difíciles que tuve que tomar."
     p "Yo tampoco quiero perderlo..."
     p "Pero él decidió hacer con su tiempo lo que más deseaba."
     show player feliz with dissolve
     p "Creemos algo nuevo a partir de lo que nos dejó."
     mm "..."
     "Sus ramas sujeron mi mano. Su agarre tenso y su cuerpo aún temblando."
-    mm "Lo has dejado morir... No puedo perdonarte por eso."
+    mm "Lo has dejado morir... {w}No puedo perdonarte por eso."
     mm "Pero no puedo sostenerlo cuando se escapa de mis manos."
     mm "...."
-    mm "Una vez eso ocurra, será tu alma la que esté dentro mío, y lentamente, olvidaré al Maestro."
-    mm "Sólo las Leyendas perduran en el tiempo. Los humanos desaparecen, y uno a uno, serán olvidados."
+    mm "Una vez eso ocurra, será tu alma la que esté dentro mío. Lentamente, olvidaré al Maestro."
+    mm "Sólo las Leyendas perduran en el tiempo. {w}Los humanos desaparecen, y uno a uno serán olvidados."
     show player triste with dissolve
-    "Con sus palabras, podía sentir su profunda tristeza. Quedar en el olvido podría ser una de las cosas más terroríficas que un alma podría vivir. Podía entender lo que Inaru estaba sintiendo."
+    "Con sus palabras, podía sentir su profunda tristeza. {w}Quedar en el olvido podría ser una de las cosas más terroríficas que un alma podría vivir. {w}Podía entender lo que Inaru estaba sintiendo."
     show player feliz with dissolve
     "Pero no podía aceptarlo."
     p "Entonces te hablaré sobre él."
@@ -1568,18 +1568,18 @@ label trueEnding:
     "Inaru..."
     "Ahora entiendo."
     "He pasado una noche tan larga, y he descubierto tanto sobre el abuelo"
-    "Nuevamente todos los Vestigios volvieron a su caja. Pero... Lo que dijo el abuelo..."
+    "Nuevamente todos los Vestigios volvieron a su caja. {w}Pero... {w}Lo que dijo el abuelo..."
     "..."
     "Los Vestigios."
-    "Quizá... Quizá ella tenga razón"
+    "Quizá... {w}Quizá ella tenga razón"
     # Puerta abriéndose
     play sound "audio/puerta.ogg" volume 0.5
-    "???" "[playerName]! ¿Estás ahí?"
+    "???" "¡[playerName]! ¿Estás ahí?"
     p "..."
     show player feliz with dissolve
-    p "Mamá!!"
+    p "¡Mamá!"
     pause
     scene black with fade
-    centered "Fin"
+    centered "The End."
     # Finaliza el juego:
     return
