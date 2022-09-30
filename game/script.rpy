@@ -8,7 +8,7 @@
     scene black with fade
     with Pause(0.2)
 
-    show text "Onda Dinamita presenta..." with dissolve
+    show logo_onda_dinamita at truecenter with dissolve
     with Pause(2.5)
 
     scene black with fade
@@ -40,7 +40,7 @@ label intro:
     p "...finalmente estoy de vuelta."
     
     play music "audio/intro-loop.wav" fadein 1
-    scene fondo pueblo frente with dissolve
+    scene fondo pueblo temprano with dissolve
     show player feliz with moveinbottom
     "No había visitado el pueblo de mamá desde hace dos veranos, justo cuando el abuelo cayó enfermo."
     show player triste with dissolve
@@ -147,7 +147,7 @@ label festival:
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n30 de Octubre. \n8:00pm."
-    scene fondo pueblo decorado with fade
+    scene fondo pueblo decorado fiesta with fade
     play music "audio/intro-loop.wav" if_changed fadein 1
     show player feliz at left with moveinbottom
     p "¡Wow! Hay muchísima más gente de la que recordaba."
@@ -277,7 +277,7 @@ label meetMadreMonte:
     # personaje ???
     play music "audio/madre-monte-loop.wav" fadein 0.5 volume 0.5
     scene fondo dormitorio with fade
-    show mmonte neutra with dissolve
+    show mmonte full with dissolve
     mm "Vaya..."
     menu:
         "\"¿Quién eres?\"":
@@ -287,25 +287,31 @@ label meetMadreMonte:
     # Cambia a Inaru
     $ mm = Character("Inaru", color="#2a7f62")
     mm "Vaya, ese fue un descanso largo..."
-    show mmonte at right with move
+    show mmonte neutra at right with dissolve
     show player asustada at left with easeinleft
     p "Pero... ¿¡De dónde has salido!?"
     p "Yo abrí esa caja... Y de pronto estabas aquí."
+    show mmonte enojada with dissolve
     mm "... No sabes nada, ¿verdad?"
+    show mmonte neutra with dissolve
     mm "Me llamo Inaru. Soy una protectora de los bosques, ¡por supuesto!"
     mm "O lo era, hasta que quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años!"
     p "¿¡Cómo!? ¿¡Mi abuelo es tu maestro!?"
     mm "Pues parece que sí, tanto yo como los otros estábamos bajo sus ord-"
+    show mmonte sorprendida with dissolve
     mm "..."
     "Inaru se volteó a ver la caja.{w} Se quedó mirándola en silencio antes de voltear a verme."
+    show mmonte enojada with dissolve
     mm "{size=+10}¿¡Qué hiciste!? ¿¡Fuíste tú!?{/size}" with vpunch 
     mm "¡No debiste haber hecho eso, niña tonta!"
     mm "... Si yo estoy afuera, quiere decir que los demás también."
     menu:
         "\"¿¡Los demás!?\"":
             pass
+    show mmonte sorprendida with dissolve
     mm "..."
     mm "Realmente no sabes nada."
+    show mmonte neutra with dissolve
     mm "Míralo tu misma"
     show player triste with dissolve
     # ((Paneo a la caja, con los cuatro objetos inanimados, sin luz))
@@ -318,7 +324,7 @@ label meetMadreMonte:
     mm "Aparte de mí, ha podido capturar a tres Leyendas: {w}el Silbón, {w}la Calchona {w}y el Pombero." 
     mm "Criaturas que vagaban el mundo causando terror antes de que tú las liberaras nuevamente." 
     mm "Ahora es tu responsabilidad encontrarlas y capturarlas de nuevo dentro de los Vestigios."
-    "Estaba bromando... Debía ser una broma."
+    "Estaba bromeando... Debía ser una broma."
     show player asustada with dissolve
     menu:
         "\"¿Y cómo voy a hacer eso?\"":
@@ -384,22 +390,26 @@ label preMission:
     "Su voz me saca de mis pensamientos, y un fuerte sentimiento de inseguridad me invade de repente."
     "Algo que no estaba allí un momento antes."
     show player triste with dissolve
-    "¿Es esto lo que pueden causar las Leyendas solo con su voz? ¿Miedo, dudas?"
+    "¿Es esto lo que pueden causar las Leyendas sólo con su voz? ¿Miedo, dudas?"
     "O quizá también... Protección y seguridad."
     "Inaru me mira impaciente. Yo tardo unos momentos antes de hablar de nuevo."
     p "¿De verdad no hay nadie más que pueda resolver esto? Mamá vendrá mañana y-"
+    show mmonte sorprendida with dissolve
     mm "Mañana ya será demasiado tarde. No, lo siento, si tú no lo haces, nadie podrá."
     p "¿Por qué no podemos llamar a la policía?"
-    mm "Nada de lo que hagan podrá resultar. Solo tú tienes la sangre de tu abuelo."
+    mm "Nada de lo que hagan podrá resultar. Sólo tú tienes la sangre de tu abuelo."
+    show mmonte neutra with dissolve
     p "Pero, ¿Cómo puedo usar mi sangre?"
     "En un instante, Inaru sujetó mi mano."
     mm "Cierra los ojos."
     "En un reflejo, obedecí justo cuando sentí la piel de mi palma abrirse."
     show player asustada with dissolve
     p "Agh!" with vpunch
+    show manos at truecenter with dissolve
     "El líquido comenzó a brotar, humedeciendo mi mano."
     "Sus dedos rígidos pasaron sobre mi palma."
-    "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí.{w} La herida de mi mano rapidamente comenzó a cicatrizar."
+    "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí.{w} La herida de mi mano rápidamente comenzó a cicatrizar."
+    hide manos with fade
     mm "Para encerrar nuevamente a las Leyendas, necesitas encontrar el lugar donde tu abuelo ha puesto el hechizo y debes marcarlo con tu sangre."
     show player triste with dissolve
     mm "Yo puedo forzar a dos de las Leyendas de nuevo dentro de su Vestigio usándola tambien, pero enfrentarme a los tres podría matarme."
@@ -415,15 +425,18 @@ label preMission:
 label missionDenied:
     stop music fadeout 3.0
     p "No puedo... No soy la persona que buscas."
+    show mmonte sorprendida with dissolve
     mm "Vaya, que decepción."
     mm "Pero supongo que no te puedo forzar."
     "Me di vuelta, y caminé hacia la puerta."
+    show mmonte enojada with dissolve
     mm "Pero aún así {cps=7}puedo usarte.{/cps}"
     show player asustada with dissolve
+    play sound "audio/golpe2.wav"
     p "!!!!" with vpunch 
     hide player with dissolve
     show mmonte at center with move
-    "No llegué a voltear, mi cuerpo entumecido solo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
+    "No llegué a voltear, mi cuerpo entumecido sólo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
     scene black with fade
     "Luego... Oscuridad."
     pause
@@ -475,7 +488,8 @@ label calchonaRoute:
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Campos Liwen. \n31 de Octubre. \n00:30am."
-    scene campo with fade
+    scene fondo campos noche with fade
+    play music "audio/menu-loop.wav" fadein 5 volume 0.5
     show player feliz at left with easeinleft
     "Me encantaba venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
     show player triste with dissolve
@@ -495,25 +509,27 @@ label calchonaRoute:
     p "¡AH!"
     hide player with dissolve
     # personaje ???
-    show calchona neutra with fade
+    show calchona full with fade
     cal "?"
     "Apenas me oyó, la oveja volteó a verme. Su espalda comenzó a erguirse para levantarse en las patas traseras. Un par de ojos brillantes se posaron en mí, dorados y muertos."
     "¿Qué hago?{w} ¿Qué hago?{w} ¿Qué hago?"
     "Puedo verla tensar sus manos, sus ojos se mueven lejos de mí. Si se escapa, podría estar perdiendo la única oportunidad que tengo de ayudar al abuelo."
 
-    show calchona at right with move 
+    show calchona sorprendida at right with dissolve 
     show player asustada at left with easeinleft
     p "¡AGUA!"
     cal "..."
     "La criatura se volvió a verme."
     show player triste with dissolve
     p "Te puedo ayudar..."
+    show calchona neutra with dissolve
     "Me fui acercando despacio, mis ojos sobre la criatura. Ella me observaba de regreso, dando unos pasos atrás. Pero no se alejaba."
     "Una vez llegué a la valla, puse las dos manos sobre ella y le trepé para llegar al otro lado. Las ovejas seguían dormidas. La criatura me miraba expectante."
     "Mi mano se extendió para abrir el grifo y el agua empezó a correr. En un instante, la criatura puso ambas manos dentro del corral, bajo el agua, y luego se las llevó al hocico, bebiendo desesperadamente."
     "Sus mirada nunca me abandonaba."
     show player feliz with dissolve
     cal "Gracias."
+    show calchona sorprendida with dissolve 
     cal "¿Qué estás haciendo aquí?"
     show player triste with dissolve
     "Vaya, no me lo esperaba."
@@ -528,12 +544,14 @@ label calchonaRoute:
             p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. {w}Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
             cal "No serías la primera. Es normal teniendo en cuenta como... Luzco."
             "Pude notar que aún me mira con desconfianza, pero no hizo ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
+            show calchona neutra with dissolve
         "\"Te estaba buscando.\"":
             $ goodAnswersCalchona += 1
             show player feliz with dissolve
             p "Te estaba buscando. {w}En el pueblo se oyen historias sobre leyendas que vagan en la noche. {w}Pensé que si comenzaba a explorar podría encontrar alguna."
             show player triste with dissolve
             p "Lamento haberte asustado."
+            show calchona neutra with dissolve
             cal "Los campesinos no hablan conmigo. Pero siempre me dejan algo de beber."
             cal "Jamás había estado aquí antes."
             show player feliz with dissolve
@@ -572,6 +590,7 @@ label calchonaRoute:
     "En un instante, Fisa tomó la pera de mis manos y a pesar de mantener la apariencia hasta ahora, la devoró en un instante."
     "La lana de sus mejillas se llenó del líquido de la pera y se volvió pegajosa."
     "Me senté en el suelo con varias peras entre mis brazos, y esparcí la mayoría sobre el cesped. {w}Precavida, Fisa se sentó frente a mí."
+    show calchona sorprendida with dissolve 
     cal "¿Por qué eres buena conmigo?"
     show player pensativa with dissolve
     p "¿Mh?"
@@ -582,16 +601,19 @@ label calchonaRoute:
         "\"No lo estoy\"":
             $ goodAnswersCalchona += 1
             p "No lo estoy."
+            show calchona neutra with dissolve
             p "No realmente al menos."
             p "Estar asustada de algo que no conozco no me va a llevar a ningún sitio."
             show player feliz with dissolve
             p "¿No es eso la vida? ¿Tomar riesgos?"
+            show calchona sorprendida with dissolve 
             cal "... Eres valiente, me recuerdas a mis hijos."
             p "¿Hijos?"
+            show calchona neutra with dissolve
             "Me giré a observarla, sus ojos moribundos parecían brillar como el fuego de las hogueras mientras se llevaba otra pera a la boca."
             cal "Mi esposo y yo trabajábamos en los campos. Él no sabía que yo era una bruja. {w}Por las noches, me sentía libre, tomaba mis pociones y vagaba por los campos como una oveja."
             show player triste with dissolve
-            cal "Un día volví y no había nada. {w}Ni mi esposo, ni mis hijos. {w}Y todas mis pociones habían sido destruidas. Solo pude tomar los restos de una."
+            cal "Un día volví y no había nada. {w}Ni mi esposo, ni mis hijos. {w}Y todas mis pociones habían sido destruidas. Sólo pude tomar los restos de una."
             cal "Y quedé... Así."
             cal "La pena, o vaya a saber que, me ató a este mundo desde ese entonces, condenada a caminar solo por el borde. Ni humana, ni animal."
             cal "Y simplemente, la gente empezó a morir y a olvidarse de mí."
@@ -599,6 +621,7 @@ label calchonaRoute:
         "\"Me inspiras confianza\"":
             show player feliz with dissolve
             "Me encogí de hombros, tratando de poner el rostro más impasible que podía."
+            show calchona neutra with dissolve
             p "Supongo que me inspiras confianza."
             p "Desde que te vi, no has hecho nada más que tratar de alejarte."
             p "Si algo parecía, era que tú tenías más miedo de mí que yo."
@@ -611,14 +634,14 @@ label calchonaRoute:
     cal "Hace mucho conocí a un hombre no muy distinto a tí. {w}Fue el primer humano que me trató como una persona."
     cal "Era amable. Y me miraba a los ojos con una sonrisa."
     cal "Un día, me ofreció ir con él."
-    cal "Y luego... Solo sentí calor."
+    cal "Y luego... Sólo sentí calor."
     "Está hablando del abuelo..."
     menu:
         "Hablar sobre mamá":
             $ goodAnswersCalchona += 1
             p "Estar sola... Suena difícil."
             p "Yo no sé que haría si no pudiera volver a ver mi mamá..."
-            p "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... {w}No había absolutamente nada, como si alguien hubiera puesto un lienzo y solo me puso a mí, y allí me dejó."
+            p "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... {w}No había absolutamente nada, como si alguien hubiera puesto un lienzo y sólo me puso a mí, y allí me dejó."
             p "Cuando desperté me di cuenta que no le temía a estar sola, {w}sino a la posibilidad de que hubiera algo más allí lo cual no me podría enfrentar."
             "Fisa hizo silencio, pero luego, sujetó mi mano."
             cal "Siempre cuando uno de mis hijos tenía miedo, yo les decía que cerrara el puño fuertemente e imaginara que estaba apretando mi mano."
@@ -641,7 +664,7 @@ label calchonaRoute:
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Campos Lania. \n31 de Octubre. \n6:00am."
-    scene campo with fade
+    scene fondo campos dia with fade
     "La noche comenzaba a desaparecer."
     cal "Yaaaawn"
     "Al fin, pude ver que Fisa estaba agotada..."
@@ -673,10 +696,12 @@ label calchonaGoodEnding:
     "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá Inaru podría lidiar con ella."
     "Su lana, tan pálida bajo la luna, comenzaba a verse del blanco más hermoso que había visto.{w} Fisa cerró los ojos."
     cal "Desearía... Poder llorar. Por mi familia, por mi pasado."
+    show calchona sorprendida with dissolve 
     cal "Por las cosas que vas a pasar de ahora en más."
     "Llorar..."
     "Quizá... La marca estaba..."
     "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra. Sus manos sujetaron la mía. Perdida en sus palabras, pasó sus uñas sobre la herida, causando que esta se abra nuevamente."
+    show calchona neutra with dissolve 
     cal "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
     "Si no lo hacía ahora... No llegaría a tiempo."
     "Moví la mano de su agarre y me avalancé. En un instante, apreté mi palma contra los brillantes ojos de Fisa."
@@ -691,6 +716,9 @@ label calchonaGoodEnding:
     cal "Y..."
     cal "Ahora..."
     cal "Yo también."
+    stop music fadeout 5
+    show calchona vestigio with flash
+    pause
     hide calchona with flash
     "Antes de que me diera cuenta, caí hacia adelante. {w}El sol estaba iluminando el campo por completo."
     show player triste with dissolve
@@ -709,17 +737,23 @@ label calchonaBadEnding:
     cal "Quieres encerrarme de nuevo, verdad...?"
     show player asustada with dissolve
     "!!!"
+    show calchona enojada with dissolve 
     cal "Te envió ella. Dejaste que te convenciera de que esto era por tu bien."
     cal "Ojalá... No tuviera que ser así."
     p "No, espera. Escuchame, mi abuel-"
+    play sound "audio/golpe2.wav"
     "Antes de terminar, Fisa se abalanzó sobre mi, una mano me sujetó la cabeza con fuerza y la empujó contra el cesped." with vpunch
     hide player with dissolve
     show calchona at center with move
+    stop music fadeout 5
     cal "¡Lo siento, no puedo dejar que me entregues!"
+    play sound "audio/golpe2.wav"
     "Por favor..." with vpunch 
     cal "¿¡Que has hecho!?"
+    play sound "audio/golpe2.wav"
     "Basta..." with vpunch
     cal "¡Todo por lo que él ha peleado, ahora ha valido nada!"
+    play sound "audio/golpe2.wav"
     "No..." with vpunch
     cal "Lo arruinaste... {cps=4}Todo.{/cps}"
 
@@ -737,7 +771,8 @@ label pomberoRoute:
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Bosque Suas Agascuana. \n31 de Octubre. \n00:30am."
-    scene campo with fade
+    scene fondo bosque with fade
+    play music "audio/menu-loop.wav" fadein 5 volume 0.5
     show player feliz at left with easeinleft
     "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
     "Había oído historias de niños como yo que entraban al bosque a jugar por la noche. {w}Nunca pensé que sería yo quien se metiera voluntariamente alguna vez."
@@ -752,12 +787,12 @@ label pomberoRoute:
     hide player with dissolve
     "Antes de ser descubierta, me escondí detrás de un árbol, observando." 
     "Parecía un duende, pero no era como nada que haya visto antes en cuentos."
-    show pombero neutro with fade
+    show pombero full with fade
     pom "De los montes vengo...{w} A los montes voy...{w} A hablar con la niña que me ha visto hoy~"
     "!!!!"
     "Un escalofrío corrió por mi espalda. Sentía que estaban por cazarme."
     "Me di vuelta."
-    scene campo with fade
+    scene fondo bosque with fade
     show player triste at center 
     show pombero neutro at right with easeinright
     pom "¡Ho-laa~!"
@@ -781,7 +816,7 @@ label pomberoRoute:
             "... Desapareció."
             show player asustada with dissolve
             p "¿Qué? ¡Espera!"
-            scene campo with fade
+            scene fondo bosque with fade
             "Salí a perseguirlo, las ramas tan cerca de mi rostro que sentía me golpearían en cualquier momento."
             "Cuando me quedé sin aire, tuve que detenerme, las manos descansando sobre mis rodillas."
             show player triste at left with moveinleft
@@ -792,7 +827,7 @@ label pomberoRoute:
             pom "Eres como un toro, corres hacia adelante lista para atacar. {w}No puedes atravesar una montaña yendo hacia adelante~!"
         "Correr":
             $ goodAnswersPombero += 1
-            scene campo with fade
+            scene fondo bosque with fade
             "Sin pensarlo dos veces, me giré y eché a correr, internándome en los bosques."
             show player triste at left with moveinleft
             "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. {w}No sabía si estaba lejos o cerca de él, pero estaba segura de que se estaba aproximando."
@@ -806,11 +841,13 @@ label pomberoRoute:
 
     show player enojada with dissolve
     p "Deja de llamarme así."
+    show pombero sorprendido with dissolve
     pom "Mh?"
-    p "Me llamo [playerName]."
+    p "Me llamo [playerName!q]."
     pom "Ugh, los humanos y sus nombres pretenciosos. {w}Ustedes me llaman de mil maneras, ¿por qué no podría hacer lo mismo?"
     p "¿Cómo te gusta a tí que te llamen?"
     $ pom = Character("Har", color="#89909f")
+    show pombero neutro with dissolve
     pom "Har! Es fuerte, intrépido, y solemne, si si si. ¡Digno nombre para mi persona!"
     "¿Y eso no es pretencioso?"
     pom "Niñas como tú no deberían estar vagando solas en el bosque, ¡hay monstruos, y cazadores, y hombres malos dando vueltas."
@@ -818,15 +855,18 @@ label pomberoRoute:
     "Har ladeó la cabeza, y luego se echó hacia atrás, la mirada fija en sus alrededores."
     pom "Busco divertirme, los humanos son MUY divertidos, ¿sabes?"
     show player triste with dissolve
-    "El aire comenzó a sentirse dneso, como si los árboles estuvieran a punto de caer sobre nosotros."
+    "El aire comenzó a sentirse denso, como si los árboles estuvieran a punto de caer sobre nosotros."
     pom "¡Se creen realmente ingeniosos cuando en realidad son"
     pom "Torpes"
     pom "Egoístas"
     pom "Y débiles."
+    show pombero enojado with dissolve
     pom "Piden, piden, piden, y no saben que uno es más inteligente que ellos, ¡jaja~!"
+    show pombero neutro with dissolve
     "Incluso entre sus risas, podía ver lo enojado que estaba. {w}Era aterrador."
     show player feliz with dissolve
     p "Quizá podemos hacer algo juntos."
+    show pombero sorprendido with dissolve
     pom "¿Quieres jugar conmigo? Niña tonta, ¡pero valiente!"
     "De un salto, Har comenzo a alejarse."
     hide pombero with dissolve
@@ -834,7 +874,7 @@ label pomberoRoute:
     show player asustada with dissolve
     p "¡Espérame!"
     hide player with dissolve
-    "Salí corriendo tras él, de nuevo. Solo unos minutos más tarde, llegamos a una pequeña laguna."
+    "Salí corriendo tras él, de nuevo. Sólo unos minutos más tarde, llegamos a una pequeña laguna."
     show pombero neutro at right with easeinright
     show player triste at left with easeinleft
     p "¿Un lago? ¿Quieres jugar en un lago?"
@@ -850,8 +890,8 @@ label pomberoRoute:
             "Me acerqué a uno de los árboles donde sobresalía una rama larga y delgada."
             p "Podemos usar esto y mis cordones para hacer una caña!"
             "Ambas manos sujetaron la rama para tratar de romperla, cuando Har puso una mano en mi hombro y con mucha fuerza me arrojó al agua."
-            scene campo with fade
-            "Logré patalear de nuevo a la superficie, solo para ver a Har nadando hacia mí."
+            scene fondo bosque with fade
+            "Logré patalear de nuevo a la superficie, sólo para ver a Har nadando hacia mí."
             pom "¡Sorpresa! Niña tonta necesita prestar más atención~"
             p "{i}Cof, cof{/i} ¡Eso no fue nada amable!"
             pom "Tú tampoco has querido ser amable con los peces."
@@ -860,10 +900,11 @@ label pomberoRoute:
             $ goodAnswersPombero += 1
             show player feliz with dissolve
             p "Quiero ir a nadar."
+            show pombero sorprendido with dissolve
             pom "¿Hm?"
             "Me di vuelta y observé la laguna. No me había dado cuenta, pero los árboles daban paso a la luz de la Luna para caer sobre el agua, haciendo del agua un espejo reluciente."
             p "¡A que llego primero!"
-            scene campo with fade
+            scene fondo bosque with fade
             "Luego de gritar, eché a correr hacia el lago. {w}Detrás mío, los pies de Har trastabillaban antes de salir corriendo tras de mí."
             "De un salto me metí en el agua, dejando que me cubriera por completo por un momento antes de sacar la cabeza."
             pom "¡Niña astuta, cree que puede ganarme!"
@@ -907,9 +948,11 @@ label pomberoRoute:
     "Por un largo rato, me quedé en silencio."
     show player feliz with dissolve
     p "Quiero hacer un trato."
+    show pombero sorprendido with dissolve
     pom ". . ."
     pom "¿Ah sí?"
     "Volvió a dar una calada. Mi corazón se encogió."
+    show pombero neutro with dissolve
     pom "Que... Coincidencia. {w}Parece que estás en el lugar ideal."
     pom "¿Y qué podría querer una niña como tú de mi?"
     menu:
@@ -928,9 +971,11 @@ label pomberoRoute:
             p "¿Por qué odias tanto a los humanos?"
             pom "¿Odiarlos? {w}No no no, niña tonta, no es así. {w}Los humanos son quienes me odian a mí."
             pom "Cazadores, pescadores, leñadores..."
+            show pombero enojado with dissolve
             pom "A mí no me interesa lo que los humanos hagan, pero cuando destrozan, matan, corrompen... {w}Me enfurecen."
             "Otra exhalación, y dejó que el rastro de humo se desvanezca en el aire."
             pom "Podría decirse que me convertí en el conveniente monstruo.{w} Dicen que huyas porque yo podría atacar en los pastizales. {w}Les dicen a las mujeres que no salgan de sus casas."
+            show pombero neutro with dissolve
             pom "Algunos humanos son listos. {w}Hábiles cuando se trata de desviar la atención de sus monstruosas acciones."
             pom "Ya no quedan criaturas como yo. {w}Casi todas están muertas. Y las que no, como yo, se vuelven antagónicas."
             pom "Hacia el final, sólo somos leyendas destinadas a olvidarse."
@@ -946,18 +991,20 @@ label pomberoRoute:
             pom "Dime, ¿por qué las vidas humanas valen más que las de cualquier otra criatura?"
             show player triste with dissolve
             p ". . ."
+            show pombero enojado with dissolve
             pom "Los humanos matan a sus propios niños, arrancan las plumas de las aves para descansar cómodamente."
             pom "Desollan mamíferos vivos para ir bien vestidos. {w}Torturan en vida. {w}Queman. {w}Ahogan. {w}Electrocutan. {w}Dime, ¿por qué no puedo devolverles la gentileza?"
             pom "¿Quien te da la autoridad y el poder de decirme que sería o no correcto?"
             "Me quedé en silencio. {w}Con cada palabra, podía sentir la tierra temblar a través de las raíces."
             p "Lo siento."
-            pom "No tienes que disculparte. {w}Eres solo una niña."
+            show pombero neutro with dissolve
+            pom "No tienes que disculparte. {w}Eres sólo una niña."
             "Seguimos hablando el resto de la noche... De a poco, podía entender la relación de Har con los humanos."
 
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Campos Suas Aguascana. \n31 de Octubre. \n6:00am."
-    scene campo with fade
+    scene fondo bosque with fade
     show player feliz at left with dissolve
     show pombero neutro at right with dissolve
     "Cuando los primeros haces de luz empezaron a aparecer entre los árboles, Har volvió a hablar."
@@ -981,7 +1028,7 @@ label pomberoGoodEnding:
     p "..."
     pom "Jamás lo resentí por encerrarme. Sabía que cuando el tiempo sea el correcto, volvería a este mundo y aún habría mucho por hacer."
     pom "Él me decía 'el mundo no puede depender de tí. Si tiene que morir, morirá y no habrá nada que podrás hacer'."
-    pom "Y tenía razón. {w]Este mundo ya no es para criaturas como yo."
+    pom "Y tenía razón. {w}Este mundo ya no es para criaturas como yo."
     pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
     pom "Este mundo... {w}Es más tuyo que mío. {w}Ahora es tu responsabilidad."
     p "Har..."
@@ -995,12 +1042,15 @@ label pomberoGoodEnding:
     show player asustada with dissolve
     pom "Ah, sí... Justo lo que imaginaba..."
     show player triste with dissolve
-    pom "Hasta Luego [playerName]."
+    pom "Hasta Luego [playerName!q]."
+    stop music fadeout 5
+    show pombero vestigio with flash
+    pause
     hide pombero with flash
     "En cuestión de segundos, en lugar de ver el rostro de Har, estaba viendo mi mano ensangrentada."
     "!!"
     "De mi bolsillo el Vestigio cayó contra el suelo, brillante, pesado y lleno de vida. {w}Har sabía de mi abuelo, estoy segura. {w}Me hubiera gustado saber más."
-    "Si tan solo supiera que haría él en este momento."
+    "Si tan sólo supiera que haría él en este momento."
     "Tomé el Vestigio y volví a guardarmelo en el bolsillo."
     p "Hasta luego, Har."
     hide player with dissolve
@@ -1012,7 +1062,7 @@ label pomberoBadEnding:
     p "Uhm, de acuerdo."
     p "¿Qué quieres a cambio?"
     "Una sonrisa se dibujó en sus labios antes de salir corriendo."
-    scene campo with fade
+    scene fondo bosque with fade
     p "No de nuevo.. {w}¡Har, espera!"
     "Salí tras él. {w}Corriendo entre los árboles, persiguiendo el aire."
     "Me detuve de pronto, y miré para todos lados."
@@ -1026,13 +1076,16 @@ label pomberoBadEnding:
     pom "Pero no te preocupes, puedo hacer lo que me pides. {w}Este bosque estará a salvo y tú y yo podremos seguir jugando."
     pom "Te quedarás aquí."
     pom "Para siempre."
-    show pombero neutro at right with dissolve
+    stop music fadeout 5
+    show pombero enojado at right with dissolve
     show player asustada with dissolve
+    play sound "audio/golpe2.wav"
     "De golpe, sentí un fuerte empujón, y las hojas detrás mío desaparecieron." with vpunch
     "Estaba cayendo... {w}La sonrisa del duende alejándose."
     hide player with dissolve
     show pombero at center with move
     pom "Adios, niña tonta~!"
+    play sound "audio/golpe2.wav"
     "!!!" with vpunch
     scene black with fade
     pause
@@ -1048,13 +1101,14 @@ label silbonRoute:
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n31 de Octubre. \n00:30am."
-    scene fondo pueblo decorado with fade
+    scene fondo pueblo decorado fiesta with fade
+    play music "audio/menu-loop.wav" fadein 5 volume 0.5
     show player feliz at left with easeinleft
     "Si había un lugar donde podía sentirme en mi elemento, era éste. {w}Las festividades ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
     "Me hubiera gustado poder disfrutarlo..."
     "Al caminar a través de los puestos de comida, vi una figura que escondía su rostro bajo su sombrero, una mano sujetaba una gran bolsa sobre su hombro."
     hide player with dissolve
-    show silbon neutro with dissolve
+    show silbon full with dissolve
     sil "Ciervo ciervo... {w}Si si si... {w}En tiras, en cubos, en rebanadas..."
     sil "Aguardiente, ohhh, aguardiente, calienta los huesos. {w}El polvo de hueso que se rompe, {w}y se rompe {w}y se rompe."
     p "Ese es...?"
@@ -1063,7 +1117,7 @@ label silbonRoute:
     "Caminé hacia él, fijando la mirada en los puestos cercanos. {w}Nadie parece prestarle atención, como si no existiera."
     "{i}Fiu...{/i}"
     "El silbido chirrió junto a mi oído, y mis ojos se abrieron de par en par."
-    show silbon at right with move
+    show silbon neutro at right with dissolve
     show player asustada at left with easeinleft
     sil "¿Qué crees que haces?"
     "Me giré hacia él."
@@ -1100,7 +1154,7 @@ label silbonRoute:
             p "¡Aja, exacto!"
     
     show player feliz with dissolve 
-    p "¡No me has dicho tu nombre! Yo me llamo [playerName], vengo aquí de visita."
+    p "¡No me has dicho tu nombre! Yo me llamo [playerName!q], vengo aquí de visita."
     sil "Nadie me llama por mi nombre. Todos gritan, todos huyen. {w}No muy rápido."
     $ sil = Character("Wiija", color="#ade1e5")
     sil "Pero cuando tenía nombre... {w}Era Wiija."
@@ -1140,7 +1194,7 @@ label silbonRoute:
             p "?"
             sil "No podríamos. {w}No, no. Mala. No. Terrible idea."
             p "... ¿Por qué no?"
-            sil "No tengo amigos, nunca los tuve. {w}Solo eran mamá y papá."
+            sil "No tengo amigos, nunca los tuve. {w}Sólo eran mamá y papá."
             sil "Y el abuelo."
             p "..."
             sil "El Maestro... {w}Me recordaba a mi abuelo."
@@ -1148,7 +1202,7 @@ label silbonRoute:
             scene black with fade
             show mmonte neutra with dissolve
             mm "Quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años"
-            scene fondo pueblo decorado with fade
+            scene fondo pueblo decorado fiesta with fade
             show player triste at left with dissolve
             show silbon neutro at right with dissolve
             # Fin del Flashback?
@@ -1215,7 +1269,7 @@ label silbonRoute:
             sil "Odio a la gente mala."
             sil "Y odio a la gente tonta."
             "Su cabeza se giró hacia mi, el helado chorrendo entre sus dedos."
-            sil "Eres mala, [playerName]"
+            sil "Eres mala, [playerName!q]"
             show player asustada with dissolve
             p "!!"
             "Mi nombre en su boca... Se oía como si lo estuviera masticando. Saboreando..."
@@ -1247,7 +1301,7 @@ label silbonRoute:
             sil "Y los perros."
             sil "Perros malos. {w}Odio a los perros."
             sil "El abuelo..."
-            p "..."with vpunch
+            p "..." with vpunch
             "Mi mano se posó sobre su brazo."
             sil "!!"
             "Wiija se movió sobresaltado."
@@ -1268,12 +1322,12 @@ label silbonRoute:
             sil "Vago..."
             sil "Como Leyenda."
 
-    p "..."with vpunch
+    p "..." with vpunch
     "Luego de eso, busqué cambiar el tema. {w}Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
     scene black with fade
     play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n31 de Octubre. \n6:00am."
-    scene fondo pueblo temprano with fade
+    scene fondo pueblo decorado dia with fade
     "Wiija era... {w}Una criatura como ninguna otra."
     "Hablamos y hablamos hasta que el Sol comenzó a aparecer entre los edificios. {w}Para ese entonces, la mayoría de la gente se había marchado."
     "De pronto, Wiija se levantó."
@@ -1294,12 +1348,12 @@ label silbonGoodEnding:
     hide silbon with dissolve
     p "¡Espera!"
     hide player with dissolve
-    "Lo empecé a seguir. {w}Se metía cada vez más entre los edificios. {w}Ya no había nadie en las calles. Solo los restos del festival."
+    "Lo empecé a seguir. {w}Se metía cada vez más entre los edificios. {w}Ya no había nadie en las calles. Sólo los restos del festival."
     show silbon neutro at right with dissolve
     show player triste at left with easeinleft
     sil "¿Vas a castigarme, verdad? ¿Cómo él me castigó?"
     "Lo sabe..."
-    p "..."with vpunch
+    p "..." with vpunch
     p "No."
     p "No voy a castigarte."
     sil "Sí lo harás. {w}Eres como mi abuelo."
@@ -1324,7 +1378,7 @@ label silbonGoodEnding:
     p "No te voy abandonar."
     p "Estaremos juntos. {w}E iremos a otros festivales."
     p "Lo prometo."
-    p "Solo... Déjame hacer esto, dejame salvar a mi abuelo. Ayúdame a salvar a mi abuelo"
+    p "Sólo... Déjame hacer esto, dejame salvar a mi abuelo. Ayúdame a salvar a mi abuelo"
     sil "..."
     sil "A tu abuelo."
     sil "..."
@@ -1336,8 +1390,11 @@ label silbonGoodEnding:
     p "..." with vpunch
     sil "Ja... Jaja."
     sil "Amigos..."
+    stop music fadeout 5
+    show silbon vestigio with flash
+    pause
     hide silbon with flash
-    "Un parpadeo, y Wiija desapareció. Bajé la mano, y vi solo el costal que venía cargando desde que lo vi la primera vez."
+    "Un parpadeo, y Wiija desapareció. Bajé la mano, y vi sólo el costal que venía cargando desde que lo vi la primera vez."
     show player triste with dissolve
     "Jamás había visto a alguien cargar con sus pecados así. Y no podía armarme de valor para juzgarlo."
     "Sin su dueño, la bolsa comenzó a hacerse polvo, envejeciendo frente a mis ojos."
@@ -1350,14 +1407,18 @@ label silbonBadEnding:
     sil "Niña tonta. Mentirosa..."
     show player asustada with dissolve
     p "¿Eh?"
+    play sound "audio/golpe2.wav"
     "!!" with vpunch
+    stop music fadeout 5
     "Una fuerte mano se apretó contra mi cuello. Sus dedos apretando. Apretando..."
     show silbon at center with move
+    play sound "audio/golpe2.wav"
     p "AGH-!" with vpunch
     hide player with dissolve
     sil "¿Me ibas a entregar a ella, verdad?"
     sil "Niña tonta. Niña mala."
     sil "¡No me vas a encerrar! ¡NO ERES MI PADRE, NO PUEDES DECIRME QUE HACER!"
+    play sound "audio/golpe2.wav"
     p "Unghh-!" with vpunch
     sil "Tu abuelo. Es tu abuelo. Yo lo sé. Yo lo sé."
     sil "Era como el mío. Bueno y malo. Malo y bueno."
@@ -1365,6 +1426,7 @@ label silbonBadEnding:
     sil "Te voy a ayudar."
     "Mis pies abandonaron el suelo cuando él me levantó, haciendo presión. No podía pelear, me estaba debilitando."
     "Y luego, sentí mi cuerpo chocar. ¿La banca, la pared? No lo sabía..."
+    play sound "audio/golpe1.wav"
     "{i}CRACK{/i}" with vpunch
     "Me siento... {w}Cansada..."
     scene black with fade
@@ -1381,7 +1443,7 @@ label silbonBadEnding:
     "Huesos."
     "Son huesos."
     sil "Somos amigos ahora. {w}Sí sí sí. {w}Tú cuida de papá allí."
-    sil "Es hora de ir a hacer más amigos."with vpunch
+    sil "Es hora de ir a hacer más amigos." with vpunch
     pause
     play sound "audio/bad-ending.wav" fadein 2
     "Bad Ending."
@@ -1399,6 +1461,7 @@ label normalEnding:
     "A esta hora el festival había terminado. Ya no quedaba gente en la calle y la música estaba apagada."
     "Siento que todo el peso de una larga noche caía sobre mí, y no podía pensar en nada más que dormir."
     # Entra a la casa
+    play sound "audio/steps-short.wav"
     scene fondo sala with fade
     show player triste at right with dissolve
     "Veo este lugar, y es como si no hubiera estado esta mañana."
@@ -1425,7 +1488,7 @@ label normalEnding:
     mm "Se necesita un gran poder para mantener a una Leyenda dentro de ellos."
     mm "Es por eso que su alma era necesaria."
     # Madre Monte se transforma y se vuelve OP
-    show mmonte ulti with flash
+    show mmonte ulti_neutra with flash
     show player asustada with dissolve
     p "!!!!"
     mm "O una porción de su alma, para ser precisa."
@@ -1436,11 +1499,13 @@ label normalEnding:
     mm "No por mucho."
     stop music fadeout 5
     show mmonte at center with easeoutright
+    play sound "audio/golpe2.wav"
     p "¿Qué? ¡AGH!" with vpunch
     "Mi cabeza... Duele."
-    "Sí que caíste, niña tonta."with vpunch
-    "Pobrecilla."with vpunch
-    "No no no, ¡dejame salir!"with vpunch
+    "Sí que caíste, niña tonta." with vpunch
+    "Pobrecilla." with vpunch
+    play music "audio/susurros-001.wav" fadein 1
+    "No no no, ¡dejame salir!" with vpunch
     "Son demasiadas voces. Gritando. Gritando."
     p "¡Aghh! ¡Basta!" with vpunch
     mm "¿Duele verdad? Imagino que tu abuelo habrá lidiado con algo similar por años. Merece ser liberado de esa tortura."
@@ -1449,11 +1514,12 @@ label normalEnding:
     "Un dedo presionó en mi frente."
     p "AHHH!" with vpunch
     mm "Ah, Lucio... {w}Allí estás."
-    mm "No te preocupes, pequeña [playerName]. No te dejaré pasar por lo que tu querido abuelo tuvo que pasar."
+    mm "No te preocupes, pequeña [playerName!q]. No te dejaré pasar por lo que tu querido abuelo tuvo que pasar."
     mm "Cuando te suelte... Ya no sentirás tanto dolor. {w}Guardaré lo que quede tu alma en mi Vestigio."
     p ". . ."
-    mm "Hasta siempre, [playerName]. Descansa sabiendo que has liberado a tu abuelo."
+    mm "Hasta siempre, [playerName!q]. Descansa sabiendo que has liberado a tu abuelo."
     p "¡No! ¡Espera!"
+    stop music fadeout 2
     scene white with flash
     "Todo se vuelve blanco"
     "Ya no estoy en la casa del abuelo... Inaru no está."
@@ -1467,7 +1533,7 @@ label normalEnding:
     "Estoy sola..."
     p "No, por favor..."
     p "Por favor, mamá. Ayúdame."
-    abu "[playerName]..."
+    abu "[playerName!q]..."
     p "!!!"
     p "¿¡ABUELO!?"
     if persistent.calchonaEnding == True and persistent.pomberoEnding == True and persistent.silbonEnding == True:
@@ -1480,8 +1546,9 @@ label normalEnding:
 ##########################################################
 label trueEnding:
     $ abu = Character("Lucio", color="#5a80d3")
-    show abuelo neutro with dissolve
-    abu "Hola, [playerName]"
+    show abuelo silueta with dissolve
+    play music "audio/ambiente-lento-loop.wav" fadein 5 volume 0.6
+    abu "Hola, [playerName!q]"
     p "ABUELO."
     "¿Era esto un sueño? Apenas podía verlo."
     "Mi vista ese volvía borrosa, pero yo me movía para adelante. Cuando lo abracé, podía sentirlo. Era real."
@@ -1495,9 +1562,9 @@ label trueEnding:
     abu "Lo sé."
     show player triste at left with dissolve
     p "..."
-    abu "Inaru solo es un eco de mis sentimientos y mis recuerdos, igual que todos los demás."
+    abu "Inaru sólo es un eco de mis sentimientos y mis recuerdos, igual que todos los demás."
     p "?!"
-    abu "Verás, [playerName]. Hay algo especial en las Leyendas."
+    abu "Verás, [playerName!q]. Hay algo especial en las Leyendas."
     abu "Algunas son temidas, otras son admiradas."
     abu "Las historias corren a través de los años. Pero son eso. Historias."
     abu "Una Leyenda no puede ser buena, ni mala. No conoce de eso. {w}Nosotros, los humanos, somos quienes juzgamos su valor."
@@ -1523,7 +1590,7 @@ label trueEnding:
     scene white with flash
     # Fin Recuerdo
     show player feliz at left with dissolve
-    show abuelo neutro at right with dissolve
+    show abuelo silueta at right with dissolve
     p "!!!!"
     p "¡Los escucho!"
     p "Entonces las... Las leyendas."
@@ -1591,6 +1658,7 @@ label trueEnding:
     "Bajé la mirada. Podía sentir aún la herida en mi mano no terminaba de sanar. Cuando la otra mano la cubrió, pude sentir a mi abuelo abrazándome nuevamente. {w}Cerré los ojos con fuerza."
     abu "Lo hiciste muy bien... Cuidate mucho, calabaza."
     show player feliz with dissolve
+    stop music fadeout 5
     "Su corazón con fuerza. {w}Cuando era pequeña, aquel sonido siempre me calmaba. {w}Me hacía sentir protegida. Ahora, mi mano se apoyaba sobre él."
     p "Adios, abuelo"
     # Volvemos a la habitación del abuelo
@@ -1598,7 +1666,8 @@ label trueEnding:
     show player feliz with dissolve
     p "He vuelto..."
     show player at left with move
-    show mmonte ulti at right with dissolve
+    play music "audio/madre-monte-loop.wav" fadein 5
+    show mmonte ulti_enojada at right with dissolve
     mm "Ngh-!" with vpunch
     show player asustada with dissolve
     p "!!!!"
@@ -1608,17 +1677,22 @@ label trueEnding:
     "Pero lo hizo por mi abuelo... {w}Y ahora estaba desvaneciendose nuevamente dentro del Vestigio."
     mm "No, Lucio. Él..."
     "Me arrodillé frente a ella. {w}Inaru de regreso, me miró a los ojos."
+
     mm "Lo estoy perdiendo."
     "Una mano se apoyó en su brazo. {w}Ésta era una de las decisiones más difíciles que tuve que tomar."
     p "Yo tampoco quiero perderlo..."
     p "Pero él decidió hacer con su tiempo lo que más deseaba."
     show player feliz with dissolve
     p "Creemos algo nuevo a partir de lo que nos dejó."
+    show mmonte ulti_sorprendida with dissolve
     mm "..."
+    show mmonte ulti_enojada with dissolve
     "Sus ramas sujeron mi mano. Su agarre tenso y su cuerpo aún temblando."
     mm "Lo has dejado morir... {w}No puedo perdonarte por eso."
     mm "Pero no puedo sostenerlo cuando se escapa de mis manos."
+    show mmonte ulti_neutra with dissolve
     mm "...."
+    show mmonte ulti_enojada with dissolve
     mm "Una vez eso ocurra, será tu alma la que esté dentro mío. Lentamente, olvidaré al Maestro."
     mm "Sólo las Leyendas perduran en el tiempo. {w}Los humanos desaparecen, y uno a uno serán olvidados."
     show player triste with dissolve
@@ -1627,11 +1701,16 @@ label trueEnding:
     "Pero no podía aceptarlo."
     p "Entonces te hablaré sobre él."
     p "Te contaré sobre todo lo que aprendí y ni tú ni yo lo vamos a olvidar."
+    stop music fadeout 10
+    show mmonte ulti_sorprendida with dissolve
     "Inaru me observó, y casi derrotada, la pude ver sonreir."
     mm "Vaya..."
     mm "Si que eres..."
     mm "Su nieta..."
+    show mmonte vestigio with flash
+    pause
     hide mmonte with flash
+
     # Se desvanece, wooo, F
     show player triste with dissolve
     pause
@@ -1644,15 +1723,19 @@ label trueEnding:
     "Nuevamente todos los Vestigios volvieron a su caja. {w}Pero... {w}Lo que dijo el abuelo..."
     "..."
     "Los Vestigios."
+    show vestigios fondo negro at truecenter with dissolve
+    pause
+    hide vestigios with fade
     "Quizá... {w}Quizá ella tenga razón"
     # Puerta abriéndose
-    play sound "audio/puerta.ogg" volume 0.5
-    "???" "¡[playerName]! ¿Estás ahí?"
+    play sound "audio/puerta.ogg" volume 0.2
+    "???" "¡[playerName!q]! ¿Estás ahí?"
     p "..."
     show player feliz with dissolve
     p "¡Mamá!"
     pause
     scene black with fade
+    play sound "audio/chimes.wav" fadein 7 volume 0.4
     centered "The End."
     # Finaliza el juego:
     return
