@@ -4,145 +4,145 @@
 translate english intro_c2e68efd:
 
     # p "¡Phew! ¡Ya era hora!"
-    p ""
+    p "Phew! About time!"
 
 # game/script.rpy:39
 translate english intro_afd278e1:
 
     # p "Después de un viaje tan largo..."
-    p ""
+    p "After a long journey..."
 
 # game/script.rpy:40
 translate english intro_eee1a4a8:
 
     # p "...finalmente estoy de vuelta."
-    p ""
+    p "... I'm finally back."
 
 # game/script.rpy:45
 translate english intro_90aaffda:
 
     # "No había visitado el pueblo de mamá desde hace dos veranos, justo cuando el abuelo cayó enfermo."
-    ""
+    "I haven't visited mom's town since two summers ago. Right when grandpa got ill."
 
 # game/script.rpy:47
 translate english intro_a2ae142b:
 
     # "Han sido unos meses muy tristes, y mamá no ha sido la misma desde que se enteró."
-    ""
+    "It's been some very sad months. Mom hasn't been the same since she found out."
 
 # game/script.rpy:49
 translate english intro_bbee84bc:
 
     # "Pero estoy segura que venir le hará bien."
-    ""
+    "But I'm sure that coming will do her well."
 
 # game/script.rpy:52
 translate english intro_f7a0a393:
 
     # p "Ahora... La casa del abuelo estaba hacia el final de la calle..."
-    p ""
+    p "Now... Grandpa's house was down the street."
 
 # game/script.rpy:53
 translate english intro_021cd9f2:
 
     # "Recordaba que estaba alejada del pueblo. Esa era una de las mejores cosas."
-    ""
+    "I remembered it was far from town. That was one of the best things."
 
 # game/script.rpy:54
 translate english intro_291e0439:
 
     # "Está cercana a los campos, por lo que hay mucho espacio."
-    ""
+    "It was close to the fields, so there was plenty of space."
 
 # game/script.rpy:55
 translate english intro_b3d28fea:
 
     # "Mamá siempre me contaba que el abuelo adoraba eso."
-    ""
+    "Mom always used to tell me grandpa loved that."
 
 # game/script.rpy:56
 translate english intro_a8f52f12:
 
     # "Que desde pequeño siempre salía a explorar y se internaba en los bosques."
-    ""
+    "That since he was a kid, he always used to explore, and go into the woods."
 
 # game/script.rpy:58
 translate english intro_c1ff43bc:
 
     # "Una vez, el abuelo me mostró su colección de insectos, ¡Guacala!"
-    ""
+    "One time, grandpa even showed me his insects collection. Ew!"
 
 # game/script.rpy:60
 translate english intro_b8eaee61:
 
     # p "Será mejor que me de prisa."
-    p ""
+    p "I should hurry up."
 
 # game/script.rpy:64
 translate english intro_e0456ba7:
 
     # centered "Casa del abuelo. \n30 de Octubre. \n4:00pm."
-    centered ""
+    centered "Grandpa's house\nOctober 30th. \n4:00pm."
 
 # game/script.rpy:67
 translate english intro_d93a2e1c:
 
     # "Mis padres estaban muy ocupados para venir hoy, pero yo no puedo perderme el festival de Halloween."
-    ""
+    "My parents were too busy to come today, but I can't miss Halloween's festival."
 
 # game/script.rpy:68
 translate english intro_e0714306:
 
     # "¡Siempre fue mi preferida!"
-    ""
+    "It has always been my favourite!"
 
 # game/script.rpy:71
 translate english intro_dbadcf95:
 
     # p "¡Whoa! Siempre olvido lo grande que es."
-    p ""
+    p "Wow! I always forget how big it is!"
 
 # game/script.rpy:72
 translate english intro_8d374c81:
 
     # "Sé que mamá pidió que la limpiaran antes que llegáramos, ¡Cuánto trabajo!"
-    ""
+    "I know mom asked for it to be cleaned before we arrived. All that work!"
 
 # game/script.rpy:73
 translate english intro_17dc6627:
 
     # "El abuelo nunca la cuidaba demasiado. Sé que era la abuela quien le gustaba quedarse en casa."
-    ""
+    "Grandpa never took care of it. I know it was grandpa who loved staying home."
 
 # game/script.rpy:74
 translate english intro_b61153b9:
 
     # "Yo no la conocí. Así que me crié solo con las historias del abuelo y sus aventuras."
-    ""
+    "I didn't meet her. So I grew up only with his stories and adventures."
 
 # game/script.rpy:75
 translate english intro_4888e754:
 
     # "Mamá siempre se enfadaba porque cada vez que veníamos había algo que reparar."
-    ""
+    "Mom always got mad because every time we came there was something that needed to be fixed."
 
 # game/script.rpy:76
 translate english intro_7e3e5568:
 
     # "Pero siempre las cosas de la abuela las mantenía pulidas con mucho cariño."
-    ""
+    "But grandma's stuff were always kept polished."
 
 # game/script.rpy:77
 translate english intro_f033f3fb:
 
     # "Supongo que era una una relación de mucho afecto."
-    ""
+    "I guess there was a relationship with a lot of love."
 
 # game/script.rpy:78
 translate english intro_788213a2:
 
     # "Él cuidaba de los jardines y los campos. Ella del hogar. Ambos parecían ser un gran equipo."
-    ""
+    "He took care of the gardens and fields. She took care of the house. They seemed to be a great team."
 
 # game/script.rpy:79
 translate english intro_01886b26:
@@ -154,1903 +154,1902 @@ translate english intro_01886b26:
 translate english intro_62f2141c:
 
     # p "La cocina está en mejor estado de lo que recuerdo..."
-    p ""
+    p "The kitchen is in a better condition than what I remember."
 
 # game/script.rpy:92
 translate english intro_5127a8c1:
 
     # "Cuando era pequeña, solía ayudar al abuelo a hacer alfajores."
-    ""
+    "When I was little, I used to help grandpa to make alfajores."
 
 # game/script.rpy:93
 translate english intro_933dc0d3:
 
     # "Hacíamos un desastre, ¡pero quedaban deliciosos!"
-    ""
+    "We made a mess. But they ended up delicious!"
 
 # game/script.rpy:99
 translate english intro_f3bc52e5:
 
     # "La sala está llena de fotos de nosotros. Mamá y el abuelo solían ser muy compañeros."
-    ""
+    "The living room is filled with our picturs. Mom and grandpa used to be very close."
 
 # game/script.rpy:100
 translate english intro_8b57a76b:
 
     # "Pero mamá dejó el pueblo a los 18 para irse a estudiar y jamás volvió."
-    ""
+    "But mom left the town when she turned 18 and went to college. She never came back."
 
 # game/script.rpy:101
 translate english intro_a63be44b:
 
     # "El abuelo nunca dijo nada, y siempre que volvían a verse era como si el tiempo no hubiera pasado."
-    ""
+    "Grandpa never said anything, and they always came to see each other like time hasn't come by."
 
 # game/script.rpy:103
 translate english intro_f90046b6:
 
     # "Me pregunto si realmente eso fue difícil para ellos..."
-    ""
+    "I wonder if it was a hard thing for them."
 
 # game/script.rpy:110
 translate english intro_22622fbb:
 
     # p "Yaaawwwwnn..."
-    p ""
+    p "Yaaawwwwnn..."
 
 # game/script.rpy:111
 translate english intro_8177f356:
 
     # p "El viaje ha sido realmente agotador."
-    p ""
+    p "The trip has been really tiring."
 
 # game/script.rpy:112
 translate english intro_0bd0f5a4:
 
     # p "Creo que mejor voy a descansar un poco."
-    p ""
+    p "I think I better go and rest for a little while."
 
 # game/script.rpy:114
 translate english intro_6f73d236:
 
     # "Esta casa posee muchos recuerdos... Tanto para mí como para mi mamá."
-    ""
+    "This house holds a lot of memories... For both me and mom."
 
 # game/script.rpy:115
 translate english intro_9038e272:
 
     # "Ya quiero ver su reacción cuando venga..."
-    ""
+    "I wanna see her reaction when she comes."
 
 # game/script.rpy:123
 translate english dream_aa627995:
 
     # centered "\"{cps=10}[playerName!q]...{/cps}\""
-    centered ""
+    centered "\"{cps=10}[playerName!q]...{/cps}\""
 
 # game/script.rpy:124
 translate english dream_6e7b6847:
 
     # centered "\"No le creas.\""
-    centered ""
+    centered "\"Don't trust them.\""
 
 # game/script.rpy:125
 translate english dream_eb5e1f48:
 
     # centered "\"Ten cuidado.\""
-    centered ""
+    centered "\"Be careful.\""
 
 # game/script.rpy:126
 translate english dream_abeaa215:
 
     # centered "\"Está aquí.\""
-    centered ""
+    centered "\"They're here.\""
 
 # game/script.rpy:127
 translate english dream_a406e24f:
 
     # centered "\"{cps=5}Esperándote...{/cps}\""
-    centered ""
+    centered "\"{cps=5}Waiting...{/cps}\""
 
 # game/script.rpy:135
 translate english festival_bcf923f4:
 
     # p "¡Esa fue una gran siesta!"
-    p ""
+    p "That was a great nap!"
 
 # game/script.rpy:136
 translate english festival_90c53fe0:
 
     # p "¡Será mejor que ya vuelva a salir antes de que se haga muy tarde!"
-    p ""
+    p I "I better leave before it's too late!"
 
 # game/script.rpy:139
 translate english festival_875ce35a:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:141
 translate english festival_cbc2da25:
 
     # "Que frío hace aquí dentro..."
-    ""
+    "It's so cold in here..."
 
 # game/script.rpy:143
 translate english festival_678c664e:
 
     # "Debo recordar prender la calefacción cuando vuelva."
-    ""
+    "I should remember to turn on the heat when I come back."
 
 # game/script.rpy:145
 translate english festival_f1c46642:
 
     # p "¡Vamos al pueblo!"
-    p ""
+    p "Let's go to town!"
 
 # game/script.rpy:149
 translate english festival_54ab3775:
 
     # centered "Pueblo Liwen. \n30 de Octubre. \n8:00pm."
-    centered ""
+    centered "Liwen Town. \nOctober 30th. \n8:00pm."
 
 # game/script.rpy:153
 translate english festival_9daa5cbc:
 
     # p "¡Wow! Hay muchísima más gente de la que recordaba."
-    p ""
+    p "Wow! There are even more people than what I remember."
 
 # game/script.rpy:154
 translate english festival_b2ce84cb:
 
     # "Todos los años, el pueblo hace un gran festival por Halloween. Los preparativos empiezan muchas semanas antes, y el evento dura dos días."
-    ""
+    "Every year, the town makes a great festival for Halloween. Preparations start several weeks before, and the event itself lasts for two days."
 
 # game/script.rpy:155
 translate english festival_57425dc5:
 
     # "Pero siempre lo mejor es durante la noche del 31:\nhay danzas, disfraces y muchísima comida."
-    ""
+    "But the best is during the 31th's night:\n There are dances, costumes, and lots of food."
 
 # game/script.rpy:157
 translate english festival_30a9a74b:
 
     # "El abuelo me contó que cuando mamá era adolescente, ella ponía a coserse la ropa desde un mes antes, y salía a las calles con sus amigos."
-    ""
+    "Grandpa told me that when mom was a teenager, she started sewing her clothes a month prior, and went to the streets with all her friends."
 
 # game/script.rpy:158
 translate english festival_69f7025c:
 
     # "Siempre se maquillaba de maneras espeluznantes y todo el mundo quedaba encantado. Es la fiesta turística del pueblo."
-    ""
+    "She always put on makeup in the creepiest ways and everyone ended up mesmerized. This is the town's signature party."
 
 # game/script.rpy:159
 translate english festival_29177dfa:
 
     # "Mamá siempre contaba que desde hacía siglos, el pueblo tenía una gran conexión con el Otro Mundo"
-    ""
+    "Mom always told me that, from centuries ago, the town had a great connection with the Other World."
 
 # game/script.rpy:160
 translate english festival_24be2762:
 
     # "...y mientras conociéramos nuestras raíces y quienes éramos, nada podía hacernos daño."
-    ""
+    "... And as long as we knew our roots and who we were, nothing could harm us."
 
 # game/script.rpy:161
 translate english festival_2c70ea57:
 
     # "Ella dice que se sentía más cómoda como un monstruo entre humanos. Me encantaría volver a verla así."
-    ""
+    "She says she feels more comfortable as a monster between humans. I would love to see her like that again."
 
 # game/script.rpy:168
 translate english grampasBox_47eb380c:
 
     # centered "Casa del Abuelo. \n30 de Octubre. \n11:55pm"
-    centered ""
+    centered "Grandpa's house. \nOctober 30th. \n11:55pm"
 
 # game/script.rpy:220
 translate english grampasBox_ae0a984f:
 
     # p "Phew... Estoy agotada, pero ha sido realmente divertido!"
-    p ""
+    p "Phew... I'm exhausted, but it's been really fun!"
 
 # game/script.rpy:222
 translate english grampasBox_7a8d4ee7:
 
     # p "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut-"
-    p ""
+    p "I'm lucky celebrations here are until tomorrow, I'm sure mom will enj-"
 
 # game/script.rpy:224
 translate english grampasBox_d8b1b2b9:
 
     # p "¿Eh?"
-    p ""
+    p "Eh?"
 
 # game/script.rpy:227
 translate english grampasBox_38d23a6b:
 
     # "Veo luz saliendo de la puerta entreabierta, las luces del resto de la casa se encuentran apagadas"
-    ""
+    "I see light coming out of the door's slit. Lights on the rest of the room are turned off."
 
 # game/script.rpy:228
 translate english grampasBox_3006bb71:
 
     # p "¿Quién anda ahí...?"
-    p ""
+    p "Who's there...?"
 
 # game/script.rpy:229
 translate english grampasBox_19683520:
 
     # "Viene de la habitación del abuelo... No he estado allí desde hace años."
-    ""
+    "It came from grandpa's bedroom... I haven't been there for years."
 
 # game/script.rpy:232
 translate english grampasBox_875ce35a:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:240
 translate english grampasBox_d3742d5a:
 
     # p "¿Hola?"
-    p ""
+    p "Hello?"
 
 # game/script.rpy:241
 translate english grampasBox_875ce35a_1:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:242
 translate english grampasBox_6217db4d:
 
     # "Que extraño, nadie me dijo que alguien vendría hoy, ¿Será una broma?"
-    ""
+    "Weird, nobody told me someone would come today. Could this be a joke?"
 
 # game/script.rpy:254
 translate english grampasBox_71014d7b:
 
     # "Este lugar está tal y como recordaba... Es como si el abuelo jamás se hubiese ido. {w}Pero... {w}Esa caja..."
-    ""
+    "This place is just like I remember it... It's like grandpa would've never left. {w}But... {w}The box..."
 
 # game/script.rpy:260
 translate english grampasBox_875ce35a_2:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:262
 translate english grampasBox_c8e2d5e9:
 
     # "La recuerdo, mi abuelo nunca me dejaba tocarla. Me pregunto..."
-    ""
+    "I remember it, grandpa never let me touch it. I wonder..."
 
 # game/script.rpy:274
 translate english grampasBox_9da1cc9e:
 
     # p "¡AGHHH!"
-    p ""
+    p "AGHHH!"
 
 # game/script.rpy:281
 translate english meetMadreMonte_4a76dea3:
 
     # mm "Vaya..."
-    mm ""
+    mm "Well..."
 
 # game/script.rpy:286
 translate english meetMadreMonte_3c04d090:
 
     # mm "¿Quién soy yo? ¿Qué no te han enseñado nada?"
-    mm ""
+    mm "Who am I? Did nobody tell you a thing?"
 
 # game/script.rpy:289
 translate english meetMadreMonte_ce06dd7c:
 
     # mm "Vaya, ese fue un descanso largo..."
-    mm ""
+    mm "Wow, that was a long rest..."
 
 # game/script.rpy:292
 translate english meetMadreMonte_21c8d687:
 
     # p "Pero... ¿¡De dónde has salido!?"
-    p ""
+    p "But... Where did you get from?!"
 
 # game/script.rpy:293
 translate english meetMadreMonte_0075a99a:
 
     # p "Yo abrí esa caja... Y de pronto estabas aquí."
-    p ""
+    p "I opened that box... And you were suddenly here."
 
 # game/script.rpy:294
 translate english meetMadreMonte_f8b81c9e:
 
     # mm "... No sabes nada, ¿verdad?"
-    mm ""
+    mm "... You know nothing, do you?"
 
 # game/script.rpy:295
 translate english meetMadreMonte_8cf63f44:
 
     # mm "Me llamo Inaru. Soy una protectora de los bosques, ¡por supuesto!"
-    mm ""
+    mm "My name is Inaru. I'm a protector of the woods, of course!"
 
 # game/script.rpy:296
 translate english meetMadreMonte_497ddc47:
 
     # mm "O lo era, hasta que quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años!"
-    mm ""
+    mm "Or I was, until I ended up under Maestro's orders, I've lived in this box for forty long years."
 
 # game/script.rpy:297
 translate english meetMadreMonte_b2b08391:
 
     # p "¿¡Cómo!? ¿¡Mi abuelo es tu maestro!?"
-    p ""
+    p "What!? My grandpa is your master?!"
 
 # game/script.rpy:298
 translate english meetMadreMonte_39600f28:
 
     # mm "Pues parece que sí, tanto yo como los otros estábamos bajo sus ord-"
-    mm ""
+    mm "Well it seems like it, both me and the rest were under his comm-"
 
 # game/script.rpy:299
 translate english meetMadreMonte_7c72c870:
 
-    # mm "..."
-    mm ""
+    # mm ". . ."
+    mm ". . ."
 
 # game/script.rpy:300
 translate english meetMadreMonte_68cecf89:
 
     # "Inaru se volteó a ver la caja.{w} Se quedó mirándola en silencio antes de voltear a verme."
-    ""
+    "Inaru turned towards the box.{w} She silently stared at it before turning back at me again. She was not pleased."
 
 # game/script.rpy:301
 translate english meetMadreMonte_ac411743:
 
     # mm "{size=+10}¿¡Qué hiciste!? ¿¡Fuíste tú!?{/size}" with vpunch
-    mm "" with vpunch
+    mm "{size=+10}What did you do?! Was it you?!{/size}" with vpunch
 
 # game/script.rpy:302
 translate english meetMadreMonte_54a78c7a:
 
     # mm "¡No debiste haber hecho eso, niña tonta!"
-    mm ""
+    mm "You shouldn't have done that, stupid girl!"
 
 # game/script.rpy:303
 translate english meetMadreMonte_3e6ac0ee:
 
     # mm "... Si yo estoy afuera, quiere decir que los demás también."
-    mm ""
+    mm "... If I'm out, it means everyone else is as well."
 
 # game/script.rpy:307
 translate english meetMadreMonte_7c72c870_1:
 
-    # mm "..."
-    mm ""
+    # mm ". . ."
+    mm ". . ."
 
 # game/script.rpy:308
 translate english meetMadreMonte_4e2d900c:
 
     # mm "Realmente no sabes nada."
-    mm ""
+    mm "You really know nothing."
 
 # game/script.rpy:309
 translate english meetMadreMonte_5ba69816:
 
     # mm "Míralo tu misma"
-    mm ""
+    mm "Look at it yourself."
 
 # game/script.rpy:313
 translate english meetMadreMonte_5bbbf831:
 
     # mm "Estos son Vestigios."
-    mm ""
+    mm "These are Vestigios."
 
 # game/script.rpy:314
 translate english meetMadreMonte_04111c7f:
 
     # mm "Reliquias que tu abuelo perfeccionó para capturar a las Leyendas que habitan este mundo."
-    mm ""
+    mm "These are relics your grandfather perfected to catch Leyendas"
 
 # game/script.rpy:315
 translate english meetMadreMonte_a8f0bca6:
 
     # mm "Una Leyenda puede ser cualquier cosa: un espíritu, un monstruo, un objeto poseído, cualquier criatura atrapada en una época que no le pertenezca."
-    mm ""
+    mm "A Leyenda could be anything: a spirit, a monster, a possessed object, any creture trapped in a time they don't belong to. "
 
 # game/script.rpy:316
 translate english meetMadreMonte_af369c95:
 
     # mm "Tu abuelo ha dedicado su vida a capturar y atrapar Leyendas, al igual que su padre antes que él."
-    mm ""
+    mm "Your grandfather has dedicated his life to catch Leyendas, like his father before him."
 
 # game/script.rpy:318
 translate english meetMadreMonte_1f767a04:
 
     # mm "Aparte de mí, ha podido capturar a tres Leyendas: {w}el Silbón, {w}la Calchona {w}y el Pombero."
-    mm ""
+    mm "Aside from me, he's been able to catch three leyendas:  {w}the Silbón, {w}the Calchona {w}, and the Pombero."
 
 # game/script.rpy:319
 translate english meetMadreMonte_23c6c70a:
 
     # mm "Criaturas que vagaban el mundo causando terror antes de que tú las liberaras nuevamente."
-    mm ""
+    mm "Creatures who roamed across the world spreading terror before you released them again."
 
 # game/script.rpy:320
 translate english meetMadreMonte_c386185c:
 
     # mm "Ahora es tu responsabilidad encontrarlas y capturarlas de nuevo dentro de los Vestigios."
-    mm ""
+    mm "Now it's your responsibility to find and capture them again inside the Vestigios."
 
 # game/script.rpy:321
 translate english meetMadreMonte_fbcbcf6d:
 
     # "Estaba bromando... Debía ser una broma."
-    ""
+    " She was kidding... It was a joke."
 
 # game/script.rpy:327
 translate english meetMadreMonte_9c119b4e:
 
     # mm "Tendrás que convencerlos, por supuesto!"
-    mm ""
+    mm "You'll have to convince them, of course!"
 
 # game/script.rpy:328
 translate english meetMadreMonte_7564403d:
 
     # mm "No estoy esperando que puedas derrotarlos y forzarlos dentro del Vestigio, no pareces muy fuerte."
-    mm ""
+    mm "I'm not asking for you to defeat and force them inside the Vestigio. You don't look that strong."
 
 # game/script.rpy:330
 translate english meetMadreMonte_f7b982c8:
 
     # mm "Las Leyendas son criaturas suspicaces, si sienten que eres una amenaza, será más difícil atraparlos."
-    mm ""
+    mm "Leyendas are smart creatures, if they feel you're a threat, it will be impossible to capture them."
 
 # game/script.rpy:331
 translate english meetMadreMonte_ecdd8b3f:
 
     # mm "Ahí tu corres ventaja, van a subestimarte."
-    mm ""
+    mm "There's where you have an advantage, they're going to underestimate you."
 
 # game/script.rpy:333
 translate english meetMadreMonte_875ce35a:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:334
 translate english meetMadreMonte_48fa8e89:
 
     # mm "Tu familia usó un hechizo para encerrarlos.{w} Si escaparon, es porque éste se ha debilitado, pero aún tienes la oportunidad de volver a darle fuerza."
-    mm ""
+    mm "Your family put a spell to lock them in.{w} If they escaped, it's because the spell has weaken, but you still have the chance to give back its strength."
 
 # game/script.rpy:336
 translate english meetMadreMonte_3b277e9a:
 
     # mm "Cada Leyenda tiene una marca, si tienes la sangre de tu abuelo, usar un poco de tu sangre sobre la marca será suficiente para devolver su alma a los Vestigios."
-    mm ""
+    mm "Each Leyenda has a mark, if you have your grandfather's blood, using a little bit of it over the mark will be enough to put their soul back to the Vestigios."
 
 # game/script.rpy:337
 translate english meetMadreMonte_c694e6b3:
 
     # p "Mi sangre..."
-    p ""
+    p "My blood..."
 
 # game/script.rpy:338
 translate english meetMadreMonte_0e484309:
 
     # p "Esto no tiene sentido, ¿por qué mi abuelo nunca nos lo diría?"
-    p ""
+    p "It doesn't make any sense. Why he wouldn't tell us anything?"
 
 # game/script.rpy:339
 translate english meetMadreMonte_92784935:
 
     # mm "No lo sé. Pero ahora no tienes elección."
-    mm ""
+    mm "I do not know. But now you have no choice."
 
 # game/script.rpy:345
 translate english info_83151301:
 
     # mm "¿Qué quieres saber?"
-    mm ""
+    mm "What do you want to know?"
 
 # game/script.rpy:348
 translate english info_07d18407:
 
     # mm "Yo soy un espíritu protector de los bosques. Estaba perdida hasta que tu abuelo me encontró."
-    mm ""
+    mm "I am a protector of the woods. I was lost until my grandfather found me."
 
 # game/script.rpy:349
 translate english info_bee0baab:
 
     # mm "Él me salvó de morir cegada por la ira y el rencor, y desde entonces, juré estar siempre a su lado."
-    mm ""
+    mm "He saved me from dying blinded by rage and resentment. Since then, I swore to be always by his side."
 
 # game/script.rpy:350
 translate english info_60adac95:
 
     # mm "Es por eso que tienes que conseguir que las otras Leyendas vuelvan a sus Vestigios."
-    mm ""
+    mm "That's why you have to get the Leyendas back inside their Vestigios."
 
 # game/script.rpy:354
 translate english info_d924bda8:
 
     # mm "El Pombero es un duende, del color de la noche. Con los humanos es el más impredecible, pero posee un gran cariño y respeto por los bosques."
-    mm ""
+    mm "The Pombero is a gremlin, as dark as the night. He's the most unpredictable one, but he holds great love and respect for the forests."
 
 # game/script.rpy:358
 translate english info_1a09f751:
 
     # mm "El Silbón es un espectro con la forma de un joven, le encanta silbar y tiene un particular odio hacia los hombres."
-    mm ""
+    mm "The Silbón is a Wraith with a boy's shape, he loves whistling, and holds particular hatred towards men."
 
 # game/script.rpy:362
 translate english info_08858306:
 
     # mm "La Calchona solía ser una bruja, pero sufrió una maldición por sus actos. Ahora es condenada a vagar el mundo sin poder volver a su forma humana."
-    mm ""
+    mm "The Calchona used to be a witch, but she suffered from a cursed because of her deeds. Now she's condemned to roam through the world without coming back to her human shape"
 
 # game/script.rpy:366
 translate english info_13d65cbd:
 
     # mm "Tu abuelo fue un hombre muy hábil e inteligente, ha dedicado su vida entera a buscar y capturar Leyendas que podrían ser dañinas para los humanos."
-    mm ""
+    mm "Your grandfather was a skillful, intelligent man. He spent his whole life to look and capture Leyendas that could be harmful for humans."
 
 # game/script.rpy:367
 translate english info_9a81e8bc:
 
     # mm "Él solía hablar con nosotros, lo hizo hasta sus últimos días..."
-    mm ""
+    mm "He used to speak with us, he did it up until his last days."
 
 # game/script.rpy:374
 translate english preMission_0904871f:
 
     # "Sabía que había un gran peligro por delante. Al mismo tiempo, sentía que algo me empujaba hacia ello."
-    ""
+    "I knew there was great danger ahead of me. At the same time, I felt something pushed me towards it."
 
 # game/script.rpy:375
 translate english preMission_489ba69d:
 
     # "Estaba segura de que tenía una fuerte conexión con lo que estaba ocurriendo."
-    ""
+    "I was sure I had a strong connection with what was going on."
 
 # game/script.rpy:376
 translate english preMission_9fec54ca:
 
     # mm "Se que es mucha información, y no tenemos mucho tiempo."
-    mm ""
+    mm "I know this is a lot of information to take in, and we don't have much time."
 
 # game/script.rpy:377
 translate english preMission_9d593398:
 
     # p "Hoy es el festival, y hay mucha gente aquí que podría correr peligro, ¿No causarán el caos?"
-    p ""
+    p "Today's the festival, and there's a lot of people in danger. Won't they cause chaos?"
 
 # game/script.rpy:378
 translate english preMission_218402e4:
 
     # mm "Los humanos no ven nada que no quieren ver, y las Leyendas no se hacen notar a menos que quieran ser vistas."
-    mm ""
+    mm "Humans see noything they don't want to see, and Leyendas won't make themselves noticeble, unless they want to be seen."
 
 # game/script.rpy:379
 translate english preMission_06ee41c4:
 
     # mm "Ahora, ellos también están recobrando sus fuerzas, pero no les llevará mucho hasta que empiecen a moverse nuevamente."
-    mm ""
+    mm "Now, they are also gaining strength, but it won't take long until they start moving again."
 
 # game/script.rpy:380
 translate english preMission_a353e371:
 
     # "Me pregunto si realmente puedo confiar en Inaru de la manera que ella espera que lo haga..."
-    ""
+    "I wondered if I really could trust Inaru the way she expected me to."
 
 # game/script.rpy:381
 translate english preMission_171dc777:
 
     # mm "Oye..."
-    mm ""
-
+    mm "Hey..."
 # game/script.rpy:383
 translate english preMission_6d56d392:
 
     # p "!!"
-    p ""
+    p "!!"
 
 # game/script.rpy:384
 translate english preMission_67ada61f:
 
     # "Su voz me saca de mis pensamientos, y un fuerte sentimiento de inseguridad me invade de repente."
-    ""
+    "Her voice pulls me out of my thoughts, and a strong feeling of insecurity overwhelmed me."
 
 # game/script.rpy:385
 translate english preMission_07ddfe85:
 
     # "Algo que no estaba allí un momento antes."
-    ""
+    "Something that wasn't there a moment before."
 
 # game/script.rpy:387
 translate english preMission_8a580080:
 
     # "¿Es esto lo que pueden causar las Leyendas solo con su voz? ¿Miedo, dudas?"
-    ""
+    "Was that what Leyendas could cause only with their voice? Fear, doubts"
 
 # game/script.rpy:388
 translate english preMission_0f587017:
 
     # "O quizá también... Protección y seguridad."
-    ""
+    "Or maybe also... Protection, and confidence."
 
 # game/script.rpy:389
 translate english preMission_83b1bac8:
 
     # "Inaru me mira impaciente. Yo tardo unos momentos antes de hablar de nuevo."
-    ""
+    "Inaru looked at me impatiently. I took a few moments before speaking again."
 
 # game/script.rpy:390
 translate english preMission_6f2a192e:
 
     # p "¿De verdad no hay nadie más que pueda resolver esto? Mamá vendrá mañana y-"
-    p ""
+    p "There's really nobody else that could fix this? Mom will come tomorrow and-"
 
 # game/script.rpy:391
 translate english preMission_cd8b2287:
 
     # mm "Mañana ya será demasiado tarde. No, lo siento, si tú no lo haces, nadie podrá."
-    mm ""
+    mm "Tomorrow will be already too late. No, sorry, if you can't do it, nobody will."
 
 # game/script.rpy:392
 translate english preMission_5dc5e54f:
 
     # p "¿Por qué no podemos llamar a la policía?"
-    p ""
+    p "Why can'y we call the police?"
 
 # game/script.rpy:393
 translate english preMission_a6269031:
 
     # mm "Nada de lo que hagan podrá resultar. Solo tú tienes la sangre de tu abuelo."
-    mm ""
+    mm "Nothing they do will work. Only you have your grandfather's blood."
 
 # game/script.rpy:394
 translate english preMission_138f0fb0:
 
     # p "Pero, ¿Cómo puedo usar mi sangre?"
-    p ""
+    p "But how can I use my blood?"
 
 # game/script.rpy:395
 translate english preMission_369dc575:
 
     # "En un instante, Inaru sujetó mi mano."
-    ""
+    "In an instant, Inaru held my hand."
 
 # game/script.rpy:396
 translate english preMission_aaf2a5f6:
 
     # mm "Cierra los ojos."
-    mm ""
+    mm "Close your eyes."
 
 # game/script.rpy:397
 translate english preMission_56e10acd:
 
     # "En un reflejo, obedecí justo cuando sentí la piel de mi palma abrirse."
-    ""
+    "In a reflex, I obeyed right when I felt my palm's skin cracking open."
 
 # game/script.rpy:399
 translate english preMission_554e40c6:
 
     # p "Agh!" with vpunch
-    p "" with vpunch
+    p "Agh!" with vpunch
 
 # game/script.rpy:400
 translate english preMission_457cbf45:
 
     # "El líquido comenzó a brotar, humedeciendo mi mano."
-    ""
+    "Liquid starting pouring out, running through my hand."
 
 # game/script.rpy:401
 translate english preMission_4605a19d:
 
     # "Sus dedos rígidos pasaron sobre mi palma."
-    ""
+    "Her rigid fingers went through my palm."
 
 # game/script.rpy:402
 translate english preMission_f3b7c6cc:
 
     # "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí.{w} La herida de mi mano rapidamente comenzó a cicatrizar."
-    ""
+    "When I opened my eyes, my hand was dry, and Inaru's fingertips shone with a crimson taint.{w} The wound quickly started to scar."
 
 # game/script.rpy:403
 translate english preMission_f0f665a5:
 
     # mm "Para encerrar nuevamente a las Leyendas, necesitas encontrar el lugar donde tu abuelo ha puesto el hechizo y debes marcarlo con tu sangre."
-    mm ""
+    mm "To lock a Leyenda again, you need to find the spot where your grandfather has put the spell, and mark it with your blood."
 
 # game/script.rpy:405
 translate english preMission_56b66bc1:
 
     # mm "Yo puedo forzar a dos de las Leyendas de nuevo dentro de su Vestigio usándola tambien, pero enfrentarme a los tres podría matarme."
-    mm ""
+    mm "I can force two of them back inside their Vestigios using it, but if I confront all three of them, it could kill me."
 
 # game/script.rpy:406
 translate english preMission_81110d59:
 
     # "Su mano se posó sobre mi mejilla, podía sentir el calor a través de su palma."
-    ""
+    "Her hand rested on my cheek, I could feel warmth through her rough palm."
 
 # game/script.rpy:407
 translate english preMission_381b3aa1:
 
     # mm "Lo siento, hubiera querido que las cosas fueran diferentes. Aún así, la última decisión la tienes tú."
-    mm ""
+    mm "I am sorry, I would've liked that things were different. Still, you've got the final word."
 
 # game/script.rpy:408
 translate english preMission_bae2f1a8:
 
     # mm "¿Deseas ayudarme a salvar lo que tu abuelo ha intentado proteger?"
-    mm ""
+    mm "Do you wish to help me save what your grandgather has tried to protect?"
 
 # game/script.rpy:417
 translate english missionDenied_ad6a860b:
 
     # p "No puedo... No soy la persona que buscas."
-    p ""
+    p "I can't... I'm not the person you're looking for."
 
 # game/script.rpy:418
 translate english missionDenied_8f72170f:
 
     # mm "Vaya, que decepción."
-    mm ""
+    mm "Well, that's disappointing."
 
 # game/script.rpy:419
 translate english missionDenied_3a50b52a:
 
     # mm "Pero supongo que no te puedo forzar."
-    mm ""
+    mm "But I suppose I can't force you."
 
 # game/script.rpy:420
 translate english missionDenied_1b32afee:
 
     # "Me di vuelta, y caminé hacia la puerta."
-    ""
+    "I turned around, walking towards the door."
 
 # game/script.rpy:421
 translate english missionDenied_004afde0:
 
     # mm "Pero aún así {cps=7}puedo usarte.{/cps}"
-    mm ""
+    mm "But I still {cps=7}can use you.{/cps}"
 
 # game/script.rpy:424
 translate english missionDenied_b99ca536:
 
     # p "!!!!" with vpunch
-    p "" with vpunch
+    p "!!!!" with vpunch
 
 # game/script.rpy:427
 translate english missionDenied_a3d1d004:
 
     # "No llegué a voltear, mi cuerpo entumecido solo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
-    ""
+    "I didn't get to turn around, my stiff body only managed to look down, where the branches came out from my stomach."
 
 # game/script.rpy:429
 translate english missionDenied_88739013:
 
     # "Luego... Oscuridad."
-    ""
+    "Then... Darkness"
 
 # game/script.rpy:433
 translate english missionDenied_254a1224:
 
     # "Bad Ending."
-    ""
+    "Bad Ending."
 
 # game/script.rpy:439
 translate english missionAccepted_de746861:
 
     # mm "Gracias... Sé que esto no es fácil."
-    mm ""
+    mm "Thank you... I know this is not easy."
 
 # game/script.rpy:440
 translate english missionAccepted_177b2f35:
 
     # mm "Entonces ya está decidido."
-    mm ""
+    mm "Then it is settled."
 
 # game/script.rpy:441
 translate english missionAccepted_fd599e6e:
 
     # mm "Luego de vivir tantas décadas con ellos, puedo sentirlos."
-    mm ""
+    mm "After living so mny decades with them, I can feel them."
 
 # game/script.rpy:442
 translate english missionAccepted_9531b9ab:
 
     # "Inaru camina hacia un mapa del pueblo colgado en la pared."
-    ""
+    "Inaru walked towards the town's map that hung on the wall."
 
 # game/script.rpy:445
 translate english missionAccepted_ab326716:
 
     # mm "Al Silbón le gusta estar entre la gente, así que es probable que lo encuentres caminando en el pueblo. "
-    mm ""
+    mm "The Silbón loved being around people, so you'll probably find him walking on out."
 
 # game/script.rpy:446
 translate english missionAccepted_11591457:
 
     # mm "Si hay un lugar donde seguro el Pombero iría primero, es en el bosque Suas Agascuana."
-    mm ""
+    mm "If there's a place where the Pombero would go first, is in Suas Agascuana Forest."
 
 # game/script.rpy:447
 translate english missionAccepted_bd2bbfb0:
 
     # mm "Y la Calchona... Debe estar buscando algo que comer, así que seguramente la encontrarás en los campos Lania."
-    mm ""
+    mm "And the Calchona... She must be looking for something to it, so she'll most likely find her in the Lania fields."
 
 # game/script.rpy:450
 translate english missionAccepted_dde155ba:
 
     # mm "Hay mucho terreno por cubrir y poco tiempo-"
-    mm ""
+    mm "There's a lot of field to cover and little time."
 
 # game/script.rpy:451
 translate english missionAccepted_126e98d6:
 
     # mm "Prometo ayudarte en todo lo que pueda. Nombra una Leyenda y yo me encargaré de lo demás."
-    mm ""
+    mm "I promise to help you as much as I can. Pick a Leyenda, and I'll do the rest."
 
 # game/script.rpy:453
 translate english missionAccepted_78ff7db2:
 
     # "Debo tomar una decisión, ¿Tras de quién iré?"
-    ""
+    "I need to make a decision. Who I'm going after?"
 
 # game/script.rpy:454
 translate english missionAccepted_90ceaefa:
 
     # p "Elijo a..."
-    p ""
+    p "I choose..."
 
 # game/script.rpy:459
 translate english missionAccepted_e3998262:
 
     # mm "Buena suerte. Te estaré esperando aquí al amanecer"
-    mm ""
+    mm "Good luck. I'll be waiting for you here at dawn."
 
 # game/script.rpy:460
 translate english missionAccepted_4b301c2b:
 
     # "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
-    ""
+    "Without any other word, Inaru disappeared. Alone again, I walked towards the door."
 
 # game/script.rpy:464
 translate english missionAccepted_e3998262_1:
 
     # mm "Buena suerte. Te estaré esperando aquí al amanecer"
-    mm ""
+    mm "Good luck. I'll be waiting for you here at dawn."
 
 # game/script.rpy:465
 translate english missionAccepted_4b301c2b_1:
 
     # "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
-    ""
+    "Without any other word, Inaru disappeared. Alone again, I walked towards the door."
 
 # game/script.rpy:469
 translate english missionAccepted_e3998262_2:
 
     # mm "Buena suerte. Te estaré esperando aquí al amanecer"
-    mm ""
+    mm "Good luck. I'll be waiting for you here at dawn."
 
 # game/script.rpy:470
 translate english missionAccepted_4b301c2b_2:
 
     # "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
-    ""
+    "Without any other word, Inaru disappeared. Alone again, I walked towards the door."
 
 # game/script.rpy:478
 translate english calchonaRoute_1b929c01:
 
     # centered "Campos Liwen. \n31 de Octubre. \n00:30am."
-    centered ""
+    centered "Lania Fields. \nOctober 31st . \n00:30am."
 
 # game/script.rpy:482
 translate english calchonaRoute_1737d7bb:
 
     # "Me encantaba venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
-    ""
+    "I used to love coming here... When I was a child, neighbours let me pet and feed the animals "
 
 # game/script.rpy:484
 translate english calchonaRoute_20de0530:
 
     # "Ahora estoy buscando a una bruja, y parece ser el peor lugar del mundo."
-    ""
+    "Now I'm looking for a witch, and it looks like the worst place in the world."
 
 # game/script.rpy:485
 translate english calchonaRoute_a1eeb972:
 
     # "El viento soplaba con suavidad, y con él, lograba escuchar los susurros de las ovejas que dormían dentro de sus corrales. Parecía que cotilleaban entre ellas en sueños."
-    ""
+    "The wind blew softly, and with it, I could listen to the sheep's whispers as they slept inside their pen. It was as if they were gossiping betwen them in dreams."
 
 # game/script.rpy:487
 translate english calchonaRoute_f1a61128:
 
     # cal "Nghh.."
-    cal ""
+    cal "Nghh.."
 
 # game/script.rpy:488
 translate english calchonaRoute_5a7740d7:
 
     # p "!!!"
-    p ""
+    p "!!!"
 
 # game/script.rpy:489
 translate english calchonaRoute_eb89cc56:
 
     # "Unos gemidos forzaron que me detuviera. Mi cuerpo se tensó, mientras escaneaba cerca de los corrales."
-    ""
+    "Whimpers forced me to stop. My body suddenly tensed as I scanned around the pens. "
 
 # game/script.rpy:490
 translate english calchonaRoute_c264e4f5:
 
     # "Allí la vi, una figura encorvada que forcejeaba para entrar a uno de los corrales"
-    ""
+    "There I saw a crooked figure that was struggling to sneak inside one of the pens."
 
 # game/script.rpy:492
 translate english calchonaRoute_2d2b2560:
 
     # "Pobre oveja, no debieron darse cuenta que quedó afuera."
-    ""
+    "Poor sheep, they must have forgotten it was left outside."
 
 # game/script.rpy:493
 translate english calchonaRoute_875ce35a:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:495
 translate english calchonaRoute_5a7740d7_1:
 
     # p "!!!"
-    p ""
+    p "!!!"
 
 # game/script.rpy:496
 translate english calchonaRoute_83abc7a2:
 
     # "Al ser iluminada bajo la luz de la Luna, pude ver un rostro humano, el cual se inclinaba para pasar la cabeza entre los postes del corral y alcanzar el bebedero."
-    ""
+    "As the moonlight showered over it, I could see a human face that leaned to try and pass its head through the pen's bars and reach the watering trough."
 
 # game/script.rpy:497
 translate english calchonaRoute_c4802340:
 
     # p "¡AH!"
-    p ""
+    p "AH!"
 
 # game/script.rpy:501
 translate english calchonaRoute_24927f05:
 
     # cal "?"
-    cal ""
+    cal "?"
 
 # game/script.rpy:502
 translate english calchonaRoute_07ea8fab:
 
     # "Apenas me oyó, la oveja volteó a verme. Su espalda comenzó a erguirse para levantarse en las patas traseras. Un par de ojos brillantes se posaron en mí, dorados y muertos."
-    ""
+    "As soon as it heard me, the sheep turned around. Her back started to straighten to stand up on her back legs. A pair of shiny eyes laid upon me, golden and dead."
 
 # game/script.rpy:503
 translate english calchonaRoute_57fbe1ba:
 
     # "¿Qué hago?{w} ¿Qué hago?{w} ¿Qué hago?"
-    ""
+    "What could I do?{w} What could I do?{w} What could I do?"
 
 # game/script.rpy:504
 translate english calchonaRoute_55617ccd:
 
     # "Puedo verla tensar sus manos, sus ojos se mueven lejos de mí. Si se escapa, podría estar perdiendo la única oportunidad que tengo de ayudar al abuelo."
-    ""
+    "I could see its hands tensing, eyes traveling far from me. If it ran away, I could lose the only chance I had of helping grandpa."
 
 # game/script.rpy:508
 translate english calchonaRoute_41e83e33:
 
     # p "¡AGUA!"
-    p ""
+    p "WATER!"
 
 # game/script.rpy:509
 translate english calchonaRoute_baa2df39:
 
-    # cal "..."
-    cal ""
+    # cal ". . ."
+    cal ". . ."
 
 # game/script.rpy:510
 translate english calchonaRoute_df3b90f1:
 
     # "La criatura se volvió a verme."
-    ""
+    "The creature turned its face."
 
 # game/script.rpy:512
 translate english calchonaRoute_bc278df3:
 
     # p "Te puedo ayudar..."
-    p ""
+    p "I can help you..."
 
 # game/script.rpy:513
 translate english calchonaRoute_a9978474:
 
     # "Me fui acercando despacio, mis ojos sobre la criatura. Ella me observaba de regreso, dando unos pasos atrás. Pero no se alejaba."
-    ""
+    "I approached slowly, my eyes upon the creature. It stared at me back and stepped back. But it wasn't running away."
 
 # game/script.rpy:514
 translate english calchonaRoute_f9146a4b:
 
     # "Una vez llegué a la valla, puse las dos manos sobre ella y le trepé para llegar al otro lado. Las ovejas seguían dormidas. La criatura me miraba expectante."
-    ""
+    "Once I reached the fence, I put both hands on top of it and climbed to reach the other side. The sheep were still asleep. The creature was expectant."
 
 # game/script.rpy:515
 translate english calchonaRoute_710f300e:
 
     # "Mi mano se extendió para abrir el grifo y el agua empezó a correr. En un instante, la criatura puso ambas manos dentro del corral, bajo el agua, y luego se las llevó al hocico, bebiendo desesperadamente."
-    ""
+    "My hand extended to open the faucet and water started running. In an instant, the creature slid both hunders into the pen and under the faucet, and then reached for her muzzle, desperately drinking."
 
 # game/script.rpy:516
 translate english calchonaRoute_1be417c6:
 
     # "Sus mirada nunca me abandonaba."
-    ""
+    "Its gaze never left me."
 
 # game/script.rpy:518
 translate english calchonaRoute_f3594be7:
 
     # cal "Gracias."
-    cal ""
+    cal "Thank you."
 
 # game/script.rpy:519
 translate english calchonaRoute_bc3d4a92:
 
     # cal "¿Qué estás haciendo aquí?"
-    cal ""
+    cal "What are you doing here?"
 
 # game/script.rpy:521
 translate english calchonaRoute_2de553d6:
 
     # "Vaya, no me lo esperaba."
-    ""
+    "Wow, I wasn't expecting that."
 
 # game/script.rpy:522
 translate english calchonaRoute_be1fb19d:
 
     # "Aún así, sabía que estaba desconfiada. No puedo decirle la completa verdad, o sino se irá. Me pregunto si se dará cuenta que le estoy mintiendo..."
-    ""
+    "Still, I know it didn't trust me. I couldn't tell the complete truth or it would leave. I wondered if she would realize if I lied..."
 
 # game/script.rpy:525
 translate english calchonaRoute_77636c77:
 
     # p "Yo..."
-    p ""
+    p "I"
 
 # game/script.rpy:529
 translate english calchonaRoute_3293d1c2:
 
     # p "Me escapé del festival. {w}Había mucho ruido, y quería ver como se encontraban los animales."
-    p ""
+    p "I ran awy from the festival. {w}There was too much noice and I wanted to see if the animals were alright."
 
 # game/script.rpy:530
 translate english calchonaRoute_eecbb88b:
 
     # p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. {w}Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
-    p ""
+    p "I come to this town since I'm little, and I've always had a connection with them. {w} When I saw you, I thought you were another sheep out of the pen."
 
 # game/script.rpy:531
 translate english calchonaRoute_44ecd8ad:
 
     # cal "No serías la primera. Es normal teniendo en cuenta como... Luzco."
-    cal ""
+    cal "You wouldn't be the first. It's normal considering how I look."
 
 # game/script.rpy:532
 translate english calchonaRoute_4bb61850:
 
     # "Pude notar que aún me mira con desconfianza, pero no hizo ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
-    ""
+    "I could notice it was still looking at me suspicious, but it didn't make an attempt to run away. In response, I feel my muscles relaxing."
 
 # game/script.rpy:536
 translate english calchonaRoute_62a5440b:
 
     # p "Te estaba buscando. {w}En el pueblo se oyen historias sobre leyendas que vagan en la noche. {w}Pensé que si comenzaba a explorar podría encontrar alguna."
-    p ""
+    p "I was looking for you. {w}In town, I heard stories about legends who roam at night. {w}I thought that if I started exploring I could find one."
 
 # game/script.rpy:538
 translate english calchonaRoute_ea4cf122:
 
     # p "Lamento haberte asustado."
-    p ""
+    p "I'm sorry I startled you."
 
 # game/script.rpy:539
 translate english calchonaRoute_17caed05:
 
     # cal "Los campesinos no hablan conmigo. Pero siempre me dejan algo de beber."
-    cal ""
+    cal "Farmers don't speak to me. But they always leave me something to drink."
 
 # game/script.rpy:540
 translate english calchonaRoute_73ec965a:
 
     # cal "Jamás había estado aquí antes."
-    cal ""
+    cal "However, I've never been here before."
 
 # game/script.rpy:542
 translate english calchonaRoute_a72dffc9:
 
     # "Pude ver como comienza a relajarse, y en respuesta, sentí mis hombros bajando a la par."
-    ""
+    "I could see how she started to relax, and in return, my shoulders loosened as well."
 
 # game/script.rpy:544
 translate english calchonaRoute_62f25517:
 
     # p "Si tienes hambre, ¡puedo ayudarte a buscar algo para comer!"
-    p ""
+    p "If you're hungry, I can help you look for something to eat!"
 
 # game/script.rpy:545
 translate english calchonaRoute_baa2df39_1:
 
-    # cal "..."
-    cal ""
+    # cal ". . ."
+    cal ". . ."
 
 # game/script.rpy:546
 translate english calchonaRoute_2c7a0b2e:
 
     # p "Soy [playerName!q] ¿cuál es tu nombre?"
-    p ""
+    p "I'm [playerName!q]. What's your name?"
 
 # game/script.rpy:547
 translate english calchonaRoute_baa2df39_2:
 
-    # cal "..."
-    cal ""
+    # cal ". . ."
+    cal ". . ."
 
 # game/script.rpy:550
 translate english calchonaRoute_8f220b5d:
 
     # cal "Fisa."
-    cal ""
+    cal "Fisa."
 
 # game/script.rpy:551
 translate english calchonaRoute_3f619163:
 
     # p "Bueno, ¡es un placer conocerte, Fisa! Ven, vamos a buscar algo para comer."
-    p ""
+    p "Well, nice to meet you, Fisa! Come, let's look for some food."
 
 # game/script.rpy:552
 translate english calchonaRoute_a4cb6bd5:
 
     # "Mientras me alejaba, me puse a pensar acerca de como le estaba yendo a Inaru..."
-    ""
+    "As I walked away, I wondered how Inaru was doing..."
 
 # game/script.rpy:553
 translate english calchonaRoute_124034d2:
 
     # "Mi mano comenzaba escocer al recordar todo lo que conllevaba esto, y en el problema en que me había metido."
-    ""
+    "My hand started to burn when I remembered everything this meant, and the dangers I was putting myself into."
 
 # game/script.rpy:555
 translate english calchonaRoute_8d01e115:
 
     # "¿Por qué abrí esa caja?"
-    ""
+    "Why did I open that box?"
 
 # game/script.rpy:558
 translate english calchonaRoute_13787058:
 
     # centered "No le veas."
-    centered ""
+    centered "Don't trust them."
 
 # game/script.rpy:559
 translate english calchonaRoute_dfe099ea:
 
     # centered "Ten cuidado."
-    centered ""
+    centered "Be careful."
 
 # game/script.rpy:561
 translate english calchonaRoute_4a4a8331:
 
     # "¿Quién era esa voz?"
-    ""
+    "Who was that voice?"
 
 # game/script.rpy:562
 translate english calchonaRoute_1252eb18:
 
     # cal "No tendrías que haber venido."
-    cal ""
+    cal "You shouldn't have come here."
 
 # game/script.rpy:563
 translate english calchonaRoute_a2c52ab3:
 
     # p "?!"
-    p ""
+    p "?!"
 
 # game/script.rpy:564
 translate english calchonaRoute_c60a2d57:
 
     # cal "Los campos son peligrosos, en especial por la noche. No sabes lo que puede haber aquí."
-    cal ""
+    cal "Fields can be dangerous, specially at night. You don't know what could be here."
 
 # game/script.rpy:565
 translate english calchonaRoute_55f96c0d:
 
     # p "Podría decir lo mismo de tí."
-    p ""
+    p "I could say the same about you."
 
 # game/script.rpy:566
 translate english calchonaRoute_baa2df39_3:
 
-    # cal "..."
-    cal ""
+    # cal ". . ."
+    cal ". . ."
 
 # game/script.rpy:567
 translate english calchonaRoute_61c77771:
 
     # cal "Peras."
-    cal ""
+    cal "Pears"
 
 # game/script.rpy:568
 translate english calchonaRoute_59e5ba55:
 
     # p "?"
-    p ""
+    p "?"
 
 # game/script.rpy:569
 translate english calchonaRoute_12ebc565:
 
     # "Fisa levanta un brazo, señalando a los árboles que contenían una gran cantidad de peras maduras."
-    ""
+    "Fisa rose an arm, pointing towards the trees that contained a vast amount of fresh pears."
 
 # game/script.rpy:571
 translate english calchonaRoute_42bc73ae:
 
     # p "¡Bingo!"
-    p ""
+    p "Bingo!"
 
 # game/script.rpy:572
 translate english calchonaRoute_aa4fe5c3:
 
     # "Poniéndome en puntas de pie, logré alcanzar varias frutas. Sin pensarlo, le extendí una a Fisa."
-    ""
+    "Standing on the tip of my toes, I mnaged to reach plenty. Without thinking, I handed one to Fisa."
 
 # game/script.rpy:573
 translate english calchonaRoute_9ae1d27a:
 
     # p "Buen provecho."
-    p ""
+    p "Bon appetite."
 
 # game/script.rpy:574
 translate english calchonaRoute_7f0193f6:
 
     # "En un instante, Fisa tomó la pera de mis manos y a pesar de mantener la apariencia hasta ahora, la devoró en un instante."
-    ""
+    "In an instant, Fisa took the pear from my hand, and despite keeping a facade up until now, she devoured it in an instant."
 
 # game/script.rpy:575
 translate english calchonaRoute_ba50eabe:
 
     # "La lana de sus mejillas se llenó del líquido de la pera y se volvió pegajosa."
-    ""
+    "The wool on her cheeks stained with the fruit's liquid, turning sticky."
 
 # game/script.rpy:576
 translate english calchonaRoute_cc488904:
 
     # "Me senté en el suelo con varias peras entre mis brazos, y esparcí la mayoría sobre el cesped. {w}Precavida, Fisa se sentó frente a mí."
-    ""
+    "I sat on the ground with several pears between my arms, and spread them over the grass. {w}Careful, Fisa sat in front me."
 
 # game/script.rpy:577
 translate english calchonaRoute_f2d4531e:
 
     # cal "¿Por qué eres buena conmigo?"
-    cal ""
+    cal "Why are you nice to me?"
 
 # game/script.rpy:579
 translate english calchonaRoute_2ebd5c34:
 
     # p "¿Mh?"
-    p ""
+    p "Mh?"
 
 # game/script.rpy:581
 translate english calchonaRoute_5bb85bcd:
 
     # cal "¿No me estás viendo? ¿Cómo estás tan tranquila?"
-    cal ""
+    cal "Can't you see me? How is that you're so calm?"
 
 # game/script.rpy:586
 translate english calchonaRoute_16144cbd:
 
     # p "No lo estoy."
-    p ""
+    p "I'm not."
 
 # game/script.rpy:587
 translate english calchonaRoute_758efb39:
 
     # p "No realmente al menos."
-    p ""
+    p "Not really, at least."
 
 # game/script.rpy:588
 translate english calchonaRoute_51d016fd:
 
     # p "Estar asustada de algo que no conozco no me va a llevar a ningún sitio."
-    p ""
+    p "Being scared of something I don't know will lead me nowhere."
 
 # game/script.rpy:590
 translate english calchonaRoute_0a2138fd:
 
     # p "¿No es eso la vida? ¿Tomar riesgos?"
-    p ""
+    p "Besides, isn't that life? To take risks?"
 
 # game/script.rpy:591
 translate english calchonaRoute_e6a7c9b4:
 
     # cal "... Eres valiente, me recuerdas a mis hijos."
-    cal ""
+    cal "... You're brave, you remind me of my kids."
 
 # game/script.rpy:592
 translate english calchonaRoute_1882c2a2:
 
     # p "¿Hijos?"
-    p ""
+    p "Kids?"
 
 # game/script.rpy:593
 translate english calchonaRoute_7fa8b31d:
 
     # "Me giré a observarla, sus ojos moribundos parecían brillar como el fuego de las hogueras mientras se llevaba otra pera a la boca."
-    ""
+    "I turned to see her, her dying eyes seemed to shine like firepits while she took another pear."
 
 # game/script.rpy:594
 translate english calchonaRoute_a400712b:
 
     # cal "Mi esposo y yo trabajábamos en los campos. Él no sabía que yo era una bruja. {w}Por las noches, me sentía libre, tomaba mis pociones y vagaba por los campos como una oveja."
-    cal ""
+    cal "My husband and I used to work the fields. He didn't know I was a witch. {w}At night,I felt free, I drank my potions and ran through the fields as a sheep."
 
 # game/script.rpy:596
 translate english calchonaRoute_051bd8f3:
 
     # cal "Un día volví y no había nada. {w}Ni mi esposo, ni mis hijos. {w}Y todas mis pociones habían sido destruidas. Solo pude tomar los restos de una."
-    cal ""
+    cal "One day I came and there was nothing. {w} No husband, no kids. {w}And all my potions had been destroyed. I could only drink what little remained in one of them."
 
 # game/script.rpy:597
 translate english calchonaRoute_baaf6991:
 
     # cal "Y quedé... Así."
-    cal ""
+    cal "And I turned into... This."
 
 # game/script.rpy:598
 translate english calchonaRoute_41d8da38:
 
     # cal "La pena, o vaya a saber que, me ató a este mundo desde ese entonces, condenada a caminar solo por el borde. Ni humana, ni animal."
-    cal ""
+    cal "Sorrow, and God knows why, tied me to this world since then, punished to walk through the edge. Neither human, nor beast."
 
 # game/script.rpy:599
 translate english calchonaRoute_f7128051:
 
     # cal "Y simplemente, la gente empezó a morir y a olvidarse de mí."
-    cal ""
+    cal "And people simply started dying and forgetting about me."
 
 # game/script.rpy:600
 translate english calchonaRoute_9b9eb8ec:
 
     # cal "Me volví nada más que una Leyenda..."
-    cal ""
+    cal "I turned into nothing more than a Leyenda."
 
 # game/script.rpy:603
 translate english calchonaRoute_2b54ffe9:
 
     # "Me encogí de hombros, tratando de poner el rostro más impasible que podía."
-    ""
+    "I shrugged, trying to keep my expression as impassive as I could."
 
 # game/script.rpy:604
 translate english calchonaRoute_a8056ebd:
 
     # p "Supongo que me inspiras confianza."
-    p ""
+    p "I guess you feel trustful enough"
 
 # game/script.rpy:605
 translate english calchonaRoute_441816d3:
 
     # p "Desde que te vi, no has hecho nada más que tratar de alejarte."
-    p ""
+    p "Since I first saw you, the only thing you've tried to do was run away from me."
 
 # game/script.rpy:606
 translate english calchonaRoute_3305a52e:
 
     # p "Si algo parecía, era que tú tenías más miedo de mí que yo."
-    p ""
+    p "If anything, it was as if you were more scared of me."
 
 # game/script.rpy:607
 translate english calchonaRoute_18502f02:
 
     # "Fisa parpadeó varias veces, usando el revés de su mano para limpiarse los restos de pera."
-    ""
+    "Fisa blinked a few times, using the back of her hand to clean the pear's remnants."
 
 # game/script.rpy:608
 translate english calchonaRoute_5058b388:
 
     # cal "Eres valiente. {w} Pero he visto gente intrépida como tú cometer errores muy graves."
-    cal ""
+    cal "You're bareve. {w} But I've seen intrepid people like you make great mistakes."
 
 # game/script.rpy:609
 translate english calchonaRoute_f529868a:
 
     # cal "Hay muchas otras criaturas... Más grandes, fuertes y crueles que yo."
-    cal ""
+    cal "There are many other creatures... Bigger, stronger, and crueler than me."
 
 # game/script.rpy:611
 translate english calchonaRoute_51403430:
 
     # "La manera en que Fisa perdía la vista en la comida me hacía pensar que ella también tenía algo de aquella fuerza y crueldad de la que hablaba."
-    ""
+    "The way Fisa's gaze got lost in her food made me think she also had something of the strength of cruelty she was talking about."
 
 # game/script.rpy:613
 translate english calchonaRoute_66bc6506:
 
     # cal "Hace mucho conocí a un hombre no muy distinto a tí. {w}Fue el primer humano que me trató como una persona."
-    cal ""
+    cal "A long time ago I met a man, not too different from you. {w}He was the first human who treated me like a person."
 
 # game/script.rpy:614
 translate english calchonaRoute_5853f959:
 
     # cal "Era amable. Y me miraba a los ojos con una sonrisa."
-    cal ""
+    cal "He was kind. And looked at me in the eye with a smile."
 
 # game/script.rpy:615
 translate english calchonaRoute_c2eded8e:
 
     # cal "Un día, me ofreció ir con él."
-    cal ""
+    cal "One day, he offered me to come with him."
 
 # game/script.rpy:616
 translate english calchonaRoute_cd0b935c:
 
     # cal "Y luego... Solo sentí calor."
-    cal ""
+    cal "After that... I only felt warmth."
 
 # game/script.rpy:617
 translate english calchonaRoute_fa6f9e25:
 
     # "Está hablando del abuelo..."
-    ""
+    "She was  talking about grandpa."
 
 # game/script.rpy:621
 translate english calchonaRoute_215225a8:
 
     # p "Estar sola... Suena difícil."
-    p ""
+    p "Being alone sounds... Difficult."
 
 # game/script.rpy:622
 translate english calchonaRoute_605e82c2:
 
     # p "Yo no sé que haría si no pudiera volver a ver mi mamá..."
-    p ""
+    p "I don't know what I would do if I couldn't come back to see my mom."
 
 # game/script.rpy:623
 translate english calchonaRoute_fb7ae4d4:
 
     # p "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... {w}No había absolutamente nada, como si alguien hubiera puesto un lienzo y solo me puso a mí, y allí me dejó."
-    p ""
+    p "When I was little, I had this nightmare. I was alone in the world.. {w} There was absolutely nothing, as if someone would put a canvas and I was the only thing he paint it. And there he left me."
 
 # game/script.rpy:624
 translate english calchonaRoute_ebd38541:
 
     # p "Cuando desperté me di cuenta que no le temía a estar sola, {w}sino a la posibilidad de que hubiera algo más allí lo cual no me podría enfrentar."
-    p ""
+    p "When I woke up, I realized I wasn't scared of being alone, {w} but of the possibility that there was something else there I couldn't confront."
 
 # game/script.rpy:625
 translate english calchonaRoute_1424d976:
 
     # "Fisa hizo silencio, pero luego, sujetó mi mano."
-    ""
+    "Fisa fell silent, but then, she grabbed my hand."
 
 # game/script.rpy:626
 translate english calchonaRoute_840ef64a:
 
     # cal "Siempre cuando uno de mis hijos tenía miedo, yo les decía que cerrara el puño fuertemente e imaginara que estaba apretando mi mano."
-    cal ""
+    cal "Every time one of my kids was scared, I told them they closed their fist with all their strength, and then imagine they were squeezing my hand."
 
 # game/script.rpy:627
 translate english calchonaRoute_c6b093e6:
 
     # "Con sus palabras, podía sentir como su agarre se hacía más firme, y en un reflejo, hice lo mismo."
-    ""
+    "With her words, I could feel her grips getting tighter, and in return, I did the same."
 
 # game/script.rpy:628
 translate english calchonaRoute_4e012bb3:
 
     # cal "Cuando haces mucha fuerza, no sientes si en verdad hay o no alguien contigo. {w}Eso... Nos hace sentir menos solos."
-    cal ""
+    cal "When you put a lot of strength, you don't feel if there's truly someone or not. {w}That... Makes us feel less lonely."
 
 # game/script.rpy:630
 translate english calchonaRoute_4bf89280:
 
     # "Así, nos quedamos hablando por horas."
-    ""
+    "After that, we keep talking for hours."
 
 # game/script.rpy:633
 translate english calchonaRoute_4adc4f27:
 
     # p "Cometer un error no nos hace menos humanos. Lamento mucho lo que te ocurrió."
-    p ""
+    p "Making a mistake doesn't make us less humans. I'm sorry for what happened to you."
 
 # game/script.rpy:634
 translate english calchonaRoute_36ca7ca2:
 
     # "Fisa volteó su mirada, y en el reflejo de aquellos ojos pude ver... Compasión."
-    ""
+    "Fisa rose her gaze, and in the reflection of those eyes I could see... Compassion"
 
 # game/script.rpy:635
 translate english calchonaRoute_af3041b3:
 
     # cal "No lo hagas. No era una buena persona. Los humanos pueden guardar muchos buenos sentimientos.."
-    cal ""
+    cal "Don't. I wasn't a good person. Humans could hold a lot of nice feelings..."
 
 # game/script.rpy:636
 translate english calchonaRoute_4ab14e0f:
 
     # cal "Pero ser un animal significaba que podía hacer lo que quisiera, sin consecuencias. Podía robar, podía matar sin mirar atrás."
-    cal ""
+    cal "But being a beast meant I could do whatever I wanted with no consequences. I could steal, I could kill. Without looking back."
 
 # game/script.rpy:637
 translate english calchonaRoute_8bea16ce:
 
     # cal "Eso era la verdadera libertad."
-    cal ""
+    cal "That was true freedom."
 
 # game/script.rpy:638
 translate english calchonaRoute_536d14fe:
 
     # cal "Pero al final, tenemos que enfrentar que no estamos solos, y lo que hacemos, repercute a todo nuestro alrededor."
-    cal ""
+    cal "In the end, we have to face that we're not alone. And what we do affects everyone around us."
 
 # game/script.rpy:639
 translate english calchonaRoute_7aa93e42:
 
     # "El silencio volvió a caer entre nosotras."
-    ""
+    "Silence fell again between us."
 
 # game/script.rpy:640
 translate english calchonaRoute_8faafbc8:
 
     # "Por un largo rato, me quedé pensando en lo que había dicho..."
-    ""
+    "For a while, I kept thinking about what she said..."
 
 # game/script.rpy:645
 translate english calchonaRoute_5507765a:
 
     # centered "Campos Lania. \n31 de Octubre. \n6:00am."
-    centered ""
+    centered "Lania Fields. \nOctober 31st. \n6:00am."
 
 # game/script.rpy:647
 translate english calchonaRoute_5500b71c:
 
     # "La noche comenzaba a desaparecer."
-    ""
+    "Night started to disappear."
 
 # game/script.rpy:648
 translate english calchonaRoute_0d7d1cac:
 
     # cal "Yaaaawn"
-    cal ""
+    cal "Yaaaawn"
 
 # game/script.rpy:649
 translate english calchonaRoute_c4f57bb2:
 
     # "Al fin, pude ver que Fisa estaba agotada..."
-    ""
+    "Finally, Icould see Fisa was getting tired..."
 
 # game/script.rpy:658
 translate english calchonaGoodEnding_5b1d8f68:
 
     # "De pronto, se levantó, y se alejó caminando."
-    ""
+    "Suddenly, she stood up and walked away."
 
 # game/script.rpy:659
 translate english calchonaGoodEnding_a2c52ab3:
 
     # p "?!"
-    p ""
+    p "?!"
 
 # game/script.rpy:660
 translate english calchonaGoodEnding_203c2c1b:
 
     # cal "Ven, quiero ver el amanecer."
-    cal ""
+    cal "Come, I wanna see the dawn."
 
 # game/script.rpy:661
 translate english calchonaGoodEnding_2bdc0a32:
 
     # "Me levanté del cesped, sacudí un poco mi pantalón y la seguí. Era ahora o nunca, tenía que sellarla."
-    ""
+    "I stood up, wiped off my pants and followed her. It was now or never, I had to seal her."
 
 # game/script.rpy:662
 translate english calchonaGoodEnding_4e5d1b70:
 
     # "Fisa se detuvo a campo abierto, justo donde el Sol empezaría a alumbrar."
-    ""
+    "Fisa stopped on opened field, right when the sun started to rise"
 
 # game/script.rpy:665
 translate english calchonaGoodEnding_404e11c2:
 
     # cal "He vivido oculta por cientos de años, ya había olvidado lo que se siente el calor."
-    cal ""
+    cal "I lived hiding for hundreds of years, I already forgot how this warmth felt."
 
 # game/script.rpy:666
 translate english calchonaGoodEnding_6a4f97a3:
 
     # cal "No puedo culpar a mi Vestigio, he vivido fuera del Sol mucho antes que estar en él."
-    cal ""
+    cal "I can't blame my Vestigio, I have lived away from the Sun for longer than being inside it."
 
 # game/script.rpy:667
 translate english calchonaGoodEnding_47dc90c6:
 
     # "Lentamente, se sentó, sus manos acariciando el rocío del cesped."
-    ""
+    "Slowly she sat down, her hands the grass' dew."
 
 # game/script.rpy:668
 translate english calchonaGoodEnding_50e185ab:
 
     # cal "¿Tú lo tienes, verdad?"
-    cal ""
+    cal "You have it, don't you?"
 
 # game/script.rpy:670
 translate english calchonaGoodEnding_e2987899:
 
     # "Al oir esas palabras, pude sentir como mi cuerpo se tensaba. Ella sabía."
-    ""
+    "Upon listening to those words, I would feel my hear drop. She knew."
 
 # game/script.rpy:671
 translate english calchonaGoodEnding_9bfccda4:
 
     # cal "Ven, siéntate. Correr de mí sería inútil."
-    cal ""
+    cal "Come, sit with me. Running away would be useless."
 
 # game/script.rpy:672
 translate english calchonaGoodEnding_92ce8a26:
 
     # "Lentamente, me aproximé a ella. Mi corazón estaba latiendo cada vez más fuerte."
-    ""
+    "Slowly, I walked towards her. My heart was beating faster with each step."
 
 # game/script.rpy:673
 translate english calchonaGoodEnding_e712f79f:
 
     # cal "Eres una buena niña, ..."
-    cal ""
+    cal "You're a good girl, [playerName]"
 
 # game/script.rpy:675
 translate english calchonaGoodEnding_1b977e33:
 
     # "Al sentarme junto a ella, todos mis miedos resurgieron. Podía dejarla ir. Podía ignorar que la había visto, quizá Inaru podría lidiar con ella."
-    ""
+    "Upon sitting next to her, all my fears came back to the surface. I could let her go. I could pretend I didn't see her, maybe Inaru could deal with her as well."
 
 # game/script.rpy:676
 translate english calchonaGoodEnding_b82bbe1e:
 
     # "Su lana, tan pálida bajo la luna, comenzaba a verse del blanco más hermoso que había visto.{w} Fisa cerró los ojos."
-    ""
+    "Her wool, ever so pale under the moonlight, started to look like the most beautiful white I've ever seen.{w} Fisa closed her eyes."
 
 # game/script.rpy:677
 translate english calchonaGoodEnding_50c86e03:
 
     # cal "Desearía... Poder llorar. Por mi familia, por mi pasado."
-    cal ""
+    cal "I wished I could cry... For my family, my past."
 
 # game/script.rpy:678
 translate english calchonaGoodEnding_2afc7ba0:
 
     # cal "Por las cosas que vas a pasar de ahora en más."
-    cal ""
+    cal "For the things you'll have to deal with from now on."
 
 # game/script.rpy:679
 translate english calchonaGoodEnding_65acdc4d:
 
     # "Llorar..."
-    ""
+    "Cry..."
 
 # game/script.rpy:680
 translate english calchonaGoodEnding_177b1d9f:
 
     # "Quizá... La marca estaba..."
-    ""
+    "Maybe... The mark was..."
 
 # game/script.rpy:681
 translate english calchonaGoodEnding_4347f37a:
 
     # "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra. Sus manos sujetaron la mía. Perdida en sus palabras, pasó sus uñas sobre la herida, causando que esta se abra nuevamente."
-    ""
+    "Fisa turned to face me, eyes shining with each word. Her hands held mine. Lost in thought, she ran her nails over my wound, and opened it again."
 
 # game/script.rpy:682
 translate english calchonaGoodEnding_5f9256ca:
 
     # cal "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
-    cal ""
+    cal "It hurts, doesn't it? To be a good person forced to do bada things..."
 
 # game/script.rpy:683
 translate english calchonaGoodEnding_a52e8ec6:
 
     # "Si no lo hacía ahora... No llegaría a tiempo."
-    ""
+    "If I didn't do it now... I wouldn't make it on time."
 
 # game/script.rpy:684
 translate english calchonaGoodEnding_c78ad68c:
 
     # "Moví la mano de su agarre y me avalancé. En un instante, apreté mi palma contra los brillantes ojos de Fisa."
-    ""
+    "I moved my hand from her grip and lunged myself towards her. In an instant, my palm pressed against Fisa's shiny eyes."
 
 # game/script.rpy:685
 translate english calchonaGoodEnding_09e8b054:
 
     # "Podía ver como dos hilos carmesí caían por sus mejillas, tiñiendo la suave lana. Sus ojos quemaban sobre mi mano."
-    ""
+    "I could see how two crimson threads ran across her cheeks, tainting the soft wool. Her eyes were burning under my hand."
 
 # game/script.rpy:686
 translate english calchonaGoodEnding_b7a14cb4:
 
     # cal "Nghhh--!!" with vpunch
-    cal "" with vpunch
+    cal "Nghhh--!!" with vpunch
 
 # game/script.rpy:688
 translate english calchonaGoodEnding_3e94992d:
 
     # p "¡Lo siento! ¡Tengo que hacerlo por mi abuelo!"
-    p ""
+    p "I am sorry! I have to do this for my grandpa!"
 
 # game/script.rpy:689
 translate english calchonaGoodEnding_39f9cf90:
 
     # "Ambas manos sujetaron mi brazo con fuerza."
-    ""
+    "Both hands firmly held my arm."
 
 # game/script.rpy:692
 translate english calchonaGoodEnding_91aa7e04:
 
     # cal "Tu abuelo es parte de tí."
-    cal ""
+    cal "Your grandpa is part of you."
 
 # game/script.rpy:693
 translate english calchonaGoodEnding_742cfd9a:
 
     # cal "Y..."
-    cal ""
+    cal "And..."
 
 # game/script.rpy:694
 translate english calchonaGoodEnding_113ad2c7:
 
     # cal "Ahora..."
-    cal ""
+    cal "Now..."
 
 # game/script.rpy:695
 translate english calchonaGoodEnding_16b7bf00:
 
     # cal "Yo también."
-    cal ""
+    cal "So am I."
 
 # game/script.rpy:697
 translate english calchonaGoodEnding_35f93ede:
 
     # "Antes de que me diera cuenta, caí hacia adelante. {w}El sol estaba iluminando el campo por completo."
-    ""
+    "Before I realized, I fell forward. {w} The sun was shining over the fields. "
 
 # game/script.rpy:699
 translate english calchonaGoodEnding_a6bf8a41:
 
     # "Estaba sola."
-    ""
+    "I was alone."
 
 # game/script.rpy:700
 translate english calchonaGoodEnding_3e3b0353:
 
     # "De mi bolsillo, cayó el vestigio, reluciente y lleno de vida."
-    ""
+    "From my pocket, the Vestigio fell, brilliant and full of life."
 
 # game/script.rpy:701
 translate english calchonaGoodEnding_4bcd7e74:
 
     # "Pero yo... Sentía que una parte mía se había desvanecido."
-    ""
+    "But I... I felt as if a part of myself just vanished away."
 
 # game/script.rpy:702
 translate english calchonaGoodEnding_04d20bbc:
 
     # "Lo que sea que había hecho mi abuelo, esperaba que haya valido la pena."
-    ""
+    "Whatever my grandpa did, I hoped it was worth it."
 
 # game/script.rpy:703
 translate english calchonaGoodEnding_558431d2:
 
     # "Por ahora, me levanté, volví a guardar el Vestigio y caminé de regreso a casa."
-    ""
+    "For now, I stood up, put the Vestigio back into my pocket, and walked back home."
 
 # game/script.rpy:709
 translate english calchonaBadEnding_c6bbd5ba:
 
     # p "Quizá debamos descansar, no era mi intención quedarnos toda la noche."
-    p ""
+    p "Maybe we should rest, it wasn't my intention to stay all night."
 
 # game/script.rpy:710
 translate english calchonaBadEnding_7da5c977:
 
     # cal "Lo sé."
-    cal ""
+    cal "I know."
 
 # game/script.rpy:711
 translate english calchonaBadEnding_aa4c474b:
 
     # cal "Quieres encerrarme de nuevo, verdad...?"
-    cal ""
+    cal "You want to lock me up again, don't you...?"
 
 # game/script.rpy:713
 translate english calchonaBadEnding_cc9a5909:
 
     # "!!!"
-    ""
+    "!!!"
 
 # game/script.rpy:714
 translate english calchonaBadEnding_85419cd1:
 
     # cal "Te envió ella. Dejaste que te convenciera de que esto era por tu bien."
-    cal ""
+    cal "She sent you. You let her convince you that it was for your own good."
 
 # game/script.rpy:715
 translate english calchonaBadEnding_167b36fc:
 
     # cal "Ojalá... No tuviera que ser así."
-    cal ""
+    cal "I wish... Things could be different."
 
 # game/script.rpy:716
 translate english calchonaBadEnding_14a4d590:
 
     # p "No, espera. Escuchame, mi abuel-"
-    p ""
+    p "No, wit. Listen to me, my grand-"
 
 # game/script.rpy:717
 translate english calchonaBadEnding_7e6cc46d:
 
     # "Antes de terminar, Fisa se abalanzó sobre mi, una mano me sujetó la cabeza con fuerza y la empujó contra el cesped." with vpunch
-    "" with vpunch
+    "Before finishing the sentence, Fisa lounged over me. A hand grabbed my head and pushed it down against the grass." with vpunch
 
 # game/script.rpy:720
 translate english calchonaBadEnding_70d2356b:
 
     # cal "¡Lo siento, no puedo dejar que me entregues!"
-    cal ""
+    cal "I'm sorry, I can't let you imprison me!"
 
 # game/script.rpy:722
 translate english calchonaBadEnding_c052403f:
 
     # "Por favor..." with vpunch
-    "" with vpunch
+    "Please..." with vpunch
 
 # game/script.rpy:723
 translate english calchonaBadEnding_9c5e05dc:
 
     # cal "¿¡Que has hecho!?"
-    cal ""
+    cal "What have you done?!"
 
 # game/script.rpy:725
 translate english calchonaBadEnding_2931a453:
 
     # "Basta..." with vpunch
-    "" with vpunch
+    "Stop..." with vpunch
 
 # game/script.rpy:726
 translate english calchonaBadEnding_e78587d6:
 
     # cal "¡Todo por lo que él ha peleado, ahora ha valido nada!"
-    cal ""
+    cal "Everything he has fought for, it's worthless now!"
 
 # game/script.rpy:728
 translate english calchonaBadEnding_bd0adde5:
 
     # "No..." with vpunch
-    "" with vpunch
+    "No..." with vpunch
 
 # game/script.rpy:729
 translate english calchonaBadEnding_ec3c79b3:
 
     # cal "Lo arruinaste... {cps=4}Todo.{/cps}"
-    cal ""
+    cal "You ruined... {cps=4}Everything.{/cps}"
 
 # game/script.rpy:734
 translate english calchonaBadEnding_254a1224:
 
     # "Bad Ending."
-    ""
+    "Bad Ending."
 
 # game/script.rpy:744
 translate english pomberoRoute_eb1bea96:
@@ -2073,7 +2072,7 @@ translate english pomberoRoute_0a283921:
 # game/script.rpy:750
 translate english pomberoRoute_a20cefa7:
 
-    # "..."
+    # ". . ."
     ""
 
 # game/script.rpy:751
@@ -2925,7 +2924,7 @@ translate english pomberoRoute_e766a4cf:
 # game/script.rpy:943
 translate english pomberoRoute_c8ea8a4a:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:945
@@ -3087,7 +3086,7 @@ translate english pomberoGoodEnding_46f34bf0:
 # game/script.rpy:987
 translate english pomberoGoodEnding_c8ea8a4a:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:988
@@ -3459,7 +3458,7 @@ translate english silbonRoute_7a0020c0:
 # game/script.rpy:1087
 translate english silbonRoute_6c851899:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1088
@@ -3489,7 +3488,7 @@ translate english silbonRoute_e7273091:
 # game/script.rpy:1093
 translate english silbonRoute_c8ea8a4a:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1097
@@ -3531,7 +3530,7 @@ translate english silbonRoute_0f742dd8:
 # game/script.rpy:1104
 translate english silbonRoute_c8ea8a4a_1:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1105
@@ -3609,7 +3608,7 @@ translate english silbonRoute_7a219da9:
 # game/script.rpy:1123
 translate english silbonRoute_6c851899_1:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1124
@@ -3639,7 +3638,7 @@ translate english silbonRoute_c38aa53e:
 # game/script.rpy:1131
 translate english silbonRoute_6c851899_2:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1132
@@ -3747,7 +3746,7 @@ translate english silbonRoute_922a8bd1:
 # game/script.rpy:1152
 translate english silbonRoute_c8ea8a4a_2:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1153
@@ -3760,7 +3759,7 @@ translate english silbonRoute_b7887f0f:
 translate english silbonRoute_f88d2c22:
 
     # mm "Quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años"
-    mm ""
+    mm "I ended up under Maestro's orders, I've lived in this box for forty long years"
 
 # game/script.rpy:1162
 translate english silbonRoute_d0687f17:
@@ -3843,7 +3842,7 @@ translate english silbonRoute_082d9a67:
 # game/script.rpy:1176
 translate english silbonRoute_6c851899_3:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1177
@@ -3867,7 +3866,7 @@ translate english silbonRoute_093604b4:
 # game/script.rpy:1180
 translate english silbonRoute_6c851899_4:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1181
@@ -4245,7 +4244,7 @@ translate english silbonRoute_371031e6:
 # game/script.rpy:1257
 translate english silbonRoute_7b013bf1:
 
-    # p "..." with vpunch
+    # p ". . ." with vpunch
     p "" with vpunch
 
 # game/script.rpy:1258
@@ -4365,7 +4364,7 @@ translate english silbonRoute_3dd5c2cc:
 # game/script.rpy:1278
 translate english silbonRoute_7b013bf1_1:
 
-    # p "..." with vpunch
+    # p ". . ." with vpunch
     p "" with vpunch
 
 # game/script.rpy:1279
@@ -4455,7 +4454,7 @@ translate english silbonGoodEnding_256ef290:
 # game/script.rpy:1309
 translate english silbonGoodEnding_7b013bf1:
 
-    # p "..." with vpunch
+    # p ". . ." with vpunch
     p "" with vpunch
 
 # game/script.rpy:1310
@@ -4545,7 +4544,7 @@ translate english silbonGoodEnding_cafe5e8f:
 # game/script.rpy:1326
 translate english silbonGoodEnding_c8ea8a4a:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1327
@@ -4557,7 +4556,7 @@ translate english silbonGoodEnding_0a94de6b:
 # game/script.rpy:1328
 translate english silbonGoodEnding_a20cefa7:
 
-    # "..."
+    # ". . ."
     ""
 
 # game/script.rpy:1329
@@ -4593,7 +4592,7 @@ translate english silbonGoodEnding_07eba4f8:
 # game/script.rpy:1335
 translate english silbonGoodEnding_6c851899:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1336
@@ -4605,7 +4604,7 @@ translate english silbonGoodEnding_fa935526:
 # game/script.rpy:1337
 translate english silbonGoodEnding_6c851899_1:
 
-    # sil "..."
+    # sil ". . ."
     sil ""
 
 # game/script.rpy:1338
@@ -4629,7 +4628,7 @@ translate english silbonGoodEnding_f4bcd20e:
 # game/script.rpy:1343
 translate english silbonGoodEnding_7b013bf1_1:
 
-    # p "..." with vpunch
+    # p ". . ." with vpunch
     p "" with vpunch
 
 # game/script.rpy:1344
@@ -4785,7 +4784,7 @@ translate english silbonBadEnding_75a3d474:
 # game/script.rpy:1384
 translate english silbonBadEnding_c8ea8a4a:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1385
@@ -4809,7 +4808,7 @@ translate english silbonBadEnding_918af3f6:
 # game/script.rpy:1388
 translate english silbonBadEnding_a20cefa7:
 
-    # "..."
+    # ". . ."
     ""
 
 # game/script.rpy:1389
@@ -4827,7 +4826,7 @@ translate english silbonBadEnding_c7bd4c7a:
 # game/script.rpy:1391
 translate english silbonBadEnding_a20cefa7_1:
 
-    # "..."
+    # ". . ."
     ""
 
 # game/script.rpy:1392
@@ -4893,7 +4892,7 @@ translate english normalEnding_52b9c060:
 # game/script.rpy:1421
 translate english normalEnding_a20cefa7:
 
-    # "..."
+    # ". . ."
     ""
 
 # game/script.rpy:1425
@@ -4917,7 +4916,7 @@ translate english normalEnding_5c9fe5f3:
 # game/script.rpy:1428
 translate english normalEnding_a20cefa7_1:
 
-    # "..."
+    # ". . ."
     ""
 
 # game/script.rpy:1429
@@ -5607,7 +5606,7 @@ translate english trueEnding_17f13030:
 # game/script.rpy:1585
 translate english trueEnding_c8ea8a4a_3:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1587
@@ -5643,7 +5642,7 @@ translate english trueEnding_e37a6a1f:
 # game/script.rpy:1593
 translate english trueEnding_c8ea8a4a_4:
 
-    # p "..."
+    # p ". . ."
     p ""
 
 # game/script.rpy:1595

@@ -24,15 +24,15 @@ translate english strings:
 
     # game/screens.rpy:257
     old "Guardar R."
-    new "Save R."
+    new "Q. Save"
 
     # game/screens.rpy:258
     old "Cargar R."
-    new "Load R."
+    new "Q. Load"
 
     # game/screens.rpy:259
     old "Prefs."
-    new "Settings"
+    new "Preferences"
 
     # game/screens.rpy:300
     old "Comenzar"
@@ -52,7 +52,7 @@ translate english strings:
 
     # game/screens.rpy:318
     old "Menú principal"
-    new "Main menu"
+    new "Main Menu"
 
     # game/screens.rpy:320
     old "Acerca de"
@@ -68,7 +68,7 @@ translate english strings:
 
     # game/screens.rpy:472
     old "Volver"
-    new "Go back"
+    new "Return"
 
     # game/screens.rpy:557
     old "Versión [config.version!t]\n"
@@ -128,7 +128,7 @@ translate english strings:
 
     # game/screens.rpy:735
     old "Texto no visto"
-    new "Text not seen"
+    new "Unseen text"
 
     # game/screens.rpy:736
     old "Tras elecciones"
@@ -164,7 +164,7 @@ translate english strings:
 
     # game/screens.rpy:784
     old "Volumen voz"
-    new "Voice volume"
+    new "Voice olume"
 
     # game/screens.rpy:795
     old "Silenciar todo"
@@ -192,7 +192,7 @@ translate english strings:
 
     # game/screens.rpy:1000
     old "Avanza el diálogo y activa la interfaz."
-    new "Skip dialogue and activate UI"
+    new "Skip dialogue and activate interface."
 
     # game/screens.rpy:1003
     old "Espacio"
@@ -208,7 +208,7 @@ translate english strings:
 
     # game/screens.rpy:1008
     old "Navega la interfaz."
-    new "Navigate through the UI"
+    new "Navigate through the interface."
 
     # game/screens.rpy:1011
     old "Escape"
@@ -216,7 +216,7 @@ translate english strings:
 
     # game/screens.rpy:1012
     old "Accede al menú del juego."
-    new "Access game menu"
+    new "Access game menu."
 
     # game/screens.rpy:1015
     old "Ctrl"
@@ -232,31 +232,31 @@ translate english strings:
 
     # game/screens.rpy:1020
     old "Activa/desactiva el salto de diálogo."
-    new "Toggle skip dialogue"
+    new "Toggle skip dialogue."
 
     # game/screens.rpy:1023
     old "Av. pág."
-    new "Page Down"
+    new "Page Down."
 
     # game/screens.rpy:1024
     old "Retrocede al diálogo anterior."
-    new "Go back to last dialogue"
+    new "Go back to last dialogue."
 
     # game/screens.rpy:1027
     old "Re. pág."
-    new "Page Up"
+    new "Page Up."
 
     # game/screens.rpy:1028
     old "Avanza hacia el diálogo siguiente."
-    new "Skip to next dialogue"
+    new "Skip to next dialogue."
 
     # game/screens.rpy:1032
     old "Oculta la interfaz."
-    new "Hide UI"
+    new "Hide interface."
 
     # game/screens.rpy:1036
     old "Captura la pantalla."
-    new "Screenshot"
+    new "Screenshot."
 
     # game/screens.rpy:1040
     old "Activa/desactiva la asistencia por {a=https://www.renpy.org/l/voicing}voz-automática{/a}."
@@ -264,23 +264,23 @@ translate english strings:
 
     # game/screens.rpy:1044
     old "Abre el menú de accesibilidad."
-    new "Open accessibility menu"
+    new "Open accessibility menu."
 
     # game/screens.rpy:1050
-    old "Clic izquierdo"
-    new "Left click"
+    old "Clic izquierdo."
+    new "Left click."
 
     # game/screens.rpy:1054
-    old "Clic medio"
-    new "Middle click"
+    old "Clic medio."
+    new "Middle click."
 
     # game/screens.rpy:1058
-    old "Clic derecho"
-    new "Right click"
+    old "Clic derecho."
+    new "Right click."
 
     # game/screens.rpy:1062
-    old "Rueda del ratón arriba\nClic en lado de retroceso"
-    new "Mouse wheel down\nClick in \'Go back\' side"
+    old "Rueda del ratón arriba\nClic en lado de retroceso."
+    new "Mouse wheel up\nClick in \'Go back\' side."
 
     # game/screens.rpy:1066
     old "Rueda del ratón abajo"
@@ -296,15 +296,15 @@ translate english strings:
 
     # game/screens.rpy:1081
     old "Botón sup. frontal der."
-    new ""
+    new "Upper right frontal button"
 
     # game/screens.rpy:1086
     old "D-Pad, Sticks"
     new "D-Pad, Sticks"
 
     # game/screens.rpy:1090
-    old "Comenzar, Guía"
-    new ""
+    old "Comenzar, Guía."
+    new "Start Guide."
 
     # game/screens.rpy:1094
     old "Y/Botón superior"
@@ -320,7 +320,7 @@ translate english strings:
 
     # game/screens.rpy:1164
     old "No"
-    new "No"
+    new "No" #Esta ok :)
 
     # game/screens.rpy:1210
     old "Saltando"

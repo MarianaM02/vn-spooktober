@@ -4,5 +4,5 @@ translate english strings:
 
     # game/options.rpy:16
     old "Vestigios"
-    new ""
+    new "Vestigios"
 
