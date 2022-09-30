@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## Versión del juego.
 
-define config.version = "1.0"
+define config.version = "1.1"
 
 
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
@@ -49,11 +49,14 @@ define config.has_sound = True
 define config.has_music = True
 define config.has_voice = False
 
+define config.default_music_volume = 0.3
+define config.default_sfx_volume = 0.5
+
 
 ## Para permitir al usuario probar el volumen de los canales de sonido o voz,
 ## descomenta la línea más abajo y ajústala a un sonido de ejemplo.
 
-# define config.sample_sound = "sample-sound.ogg"
+define config.sample_sound = "audio/typewriter.ogg"
 # define config.sample_voice = "sample-voice.ogg"
 
 
@@ -61,7 +64,7 @@ define config.has_voice = False
 ## el menú principal. Este archivo seguirá sonando en el juego hasta que sea
 ## detenido o se reproduzca otro archivo.
 
-define config.main_menu_music = "audio/madre-monte-loop.wav"
+define config.main_menu_music = "audio/menu-loop.wav"
 
 
 ## Transiciones ################################################################

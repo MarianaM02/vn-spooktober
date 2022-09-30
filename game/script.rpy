@@ -35,7 +35,6 @@ label start:
     jump intro
 
 label intro:
-    #centered "Casa del abuelo.\n30 de Octubre\n4:00pm"
     p "¡Phew! ¡Ya era hora!"
     p "Después de un viaje tan largo..."
     p "...finalmente estoy de vuelta."
@@ -59,7 +58,9 @@ label intro:
     "Una vez, el abuelo me mostró su colección de insectos, ¡Guacala!"
     show player feliz with dissolve
     p "Será mejor que me de prisa."
+
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Casa del abuelo. \n30 de Octubre. \n4:00pm."
     scene fondo casa lejos with fade
     show player feliz at right with easeinright
@@ -94,17 +95,16 @@ label intro:
     # menu:
     #     "Examinar sala":
     #         pass
-    show retrato at truecenter with dissolve
+    show portaretrato at truecenter with dissolve
     "La sala está llena de fotos de nosotros. Mamá y el abuelo solían ser muy compañeros."
     "Pero mamá dejó el pueblo a los 18 para irse a estudiar y jamás volvió."
     "El abuelo nunca dijo nada, y siempre que volvían a verse era como si el tiempo no hubiera pasado."
     show player triste with dissolve
     "Me pregunto si realmente eso fue difícil para ellos..."
-    hide retrato with dissolve
+    hide portaretrato with dissolve
     menu:
         "No quiero investigar mas":
             pass
-    #play sound "audio/bostezo.ogg"
     show player bostezo with dissolve
     play sound "audio/yawn-002.wav"
     p "Yaaawwwwnn..."
@@ -129,8 +129,6 @@ label dream:
     jump festival
 
 label festival:
-    #centered "Casa del Abuelo.\n 30 de Octubre.\n8:00pm."
-    #Fade in
     scene fondo sala with fade
     play music "audio/intro-loop.wav" fadein 1
     show player feliz with moveinbottom
@@ -145,6 +143,9 @@ label festival:
     "Debo recordar prender la calefacción cuando vuelva."
     play music "audio/intro-loop.wav" fadein 1
     p "¡Vamos al pueblo!"
+    
+    scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n30 de Octubre. \n8:00pm."
     scene fondo pueblo decorado with fade
     play music "audio/intro-loop.wav" if_changed fadein 1
@@ -163,9 +164,59 @@ label festival:
 label grampasBox:
     scene black with fade
     stop music fadeout 3.0
+    play sound "audio/typewriter.ogg"
     centered "Casa del Abuelo. \n30 de Octubre. \n11:55pm"
-    scene fondo casa lejos with fade
+
+    image animacion_casa_noche:
+        "images/casaNoche/F001-00.png"
+        pause 1.0
+        "images/casaNoche/F001-01.png"
+        pause 0.2
+        "images/casaNoche/F001-02.png"
+        pause 0.2
+        "images/casaNoche/F001-03.png"
+        pause 0.2
+        "images/casaNoche/F001-04.png"
+        pause 0.2
+        "images/casaNoche/F001-05.png"
+        pause 0.2
+        "images/casaNoche/F001-06.png"
+        pause 0.2
+        "images/casaNoche/F001-07.png"
+        pause 0.2
+        "images/casaNoche/F001-08.png"
+        pause 0.2
+        "images/casaNoche/F001-09.png"
+        pause 0.2
+        "images/casaNoche/F001-10.png"
+        pause 0.2
+        "images/casaNoche/F002-00.png"
+        pause 0.5
+        "images/casaNoche/F002-01.png"
+        pause 0.2
+        "images/casaNoche/F002-02.png"
+        pause 0.2
+        "images/casaNoche/F002-03.png"
+        pause 0.2
+        "images/casaNoche/F002-04.png"
+        pause 0.2
+        "images/casaNoche/F002-05.png"
+        pause 0.2
+        "images/casaNoche/F002-06.png"
+        pause 0.2
+        "images/casaNoche/F002-07.png"
+        pause 0.2
+        "images/casaNoche/F002-08.png"
+        pause 0.2
+        "images/casaNoche/F002-09.png"
+        pause 0.2
+        "images/casaNoche/F002-10.png"
+        pause 0.2
+        repeat
+
+    scene animacion_casa_noche with dissolve
     show player bostezo at right with easeinright
+    play sound "audio/yawn-001.wav"
     p "Phew... Estoy agotada, pero ha sido realmente divertido!"
     show player feliz with dissolve
     p "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut-"
@@ -177,35 +228,45 @@ label grampasBox:
     p "¿Quién anda ahí...?"
     "Viene de la habitación del abuelo... No he estado allí desde hace años."
     show player triste with dissolve
+    scene fondo casa frente noche with dissolve
+    p ". . ."
+    pause
     menu:
-        "Acercarse":
+        "Entrar":
             pass
     stop music fadeout 2.0
+    play sound "audio/pasos-aislados.wav"
     scene fondo escaleras with fade
     p "¿Hola?"
     p ". . ."
     "Que extraño, nadie me dijo que alguien vendría hoy, ¿Será una broma?"
     # [Empiezan a oirse susurros, la luz se ve saliendo desde la puerta entreabierta
     menu:
-        "Entrar":
+        "Acercarse":
             pass
     play sound "audio/puerta.ogg"
+    queue sound "audio/suspenso.wav" fadein 5 volume 0.2
+    play music "audio/susurros-001.wav" volume 0.2
     scene fondo dormitorio with fade
+
     # "Se abre la puerta, la habitación está vacía, se ve la cama, y junto a ella, la caja de donde sale esa luz."
     # "Hay más susurros, el ambiente es cada vez más tenso"
     "Este lugar está tal y como recordaba... Es como si el abuelo jamás se hubiese ido. {w}Pero... {w}Esa caja..."
     menu:
-        "Acercarse":
+        ". . .":
             pass
+    scene black with fade
     show cofre cerrado at truecenter with dissolve
     p ". . ."
     # "Ambiente más y más abrumador, desconectando a p del exterior"
     "La recuerdo, mi abuelo nunca me dejaba tocarla. Me pregunto..."
+    stop sound fadeout 5
     menu:
         "Abrir":
             pass
 
     # Se abre la caja, se ven luces salir
+    stop music fadeout 4
     play sound "audio/cofre.ogg"
     show cofre abierto with dissolve
     # Pantalla toda en blanco.
@@ -214,7 +275,7 @@ label grampasBox:
 
 label meetMadreMonte:
     # personaje ???
-    play music "audio/madre-monte-loop.wav" fadein 0.5
+    play music "audio/madre-monte-loop.wav" fadein 0.5 volume 0.5
     scene fondo dormitorio with fade
     show mmonte neutra with dissolve
     mm "Vaya..."
@@ -237,7 +298,7 @@ label meetMadreMonte:
     mm "Pues parece que sí, tanto yo como los otros estábamos bajo sus ord-"
     mm "..."
     "Inaru se volteó a ver la caja.{w} Se quedó mirándola en silencio antes de voltear a verme."
-    mm "¿¡Qué hiciste!? ¿¡Fuíste tú!?" with vpunch
+    mm "{size=+10}¿¡Qué hiciste!? ¿¡Fuíste tú!?{/size}" with vpunch 
     mm "¡No debiste haber hecho eso, niña tonta!"
     mm "... Si yo estoy afuera, quiere decir que los demás también."
     menu:
@@ -248,10 +309,12 @@ label meetMadreMonte:
     mm "Míralo tu misma"
     show player triste with dissolve
     # ((Paneo a la caja, con los cuatro objetos inanimados, sin luz))
+    show vestigios fondo negro at truecenter with dissolve
     mm "Estos son Vestigios."
     mm "Reliquias que tu abuelo perfeccionó para capturar a las Leyendas que habitan este mundo."
     mm "Una Leyenda puede ser cualquier cosa: un espíritu, un monstruo, un objeto poseído, cualquier criatura atrapada en una época que no le pertenezca."
     mm "Tu abuelo ha dedicado su vida a capturar y atrapar Leyendas, al igual que su padre antes que él."
+    hide vestigios with fade
     mm "Aparte de mí, ha podido capturar a tres Leyendas: {w}el Silbón, {w}la Calchona {w}y el Pombero." 
     mm "Criaturas que vagaban el mundo causando terror antes de que tú las liberaras nuevamente." 
     mm "Ahora es tu responsabilidad encontrarlas y capturarlas de nuevo dentro de los Vestigios."
@@ -363,8 +426,9 @@ label missionDenied:
     "No llegué a voltear, mi cuerpo entumecido solo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
     scene black with fade
     "Luego... Oscuridad."
-
     pause
+
+    play sound "audio/bad-ending.wav" fadein 2
     "Bad Ending."
     # Finaliza el juego:
     return
@@ -380,13 +444,13 @@ label missionAccepted:
     mm "Al Silbón le gusta estar entre la gente, así que es probable que lo encuentres caminando en el pueblo. "
     mm "Si hay un lugar donde seguro el Pombero iría primero, es en el bosque Suas Agascuana."
     mm "Y la Calchona... Debe estar buscando algo que comer, así que seguramente la encontrarás en los campos Lania."
+    pause
     hide mapa with dissolve
     mm "Hay mucho terreno por cubrir y poco tiempo-"
     mm "Prometo ayudarte en todo lo que pueda. Nombra una Leyenda y yo me encargaré de lo demás."
     show player pensativa with dissolve
     "Debo tomar una decisión, ¿Tras de quién iré?"
     p "Elijo a..."
-    #Hay alguna chance de que estas dos lineas vayan LUEGO de elegir la opción y antes de hacer el salto?
 
     menu:
         "Calchona":
@@ -409,6 +473,7 @@ label calchonaRoute:
     default goodAnswersCalchona = 0
     stop music fadeout 2.5
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Campos Liwen. \n31 de Octubre. \n00:30am."
     scene campo with fade
     show player feliz at left with easeinleft
@@ -457,6 +522,12 @@ label calchonaRoute:
     show player pensativa with dissolve
     p "Yo..."
     menu:
+        "\"Me escapé del festival.\"":
+            show player feliz with dissolve
+            p "Me escapé del festival. {w}Había mucho ruido, y quería ver como se encontraban los animales." 
+            p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. {w}Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
+            cal "No serías la primera. Es normal teniendo en cuenta como... Luzco."
+            "Pude notar que aún me mira con desconfianza, pero no hizo ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
         "\"Te estaba buscando.\"":
             $ goodAnswersCalchona += 1
             show player feliz with dissolve
@@ -467,12 +538,6 @@ label calchonaRoute:
             cal "Jamás había estado aquí antes."
             show player feliz with dissolve
             "Pude ver como comienza a relajarse, y en respuesta, sentí mis hombros bajando a la par."
-        "\"Me escapé del festival.\"":
-            show player feliz with dissolve
-            p "Me escapé del festival. {w}Había mucho ruido, y quería ver como se encontraban los animales." 
-            p "Vengo a este pueblo desde que soy pequeña y siempre he tenido una conexión con ellos. {w}Cuando me acerqué, pensé que eras una oveja que se había escapado del corral."
-            cal "No serías la primera. Es normal teniendo en cuenta como... Luzco."
-            "Pude notar que aún me mira con desconfianza, pero no hizo ningún intento de salir corriendo. En respuesta, siento como mis músculos se relajan."
    
     p "Si tienes hambre, ¡puedo ayudarte a buscar algo para comer!"
     cal "..."
@@ -574,6 +639,7 @@ label calchonaRoute:
             pause
 
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Campos Lania. \n31 de Octubre. \n6:00am."
     scene campo with fade
     "La noche comenzaba a desaparecer."
@@ -610,10 +676,10 @@ label calchonaGoodEnding:
     cal "Por las cosas que vas a pasar de ahora en más."
     "Llorar..."
     "Quizá... La marca estaba..."
-    "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra."
+    "Fisa se giró hacia mí, sus ojos reluciendo con cada palabra. Sus manos sujetaron la mía. Perdida en sus palabras, pasó sus uñas sobre la herida, causando que esta se abra nuevamente."
     cal "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
     "Si no lo hacía ahora... No llegaría a tiempo."
-    "Mis uñas arrancaron la cáscara que contenían la sangre en mi palma. {w}Y sin más, apreté la mano contra los brillantes ojos de Fisa."
+    "Moví la mano de su agarre y me avalancé. En un instante, apreté mi palma contra los brillantes ojos de Fisa."
     "Podía ver como dos hilos carmesí caían por sus mejillas, tiñiendo la suave lana. Sus ojos quemaban sobre mi mano."
     cal "Nghhh--!!" with vpunch
     show player asustada with dissolve
@@ -659,6 +725,7 @@ label calchonaBadEnding:
 
     scene black with fade
     pause
+    play sound "audio/bad-ending.wav" fadein 2
     "Bad Ending."
     # Finaliza el juego:
     return
@@ -668,6 +735,7 @@ label pomberoRoute:
     default goodAnswersPombero = 0
     stop music fadeout 2.5
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Bosque Suas Agascuana. \n31 de Octubre. \n00:30am."
     scene campo with fade
     show player feliz at left with easeinleft
@@ -696,7 +764,7 @@ label pomberoRoute:
     show player asustada with dissolve
     p "¡Ah!"
     show player at left with move
-    "Mis piernas se movieron por sí solas, y en un instante, me moví hacia un lado antes de quedar acorralada."
+    "Mis piernas reaccionaron por sí solas, y en un instante, me moví hacia un lado antes de quedar acorralada."
     "El duende bajó del árbol, una gran sonrisa adornando su rostro. {w}Cada paso que daba hacia adelante, yo lo retrodecía."
     pom "Jaja... Ja. ¡La niña tiene miedo!"
     "¡Necesito reaccionar rápido antes de que se acerque!"
@@ -887,6 +955,7 @@ label pomberoRoute:
             "Seguimos hablando el resto de la noche... De a poco, podía entender la relación de Har con los humanos."
 
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Campos Suas Aguascana. \n31 de Octubre. \n6:00am."
     scene campo with fade
     show player feliz at left with dissolve
@@ -967,6 +1036,7 @@ label pomberoBadEnding:
     "!!!" with vpunch
     scene black with fade
     pause
+    play sound "audio/bad-ending.wav" fadein 2
     "Bad Ending."
     # Finaliza el juego:
     return
@@ -976,6 +1046,7 @@ label silbonRoute:
     default goodAnswersSilbon = 0
     stop music fadeout 2.5
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n31 de Octubre. \n00:30am."
     scene fondo pueblo decorado with fade
     show player feliz at left with easeinleft
@@ -1200,6 +1271,7 @@ label silbonRoute:
     p "..."
     "Luego de eso, busqué cambiar el tema. Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n31 de Octubre. \n6:00am."
     scene fondo pueblo temprano with fade
     "Wiija era... Una criatura como ninguna otra."
@@ -1311,7 +1383,7 @@ label silbonBadEnding:
     sil "Somos amigos ahora. Sí sí sí. Tú cuida de papá allí."
     sil "Es hora de ir a hacer más amigos."
     pause
-
+    play sound "audio/bad-ending.wav" fadein 2
     "Bad Ending."
     # Finaliza el juego:
     return
@@ -1319,6 +1391,7 @@ label silbonBadEnding:
 ##########################################################
 label normalEnding:
     scene black with fade
+    play sound "audio/typewriter.ogg"
     centered "Casa del Abuelo. \n31 de Octubre. \n6:00am."
 
     scene fondo casa lejos with fade
