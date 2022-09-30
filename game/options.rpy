@@ -30,6 +30,16 @@ define config.version = "1.1"
 ## comillas triples y deja una línea en blanco entre párrafos.
 
 define gui.about = _p("""
+Onda dinamita es un pequeño grupo de Latinoamerica trabajando actualmente en diversas Game Jams. Nuestro objetivo es traer a los jugadores una experiencia fresca utilizando historias interesantes, música atractiva y arte único.
+
+Nuestro Grupo: 
+
+Diseño de Personajes y Objetos - Aura Rodriguez (Auroras): Colombia.
+Diseño Gráfico y UI - Belén Edrira (Chise): Argentina
+Narrativa y Diseño del Juego - Giannina Tartaglia (Elithne): Argentina
+Programación - Mariana Madeira (Namira): Argentina.
+Diseño de Fondos- Marisabel Olivero (Leba): Venezuela.
+Música y Diseño de sonido - Paula Quadrelli (Pau): Argentina.
 """)
 
 

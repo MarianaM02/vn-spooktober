@@ -14,6 +14,13 @@
     scene black with fade
     with Pause(1)
 
+    centered """
+    {u}{b}Advertencia{/b}{/u}
+    Este juego contiene violencia, temas maduros, sangre y uso de tabaco.
+    Los personajes y escenarios están basados en la cultura Latinoamericana con el 
+    objetivo de entretener y no está dirigido a reemplazar fuentes educativas.
+    """
+    
     return
 
 define mm = Character("????", color="#2a7f62")
