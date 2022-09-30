@@ -68,7 +68,7 @@ label intro:
     
     scene fondo casa frente with fade
     p "¡Whoa! Siempre olvido lo grande que es."
-    "Mamá me dijo que pidió que la limpiaran antes que llegáramos, ¡Cuánto trabajo!"
+    "Sé que mamá pidió que la limpiaran antes que llegáramos, ¡Cuánto trabajo!"
     "El abuelo nunca la cuidaba demasiado. Sé que era la abuela quien le gustaba quedarse en casa."
     "Yo no la conocí. Así que me crié solo con las historias del abuelo y sus aventuras."
     "Mamá siempre se enfadaba porque cada vez que veníamos había algo que reparar."
@@ -374,7 +374,7 @@ label missionAccepted:
     mm "Gracias... Sé que esto no es fácil."
     mm "Entonces ya está decidido."
     mm "Luego de vivir tantas décadas con ellos, puedo sentirlos."
-    "Inaru camina hacia un mapa del Pueblo colgado en la pared."
+    "Inaru camina hacia un mapa del pueblo colgado en la pared."
     # Paneo al mapa con tres marcas
     show mapa at truecenter with dissolve
     mm "Al Silbón le gusta estar entre la gente, así que es probable que lo encuentres caminando en el pueblo. "
@@ -387,16 +387,22 @@ label missionAccepted:
     "Debo tomar una decisión, ¿Tras de quién iré?"
     p "Elijo a..."
     #Hay alguna chance de que estas dos lineas vayan LUEGO de elegir la opción y antes de hacer el salto?
-    show player feliz with dissolve
-    mm "Buena suerte. Te estaré esperando aquí al amanecer"
-    "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
 
     menu:
         "Calchona":
+            show player feliz with dissolve
+            mm "Buena suerte. Te estaré esperando aquí al amanecer"
+            "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
             jump calchonaRoute
         "Pombero":
+            show player feliz with dissolve
+            mm "Buena suerte. Te estaré esperando aquí al amanecer"
+            "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
             jump pomberoRoute
         "Silbón":
+            show player feliz with dissolve
+            mm "Buena suerte. Te estaré esperando aquí al amanecer"
+            "Sin más, Inaru desapareció. Nuevamente sola, me dirigí hacia la puerta."
             jump silbonRoute
 ##########################################################
 label calchonaRoute:
@@ -696,19 +702,6 @@ label pomberoRoute:
     "¡Necesito reaccionar rápido antes de que se acerque!"
     "¿Qué hago?"
     menu:
-        "Correr":
-            $ goodAnswersPombero += 1
-            scene campo with fade
-            "Sin pensarlo dos veces, me giré y eché a correr, internándome en los bosques."
-            show player triste at left with moveinleft
-            "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. {w}No sabía si estaba lejos o cerca de él, pero estaba segura de que se estaba aproximando."
-            "De pronto, la risa se desvaneció. {w}Esos instantes fueron los únicos que necesite para determe a recuperar el aliento."
-            pom "Niña lista, muy lista."
-            show player asustada with dissolve
-            "!!!"
-            show pombero neutro at right with dissolve
-            "Levanté la mirada, y estaba en cuclillas frente a mí. Incluso en la oscuridad, podía ver brillando su enorme sonrisa."
-            pom "Para encontrarse, uno debe perdese. Si si si.{w} Niña lista, muy lista."
         "Enfrentarlo":
             "Sentía que mi corazón iba a salirse de mi pecho. Aún así, di un paso hacia adelante."
             show player enojada with dissolve
@@ -729,7 +722,20 @@ label pomberoRoute:
             show pombero neutro at right with dissolve
             "El duende se apareció frente a mí."
             pom "Eres como un toro, corres hacia adelante lista para atacar. {w}No puedes atravesar una montaña yendo hacia adelante~!"
-    
+        "Correr":
+            $ goodAnswersPombero += 1
+            scene campo with fade
+            "Sin pensarlo dos veces, me giré y eché a correr, internándome en los bosques."
+            show player triste at left with moveinleft
+            "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. {w}No sabía si estaba lejos o cerca de él, pero estaba segura de que se estaba aproximando."
+            "De pronto, la risa se desvaneció. {w}Esos instantes fueron los únicos que necesite para determe a recuperar el aliento."
+            pom "Niña lista, muy lista."
+            show player asustada with dissolve
+            "!!!"
+            show pombero neutro at right with dissolve
+            "Levanté la mirada, y estaba en cuclillas frente a mí. Incluso en la oscuridad, podía ver brillando su enorme sonrisa."
+            pom "Para encontrarse, uno debe perdese. Si si si.{w} Niña lista, muy lista."
+
     show player enojada with dissolve
     p "Deja de llamarme así."
     pom "Mh?"
@@ -768,67 +774,67 @@ label pomberoRoute:
     p ". . ."
     "Si esto era lo que necesitaba para que él confiara en mí..."
     p "Vamos a..."
-    menu:
+    menu:       
+        "Pescar":
+            show player feliz with dissolve
+            p "Podemos pescar aquí, ¿o no?"
+            pom "¿Hm?"
+            "Me acerqué a uno de los árboles donde sobresalía una rama larga y delgada."
+            p "Podemos usar esto y mis cordones para hacer una caña!"
+            "Ambas manos sujetaron la rama para tratar de romperla, cuando Har puso una mano en mi hombro y con mucha fuerza me arrojó al agua."
+            scene campo with fade
+            "Logré patalear de nuevo a la superficie, solo para ver a Har nadando hacia mí."
+            pom "¡Sorpresa! Niña tonta necesita prestar más atención~"
+            p "{i}Cof, cof{/i} ¡Eso no fue nada amable!"
+            pom "Tú tampoco has querido ser amable con los peces."
+            "Con una pequeña risa, Har empezó a nadar en círculos a mi alrededor. {w}Me recordaba a los tiburones."
         "Nadar":
             $ goodAnswersPombero += 1
             show player feliz with dissolve
             p "Quiero ir a nadar."
             pom "¿Hm?"
-            "Me di vuelta y observé la laguna, no había notado hasta ahora, pero los árboles daban completo paso a la luz de la luna para caer sobre el agua, haciendo del agua un espejo brillante."
+            "Me di vuelta y observé la laguna. No me había dado cuenta, pero los árboles daban paso a la luz de la Luna para caer sobre el agua, haciendo del agua un espejo reluciente."
             p "¡A que llego primero!"
             scene campo with fade
-            "Luego de gritar, eché a correr hacia el lago, y pude oir como los pies de Har trastabillaban antes de salir corriendo tras de mí."
+            "Luego de gritar, eché a correr hacia el lago. {w}Detrás mío, los pies de Har trastabillaban antes de salir corriendo tras de mí."
             "De un salto me metí en el agua, dejando que me cubriera por completo por un momento antes de sacar la cabeza."
             pom "¡Niña astuta, cree que puede ganarme!"
-            "A diferencia de antes, Har parecía realmente entretenido dentro del agua."
+            "A diferencia de antes, Har parecía entretenido dentro del agua."
             pom "Sígueme."
-            "Tomando una gran bocanada de aire , que parecía más pretendida que otra cosa, él se sumergió en el agua."
-            "Una vez de nuevo, nadamos un poco hacia el fondo, donde pude ver la forma de los peces que habitaban el lago."
+            "Tomando una gran bocanada de aire, que parecía más pretendida que otra cosa, él se sumergió."
+            "Nadamos hacia el fondo, donde pude ver los peces que allí habitaban."
             pom "Mira bien."
             p "?!"
-            "Las manos de Har en mis hombros, me forzaron a parpadear varias veces, y las formas de los peces y las algas se veían más claramente. ¡Era increíble!"
-            "A pesar de que las criaturas en el bosque aún dormían, las del agua estaban llenas de energía."
-            "Volvimos a la superficie para recobrar el aliento, y Har ya estaba allí, flotando boca arriba, admirando a la Luna."
+            "Las manos de Har en mis hombros me forzaron a parpadear varias veces {w}. De pronto, las formas de los peces y las algas se veían más claramente. ¡Era increíble!"
+            "A pesar de que las criaturas en el bosque aún dormían, las del agua estaban llenas de vida."
+            "Volví a la superficie para recobrar el aliento, y Har ya estaba allí, flotando boca arriba, admirando la Luna."
             p "Es hermoso."
             pom "Lo sé. No en todos lados es así."
-            pom "Los bosques son fuertes, pero se mueven muy lentamente. Los humanos son rápidos. Quitan sin pensar."
+            pom "Los bosques son fuertes, pero se mueven muy lentamente. {w}Los humanos son rápidos. {w}Quitan sin pensar."
             pom "No ven lo que hay a su alrededor."
-            pom "¡Peeero yo soy más rápido!"
+            pom "¡Pero yo soy más rápido!"
             "En un instante, lo pude ver moverse cerca mío."
-            pom "Nadie es más rápido, o más fuerte que yo en los bosques. Si estoy aquí, nadie sería lastimado por un humano. Ningún árbol, o pez, ni nadie."
+            pom "Nadie es más rápido, o más fuerte que yo en los bosques. {w}Si estoy aquí, nadie sería lastimado por un humano. {w}Ningún árbol, o pez, ni nadie."
             "No estaba segura si era un comentario, o una amenaza. Sin embargo, no pude evitar sentir la fuerte conexión que Har tenía con los bosques."
             p "Entonces es bueno que estés aquí."
             "Har volteó la mirada."
             pom ". . ."
             pom "Niña lista."
-        "Pescar":
-            show player feliz with dissolve
-            p "Podemos pescar aquí, o no?"
-            pom "¿Hm?"
-            "Me acerqué a uno de los árboles, de la cual sobresalía una rama larga y delgada."
-            p "Podemos usar esto y mis cordones para hacer una caña!"
-            "Ambas manos estaban sujetando la rama para tratar de romperla, cuando Har puso una mano en mi hombro y con mucha fuerza me arrojó al agua."
-            scene campo with fade
-            "Logré pedalear de nuevo a la superficie, solo para ver a Har nadando hacia mí."
-            pom "¡Sorpresa! Niña tonta necesita prestar más atención~"
-            p "{i}cof cof{/i} ¡Eso no fue nada amable!"
-            pom "Tú no has querido ser amable con los peces tampoco"
-            "Con una pequeña risa, Har empezó a nadar en círculos a mi alrededor. Me recordaba a los tiburones."
-    
+
     "Eventualmente, salimos del agua, y me tiré en el cesped."
     show player feliz at left with dissolve
     show pombero neutro at right with dissolve
-    "La noche se sentía aún bastante calurosa, así que la ropa mojada no me molestaba en lo absoluto. Al mismo tiempo, Har se sentó contra un árbol."
-    "Por el rabillo del ojo, pude ver como desenterraba un cigarro de entre las raíces y se lo ponía entre los labios. ¿Hace cuanto que tenía eso ahí?"
+    "La noche era calurosa, así que la ropa mojada no me molestaba en lo absoluto. {w}Al mismo tiempo, Har se sentó contra un árbol."
+    "Por el rabillo del ojo, pude ver que desenterraba un cigarro de entre las raíces y se lo ponía entre los labios. {w}¿Hace cuanto que tenía eso ahí?"
     show player pensativa with dissolve
     p "Quiero preguntarte algo."
     pom "Bien por ti."
     show player triste with dissolve
     p "¿Qué haces aquí?"
-    "Del suelo, levantaba una hoja seca, y con un chasquido de sus dedos, causó un chispazo que encendió la hoja."
-    "Lentamente la guió al cigarro, sacudiendo los restos de la hoja una vez éste estaba encendido."
+    "Del suelo, levantaba una hoja seca, y con un chasquido de sus dedos, causó un chispazo que la encendió."
+    "Lentamente la guió al cigarro, sacudiendo los restos quemados una vez éste estaba encendido."
     pom "Me recuerda a mi hogar. Vengo de un lugar parecido a éste."
-    "Har exhaló el humo de su cigarro, como si hubiera estado perdido en sus pensamienos."
+    "Har exhaló el humo de su cigarro, perdiéndose en sus palabras."
     pom "¿Qué hay de tí? ¿Por qué estás aquí?"
     "Por un largo rato, me quedé en silencio."
     show player feliz with dissolve
@@ -836,7 +842,7 @@ label pomberoRoute:
     pom ". . ."
     pom "¿Ah sí?"
     "Volvió a dar una calada. Mi corazón se encogió."
-    pom "Que... Coincidencia. Parece que estás en el lugar ideal."
+    pom "Que... Coincidencia. {w}Parece que estás en el lugar ideal."
     pom "¿Y qué podría querer una niña como tú de mi?"
     menu:
         "Seamos amigos.":
@@ -849,36 +855,36 @@ label pomberoRoute:
             show player triste with dissolve
             p "¿Q-Qué? ¡¿Qué dije?!"
             pom "¿Tú quieres que seamos amigos? Eso sí que es nuevo."
-            pom "Ciertamente no dirías eso si supieras todo lo que dicen de mí en mi pueblo, niña tonta."
+            pom "No ofrecerías eso si supieras todo lo que dicen de mí en mi pueblo, niña tonta."
             pom "Soy un protector del bosque, no un humano."
             p "¿Por qué odias tanto a los humanos?"
-            pom "¿Odiarlos? No no no, niña tonta, no es así. Los humanos son quienes me detestan a mí."
+            pom "¿Odiarlos? {w}No no no, niña tonta, no es así. {w}Los humanos son quienes me odian a mí."
             pom "Cazadores, pescadores, leñadores..."
-            pom "A mí no me interesa lo que los humanos hagan, pero cuando destrozan, matan, corrompen... Me enfurecen."
-            "Otra exhalación, dejó el rastro de humo desvanecerse en el aire."
-            pom "Podría decirse que me convertí en el monstruo que les convenía a ellos. Dicen que huyas porque podría atacar en los pastizales, les dicen a las mujeres que no salgan de sus casas."
-            pom "Algunos humanos son listos. Y hábiles cuando se trata de desviar la atención de sus monstruosas acciones."
-            pom "Ya no quedan criaturas como yo. Casi todas están muertas, y las que no, como yo, son antagonizadas."
-            pom "Sólo somos leyendas destinadas a olvidarse."
+            pom "A mí no me interesa lo que los humanos hagan, pero cuando destrozan, matan, corrompen... {w}Me enfurecen."
+            "Otra exhalación, y dejó que el rastro de humo se desvanezca en el aire."
+            pom "Podría decirse que me convertí en el conveniente monstruo.{w} Dicen que huyas porque yo podría atacar en los pastizales. {w}Les dicen a las mujeres que no salgan de sus casas."
+            pom "Algunos humanos son listos. {w}Hábiles cuando se trata de desviar la atención de sus monstruosas acciones."
+            pom "Ya no quedan criaturas como yo. {w}Casi todas están muertas. Y las que no, como yo, se vuelven antagónicas."
+            pom "Hacia el final, sólo somos leyendas destinadas a olvidarse."
             p "..."
             show player feliz with dissolve
             p "Yo no voy a olvidarte."
             pom "Ja..."
             pom "Niña inocente."
-            "Luego de ello, nos quedamos hablando por horas. Har me contó sobre las selvas donde vivía. Y antes de darme cuenta, comenzó a amanecer."
+            "Luego de ello, nos quedamos hablando por horas. {w}Har me contó sobre las selvas donde vivía. {w}Antes de darme cuenta, comenzó a amanecer."
         "Cuida de este bosque.":
-            p "A tí te preocupan los bosques, ¿verdad? No quisiera que lastimes a nadie. Pero me gustaría que siguieras cuidando de los bosques."
+            p "A tí te preocupan los bosques, ¿verdad?. No quisiera que lastimes a nadie. Pero me gustaría que siguieras cuidando de los bosques."
             "Har exhaló el humo de su cigarro, y giró la cabeza hacia mí."
             pom "Dime, ¿por qué las vidas humanas valen más que las de cualquier otra criatura?"
             show player triste with dissolve
             p ". . ."
-            pom "Humanos matan a sus propios niños, arrancan las plumas de las aves para descansar cómodamente."
-            pom "Desuellan mamíferos vivos por moda. Torturan en vida. Queman. Ahogan. Electrocutan. Dime, ¿por qué no puedo devolverles la gentileza?"
+            pom "Los humanos matan a sus propios niños, arrancan las plumas de las aves para descansar cómodamente."
+            pom "Desollan mamíferos vivos para ir bien vestidos. {w}Torturan en vida. {w}Queman. {w}Ahogan. {w}Electrocutan. {w}Dime, ¿por qué no puedo devolverles la gentileza?"
             pom "¿Quien te da la autoridad y el poder de decirme que sería o no correcto?"
-            "Me quedé en silencio. Con cada palabra, podía sentir la tierra temblar a través de las raíces."
+            "Me quedé en silencio. {w}Con cada palabra, podía sentir la tierra temblar a través de las raíces."
             p "Lo siento."
-            pom "No tienes que disculparte. Eres solo una niña."
-            "Seguimos hablando el resto de la noche... Y pude entender un poco más de la relación de Har con los humanos."
+            pom "No tienes que disculparte. {w}Eres solo una niña."
+            "Seguimos hablando el resto de la noche... De a poco, podía entender la relación de Har con los humanos."
 
     scene black with fade
     centered "Campos Suas Aguascana. \n31 de Octubre. \n6:00am."
@@ -898,7 +904,7 @@ label pomberoRoute:
 
 label pomberoGoodEnding:
     $ persistent.pomberoEnding = True
-    pom "Sabes, hace años, conocí a este hombre."
+    pom "¿Sabes? Hace años, conocí a este hombre."
     pom "Era astuto, pero también tenía esto... Humanos siempre le dicen \'corazón\', pero todos tienen uno."
     pom "Era algo distinto. Algo como tú lo tienes."
     pom "Luz."
