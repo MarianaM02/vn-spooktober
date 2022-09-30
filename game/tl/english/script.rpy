@@ -28,7 +28,7 @@ translate english intro_90aaffda:
 translate english intro_a2ae142b:
 
     # "Han sido unos meses muy tristes, y mamá no ha sido la misma desde que se enteró."
-    "It's been some very sad months. mum hasn't been the same since she found out."
+    "It's been some very sad months. Mom hasn't been the same since she found out."
 
 # game/script.rpy:49
 translate english intro_bbee84bc:
@@ -58,7 +58,7 @@ translate english intro_291e0439:
 translate english intro_b3d28fea:
 
     # "Mamá siempre me contaba que el abuelo adoraba eso."
-    "Mum always used to tell me grandpa loved that."
+    "Mom always used to tell me grandpa loved that."
 
 # game/script.rpy:56
 translate english intro_a8f52f12:
@@ -106,7 +106,7 @@ translate english intro_dbadcf95:
 translate english intro_8d374c81:
 
     # "Sé que mamá pidió que la limpiaran antes que llegáramos, ¡Cuánto trabajo!"
-    "I know mum asked for it to be cleaned before we arrived. All that work!"
+    "I know mom asked for it to be cleaned before we arrived. All that work!"
 
 # game/script.rpy:73
 translate english intro_17dc6627:
@@ -124,7 +124,7 @@ translate english intro_b61153b9:
 translate english intro_4888e754:
 
     # "Mamá siempre se enfadaba porque cada vez que veníamos había algo que reparar."
-    "Mum always got mad because every time we came there was something that needed to be fixed."
+    "Mom always got mad because every time we came there was something that needed to be fixed."
 
 # game/script.rpy:76
 translate english intro_7e3e5568:
@@ -172,13 +172,13 @@ translate english intro_933dc0d3:
 translate english intro_f3bc52e5:
 
     # "La sala está llena de fotos de nosotros. Mamá y el abuelo solían ser muy compañeros."
-    "The living room is filled with our picturs. Mum and grandpa used to be very close."
+    "The living room is filled with our picturs. Mom and grandpa used to be very close."
 
 # game/script.rpy:100
 translate english intro_8b57a76b:
 
     # "Pero mamá dejó el pueblo a los 18 para irse a estudiar y jamás volvió."
-    "But mum left the town when she turned 18 and went to college. She never came back."
+    "But mom left the town when she turned 18 and went to college. She never came back."
 
 # game/script.rpy:101
 translate english intro_a63be44b:
@@ -316,7 +316,7 @@ translate english festival_57425dc5:
 translate english festival_30a9a74b:
 
     # "El abuelo me contó que cuando mamá era adolescente, ella ponía a coserse la ropa desde un mes antes, y salía a las calles con sus amigos."
-    "Grandpa told me that when mum was a teenager, she started sewing her clothes a month prior, and went to the streets with all her friends."
+    "Grandpa told me that when mom was a teenager, she started sewing her clothes a month prior, and went to the streets with all her friends."
 
 # game/script.rpy:158
 translate english festival_69f7025c:
@@ -328,7 +328,7 @@ translate english festival_69f7025c:
 translate english festival_29177dfa:
 
     # "Mamá siempre contaba que desde hacía siglos, el pueblo tenía una gran conexión con el Otro Mundo"
-    "Mum always told me that, from centuries ago, the town had a great connection with the Other World."
+    "Mom always told me that, from centuries ago, the town had a great connection with the Other World."
 
 # game/script.rpy:160
 translate english festival_24be2762:
@@ -358,7 +358,7 @@ translate english grampasBox_ae0a984f:
 translate english grampasBox_7a8d4ee7:
 
     # p "Que suerte que aquí la celebración es hasta mañana, seguro mamá lo disfrut-"
-    p "I'm lucky celebrations here are until tomorrow, I'm sure mum will enj-"
+    p "I'm lucky celebrations here are until tomorrow, I'm sure mom will enj-"
 
 # game/script.rpy:224
 translate english grampasBox_d8b1b2b9:
@@ -789,7 +789,7 @@ translate english preMission_83b1bac8:
 translate english preMission_6f2a192e:
 
     # p "¿De verdad no hay nadie más que pueda resolver esto? Mamá vendrá mañana y-"
-    p "There's really nobody else that could fix this? Mum will come tomorrow and-"
+    p "There's really nobody else that could fix this? Mom will come tomorrow and-"
 
 # game/script.rpy:391
 translate english preMission_cd8b2287:
@@ -5229,271 +5229,271 @@ translate english normalEnding_e0e19fbe:
 translate english trueEnding_3e43c3a3:
 
     # abu "Hola, [playerName!q]"
-    abu ""
+    abu "Hi, [playerName!q]"
 
 # game/script.rpy:1500
 translate english trueEnding_8a899f75:
 
     # p "ABUELO."
-    p ""
+    p "GRANDPA."
 
 # game/script.rpy:1501
 translate english trueEnding_ee0a2783:
 
     # "¿Era esto un sueño? Apenas podía verlo."
-    ""
+    "Was this a dream? I could barely see him."
 
 # game/script.rpy:1502
 translate english trueEnding_dc13b117:
 
     # "Mi vista ese volvía borrosa, pero yo me movía para adelante. Cuando lo abracé, podía sentirlo. Era real."
-    ""
+    "My sight was blurry, but I kept moving foward. When I hugged him, I could feel him. He was real"
 
 # game/script.rpy:1503
 translate english trueEnding_cf358a25:
 
     # "Mi abuelo... Estaba conmigo."
-    ""
+    "My grandpa... Was here, with me."
 
 # game/script.rpy:1506
 translate english trueEnding_b8371aac:
 
     # abu "Lo siento mucho, calabaza. Hay tanto de que hablar..."
-    abu ""
+    abu "I'm so sorry, calabaza. There are so many things to talk about.."
 
 # game/script.rpy:1507
 translate english trueEnding_3fb4171a:
 
     # abu "Lamento todo lo que has tenido que pasar por mí."
-    abu ""
+    abu "I'm sorry for all the things you had to go through because of me."
 
 # game/script.rpy:1509
 translate english trueEnding_92ac0fd8:
 
     # p "Pero abuelo... Me atrapó. Inaru. {w}Todo esto lo hizo para-"
-    p ""
+    p "But grandpa... She caught me. Inaru. {w}She did all of this to-"
 
 # game/script.rpy:1510
 translate english trueEnding_3b173451:
 
     # abu "Lo sé."
-    abu ""
+    abu "I know."
 
 # game/script.rpy:1512
 translate english trueEnding_c8ea8a4a:
 
-    # p ". . ."
-    p ""
+    # p "..."
+    p "..."
 
 # game/script.rpy:1513
 translate english trueEnding_ebaebe9f:
 
     # abu "Inaru solo es un eco de mis sentimientos y mis recuerdos, igual que todos los demás."
-    abu ""
+    abu "Inaru is just an echo of my feelings and memories, like the rest of them."
 
 # game/script.rpy:1514
 translate english trueEnding_a2c52ab3:
 
     # p "?!"
-    p ""
+    p "?!"
 
 # game/script.rpy:1515
 translate english trueEnding_b9cdedd1:
 
     # abu "Verás, [playerName!q]. Hay algo especial en las Leyendas."
-    abu ""
+    abu "You see, [playerName!q], there's something special in Leyendas."
 
 # game/script.rpy:1516
 translate english trueEnding_d183cf12:
 
     # abu "Algunas son temidas, otras son admiradas."
-    abu ""
+    abu "Some are feared, some are worshiped."
 
 # game/script.rpy:1517
 translate english trueEnding_9413b51f:
 
     # abu "Las historias corren a través de los años. Pero son eso. Historias."
-    abu ""
+    abu "The stories are told for generations. But they are only that. Stories"
 
 # game/script.rpy:1518
 translate english trueEnding_4a6e4da8:
 
     # abu "Una Leyenda no puede ser buena, ni mala. No conoce de eso. {w}Nosotros, los humanos, somos quienes juzgamos su valor."
-    abu ""
+    abu "A Leyenda can't be good or bad. They aren't aware of it. {w}We, humans, are the ones that judge their value."
 
 # game/script.rpy:1519
 translate english trueEnding_c2504ae7:
 
     # abu "Ellos no es más que energía. {w}Y como tal, se alimentan de lo que absorben a su alrededor."
-    abu ""
+    abu "They are no more than energy. {w}As such, they nourish from what they can consume from their surroundings."
 
 # game/script.rpy:1520
 translate english trueEnding_a171c9bb:
 
     # abu "Es lo que solía hacer. {w}Otorgaba mi energía a las Leyendas que encontraba. {w}Les daba un poco de mi ser."
-    abu ""
+    abu "That's what I used to do. {w}I granted my energy to the Leyendas I met. {w}I gave them a little part of my being." #Elithne
 
 # game/script.rpy:1521
 translate english trueEnding_ac702c14:
 
     # abu "Dentro mío podía sentir como si ya los conociera."
-    abu ""
+    abu "Inside me, I could feel like I knew them."
 
 # game/script.rpy:1523
 translate english trueEnding_ad7fc908:
 
     # p "¿Como si los conocieras...?"
-    p ""
+    p "Like you knew them...?"
 
 # game/script.rpy:1530
 translate english trueEnding_fb87f001:
 
     # cal "¿Debe doler, no? Ser una buena persona forzada a hacer cosas malas..."
-    cal ""
+    cal "It must hurt, doesn't it? Being a good person forced to do bad things..." #Elithne
 
 # game/script.rpy:1533
 translate english trueEnding_97284e28:
 
     # pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
-    pom ""
+    pom "What brings me some peace of mind, is that creatures like you exist." #Elithne
 
 # game/script.rpy:1536
 translate english trueEnding_cafe5e8f:
 
-    # sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más."
-    sil ""
+    # sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más." 
+    sil "Good people grow tired of people like me. They deserve more. Much more." #Elithne
 
 # game/script.rpy:1542
 translate english trueEnding_b560ba01:
 
     # p "!!!!"
-    p ""
+    p "!!!!"
 
 # game/script.rpy:1543
 translate english trueEnding_f77a8614:
 
     # p "¡Los escucho!"
-    p ""
+    p "I hear them!"
 
 # game/script.rpy:1544
 translate english trueEnding_cd0754ff:
 
     # p "Entonces las... Las leyendas."
-    p ""
+    p "So.. the Leyendas."
 
 # game/script.rpy:1545
 translate english trueEnding_ff53d6f3:
 
     # abu "Eran parte mi alma."
-    abu ""
+    abu "They were part of my soul."
 
 # game/script.rpy:1546
 translate english trueEnding_b2460b3f:
 
     # abu "Y ahora son parte de la tuya. Son un reflejo de lo que eres. Lo bueno, y lo malo."
-    abu ""
+    abu "And now they are part of yours. They are a reflection of who you are. The good and the bad."
 
 # game/script.rpy:1547
 translate english trueEnding_c8ea8a4a_1:
 
-    # p ". . ."
-    p ""
+    # p "..."
+    p "..."
 
 # game/script.rpy:1548
 translate english trueEnding_d9de2446:
 
     # "Fisa... {w}Har... {w}Wiija..."
-    ""
+    "Fisa... {w}Har... {w}Wiija..."
 
 # game/script.rpy:1549
 translate english trueEnding_7cf96878:
 
     # "Ahora son parte de mí. {w}De una manera extraña, me causaba mucha tranquilidad. {w}El miedo comenzaba a desvanecerse."
-    ""
+    "Now they are part of me. {w}In a weird way, it made me feel very calm. {w}The fear started to fade away."
 
 # game/script.rpy:1550
 translate english trueEnding_4f05b72b:
 
     # "Lo único que queda... Es un cabo suelto."
-    ""
+    "The only thing that's left... It's a loose end."
 
 # game/script.rpy:1552
 translate english trueEnding_4b895f2e:
 
     # p "Abuelo..."
-    p ""
+    p "Grandpa..."
 
 # game/script.rpy:1553
 translate english trueEnding_0ea350ab:
 
     # p "¿Cómo es que estás aquí?"
-    p ""
+    p "How is it possible that you are here?" #Elithne
 
 # game/script.rpy:1554
 translate english trueEnding_47390352:
 
     # abu "¿Hm?"
-    abu ""
+    abu "Hm?"
 
 # game/script.rpy:1555
 translate english trueEnding_617a580f:
 
     # abu "Oh, claro."
-    abu ""
+    abu "Oh, right."
 
 # game/script.rpy:1556
 translate english trueEnding_5053ef40:
 
     # abu "Bueno siempre he estado aquí."
-    abu ""
+    abu "Well, I've always been here."
 
 # game/script.rpy:1557
 translate english trueEnding_f863a3d7:
 
     # "Su mano se apoya en su esternón."
-    ""
+    "He rested his hand in his chest."
 
 # game/script.rpy:1558
 translate english trueEnding_e9a63ca4:
 
     # abu "Siempre he estado contigo, ..."
-    abu ""
+    abu "I've always been with you..."
 
 # game/script.rpy:1559
 translate english trueEnding_88e4b33a:
 
     # abu "Tú eres mi Vestigio."
-    abu ""
+    abu "You are my Vestigio."
 
 # game/script.rpy:1560
 translate english trueEnding_c8ea8a4a_2:
 
-    # p ". . ."
-    p ""
+    # p "..."
+    p "..."
 
 # game/script.rpy:1561
 translate english trueEnding_d8b1b2b9:
 
     # p "¿Eh?"
-    p ""
+    p "Eh?"
 
 # game/script.rpy:1562
 translate english trueEnding_9f5fc4e3:
 
     # abu "Quizá haya mucho que explicar."
-    abu ""
+    abu "Maybe... there's a lot of explaining to do."
 
 # game/script.rpy:1563
 translate english trueEnding_8651f269:
 
     # abu "Tu madre... {w}Amaba a este lugar, y era igual a tí. Intrépida, aventurera. Pero ella no quería capturar a las leyendas, creía que era un precio alto que pagar."
-    abu ""
+    abu "Your mother... {w}Loved this place, and she was just like you. Intrepid, adventurous. But she didn't want to seal away Leyendas, she thought that it had a high price to pay."
 
 # game/script.rpy:1564
 translate english trueEnding_c7bd810d:
 
     # abu "Ella decía que eso les quitaba su libertad de decidir, de ser su propio ser, para bien o para mal."
-    abu ""
+    abu "She said that it took away their freedom to choose, of being their own being, for better or for worst."
 
 # game/script.rpy:1565
 translate english trueEnding_3d01f136:
@@ -5570,8 +5570,8 @@ translate english trueEnding_e9838418:
 # game/script.rpy:1577
 translate english trueEnding_7d577ec4:
 
-    # abu ". . ."
-    abu ""
+    # abu "..."
+    abu "..."
 
 # game/script.rpy:1579
 translate english trueEnding_985bcb00:
@@ -5661,133 +5661,133 @@ translate english trueEnding_26420d04:
 translate english trueEnding_4b895f2e_1:
 
     # p "Abuelo..."
-    p ""
+    p "Grandpa..."
 
 # game/script.rpy:1599
 translate english trueEnding_a180ba69:
 
     # abu "Lo siento, calabaza."
-    abu ""
+    abu "I'm sorry calabaza."
 
 # game/script.rpy:1600
 translate english trueEnding_e81f017d:
 
     # p "No puedo dejarte desaparecer."
-    p ""
+    p "I can't let you dissapear"
 
 # game/script.rpy:1601
 translate english trueEnding_2785f8a0:
 
     # abu "¿Desaparecer?"
-    abu ""
+    abu "Dissapear?"
 
 # game/script.rpy:1602
 translate english trueEnding_f3aac078:
 
     # abu "Por supuesto que no."
-    abu ""
+    abu "Of course not."
 
 # game/script.rpy:1603
 translate english trueEnding_bb646cf9:
 
     # abu "Seré libre. Podré ser lo que yo quiera."
-    abu ""
+    abu "I will be free. I could do as I please."
 
 # game/script.rpy:1604
 translate english trueEnding_40434864:
 
     # abu "Tu madre... {w}Ella tenía razón."
-    abu ""
+    abu "Your mother... {w}She was right."
 
 # game/script.rpy:1605
 translate english trueEnding_608d4786:
 
     # abu "Yo ya hice todo lo que pude. {w}El resto, te lo encargo."
-    abu ""
+    abu "I did all that I could. {w}I leave the rest to you."
 
 # game/script.rpy:1606
 translate english trueEnding_a2bd6c97:
 
     # "Bajé la mirada. Podía sentir aún la herida en mi mano no terminaba de sanar. Cuando la otra mano la cubrió, pude sentir a mi abuelo abrazándome nuevamente. {w}Cerré los ojos con fuerza."
-    ""
+    "I looked down. I could feel the wound in my hand, unhealed. When I put my other hand over it, I could feel my grandpa hugging me again. {w}I tightly closed my eyes."
 
 # game/script.rpy:1607
 translate english trueEnding_a397dde4:
 
     # abu "Lo hiciste muy bien... Cuidate mucho, calabaza."
-    abu ""
+    abu "You did very well... Take care, calabaza."
 
 # game/script.rpy:1609
 translate english trueEnding_9e95b3b6:
 
     # "Su corazón con fuerza. {w}Cuando era pequeña, aquel sonido siempre me calmaba. {w}Me hacía sentir protegida. Ahora, mi mano se apoyaba sobre él."
-    ""
+    "His heart was pounding. {w}When I was little, that sound always relaxed me. {w}It made me feel protected. I rested my hand on him"
 
 # game/script.rpy:1610
 translate english trueEnding_798a3dcd:
 
     # p "Adios, abuelo"
-    p ""
+    p "Bye, grandpa."
 
 # game/script.rpy:1614
 translate english trueEnding_f0161e73:
 
     # p "He vuelto..."
-    p ""
+    p "I'm back..."
 
 # game/script.rpy:1617
 translate english trueEnding_52f28d41:
 
     # mm "Ngh-!" with vpunch
-    mm "" with vpunch
+    mm "Ngh-!" with vpunch
 
 # game/script.rpy:1619
 translate english trueEnding_b560ba01_1:
 
     # p "!!!!"
-    p ""
+    p "!!!!"
 
 # game/script.rpy:1620
 translate english trueEnding_f22490de:
 
     # "Al voltear, pude ver a Inaru de rodillas. Su cuerpo temblaba, como si estuviera resistiendo el desaparecer."
-    ""
+    "I turned myself around and I see Inaru on her knees. Her body was shaking, like she was fighting to not dissapear."
 
 # game/script.rpy:1622
 translate english trueEnding_3a61181e:
 
     # "Mi pecho se encogió. {w}Debería estar furiosa. Había hecho tanto mal. A mí, a las otras Leyendas."
-    ""
+    "My heart shrunk. {w}I should be furious. She had done so much harm. To me, to other Leyendas."
 
 # game/script.rpy:1623
 translate english trueEnding_1dc4fb2a:
 
     # "Pero lo hizo por mi abuelo... {w}Y ahora estaba desvaneciendose nuevamente dentro del Vestigio."
-    ""
+    "But she did it for grandpa... {w}And now she is vanishing into the Vestigio again."
 
 # game/script.rpy:1624
 translate english trueEnding_2440c84c:
 
     # mm "No, Lucio. Él..."
-    mm ""
+    mm "No. Lucio. He..."
 
 # game/script.rpy:1625
 translate english trueEnding_bc174016:
 
     # "Me arrodillé frente a ella. {w}Inaru de regreso, me miró a los ojos."
-    ""
+    "I kneel in front of her. {w}Inaru looked back at me."
 
 # game/script.rpy:1626
 translate english trueEnding_62d4b5db:
 
     # mm "Lo estoy perdiendo."
-    mm ""
+    mm "I'm losing him."
 
 # game/script.rpy:1627
 translate english trueEnding_d93f8896:
 
     # "Una mano se apoyó en su brazo. {w}Ésta era una de las decisiones más difíciles que tuve que tomar."
-    ""
+    "I rested my hand in her arm. {w}This was one of the "
 
 # game/script.rpy:1628
 translate english trueEnding_72c2c5a8:
@@ -5835,281 +5835,281 @@ translate english trueEnding_f7449763:
 translate english trueEnding_cf62ff03:
 
     # mm "...."
-    mm ""
+    mm "...."
 
 # game/script.rpy:1637
 translate english trueEnding_1736abd5:
 
     # mm "Una vez eso ocurra, será tu alma la que esté dentro mío. Lentamente, olvidaré al Maestro."
-    mm ""
+    mm "Once that happens, your soul would be the one inside me. And slowly, I'll forget the Maestro"
 
 # game/script.rpy:1638
 translate english trueEnding_0fbde08e:
 
     # mm "Sólo las Leyendas perduran en el tiempo. {w}Los humanos desaparecen, y uno a uno serán olvidados."
-    mm ""
+    mm "Only Leyendas last the test of time. {w}Humans dissapear, and one by one are forgotten."
 
 # game/script.rpy:1640
 translate english trueEnding_f5c6a577:
 
     # "Con sus palabras, podía sentir su profunda tristeza. {w}Quedar en el olvido podría ser una de las cosas más terroríficas que un alma podría vivir. {w}Podía entender lo que Inaru estaba sintiendo."
-    ""
+    "I could feel great sadness in her words. {w}To be forgotten may be one of the scariest things a soul could live through. {w}I could understand what Inaru was feeling."
 
 # game/script.rpy:1642
 translate english trueEnding_d3e114e6:
 
     # "Pero no podía aceptarlo."
-    ""
+    "But I couldn't accept it."
 
 # game/script.rpy:1643
 translate english trueEnding_c39e3fa7:
 
     # p "Entonces te hablaré sobre él."
-    p ""
+    p "So, I'll tell you about him."
 
 # game/script.rpy:1644
 translate english trueEnding_c01a0f76:
 
     # p "Te contaré sobre todo lo que aprendí y ni tú ni yo lo vamos a olvidar."
-    p ""
+    p "I'll tell you about all I've learned and neither you nor I will forget him."
 
 # game/script.rpy:1645
 translate english trueEnding_54be5188:
 
     # "Inaru me observó, y casi derrotada, la pude ver sonreir."
-    ""
+    "Inaru looked at me, and I saw her smile, defeated"
 
 # game/script.rpy:1646
 translate english trueEnding_4a76dea3:
 
     # mm "Vaya..."
-    mm ""
+    mm "Well.." #wow? Elithne
 
 # game/script.rpy:1647
 translate english trueEnding_b4ca5ab7:
 
     # mm "Si que eres..."
-    mm ""
+    mm "You really are..."
 
 # game/script.rpy:1648
 translate english trueEnding_7440b8bb:
 
     # mm "Su nieta..."
-    mm ""
+    mm "Her granddaughter..."
 
 # game/script.rpy:1654
 translate english trueEnding_a20cefa7:
 
-    # ". . ."
-    ""
+    # "..."
+    "..."
 
 # game/script.rpy:1656
 translate english trueEnding_6678edc3:
 
     # "Inaru..."
-    ""
+    "Inaru..."
 
 # game/script.rpy:1657
 translate english trueEnding_8096e601:
 
     # "Ahora entiendo."
-    ""
+    "Now I understand."
 
 # game/script.rpy:1658
 translate english trueEnding_63be185e:
 
     # "He pasado una noche tan larga, y he descubierto tanto sobre el abuelo"
-    ""
+    "It was a long night, and I found out so much about grandpa."
 
 # game/script.rpy:1659
 translate english trueEnding_cae283de:
 
     # "Nuevamente todos los Vestigios volvieron a su caja. {w}Pero... {w}Lo que dijo el abuelo..."
-    ""
+    "Once again, all the Vestigios were back in their box. {w}But... {w}What grandpa said..."
 
 # game/script.rpy:1660
 translate english trueEnding_a20cefa7_1:
 
-    # ". . ."
-    ""
+    # "..."
+    "..."
 
 # game/script.rpy:1661
 translate english trueEnding_fcdcff71:
 
     # "Los Vestigios."
-    ""
+    "The Vestigios"
 
 # game/script.rpy:1662
 translate english trueEnding_1cce719b:
 
     # "Quizá... {w}Quizá ella tenga razón"
-    ""
+    "Maybe... {w}Maybe she is right."
 
 # game/script.rpy:1665
 translate english trueEnding_ea290ad5:
 
     # "???" "¡[playerName!q]! ¿Estás ahí?"
-    "???" ""
+    "???" "[playerName!q]! Are you there?"
 
 # game/script.rpy:1666
 translate english trueEnding_c8ea8a4a_5:
 
-    # p ". . ."
-    p ""
+    # p "..."
+    p "..."
 
 # game/script.rpy:1668
 translate english trueEnding_c6b54d23:
 
     # p "¡Mamá!"
-    p ""
+    p "Mum!"
 
 # game/script.rpy:1671
 translate english trueEnding_b4e8dc97:
 
     # centered "The End."
-    centered ""
+    centered "FIN"
 
 translate english strings:
 
     # game/script.rpy:105
     old "No quiero investigar mas"
-    new ""
+    new "I don't want to look any further"
 
     # game/script.rpy:234
     old "Entrar"
-    new ""
+    new "Get in"
 
     # game/script.rpy:244
     old "Acercarse"
-    new ""
+    new "Get closer"
 
     # game/script.rpy:255
     old ". . ."
-    new ""
+    new ". . ."
 
     # game/script.rpy:264
     old "Abrir"
-    new ""
+    new "Open"
 
     # game/script.rpy:282
     old "\"¿Quién eres?\""
-    new ""
+    new "\"Who are you?\""
 
     # game/script.rpy:304
     old "\"¿¡Los demás!?\""
-    new ""
+    new "\"The rest!?\""
 
     # game/script.rpy:323
     old "\"¿Y cómo voy a hacer eso?\""
-    new ""
+    new "\"And how would I do that?\""
 
     # game/script.rpy:340
     old "\". . .\""
-    new ""
+    new "\". . .\""
 
     # game/script.rpy:346
     old "Inaru"
-    new ""
+    new "Inaru"
 
     # game/script.rpy:346
     old "Pombero"
-    new ""
+    new "Pombero"
 
     # game/script.rpy:346
     old "Silbón"
-    new ""
+    new "Silbón"
 
     # game/script.rpy:346
     old "Calchona"
-    new ""
+    new "Calchona"
 
     # game/script.rpy:346
     old "Abuelo"
-    new ""
+    new "Grandpa"
 
     # game/script.rpy:346
     old "Estoy bien"
-    new ""
+    new "I'm fine"
 
     # game/script.rpy:409
     old "\"Sí, voy a ayudarte.\""
-    new ""
+    new "\"Yes, I'm going to help you\""
 
     # game/script.rpy:409
     old "\"¡No! ¡De ninguna manera!\""
-    new ""
+    new "\"No! No way!\""
 
     # game/script.rpy:526
     old "\"Me escapé del festival.\""
-    new ""
+    new "\"I ran away from the festival.\""
 
     # game/script.rpy:526
     old "\"Te estaba buscando.\""
-    new ""
+    new "\"I was looking for you.\""
 
     # game/script.rpy:583
     old "\"No lo estoy\""
-    new ""
+    new "\"No, I'm not\""
 
     # game/script.rpy:583
     old "\"Me inspiras confianza\""
-    new ""
+    new "\"I feel I can trust you\""
 
     # game/script.rpy:618
     old "Hablar sobre mamá"
-    new ""
+    new "Talk about mum"
 
     # game/script.rpy:618
     old "Hablar de su pasado"
-    new ""
+    new "Talk about her past"
 
     # game/script.rpy:778
     old "Enfrentarlo"
-    new ""
+    new "Confront him"
 
     # game/script.rpy:778
     old "Correr"
-    new ""
+    new "Run"
 
     # game/script.rpy:851
     old "Pescar"
-    new ""
+    new "Fishing"
 
     # game/script.rpy:851
     old "Nadar"
-    new ""
+    new "Swimming"
 
     # game/script.rpy:921
     old "Seamos amigos."
-    new ""
+    new "Let's be friends."
 
     # game/script.rpy:921
     old "Cuida de este bosque."
-    new ""
+    new "Take care of this forest."
 
     # game/script.rpy:1083
     old "\"Quiero comer lo que veías.\""
-    new ""
+    new "\"..want to eat what you were looking at.\""
 
     # game/script.rpy:1083
     old "\"Quiero saber sobre tí.\""
-    new ""
+    new "\"..want to know about you.\""
 
     # game/script.rpy:1127
     old "\"Puedes hacer nuevos amigos.\""
-    new ""
+    new "\"You can make new friends.\""
 
     # game/script.rpy:1127
     old "\"Puedes pasarla bien en familia.\""
-    new ""
+    new "\"You can have a good time with family. \""
 
     # game/script.rpy:1210
     old "\"¿Qué hay en la bolsa?\""
-    new ""
+    new "\"What's in the sack?\""
 
     # game/script.rpy:1210
     old "\"¿Quién te enseñó a silbar?\""
-    new ""
+    new "\"Who taught you to whistle?\""
 
 # TODO: Translation updated at 2022-09-30 06:37
 
@@ -6117,113 +6117,113 @@ translate english strings:
 translate english meetMadreMonte_160715fc:
 
     # "Estaba bromeando... Debía ser una broma."
-    ""
+    "She must be kidding.. This must be joke."
 
 # game/script.rpy:393
 translate english preMission_66f08e23:
 
     # "¿Es esto lo que pueden causar las Leyendas sólo con su voz? ¿Miedo, dudas?"
-    ""
+    "Is this what Leyendas can do with only their voice? Fear, doubt?"
 
 # game/script.rpy:400
 translate english preMission_8d08fc74:
 
     # mm "Nada de lo que hagan podrá resultar. Sólo tú tienes la sangre de tu abuelo."
-    mm ""
+    mm "There nothing they could do. Only you have your grandfather's blood."
 
 # game/script.rpy:411
 translate english preMission_8c0ee833:
 
     # "Cuando abrí los ojos, mi mano estaba seca y las yemas de Inaru brillaban de un color carmesí.{w} La herida de mi mano rápidamente comenzó a cicatrizar."
-    ""
+    "When I opened my eyes, my hand was dry and the tips of Inaru's fingers were glowing bright red. {w}The wound quickly started healing."
 
 # game/script.rpy:439
 translate english missionDenied_b98d7892:
 
     # "No llegué a voltear, mi cuerpo entumecido sólo atisbó a mirar hacia abajo, donde las ramas salían de mi estómago."
-    ""
+    "I coundn't turn around. My numb body only managed to look down, where branches were sprouting out of my insides."
 
 # game/script.rpy:616
 translate english calchonaRoute_58f703f0:
 
     # cal "Un día volví y no había nada. {w}Ni mi esposo, ni mis hijos. {w}Y todas mis pociones habían sido destruidas. Sólo pude tomar los restos de una."
-    cal ""
+    cal "One day, I came back and nothing was there. {w}Neither my husband nor my children. {w}And all my potions were destroyed. Only could drink the leftovers of one of them."
 
 # game/script.rpy:637
 translate english calchonaRoute_9a0bb3d3:
 
     # cal "Y luego... Sólo sentí calor."
-    cal ""
+    cal "And then... Only felt warmth."
 
 # game/script.rpy:644
 translate english calchonaRoute_de00ba9a:
 
     # p "Cuando era pequeña, tuve una pesadilla. Estaba sola en el mundo... {w}No había absolutamente nada, como si alguien hubiera puesto un lienzo y sólo me puso a mí, y allí me dejó."
-    p ""
+    p "When I was little, I had a nightmare. I was alone in the world... {w}There was absolutely nothing, as if someone made a blank canvas with only me in it, and left me there."
 
 # game/script.rpy:858
 translate english pomberoRoute_0c1df3bc:
 
     # "El aire comenzó a sentirse denso, como si los árboles estuvieran a punto de caer sobre nosotros."
-    ""
+    "The air became denser, as if the trees were about to fall over us."
 
 # game/script.rpy:877
 translate english pomberoRoute_922f8105:
 
     # "Salí corriendo tras él, de nuevo. Sólo unos minutos más tarde, llegamos a una pequeña laguna."
-    ""
+    "I ran after him, again. After a few minutes, we arrived to a small lake."
 
 # game/script.rpy:894
 translate english pomberoRoute_8f2e5101:
 
     # "Logré patalear de nuevo a la superficie, sólo para ver a Har nadando hacia mí."
-    ""
+    "I managed to swim to the surface with some struggle, only to see Har making his way towards me."
 
 # game/script.rpy:1001
 translate english pomberoRoute_99a0dd68:
 
     # pom "No tienes que disculparte. {w}Eres sólo una niña."
-    pom ""
+    pom "You don't have to apologize. {w}You're just a child."
 
 # game/script.rpy:1031
 translate english pomberoGoodEnding_fc1b8799:
 
     # pom "Y tenía razón. {w}Este mundo ya no es para criaturas como yo."
-    pom ""
+    pom "And he was right. {w}Creatures like me don't belong to this world anymore."
 
 # game/script.rpy:1053
 translate english pomberoGoodEnding_f503453c:
 
     # "Si tan sólo supiera que haría él en este momento."
-    ""
+    "If I only knew what he would do in this moment."
 
 # game/script.rpy:1197
 translate english silbonRoute_e41ddcf0:
 
     # sil "No tengo amigos, nunca los tuve. {w}Sólo eran mamá y papá."
-    sil ""
+    sil "I don't have any friends, I never had. {w}Just my mum and dad."
 
 # game/script.rpy:1351
 translate english silbonGoodEnding_2f6c2aea:
 
     # "Lo empecé a seguir. {w}Se metía cada vez más entre los edificios. {w}Ya no había nadie en las calles. Sólo los restos del festival."
-    ""
+    "I started chasing him. {w}He got deeper into the town. {w}There was no one on the streets already. Just the leftovers of the festival."
 
 # game/script.rpy:1381
 translate english silbonGoodEnding_86743133:
 
     # p "Sólo... Déjame hacer esto, dejame salvar a mi abuelo. Ayúdame a salvar a mi abuelo"
-    p ""
+    p "Just... Let me do it, let me save my grandpa. Help me save my grandpa."
 
 # game/script.rpy:1397
 translate english silbonGoodEnding_151f38bb:
 
     # "Un parpadeo, y Wiija desapareció. Bajé la mano, y vi sólo el costal que venía cargando desde que lo vi la primera vez."
-    ""
+    "In a blink of an eye, Wiija dissapeared. I put my hand down and just saw the sack that he was carring since the first time I saw him"
 
 # game/script.rpy:1565
 translate english trueEnding_7e4424ae:
 
     # abu "Inaru sólo es un eco de mis sentimientos y mis recuerdos, igual que todos los demás."
-    abu ""
+    abu "Inaru is just an echo of my feelings and memories, like the rest of them."
 
