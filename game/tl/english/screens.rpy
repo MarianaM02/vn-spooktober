@@ -330,3 +330,27 @@ translate english strings:
     old "Menú"
     new "Menu"
 
+# TODO: Translation updated at 2022-09-30 14:27
+
+translate english strings:
+
+    # game/screens.rpy:1050
+    old "Clic izquierdo"
+    new ""
+
+    # game/screens.rpy:1054
+    old "Clic medio"
+    new ""
+
+    # game/screens.rpy:1058
+    old "Clic derecho"
+    new ""
+
+    # game/screens.rpy:1062
+    old "Rueda del ratón arriba\nClic en lado de retroceso"
+    new ""
+
+    # game/screens.rpy:1090
+    old "Comenzar, Guía"
+    new ""
+

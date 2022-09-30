@@ -15,8 +15,8 @@
     with Pause(1)
 
     centered """
-    {u}{b}Advertencia{/b}{/u}
-    Este juego contiene violencia, temas maduros, sangre y uso de tabaco.
+    {u}{b}Advertencia{/b}{/u}\n
+    Este juego contiene violencia, temas maduros, sangre y uso de tabaco.\n
     Los personajes y escenarios están basados en la cultura Latinoamericana con el 
     objetivo de entretener y no está dirigido a reemplazar fuentes educativas.
     """
@@ -254,7 +254,7 @@ label grampasBox:
     play sound "audio/puerta.ogg"
     queue sound "audio/suspenso.wav" fadein 5 volume 0.2
     play music "audio/susurros-001.wav" volume 0.2
-    scene fondo dormitorio with fade
+    scene fondo dormitorio verde with fade
 
     # "Se abre la puerta, la habitación está vacía, se ve la cama, y junto a ella, la caja de donde sale esa luz."
     # "Hay más susurros, el ambiente es cada vez más tenso"
@@ -283,7 +283,7 @@ label grampasBox:
 label meetMadreMonte:
     # personaje ???
     play music "audio/madre-monte-loop.wav" fadein 0.5 volume 0.5
-    scene fondo dormitorio with fade
+    scene fondo dormitorio cofre abierto with fade
     show mmonte full with dissolve
     mm "Vaya..."
     menu:
@@ -496,7 +496,7 @@ label calchonaRoute:
     play sound "audio/typewriter.ogg"
     centered "Campos Liwen. \n31 de Octubre. \n00:30am."
     scene fondo campos noche with fade
-    play music "audio/menu-loop.wav" fadein 5 volume 0.5
+    play music "audio/leyendas-loop.wav" fadein 5 volume 0.5
     show player feliz at left with easeinleft
     "Me encantaba venir aquí... De pequeña, los vecinos me dejaban acariciar a los animales y darles de comer."
     show player triste with dissolve
@@ -779,7 +779,7 @@ label pomberoRoute:
     play sound "audio/typewriter.ogg"
     centered "Bosque Suas Agascuana. \n31 de Octubre. \n00:30am."
     scene fondo bosque with fade
-    play music "audio/menu-loop.wav" fadein 5 volume 0.5
+    play music "audio/leyendas-loop.wav" fadein 5 volume 0.5
     show player feliz at left with easeinleft
     "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
     "Había oído historias de niños como yo que entraban al bosque a jugar por la noche. {w}Nunca pensé que sería yo quien se metiera voluntariamente alguna vez."
@@ -1109,7 +1109,7 @@ label silbonRoute:
     play sound "audio/typewriter.ogg"
     centered "Pueblo Liwen. \n31 de Octubre. \n00:30am."
     scene fondo pueblo decorado fiesta with fade
-    play music "audio/menu-loop.wav" fadein 5 volume 0.5
+    play music "audio/leyendas-loop.wav" fadein 5 volume 0.5
     show player feliz at left with easeinleft
     "Si había un lugar donde podía sentirme en mi elemento, era éste. {w}Las festividades ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
     "Me hubiera gustado poder disfrutarlo..."
@@ -1461,7 +1461,7 @@ label silbonBadEnding:
 label normalEnding:
     scene black with fade
     play sound "audio/typewriter.ogg"
-    centered "Casa del Abuelo. \n31 de Octubre. \n6:00am."
+    centered "Casa del Abuelo. \n31 de Octubre. \n6:30am."
 
     scene fondo casa lejos with fade
     show player triste at right with easeinright
@@ -1474,7 +1474,7 @@ label normalEnding:
     "Veo este lugar, y es como si no hubiera estado esta mañana."
     "Sólo espero que Inaru haya tenido suerte..."
     # Entra a la habitación del abuelo
-    scene fondo dormitorio with fade
+    scene fondo dormitorio amanecer with fade
     show player triste at left with easeinleft
     "..."
     # Aparece la Madre Monte
@@ -1669,7 +1669,7 @@ label trueEnding:
     "Su corazón con fuerza. {w}Cuando era pequeña, aquel sonido siempre me calmaba. {w}Me hacía sentir protegida. Ahora, mi mano se apoyaba sobre él."
     p "Adios, abuelo"
     # Volvemos a la habitación del abuelo
-    scene fondo dormitorio with flash 
+    scene fondo dormitorio amanecer with flash 
     show player feliz with dissolve
     p "He vuelto..."
     show player at left with move

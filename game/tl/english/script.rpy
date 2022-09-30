@@ -2051,2813 +2051,2820 @@ translate english calchonaBadEnding_254a1224:
     # "Bad Ending."
     "Bad Ending."
 
+
 # game/script.rpy:744
 translate english pomberoRoute_eb1bea96:
 
     # centered "Bosque Suas Agascuana. \n31 de Octubre. \n00:30am."
-    centered ""
+    centered "Suas Agascuana Forest. \October 31st. \n00:30am."
 
 # game/script.rpy:748
 translate english pomberoRoute_bdbfe7a1:
 
     # "Una vez salí de la casa, tomé el camino más corto para llegar al bosque. "
-    ""
+    "Once I left the house, I took the shortest path to reach the forest. "
 
 # game/script.rpy:749
 translate english pomberoRoute_0a283921:
 
     # "Había oído historias de niños como yo que entraban al bosque a jugar por la noche. {w}Nunca pensé que sería yo quien se metiera voluntariamente alguna vez."
-    ""
+    "i had heard stories of children like me who went into the woods to play at night. {w} i never thought I’d be the one to voluntarily get involved."
 
 # game/script.rpy:750
 translate english pomberoRoute_a20cefa7:
 
-    # ". . ."
-    ""
+    # "..."
+    "..."
 
 # game/script.rpy:751
 translate english pomberoRoute_97c31cbc:
 
-    # "Las copas de los árboles se mecían sobre mí, danzando con el viento en un arruyo. Y aún así, podía sentir como un gran peso caía sobre mí."
-    ""
+    # "Las copas de los árboles se mecían sobre mí, danzando con el viento en un arrullo. Y aún así, podía sentir como un gran peso caía sobre mí."
+    "The tops of the trees swayed above me, dancing with the wind in a lullaby. And yet, I could feel a heavy weight falling on me"
 
 # game/script.rpy:753
 translate english pomberoRoute_382c2f22:
 
     # pom "Mh mh mh~!"
-    pom ""
+    pom "pom "Mh mh mh~!"
+    pom"
 
 # game/script.rpy:754
 translate english pomberoRoute_66d6e866:
 
     # "Un tarareo sonó en eco contra los troncos de los árboles. {w} Luego pude verlo. "
-    ""
+    "A humming sound echoed against the trunks of the trees. {w} Then I could see it"
 
 # game/script.rpy:755
 translate english pomberoRoute_9f2b447e:
 
     # "Unos metros más adelante, una figura oscura se acercaba a un arroyo, cantando para sí."
-    ""
+    "A few meters ahead, a dark figure approached a stream, singing to himself"
 
 # game/script.rpy:757
 translate english pomberoRoute_e71d728d:
 
     # p "¿Está... {w}Alegre?"
-    p ""
+    p "is it... {w}Cheerful?"
 
 # game/script.rpy:759
 translate english pomberoRoute_1e87fcf5:
 
     # "Antes de ser descubierta, me escondí detrás de un árbol, observando."
-    ""
+    "Before being discovered, I hid behind a tree, watching."
 
 # game/script.rpy:760
 translate english pomberoRoute_80bb12cb:
 
     # "Parecía un duende, pero no era como nada que haya visto antes en cuentos."
-    ""
+    "It looked like a goblin, but it wasn't like anything I've seen before in fairy tales."
 
 # game/script.rpy:762
 translate english pomberoRoute_bc3d8900:
 
     # pom "De los montes vengo...{w} A los montes voy...{w} A hablar con la niña que me ha visto hoy~"
-    pom ""
+    pom "from the mountains I come...{w}, towards them I fly...{w} To reach this pretty little girl, whom I met tonight."
 
 # game/script.rpy:763
 translate english pomberoRoute_84c86b9e:
 
     # "!!!!"
-    ""
+    "!!!!"
 
 # game/script.rpy:764
 translate english pomberoRoute_2afbcda1:
 
     # "Un escalofrío corrió por mi espalda. Sentía que estaban por cazarme."
-    ""
+    "A chill ran down my spine. I felt that something was about to hunt me"
 
 # game/script.rpy:765
 translate english pomberoRoute_8bb873a0:
 
     # "Me di vuelta."
-    ""
+    "i turned"
 
 # game/script.rpy:769
 translate english pomberoRoute_3e65444b:
 
     # pom "¡Ho-laa~!"
-    pom ""
+    pom "¡He-llo~!"
 
 # game/script.rpy:771
 translate english pomberoRoute_c04f7079:
 
     # p "¡Ah!"
-    p ""
+    p "¡Ah!"
 
 # game/script.rpy:773
 translate english pomberoRoute_915f5268:
 
     # "Mis piernas reaccionaron por sí solas, y en un instante, me moví hacia un lado antes de quedar acorralada."
-    ""
+    "My legs reacted on their own, and in an instant, I moved to the side before I was cornered"
 
 # game/script.rpy:774
 translate english pomberoRoute_998c2b34:
 
     # "El duende bajó del árbol, una gran sonrisa adornando su rostro. {w}Cada paso que daba hacia adelante, yo lo retrodecía."
-    ""
+    "The goblin came down from the tree, a big smile gracing his face. {w}Every step I took forward, I took it back"
 
 # game/script.rpy:775
 translate english pomberoRoute_8cede131:
 
     # pom "Jaja... Ja. ¡La niña tiene miedo!"
-    pom ""
+    pom "Haha…. The girl is afraid!"
 
 # game/script.rpy:776
 translate english pomberoRoute_5655133e:
 
     # "¡Necesito reaccionar rápido antes de que se acerque!"
-    ""
+    "I need to react fast before he gets closer!"
 
 # game/script.rpy:777
 translate english pomberoRoute_f398adad:
 
     # "¿Qué hago?"
-    ""
+    "What do i do?"
 
 # game/script.rpy:780
 translate english pomberoRoute_62be68df:
 
     # "Sentía que mi corazón iba a salirse de mi pecho. Aún así, di un paso hacia adelante."
-    ""
+    "I felt like my heart was going to jump out of my chest. Even then, I took a step forward "
 
 # game/script.rpy:782
 translate english pomberoRoute_d4ced816:
 
     # p "¡No! ¡No le tengo miedo a criaturas como tú!"
-    p ""
+    p "No! I am not afraid of creatures like you!"
 
 # game/script.rpy:783
 translate english pomberoRoute_d8b9916e:
 
-    # "El Pombero dejó de reírse. Sentía que aquel silencio me iba a devorar."
-    ""
+    # "El duende dejó de reírse. Sentía que aquel silencio me iba a devorar."
+    "The goblin stopped laughing. I felt like that silence was going to devour me"
 
 # game/script.rpy:784
 translate english pomberoRoute_f40c0d05:
 
-    # "Luego, empezó a reir de nuevo."
-    ""
+    # "Luego, empezó a reír de nuevo."
+    "Then, he started laughing again"
 
 # game/script.rpy:785
 translate english pomberoRoute_13eca71a:
 
     # pom "¡Niña tonta~!"
-    pom ""
+    pom "You Dumb child~!"
 
 # game/script.rpy:787
 translate english pomberoRoute_183a9827:
 
     # "... Desapareció."
-    ""
+    "... Vanished."
 
 # game/script.rpy:789
 translate english pomberoRoute_baf975a8:
 
     # p "¿Qué? ¡Espera!"
-    p ""
+    p "What? Wait!"
 
 # game/script.rpy:791
 translate english pomberoRoute_f3d4b53a:
 
-    # "Salí a perseguirlo, las ramas tan cerca de mi rostro que sentía me golpearían en cualquier momento."
+    # "I went out to chase him, the branches so close to my face that I felt they would hit me at any moment."
     ""
 
 # game/script.rpy:792
 translate english pomberoRoute_48042151:
 
     # "Cuando me quedé sin aire, tuve que detenerme, las manos descansando sobre mis rodillas."
-    ""
+    "When I ran out of air, I had to stop and rest my hands on my knees"
 
 # game/script.rpy:794
 translate english pomberoRoute_df703751:
 
     # p "¿Dónde... {w}Dónde se metió?"
-    p ""
+    p "Where... {w}Where did he go?"
 
 # game/script.rpy:795
 translate english pomberoRoute_bac61fa5:
 
     # pom "Niña tonta"
-    pom ""
+    pom "Dumb Child"
 
 # game/script.rpy:797
 translate english pomberoRoute_e1a6b2c5:
 
     # "El duende se apareció frente a mí."
-    ""
+    "The goblin appeared in front of me"
 
 # game/script.rpy:798
 translate english pomberoRoute_befaffe2:
 
     # pom "Eres como un toro, corres hacia adelante lista para atacar. {w}No puedes atravesar una montaña yendo hacia adelante~!"
-    pom ""
+    pom "You are like a bull, you run forward ready to attack. {w}You can't go through a mountain just going forward~"
 
 # game/script.rpy:802
 translate english pomberoRoute_a8157e46:
 
     # "Sin pensarlo dos veces, me giré y eché a correr, internándome en los bosques."
-    ""
+    "Without thinking twice, I turned and ran, heading into the woods"
 
 # game/script.rpy:804
 translate english pomberoRoute_eacea599:
 
     # "Corrí entre los árboles, escuchando los ecos de la risa del Pombero. {w}No sabía si estaba lejos o cerca de él, pero estaba segura de que se estaba aproximando."
-    ""
+    "I ran through the trees, listening to the echoes of the Pombero's laughter. {w}She didn't know if she was far or near him, but she was sure she was getting closer.
+"
 
 # game/script.rpy:805
 translate english pomberoRoute_4eaa0e26:
 
-    # "De pronto, la risa se desvaneció. {w}Esos instantes fueron los únicos que necesite para determe a recuperar el aliento."
-    ""
+    # "De pronto, la risa se desvaneció. {w}Esos instantes fueron los únicos que necesité para detenerme a recuperar el aliento."
+    "Suddenly the laughter faded. {w}Those moments were the only ones I needed to stop myself from catching my breath.
+"
 
 # game/script.rpy:806
 translate english pomberoRoute_57002121:
 
     # pom "Niña lista, muy lista."
-    pom ""
+    pom "Smart girl, very smart."
 
 # game/script.rpy:808
 translate english pomberoRoute_cc9a5909:
 
     # "!!!"
-    ""
+    "!!!"
 
 # game/script.rpy:810
 translate english pomberoRoute_1d9490a1:
 
     # "Levanté la mirada, y estaba en cuclillas frente a mí. Incluso en la oscuridad, podía ver brillando su enorme sonrisa."
-    ""
+    "
+I looked up, and he was squatting in front of me. Even in the dark, I could see his huge smile shining."
 
 # game/script.rpy:811
 translate english pomberoRoute_d40c2893:
 
-    # pom "Para encontrarse, uno debe perdese. Si si si.{w} Niña lista, muy lista."
-    pom ""
+    # pom "Para encontrarse, uno debe perderse. Si si si.{w} Niña lista, muy lista."
+    pom "To find oneself, one must lose oneself. Yes yes yes.{w} Smart girl, very smart."
 
 # game/script.rpy:814
 translate english pomberoRoute_fb7c655b:
 
     # p "Deja de llamarme así."
-    p ""
+    p "Stop calling me that"
 
 # game/script.rpy:815
 translate english pomberoRoute_04ab9ca6:
 
     # pom "Mh?"
-    pom ""
+    pom "Mh?"
 
 # game/script.rpy:816
 translate english pomberoRoute_bb17acfc:
 
     # p "Me llamo [playerName!q]."
-    p ""
+    p "My name is [playerName!q]."
 
 # game/script.rpy:817
 translate english pomberoRoute_dd925be5:
 
     # pom "Ugh, los humanos y sus nombres pretenciosos. {w}Ustedes me llaman de mil maneras, ¿por qué no podría hacer lo mismo?"
-    pom ""
+    pom "Ugh, humans and their pretentious names. {w}You call me a thousand names, why shouldn't I do the same?
+"
 
 # game/script.rpy:818
 translate english pomberoRoute_574e57bd:
 
     # p "¿Cómo te gusta a tí que te llamen?"
-    p ""
+    p "How do you like to be called?"
 
 # game/script.rpy:820
 translate english pomberoRoute_dc1d2cff:
 
     # pom "Har! Es fuerte, intrépido, y solemne, si si si. ¡Digno nombre para mi persona!"
-    pom ""
+    pom "Har! It is strong, fearless, and solemn, yes yes yes. Worthy name for my person!"
 
 # game/script.rpy:821
 translate english pomberoRoute_a7beb5be:
 
     # "¿Y eso no es pretencioso?"
-    ""
+    "And that's not pretentious?"
 
 # game/script.rpy:822
 translate english pomberoRoute_96b7e81c:
 
     # pom "Niñas como tú no deberían estar vagando solas en el bosque, ¡hay monstruos, y cazadores, y hombres malos dando vueltas."
-    pom ""
+    pom "Girls like you shouldn't be wandering alone in the woods, there are monsters, and hunters, and bad men going around."
 
 # game/script.rpy:823
 translate english pomberoRoute_4a4e9dbe:
 
     # p "¿Y qué haces tú aquí?"
-    p ""
+    p "And what are you doing here?"
 
 # game/script.rpy:824
 translate english pomberoRoute_89e436cd:
 
     # "Har ladeó la cabeza, y luego se echó hacia atrás, la mirada fija en sus alrededores."
-    ""
+    "Har tilt his head, then leaned back, his gaze fixed on his surroundings."
 
 # game/script.rpy:825
 translate english pomberoRoute_d2d8b697:
 
     # pom "Busco divertirme, los humanos son MUY divertidos, ¿sabes?"
-    pom ""
+    pom "I'm looking to have fun, humans are SO much fun, you know?"
 
 # game/script.rpy:827
 translate english pomberoRoute_2e33973d:
 
     # "El aire comenzó a sentirse dneso, como si los árboles estuvieran a punto de caer sobre nosotros."
-    ""
+    "The air began to feel thick, as if the trees were about to fall on us."
 
 # game/script.rpy:828
 translate english pomberoRoute_8e3192a6:
 
     # pom "¡Se creen realmente ingeniosos cuando en realidad son"
-    pom ""
+    pom "They think they're really clever when they're really"
 
 # game/script.rpy:829
 translate english pomberoRoute_0a980ce9:
 
     # pom "Torpes"
-    pom ""
+    pom "Clumsy"
 
 # game/script.rpy:830
 translate english pomberoRoute_6bc20646:
 
     # pom "Egoístas"
-    pom ""
+    pom "Selfish"
 
 # game/script.rpy:831
 translate english pomberoRoute_45d0f15b:
 
     # pom "Y débiles."
-    pom ""
+    pom "And weak."
 
 # game/script.rpy:832
 translate english pomberoRoute_02ca8991:
 
     # pom "Piden, piden, piden, y no saben que uno es más inteligente que ellos, ¡jaja~!"
-    pom ""
+    pom "They ask, ask, ask, and they don't know that I am smarter than them, haha~!"
 
 # game/script.rpy:833
 translate english pomberoRoute_8d3958bb:
 
     # "Incluso entre sus risas, podía ver lo enojado que estaba. {w}Era aterrador."
-    ""
+    "Even between his laughter, I could see how angry he was. {w}It was terrifying."
 
 # game/script.rpy:835
 translate english pomberoRoute_c2c0a2c7:
 
     # p "Quizá podemos hacer algo juntos."
-    p ""
+    p "Maybe we can do something together"
 
 # game/script.rpy:836
 translate english pomberoRoute_1b0ef5b8:
 
     # pom "¿Quieres jugar conmigo? Niña tonta, ¡pero valiente!"
-    pom ""
+    pom "Do you want to play with me? silly child, so brave!"
 
 # game/script.rpy:837
 translate english pomberoRoute_bf11e137:
 
-    # "De un salto, Har comenzo a alejarse."
-    ""
+    # "De un salto, Har comenzó a alejarse."
+    "With a jump, Har started to walk away."
 
 # game/script.rpy:839
 translate english pomberoRoute_6750efa2:
 
     # pom "¡Ven, niña lenta!"
-    pom ""
+    pom "Come on, slow girl!"
 
 # game/script.rpy:841
 translate english pomberoRoute_d4290ef8:
 
     # p "¡Espérame!"
-    p ""
+    p "Wait for me!"
 
 # game/script.rpy:843
 translate english pomberoRoute_9e8f0b07:
 
     # "Salí corriendo tras él, de nuevo. Solo unos minutos más tarde, llegamos a una pequeña laguna."
-    ""
+    "I ran after him again. Just a few minutes later, we arrive at a small lagoon."
 
 # game/script.rpy:846
 translate english pomberoRoute_02ea4aa4:
 
     # p "¿Un lago? ¿Quieres jugar en un lago?"
-    p ""
+    p "A lake? Do you want to play in a lake?"
 
 # game/script.rpy:847
 translate english pomberoRoute_a2c0c019:
 
     # pom "¡Sip, tú eliges! ¿Qué quieres hacer?"
-    pom ""
+    pom "Yes! you choose! What do you want to do?"
 
 # game/script.rpy:848
 translate english pomberoRoute_875ce35a:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:849
 translate english pomberoRoute_ad015351:
 
     # "Si esto era lo que necesitaba para que él confiara en mí..."
-    ""
+    "If this is what I needed to do to make him trust me..."
 
 # game/script.rpy:850
 translate english pomberoRoute_6a1ab995:
 
     # p "Vamos a..."
-    p ""
+    p "We are going to..."
 
 # game/script.rpy:854
 translate english pomberoRoute_2cccf2c5:
 
     # p "Podemos pescar aquí, ¿o no?"
-    p ""
+    p "We can fish here, can’t we?"
 
 # game/script.rpy:855
 translate english pomberoRoute_785d414a:
 
     # pom "¿Hm?"
-    pom ""
+    pom "Hm?"
 
 # game/script.rpy:856
 translate english pomberoRoute_677ec8be:
 
     # "Me acerqué a uno de los árboles donde sobresalía una rama larga y delgada."
-    ""
+    "I walked over to one of the trees where a long thin branch was sticking out."
 
 # game/script.rpy:857
 translate english pomberoRoute_d72550ae:
 
     # p "Podemos usar esto y mis cordones para hacer una caña!"
-    p ""
+    p "We can use this and my laces to make a cane!"
 
 # game/script.rpy:858
 translate english pomberoRoute_4cacf199:
 
     # "Ambas manos sujetaron la rama para tratar de romperla, cuando Har puso una mano en mi hombro y con mucha fuerza me arrojó al agua."
-    ""
+    "Both hands grabbed the branch to try to break it, when Har put a hand on my shoulder and with great force threw me into the water."
 
 # game/script.rpy:860
 translate english pomberoRoute_9f002248:
 
     # "Logré patalear de nuevo a la superficie, solo para ver a Har nadando hacia mí."
-    ""
+    "I managed to kick back to the surface, only to see Har swimming towards me."
 
 # game/script.rpy:861
 translate english pomberoRoute_34263d53:
 
     # pom "¡Sorpresa! Niña tonta necesita prestar más atención~"
-    pom ""
+    pom "Surprise! Silly girl needs to pay more attention~"
 
 # game/script.rpy:862
 translate english pomberoRoute_448f63c8:
 
     # p "{i}Cof, cof{/i} ¡Eso no fue nada amable!"
-    p ""
+    p "{i}Cof, cof{/i} That was not nice at all!"
 
 # game/script.rpy:863
 translate english pomberoRoute_436d5600:
 
     # pom "Tú tampoco has querido ser amable con los peces."
-    pom ""
+    pom "You haven't wanted to be nice to the fish either."
 
 # game/script.rpy:864
 translate english pomberoRoute_3ada6fc1:
 
     # "Con una pequeña risa, Har empezó a nadar en círculos a mi alrededor. {w}Me recordaba a los tiburones."
-    ""
+    "With a small laugh, Har began to swim in circles around me. {w}It reminded me of sharks."
 
 # game/script.rpy:868
 translate english pomberoRoute_f4bb2297:
 
     # p "Quiero ir a nadar."
-    p ""
+    p "i want to swim"
 
 # game/script.rpy:869
 translate english pomberoRoute_785d414a_1:
 
     # pom "¿Hm?"
-    pom ""
+    pom "¿Hm?"
 
 # game/script.rpy:870
 translate english pomberoRoute_0e3a49e0:
 
     # "Me di vuelta y observé la laguna. No me había dado cuenta, pero los árboles daban paso a la luz de la Luna para caer sobre el agua, haciendo del agua un espejo reluciente."
-    ""
+    "I turned and looked at the lagoon. I hadn't realized it, but the trees gave way to the moonlight to fall on the water, making the water a shimmering mirror."
 
 # game/script.rpy:871
 translate english pomberoRoute_a5d2842a:
 
     # p "¡A que llego primero!"
-    p ""
+    p "I will get here first!"
 
 # game/script.rpy:873
 translate english pomberoRoute_5afbbe74:
 
-    # "Luego de gritar, eché a correr hacia el lago. {w}Detrás mío, los pies de Har trastabillaban antes de salir corriendo tras de mí."
-    ""
+    # "Luego de gritar, eché a correr hacia el lago. {w}Detrás mío, los pies de Har trastabillaba antes de salir corriendo tras de mí."
+    "After yelling, I ran towards the lake. {w}Behind me, Har's feet stumbled before he ran after me."
 
 # game/script.rpy:874
 translate english pomberoRoute_d142209e:
 
     # "De un salto me metí en el agua, dejando que me cubriera por completo por un momento antes de sacar la cabeza."
-    ""
+    "I jumped into the water, letting it cover me completely for a moment before sticking my head out."
 
 # game/script.rpy:875
 translate english pomberoRoute_0bc3d257:
 
     # pom "¡Niña astuta, cree que puede ganarme!"
-    pom ""
+    pom "Cunning girl, you think you can beat me!"
 
 # game/script.rpy:876
 translate english pomberoRoute_1be99d70:
 
     # "A diferencia de antes, Har parecía entretenido dentro del agua."
-    ""
+    "Unlike before, Har seemed amused in the water."
 
 # game/script.rpy:877
 translate english pomberoRoute_f5edb01e:
 
     # pom "Sígueme."
-    pom ""
+    pom "Follow me."
 
 # game/script.rpy:878
 translate english pomberoRoute_ff15288e:
 
     # "Tomando una gran bocanada de aire, que parecía más pretendida que otra cosa, él se sumergió."
-    ""
+    "Taking a deep breath, which seemed more intended than anything else, he dove under."
 
 # game/script.rpy:879
 translate english pomberoRoute_74c1c59f:
 
     # "Nadamos hacia el fondo, donde pude ver los peces que allí habitaban."
-    ""
+    "We swam to the bottom, where I could see the fish that lived there."
 
 # game/script.rpy:880
 translate english pomberoRoute_8ee87695:
 
     # pom "Mira bien."
-    pom ""
+    pom "Look closely."
 
 # game/script.rpy:881
 translate english pomberoRoute_a2c52ab3:
 
     # p "?!"
-    p ""
+    p "?!"
 
 # game/script.rpy:882
 translate english pomberoRoute_227febd3:
 
     # "Las manos de Har en mis hombros me forzaron a parpadear varias veces {w}. De pronto, las formas de los peces y las algas se veían más claramente. ¡Era increíble!"
-    ""
+    "Har's hands on my shoulders forced me to blink several times {w}. Suddenly the shapes of fish and algae were more clearly visible. It was amazing!"
 
 # game/script.rpy:883
 translate english pomberoRoute_a1414f43:
 
     # "A pesar de que las criaturas en el bosque aún dormían, las del agua estaban llenas de vida."
-    ""
+    "Although the creatures in the forest still slept, the ones in the water were full of life."
 
 # game/script.rpy:884
 translate english pomberoRoute_cff5934c:
 
     # "Volví a la superficie para recobrar el aliento, y Har ya estaba allí, flotando boca arriba, admirando la Luna."
-    ""
+    "I went back to the surface to catch my breath, and Har was already there, floating on his back, admiring the Moon."
 
 # game/script.rpy:885
 translate english pomberoRoute_2413babc:
 
     # p "Es hermoso."
-    p ""
+    p "So beautiful."
 
 # game/script.rpy:886
 translate english pomberoRoute_42e8dbda:
 
     # pom "Lo sé. No en todos lados es así."
-    pom ""
+    pom "I know. It’s not like this everywhere."
 
 # game/script.rpy:887
 translate english pomberoRoute_ff6dd099:
 
     # pom "Los bosques son fuertes, pero se mueven muy lentamente. {w}Los humanos son rápidos. {w}Quitan sin pensar."
-    pom ""
+    pom "The forests are strong, but they move very slowly. {w}Humans are fast. {w}They take away without thinking."
 
 # game/script.rpy:888
 translate english pomberoRoute_504dfa26:
 
     # pom "No ven lo que hay a su alrededor."
-    pom ""
+    pom "They do not see what is around them."
 
 # game/script.rpy:889
 translate english pomberoRoute_b8adc8cc:
 
     # pom "¡Pero yo soy más rápido!"
-    pom ""
+    pom "But I'm faster!"
 
 # game/script.rpy:890
 translate english pomberoRoute_002e41f2:
 
     # "En un instante, lo pude ver moverse cerca mío."
-    ""
+    "In an instant, I could see him moving closer to me."
 
 # game/script.rpy:891
 translate english pomberoRoute_7171e2c2:
 
     # pom "Nadie es más rápido, o más fuerte que yo en los bosques. {w}Si estoy aquí, nadie sería lastimado por un humano. {w}Ningún árbol, o pez, ni nadie."
-    pom ""
+    pom "Nobody is faster, or stronger than me in the woods. {w}If I'm here, no one would be harmed by a human. {w}No trees, or fish, or anyone."
 
 # game/script.rpy:892
 translate english pomberoRoute_e072e674:
 
     # "No estaba segura si era un comentario, o una amenaza. Sin embargo, no pude evitar sentir la fuerte conexión que Har tenía con los bosques."
-    ""
+    "She wasn't sure if it was a comment, or a threat. However, I couldn't help but feel the strong connection Har had to the woods."
 
 # game/script.rpy:893
 translate english pomberoRoute_6ef911a0:
 
     # p "Entonces es bueno que estés aquí."
-    p ""
+    p "So it's good that you're here."
 
 # game/script.rpy:894
 translate english pomberoRoute_94769eb7:
 
     # "Har volteó la mirada."
-    ""
+    "Har looked away."
 
 # game/script.rpy:895
 translate english pomberoRoute_f0a6b34a:
 
     # pom ". . ."
-    pom ""
+    pom ". . ."
 
 # game/script.rpy:896
 translate english pomberoRoute_6b0ca8b1:
 
     # pom "Niña lista."
-    pom ""
+    pom "Clever girl"
 
 # game/script.rpy:898
 translate english pomberoRoute_0d783d6f:
 
-    # "Eventualmente, salimos del agua, y me tiré en el cesped."
-    ""
+    # "Eventualmente, salimos del agua, y me tiré en el césped."
+    "Eventually, we got out of the water, and I lay down on the grass."
 
 # game/script.rpy:901
 translate english pomberoRoute_00c6aa5f:
 
     # "La noche era calurosa, así que la ropa mojada no me molestaba en lo absoluto. {w}Al mismo tiempo, Har se sentó contra un árbol."
-    ""
+    "The night was hot, so wet clothes didn't bother me at all. {w}At the same time, Har sat down against a tree."
 
 # game/script.rpy:902
 translate english pomberoRoute_94dc7b72:
 
     # "Por el rabillo del ojo, pude ver que desenterraba un cigarro de entre las raíces y se lo ponía entre los labios. {w}¿Hace cuanto que tenía eso ahí?"
-    ""
+    "Out of the corner of my eye, I could see him unearth a cigarette from among the roots and put it between his lips. {w}How long have you had that there?"
 
 # game/script.rpy:904
 translate english pomberoRoute_795e0657:
 
     # p "Quiero preguntarte algo."
-    p ""
+    p "I want to ask you something."
 
 # game/script.rpy:905
 translate english pomberoRoute_83142a43:
 
     # pom "Bien por ti."
-    pom ""
+    pom "Good for you."
 
 # game/script.rpy:907
 translate english pomberoRoute_61c7a6a8:
 
     # p "¿Qué haces aquí?"
-    p ""
+    p "What are you doing here?"
 
 # game/script.rpy:908
 translate english pomberoRoute_8cdd161f:
 
     # "Del suelo, levantaba una hoja seca, y con un chasquido de sus dedos, causó un chispazo que la encendió."
-    ""
+    "From the ground, he lifted a dry leaf, and with a snap of his fingers, caused a spark that ignited it."
 
 # game/script.rpy:909
 translate english pomberoRoute_495a93f8:
 
     # "Lentamente la guió al cigarro, sacudiendo los restos quemados una vez éste estaba encendido."
-    ""
+    "He slowly guided the flame to the cigarette, shaking out the burnt remains once it was lit."
 
 # game/script.rpy:910
 translate english pomberoRoute_e0c31788:
 
     # pom "Me recuerda a mi hogar. Vengo de un lugar parecido a éste."
-    pom ""
+    pom "It reminds me of my home. I come from a place really similar to this "
 
 # game/script.rpy:911
 translate english pomberoRoute_0140a38b:
 
     # "Har exhaló el humo de su cigarro, perdiéndose en sus palabras."
-    ""
+    "Har exhaled the smoke from his cigarette, getting lost in his own words"
 
 # game/script.rpy:912
 translate english pomberoRoute_1e8ef7b7:
 
     # pom "¿Qué hay de tí? ¿Por qué estás aquí?"
-    pom ""
+    pom "What about you? Why are you here?"
 
 # game/script.rpy:913
 translate english pomberoRoute_5dff3447:
 
     # "Por un largo rato, me quedé en silencio."
-    ""
+    "For a long time, i just kept silent"
 
 # game/script.rpy:915
 translate english pomberoRoute_bb8e4991:
 
     # p "Quiero hacer un trato."
-    p ""
+    p "I want to make a deal."
 
 # game/script.rpy:916
 translate english pomberoRoute_f0a6b34a_1:
 
     # pom ". . ."
-    pom ""
+    pom ". . ."
 
 # game/script.rpy:917
 translate english pomberoRoute_337d4156:
 
     # pom "¿Ah sí?"
-    pom ""
+    pom "Oh, Yeah?"
 
 # game/script.rpy:918
 translate english pomberoRoute_d1cdc57d:
 
     # "Volvió a dar una calada. Mi corazón se encogió."
-    ""
+    "He took another puff. My heart sank."
 
 # game/script.rpy:919
 translate english pomberoRoute_ff53d0d8:
 
     # pom "Que... Coincidencia. {w}Parece que estás en el lugar ideal."
-    pom ""
+    pom "What a coincidence. {w}Looks like you're in the right place."
 
 # game/script.rpy:920
 translate english pomberoRoute_83ab4a7b:
 
     # pom "¿Y qué podría querer una niña como tú de mi?"
-    pom ""
+    pom "And what could a girl like you want from me?"
 
 # game/script.rpy:924
 translate english pomberoRoute_fcebaa09:
 
     # p "Seamos amigos."
-    p ""
+    p "Lets be friends."
 
 # game/script.rpy:925
 translate english pomberoRoute_f0a6b34a_2:
 
     # pom ". . ."
-    pom ""
+    pom ". . ."
 
 # game/script.rpy:926
 translate english pomberoRoute_57e774f6:
 
     # pom "Ja... Jaja"
-    pom ""
+    pom "Ha... Haha"
 
 # game/script.rpy:927
 translate english pomberoRoute_bc28c2b0:
 
     # pom "Jajajajajajajaja!"
-    pom ""
+    pom "hahahahahahahaha!"
 
 # game/script.rpy:928
 translate english pomberoRoute_e03d7111:
 
     # "Sacándose el cigarro de la boca, Har lanzó una carcajada al cielo."
-    ""
+    "Taking the cigar out of his mouth, Har laughed heavenward."
 
 # game/script.rpy:930
 translate english pomberoRoute_2fc8feca:
 
     # p "¿Q-Qué? ¡¿Qué dije?!"
-    p ""
+    p "W-what? What did I say?!"
 
 # game/script.rpy:931
 translate english pomberoRoute_41323025:
 
     # pom "¿Tú quieres que seamos amigos? Eso sí que es nuevo."
-    pom ""
+    pom "Do you want us to be friends? Now that is new."
 
 # game/script.rpy:932
 translate english pomberoRoute_2f920f37:
 
     # pom "No ofrecerías eso si supieras todo lo que dicen de mí en mi pueblo, niña tonta."
-    pom ""
+    pom "You wouldn't offer that if you knew everything they say about me in my town, silly girl."
 
 # game/script.rpy:933
 translate english pomberoRoute_43ae7452:
 
     # pom "Soy un protector del bosque, no un humano."
-    pom ""
+    pom "I am a protector of the forest, not a human."
 
 # game/script.rpy:934
 translate english pomberoRoute_84850cf3:
 
     # p "¿Por qué odias tanto a los humanos?"
-    p ""
+    p "Why do you hate humans so much?"
 
 # game/script.rpy:935
 translate english pomberoRoute_1ebaa18b:
 
     # pom "¿Odiarlos? {w}No no no, niña tonta, no es así. {w}Los humanos son quienes me odian a mí."
-    pom ""
+    pom "Hate them? {w}No no no, silly girl, it's not like that. {w}Humans are the ones who hate me."
 
 # game/script.rpy:936
 translate english pomberoRoute_28ab6136:
 
     # pom "Cazadores, pescadores, leñadores..."
-    pom ""
+    pom "Hunters, fishermen, lumberjacks..."
 
 # game/script.rpy:937
 translate english pomberoRoute_89cef4e3:
 
     # pom "A mí no me interesa lo que los humanos hagan, pero cuando destrozan, matan, corrompen... {w}Me enfurecen."
-    pom ""
+    pom "I don't care what humans do, but when they destroy, kill, corrupt... {w}They infuriate me."
 
 # game/script.rpy:938
 translate english pomberoRoute_4bfdea9b:
 
     # "Otra exhalación, y dejó que el rastro de humo se desvanezca en el aire."
-    ""
+    "Another exhalation, and he let the trail of smoke vanish into thin air."
 
 # game/script.rpy:939
 translate english pomberoRoute_0f534613:
 
     # pom "Podría decirse que me convertí en el conveniente monstruo.{w} Dicen que huyas porque yo podría atacar en los pastizales. {w}Les dicen a las mujeres que no salgan de sus casas."
-    pom ""
+    pom "It could be said that I became the convenient monster.{w} They say to run away because I could attack in the grasslands. {w}They tell the women not to leave their houses."
 
 # game/script.rpy:940
 translate english pomberoRoute_d339ad32:
 
     # pom "Algunos humanos son listos. {w}Hábiles cuando se trata de desviar la atención de sus monstruosas acciones."
-    pom ""
+    pom "Some humans are smart. {w}Skillful when it comes to drawing attention away from their monstrous actions."
 
 # game/script.rpy:941
 translate english pomberoRoute_335124b9:
 
     # pom "Ya no quedan criaturas como yo. {w}Casi todas están muertas. Y las que no, como yo, se vuelven antagónicas."
-    pom ""
+    pom "There are no more creatures like me. {w}Almost all of them are dead. And those who don't, like me, become antagonistic."
 
 # game/script.rpy:942
 translate english pomberoRoute_e766a4cf:
 
     # pom "Hacia el final, sólo somos leyendas destinadas a olvidarse."
-    pom ""
+    pom "Towards the end, we are just legends destined to be forgotten."
 
 # game/script.rpy:943
 translate english pomberoRoute_c8ea8a4a:
 
-    # p ". . ."
-    p ""
+    # p "..."
+    p "..."
 
 # game/script.rpy:945
 translate english pomberoRoute_bec46037:
 
     # p "Yo no voy a olvidarte."
-    p ""
+    p "I'm not going to forget you"
 
 # game/script.rpy:946
 translate english pomberoRoute_eda78b0b:
 
     # pom "Ja..."
-    pom ""
+    pom "Ha..."
 
 # game/script.rpy:947
 translate english pomberoRoute_88fd4043:
 
     # pom "Niña inocente."
-    pom ""
+    pom "Innocent girl"
 
 # game/script.rpy:948
 translate english pomberoRoute_5aa6d77f:
 
     # "Luego de ello, nos quedamos hablando por horas. {w}Har me contó sobre las selvas donde vivía. {w}Antes de darme cuenta, comenzó a amanecer."
-    ""
+    "After that, we stayed talking for hours. {w}Har told me about the jungles where he lived. {w}Before I knew it, dawn began to break."
 
 # game/script.rpy:950
 translate english pomberoRoute_cda46a76:
 
     # p "A tí te preocupan los bosques, ¿verdad?. No quisiera que lastimes a nadie. Pero me gustaría que siguieras cuidando de los bosques."
-    p ""
+    p "You care about the woods, right? I don't want you to hurt anyone. But I would like you to continue taking care of the forests."
 
 # game/script.rpy:951
 translate english pomberoRoute_a5d8774a:
 
     # "Har exhaló el humo de su cigarro, y giró la cabeza hacia mí."
-    ""
+    "Har exhaled smoke from his cigar, and turned his head towards me."
 
 # game/script.rpy:952
 translate english pomberoRoute_2f1af12c:
 
     # pom "Dime, ¿por qué las vidas humanas valen más que las de cualquier otra criatura?"
-    pom ""
+    pom "Tell me, why are human lives worth more than those of any other creature?"
 
 # game/script.rpy:954
 translate english pomberoRoute_875ce35a_1:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:955
 translate english pomberoRoute_722eedd1:
 
     # pom "Los humanos matan a sus propios niños, arrancan las plumas de las aves para descansar cómodamente."
-    pom ""
+    pom "Humans kill their own children, pluck the feathers of birds to rest comfortably."
 
 # game/script.rpy:956
 translate english pomberoRoute_8da2f8df:
 
     # pom "Desollan mamíferos vivos para ir bien vestidos. {w}Torturan en vida. {w}Queman. {w}Ahogan. {w}Electrocutan. {w}Dime, ¿por qué no puedo devolverles la gentileza?"
-    pom ""
+    pom "They skin mammals alive to be well dressed. {w}They torture while alive. {w}They burn. {w}Drown. {w} Electrocute. {w}Tell me, why can't I return the courtesy?"
 
 # game/script.rpy:957
 translate english pomberoRoute_65cfe9b1:
 
     # pom "¿Quien te da la autoridad y el poder de decirme que sería o no correcto?"
-    pom ""
+    pom "Who gives you the authority and power to tell me what would or would not be right?"
 
 # game/script.rpy:958
 translate english pomberoRoute_104ada97:
 
     # "Me quedé en silencio. {w}Con cada palabra, podía sentir la tierra temblar a través de las raíces."
-    ""
+    "I stayed silent. {w}With each word, I could feel the earth tremble through the roots"
 
 # game/script.rpy:959
 translate english pomberoRoute_613fdda6:
 
     # p "Lo siento."
-    p ""
+    p "I’m sorry."
 
 # game/script.rpy:960
 translate english pomberoRoute_9b088d2d:
 
     # pom "No tienes que disculparte. {w}Eres solo una niña."
-    pom ""
+    pom "You do not have to apologize. {w}You're just a girl."
 
 # game/script.rpy:961
 translate english pomberoRoute_4fe0782f:
 
     # "Seguimos hablando el resto de la noche... De a poco, podía entender la relación de Har con los humanos."
-    ""
+    "We kept talking the rest of the night... Little by little, I could understand Har's relationship with humans."
 
 # game/script.rpy:965
 translate english pomberoRoute_79f4fc49:
 
-    # centered "Campos Suas Aguascana. \n31 de Octubre. \n6:00am."
-    centered ""
+    
+    # centered "Bosque Suas Agascuana. \n31 de Octubre. \n6:00am."
+    centered "Suas Agascuana Forest. \October 31st. \n6:00am."
 
 # game/script.rpy:969
 translate english pomberoRoute_5b0edbc0:
 
     # "Cuando los primeros haces de luz empezaron a aparecer entre los árboles, Har volvió a hablar."
-    ""
+    "As the first beams of light began to appear through the trees, Har spoke again."
 
 # game/script.rpy:970
 translate english pomberoRoute_3313e56f:
 
     # pom "Creo recordar que tú querías hacer un trato."
-    pom ""
+    pom "I seem to recall that you wanted to make a deal."
 
 # game/script.rpy:972
 translate english pomberoRoute_d8b1b2b9:
 
     # p "¿Eh?"
-    p ""
+    p "Eh?"
 
 # game/script.rpy:973
 translate english pomberoRoute_4a9513e9:
 
     # "No pensé que hubiera estado dispuesto a aceptar..."
-    ""
+    "I didn't think he would have been willing to accept..."
 
 # game/script.rpy:974
 translate english pomberoRoute_9112696c:
 
     # pom "Quizá es momento de discutir mis condiciones."
-    pom ""
+    pom "Maybe it's time to discuss my terms."
 
 # game/script.rpy:982
 translate english pomberoGoodEnding_51eec650:
 
     # pom "¿Sabes? Hace años, conocí a este hombre."
-    pom ""
+    pom "You know? Years ago, I met this man."
 
 # game/script.rpy:983
 translate english pomberoGoodEnding_a069ed80:
 
     # pom "Era astuto, pero también tenía esto... {w}Humanos siempre le dicen 'corazón', pero todos tienen uno."
-    pom ""
+    pom "He was cunning, but he also had this... {w}Humans always call him a 'heart,' but everyone has one."
 
 # game/script.rpy:984
 translate english pomberoGoodEnding_70242c2e:
 
     # pom "Era algo distinto. Algo como tú lo tienes."
-    pom ""
+    pom "It was something different. Something like what you have."
 
 # game/script.rpy:985
 translate english pomberoGoodEnding_16871030:
 
     # pom "Luz."
-    pom ""
+    pom "Light."
 
 # game/script.rpy:986
 translate english pomberoGoodEnding_46f34bf0:
 
     # pom "Si... {w}Eso es lo que era... {w}Luz."
-    pom ""
+    pom "Yeah... {w}That's what it was... {w}Light."
 
 # game/script.rpy:987
 translate english pomberoGoodEnding_c8ea8a4a:
 
-    # p ". . ."
-    p ""
+    # p "..."
+    p "..."
 
 # game/script.rpy:988
 translate english pomberoGoodEnding_fba0a045:
 
     # pom "Jamás lo resentí por encerrarme. Sabía que cuando el tiempo sea el correcto, volvería a este mundo y aún habría mucho por hacer."
-    pom ""
+    pom "I never resented him for locking me up. He knew that when the time was right, he would return to this world and there would still be so much to do."
 
 # game/script.rpy:989
 translate english pomberoGoodEnding_bedfc789:
 
     # pom "Él me decía 'el mundo no puede depender de tí. Si tiene que morir, morirá y no habrá nada que podrás hacer'."
-    pom ""
+    pom "He told me 'the world cannot depend on you. If he has to die, he will die and there will be nothing you can do."
 
 # game/script.rpy:990
 translate english pomberoGoodEnding_f8a5b79a:
 
     # pom "Y tenía razón. {w]Este mundo ya no es para criaturas como yo."
-    pom ""
+    pom "And he was right. {w]This world is no longer for creatures like me."
 
 # game/script.rpy:991
 translate english pomberoGoodEnding_97284e28:
 
     # pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
-    pom ""
+    pom "What brings me some peace of mind, is that creatures like you exist."
 
 # game/script.rpy:992
 translate english pomberoGoodEnding_7130cc91:
 
     # pom "Este mundo... {w}Es más tuyo que mío. {w}Ahora es tu responsabilidad."
-    pom ""
+    pom "This world... {w}It's more yours than mine. {w}Now it's your responsibility."
 
 # game/script.rpy:993
 translate english pomberoGoodEnding_f0a7272c:
 
     # p "Har..."
-    p ""
+    p "Har..."
 
 # game/script.rpy:994
 translate english pomberoGoodEnding_266a622b:
 
     # pom "Mis condiciones."
-    pom ""
+    pom "My conditions"
 
 # game/script.rpy:995
 translate english pomberoGoodEnding_dda32022:
 
     # pom "Escucha lo que el mundo tiene que decir. {w}Hay voces que merecen ser oídas."
-    pom ""
+    pom "Hear what the world has to say. {w}There are voices that deserve to be heard"
 
 # game/script.rpy:996
 translate english pomberoGoodEnding_028047f1:
 
     # pom "Yo no soy de dar regalos. {w}Así que toma esto y no lo cuestiones."
-    pom ""
+    pom "I'm not one to give gifts. {w}So take this and don't question it."
 
 # game/script.rpy:997
 translate english pomberoGoodEnding_6f779c7a:
 
     # pom "No creas en las intenciones de nadie. {w}Todo el mundo tiene una razón para hacer algo. {w}Escucha sus acciones más que su palabras."
-    pom ""
+    pom "Do not believe in anyone's intentions. {w}Everyone has a reason to do something. {w}Listen to their actions more than their words."
 
 # game/script.rpy:998
 translate english pomberoGoodEnding_51ddfb37:
 
     # "Sabía que no respondería ninguna de mis preguntas, no importa cuanto me gustaría hacerlas... {w}Y me estaba quedando sin tiempo."
-    ""
+    "I knew you wouldn't answer any of my questions, no matter how much I wanted to ask them... {w}And I was running out of time."
 
 # game/script.rpy:999
 translate english pomberoGoodEnding_b716b5ec:
 
     # p "¿Qué quieres a cambio?"
-    p ""
+    p "What do you want in exchange?"
 
 # game/script.rpy:1000
 translate english pomberoGoodEnding_9e4d3c5b:
 
     # "Otra vez, sonrió.{w} Una mano sujeto la mía y rasgó la piel de mi palma. {w}Luego se la llevó al oído."
-    ""
+    "Again, he smiled.{w} A hand grabbed mine and ripped the skin from my palm. {w}Then he put it to his ear."
 
 # game/script.rpy:1002
 translate english pomberoGoodEnding_6b3622bb:
 
     # pom "Ah, sí... Justo lo que imaginaba..."
-    pom ""
+    pom "Oh yes... Just what I imagined..."
 
 # game/script.rpy:1004
 translate english pomberoGoodEnding_fc79acf0:
 
     # pom "Hasta Luego [playerName!q]."
-    pom ""
+    pom "See You Later [playerName!q]."
 
 # game/script.rpy:1006
 translate english pomberoGoodEnding_17c19f17:
 
     # "En cuestión de segundos, en lugar de ver el rostro de Har, estaba viendo mi mano ensangrentada."
-    ""
+    "Within seconds, instead of seeing Har's face, I was seeing my bloody hand."
 
 # game/script.rpy:1007
 translate english pomberoGoodEnding_20572e6e:
 
     # "!!"
-    ""
+    "!!"
 
 # game/script.rpy:1008
 translate english pomberoGoodEnding_06fbfb20:
 
     # "De mi bolsillo el Vestigio cayó contra el suelo, brillante, pesado y lleno de vida. {w}Har sabía de mi abuelo, estoy segura. {w}Me hubiera gustado saber más."
-    ""
+    "From my pocket the Vestigio fell to the ground, shiny and heavy and full of life. {w}Har knew about my grandfather, I'm sure. {w}I would have liked to know more."
 
 # game/script.rpy:1009
 translate english pomberoGoodEnding_599f2bbd:
 
     # "Si tan solo supiera que haría él en este momento."
-    ""
+    "If only I knew what he would do right now."
 
 # game/script.rpy:1010
 translate english pomberoGoodEnding_69a6be97:
 
     # "Tomé el Vestigio y volví a guardarmelo en el bolsillo."
-    ""
+    "I took the Vestigio and put it back in my pocket"
 
 # game/script.rpy:1011
 translate english pomberoGoodEnding_dbc28afe:
 
     # p "Hasta luego, Har."
-    p ""
+    p "See you later Har"
 
 # game/script.rpy:1013
 translate english pomberoGoodEnding_0a326cb8:
 
     # "Es hora de volver a casa..."
-    ""
+    "It's time to go home..."
 
 # game/script.rpy:1018
 translate english pomberoBadEnding_8ff72b7f:
 
     # p "Uhm, de acuerdo."
-    p ""
+    p "Hmm, okay."
 
 # game/script.rpy:1019
 translate english pomberoBadEnding_b716b5ec:
 
     # p "¿Qué quieres a cambio?"
-    p ""
+    p "What do you want in exchange?"
 
 # game/script.rpy:1020
 translate english pomberoBadEnding_6ffdbe98:
 
     # "Una sonrisa se dibujó en sus labios antes de salir corriendo."
-    ""
+    "A smile graced his lips before he ran off."
 
 # game/script.rpy:1022
 translate english pomberoBadEnding_fece4337:
 
     # p "No de nuevo.. {w}¡Har, espera!"
-    p ""
+    p "Not again.. {w}Har, wait!"
 
 # game/script.rpy:1023
 translate english pomberoBadEnding_1624b703:
 
     # "Salí tras él. {w}Corriendo entre los árboles, persiguiendo el aire."
-    ""
+    "I went after him. {w}Running through the trees, chasing the air."
 
 # game/script.rpy:1024
 translate english pomberoBadEnding_0ef7b580:
 
     # "Me detuve de pronto, y miré para todos lados."
-    ""
+    "I stopped suddenly, and looked around."
 
 # game/script.rpy:1026
 translate english pomberoBadEnding_bd92f905:
 
     # p "¡Har!"
-    p ""
+    p "Har!"
 
 # game/script.rpy:1027
 translate english pomberoBadEnding_3003783b:
 
     # pom "Esa bruja realmente se cree lista, ¿no?"
-    pom ""
+    pom "That witch really thinks she's smart, doesn't she?"
 
 # game/script.rpy:1028
 translate english pomberoBadEnding_90ecf008:
 
     # "Giré la mirada, pero no podía verlo. {w}Su voz hacía eco por todas partes."
-    ""
+    "I turned my eyes, but I couldn't see him. {w}His voice echoed throughout."
 
 # game/script.rpy:1029
 translate english pomberoBadEnding_cc8c783c:
 
     # pom "Pobre, pobre niña, cayó en los encantos de una bruja y pensó que podía ser amiga de todas las criaturitas del bosque."
-    pom ""
+    pom "Poor, poor girl, she fell for the charms of a witch and thought that she could be friends with all the little creatures of the forest."
 
 # game/script.rpy:1030
 translate english pomberoBadEnding_04cc32f2:
 
     # "El aire dejó mis pulmones."
-    ""
+    "The air left my lungs"
 
 # game/script.rpy:1031
 translate english pomberoBadEnding_66030d07:
 
     # pom "Pobrecilla~ "
-    pom ""
+    pom "Poor thing"
 
 # game/script.rpy:1032
 translate english pomberoBadEnding_d42c9a66:
 
     # pom "Pero no te preocupes, puedo hacer lo que me pides. {w}Este bosque estará a salvo y tú y yo podremos seguir jugando."
-    pom ""
+    pom "But don't worry, I can do what you ask me. {w}This forest will be safe and you and I can continue playing."
 
 # game/script.rpy:1033
 translate english pomberoBadEnding_1a9e89ff:
 
     # pom "Te quedarás aquí."
-    pom ""
+    pom "You will stay here"
 
 # game/script.rpy:1034
 translate english pomberoBadEnding_046a6501:
 
     # pom "Para siempre."
-    pom ""
+    pom "Forever"
 
 # game/script.rpy:1037
 translate english pomberoBadEnding_9ecb2038:
 
     # "De golpe, sentí un fuerte empujón, y las hojas detrás mío desaparecieron." with vpunch
-    "" with vpunch
+    "Suddenly, I felt a strong push, and the leaves behind me disappeared." with vpunch
 
 # game/script.rpy:1038
 translate english pomberoBadEnding_cd522a23:
 
     # "Estaba cayendo... {w}La sonrisa del duende alejándose."
-    ""
+    "I was falling... {w}The goblin's smile walking away."
 
 # game/script.rpy:1041
 translate english pomberoBadEnding_c1d32329:
 
-    # pom "Adios, niña tonta~!"
-    pom ""
+    # pom "Adiós, niña tonta~!"
+    pom "Good bye, silly girl~!"
 
 # game/script.rpy:1042
 translate english pomberoBadEnding_c27265ab:
 
     # "!!!" with vpunch
-    "" with vpunch
+    "!!!" with vpunch
 
 # game/script.rpy:1046
 translate english pomberoBadEnding_254a1224:
 
     # "Bad Ending."
-    ""
+    "Bad Ending."
 
 # game/script.rpy:1056
 translate english silbonRoute_193b3264:
-
+ 
     # centered "Pueblo Liwen. \n31 de Octubre. \n00:30am."
-    centered ""
-
+    centered "Liwen Town. \nOctober 31st. \n00:30am."
+ 
 # game/script.rpy:1060
 translate english silbonRoute_750c17dc:
-
+ 
     # "Si había un lugar donde podía sentirme en mi elemento, era éste. {w}Las festividades ya comenzaron y hay muchísima gente caminando alrededor, niños y adultos por igual..."
-    ""
-
+    "If there was a place where I could feel in my element, this was it. {w}The festivities have already started and there are tons of people walking around, children and adults alike..."
+ 
 # game/script.rpy:1061
 translate english silbonRoute_909fc477:
-
+ 
     # "Me hubiera gustado poder disfrutarlo..."
-    ""
-
+    "I wish I could have enjoyed it..."
+ 
 # game/script.rpy:1062
 translate english silbonRoute_592f8cac:
-
+ 
     # "Al caminar a través de los puestos de comida, vi una figura que escondía su rostro bajo su sombrero, una mano sujetaba una gran bolsa sobre su hombro."
-    ""
-
+    "Walking through the food stalls, I saw a figure hiding their face under their hat, one hand holding a large bag over their shoulder."
+ 
 # game/script.rpy:1065
 translate english silbonRoute_a80f0ac4:
-
+ 
     # sil "Ciervo ciervo... {w}Si si si... {w}En tiras, en cubos, en rebanadas..."
-    sil ""
-
+    sil "Deer deer... {w}Yes yes yes... {w}In strips, in cubes, in slices..."
+ 
 # game/script.rpy:1066
 translate english silbonRoute_22e81df6:
-
+ 
     # sil "Aguardiente, ohhh, aguardiente, calienta los huesos. {w}El polvo de hueso que se rompe, {w}y se rompe {w}y se rompe."
-    sil ""
-
+    sil "Aguardiente, ohhh, aguardiente, warms the bones. {w}Bone dust that breaks, {w}and breaks {w}and breaks."
+ 
 # game/script.rpy:1067
 translate english silbonRoute_25335b34:
-
+ 
     # p "Ese es...?"
-    p ""
-
+    p "Is that…?"
+ 
 # game/script.rpy:1068
 translate english silbonRoute_4d265441:
-
+ 
     # "Aquel joven caminaba encorvado, murmurando para sí mismo. Con cada palabra, podía sentir como su lengua se pegaba a los dientes y dejaba pasar el aire. {w}Como un silbido."
-    ""
-
+    "That young man walked hunched over, muttering to himself. With each word, I could feel how his tongue would stick to his teeth and let the air pass. {W} Like a whistle."
+ 
 # game/script.rpy:1069
 translate english silbonRoute_0e0b5c95:
-
+ 
     # "Se veía... {w}Horripilante."
-    ""
-
+    "He looked... {w} Horrifying."
+ 
 # game/script.rpy:1070
 translate english silbonRoute_9b2b632d:
-
+ 
     # "Caminé hacia él, fijando la mirada en los puestos cercanos. {w}Nadie parece prestarle atención, como si no existiera."
-    ""
-
+    "I walked towards him, staring at the stalls nearby. {w}No one seems to pay attention to him, as if he didn't exist."
+ 
 # game/script.rpy:1071
 translate english silbonRoute_59217f24:
-
+ 
     # "{i}Fiu...{/i}"
-    ""
-
+    "{i}Whew...{/i}"
+ 
 # game/script.rpy:1072
 translate english silbonRoute_6b5c2b9a:
-
+ 
     # "El silbido chirrió junto a mi oído, y mis ojos se abrieron de par en par."
-    ""
-
+    "The whistle screeched just past my ear, and my eyes widened."
+ 
 # game/script.rpy:1075
 translate english silbonRoute_6ea7722d:
-
+ 
     # sil "¿Qué crees que haces?"
-    sil ""
-
+    sil "What do you think you're doing?"
+ 
 # game/script.rpy:1076
 translate english silbonRoute_29761fed:
-
+ 
     # "Me giré hacia él."
-    ""
-
+    "I turned towards him."
+ 
 # game/script.rpy:1077
 translate english silbonRoute_d8b1b2b9:
-
+ 
     # p "¿Eh?"
-    p ""
-
+    p "Huh?"
+ 
 # game/script.rpy:1078
 translate english silbonRoute_8c828e80:
-
+ 
     # sil "Miras, miras y miras, {w}¿Qué buscas, que quieres?"
-    sil ""
-
+    sil "You look, look and look, {w}What are you looking for? What do you want?"
+ 
 # game/script.rpy:1079
 translate english silbonRoute_27190845:
-
+ 
     # "Bajo el sombrero, podía ver el destello de unos ojos llenos de odio."
-    ""
-
+    "Underneath the hat, I could see the gleam of hateful eyes."
+ 
 # game/script.rpy:1081
 translate english silbonRoute_88c85313:
-
+ 
     # "¿Qué hago? Necesitaba pensar rápido."
-    ""
-
+    "What do I do? I needed to think fast."
+ 
 # game/script.rpy:1086
 translate english silbonRoute_7a0020c0:
-
+ 
     # p "Quiero comer lo que veías, ¡se veía delicioso!"
-    p ""
-
+    p "I want to eat what you saw, it looked delicious!"
+ 
 # game/script.rpy:1087
 translate english silbonRoute_6c851899:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1088
 translate english silbonRoute_9bab1f45:
-
+ 
     # p "Es ciervo, ¿verdad?"
-    p ""
-
+    p "It’s deer, right?"
+ 
 # game/script.rpy:1089
 translate english silbonRoute_ab16481c:
-
+ 
     # sil "Ciervo."
-    sil ""
-
+    sil "Deer."
+ 
 # game/script.rpy:1091
 translate english silbonRoute_bbc75137:
-
+ 
     # sil "¡Ciervos engañosos, {w}mentirosos, {w}traicioneros! Corren, y corren, y no se dejan atrapar."
-    sil ""
-
+    sil "Deceitful deer, {w}liars, {w}treacherous! They run, and run, and won’t let be caught."
+ 
 # game/script.rpy:1092
 translate english silbonRoute_e7273091:
-
+ 
     # sil "Estos... {w}Ya... {w}No... {w}Corren."
-    sil ""
-
+    sil "These... {w}no... {w}longer... {w}run."
+ 
 # game/script.rpy:1093
 translate english silbonRoute_c8ea8a4a:
-
-    # p ". . ."
-    p ""
-
+ 
+    # p "..."
+    p "..."
+ 
 # game/script.rpy:1097
 translate english silbonRoute_25c92859:
-
+ 
     # p "Quería saber sobre tí."
-    p ""
-
+    p "I wanted to know about you."
+ 
 # game/script.rpy:1098
 translate english silbonRoute_e7ac9c2f:
-
+ 
     # sil "?"
-    sil ""
-
+    sil "?"
+ 
 # game/script.rpy:1100
 translate english silbonRoute_6d56d392:
-
+ 
     # p "!!"
-    p ""
-
+    p "!!"
+ 
 # game/script.rpy:1101
 translate english silbonRoute_0c1736f9:
-
+ 
     # p "Eh... ¡Tu disfraz! Es muy bonito."
-    p ""
-
+    p "Eh… Your costume! It's very pretty."
+ 
 # game/script.rpy:1102
 translate english silbonRoute_1624df3d:
-
+ 
     # sil "Dis...{w}Fraz."
-    sil ""
-
+    sil "Cos...{w}tume."
+ 
 # game/script.rpy:1103
 translate english silbonRoute_0f742dd8:
-
+ 
     # sil " ..."
-    sil ""
-
+    sil "..."
+ 
 # game/script.rpy:1104
 translate english silbonRoute_c8ea8a4a_1:
-
-    # p ". . ."
-    p ""
-
+ 
+    # p "..."
+    p "..."
+ 
 # game/script.rpy:1105
 translate english silbonRoute_29504ef8:
-
+ 
     # sil "Si si. {w}Mi disfraz. Colorido, de fiesta, todos están con disfraces."
-    sil ""
-
+    sil "Yes yes. {w}My costume. Colorful, festive, everyone is in costume."
+ 
 # game/script.rpy:1107
 translate english silbonRoute_a9574d19:
-
+ 
     # p "¡Aja, exacto!"
-    p ""
-
+    p "Aha, exactly!"
+ 
 # game/script.rpy:1110
 translate english silbonRoute_1c9660b8:
-
+ 
     # p "¡No me has dicho tu nombre! Yo me llamo [playerName!q], vengo aquí de visita."
-    p ""
-
+    p "You haven't told me your name! Mine's [playerName!q], I'm visiting here."
+ 
 # game/script.rpy:1111
 translate english silbonRoute_602387d5:
-
+ 
     # sil "Nadie me llama por mi nombre. Todos gritan, todos huyen. {w}No muy rápido."
-    sil ""
-
+    sil "No one calls me by my name. Everyone screams, everyone runs away. {w}Not very fast."
+ 
 # game/script.rpy:1113
 translate english silbonRoute_458cc8b3:
-
+ 
     # sil "Pero cuando tenía nombre... {w}Era Wiija."
-    sil ""
-
+    sil "But when I had a name... {w}It was Wiija."
+ 
 # game/script.rpy:1114
 translate english silbonRoute_b2108185:
-
+ 
     # p "Wiija..."
-    p ""
-
+    p "Wiija..."
+ 
 # game/script.rpy:1116
 translate english silbonRoute_3f57fb63:
-
+ 
     # "Su rostro estaba cubierto bajo aquella máscara. {w}Era imposible saber como reaccionaba a mis palabras."
-    ""
-
+    "His face was covered under that mask. {W} It was impossible to know how he reacted to my words."
+ 
 # game/script.rpy:1117
 translate english silbonRoute_60e7bbc7:
-
+ 
     # "Su tono de voz siseante apenas dejaba entrever una agresividad internalizada."
-    ""
-
+    "His hissy voice barely showed an internalized aggressiveness."
+ 
 # game/script.rpy:1118
 translate english silbonRoute_5bd2c7ed:
-
+ 
     # "Estar en el festival era lo único que me daba un poco de alivio. {w}Había mucha gente a nuestro alrededor."
-    ""
-
+    "Being at the festival was the only thing that gave me some relief. {w}There were lots of people around us."
+ 
 # game/script.rpy:1120
 translate english silbonRoute_5db7022f:
-
+ 
     # "Al oir ese nombre, sonreí."
-    ""
-
+    "Hearing that name, I smiled."
+ 
 # game/script.rpy:1121
 translate english silbonRoute_d10c1ded:
-
+ 
     # p "¡Es un placer conocerte, Wiija!"
-    p ""
-
+    p "A pleasure to meet you, Wiija!"
+ 
 # game/script.rpy:1122
 translate english silbonRoute_7a219da9:
-
+ 
     # p "Sé que no eres de por aquí, ya que no sabías mucho del festival. Si quieres puedo mostrarte un poco del lugar."
-    p ""
-
+    p "I knew you were not from around here, since you didn't know much about the festival. If you want I can show you a little about the place."
+ 
 # game/script.rpy:1123
 translate english silbonRoute_6c851899_1:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1124
 translate english silbonRoute_fea9afd4:
-
+ 
     # "Se había quedado callado."
-    ""
-
+    "He was quiet."
+ 
 # game/script.rpy:1125
 translate english silbonRoute_00cc7212:
-
+ 
     # "¿Lo está pensando?"
-    ""
-
+    "Are you considering it?"
+ 
 # game/script.rpy:1126
 translate english silbonRoute_b16fdd2d:
-
+ 
     # sil "¿Qué tiene esto de especial?"
-    sil ""
-
+    sil "What's so special about this?"
+ 
 # game/script.rpy:1130
 translate english silbonRoute_c38aa53e:
-
+ 
     # p "¡Puedes hacer nuevos amigos!"
-    p ""
-
+    p "You can make new friends!"
+ 
 # game/script.rpy:1131
 translate english silbonRoute_6c851899_2:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1132
 translate english silbonRoute_87f30466:
-
+ 
     # "Se ha quedado en silencio."
-    ""
-
+    "He has gone silent."
+ 
 # game/script.rpy:1133
 translate english silbonRoute_7d2ee420:
-
+ 
     # sil "Amigos."
-    sil ""
-
+    sil "Friends."
+ 
 # game/script.rpy:1134
 translate english silbonRoute_53d2c0d3:
-
+ 
     # sil "Nunca tuve amigos."
-    sil ""
-
+    sil "I never had any friends."
+ 
 # game/script.rpy:1136
 translate english silbonRoute_41914b08:
-
+ 
     # p "¿No?"
-    p ""
-
+    p "Never?"
+ 
 # game/script.rpy:1137
 translate english silbonRoute_c519fb0f:
-
+ 
     # sil "Siempre solo. {w}Siempre en casa. {w}Sin amigos."
-    sil ""
-
+    sil "Always alone. {w}Always at home. {w}No friends."
+ 
 # game/script.rpy:1138
 translate english silbonRoute_c1055200:
-
+ 
     # sil "Siempre en casa. {w}Con mamá y papá. {w}Ellos temían. {w}Así que no salía."
-    sil ""
-
+    sil "Always at home. {w}With mom and dad. {w}They were afraid. {w}So I didn't go out."
+ 
 # game/script.rpy:1139
 translate english silbonRoute_2941d886:
-
+ 
     # sil "Con el abuelo a veces... {w}Salía con el abuelo."
-    sil ""
-
+    sil "With grandpa sometimes... {w}I hung out with grandpa."
+ 
 # game/script.rpy:1140
 translate english silbonRoute_b5e7a232:
-
+ 
     # p "¿Tu abuelo?"
-    p ""
-
+    p "Your grandfather?"
+ 
 # game/script.rpy:1141
 translate english silbonRoute_21c4fe0d:
-
+ 
     # "Wiija asintió, una mano moviendo su saco. En su interior, el contenido se movía chocando entre sí."
-    ""
-
+    "Wiija nodded, a hand moving his sack. Inside it, the contents moved colliding with each other."
+ 
 # game/script.rpy:1143
 translate english silbonRoute_ca0cabbc:
-
+ 
     # p "Si quieres... {w}Podríamos ser amigos."
-    p ""
-
+    p "If you want... {w}We could be friends."
+ 
 # game/script.rpy:1144
 translate english silbonRoute_0f09d9e8:
-
+ 
     # sil "No."
-    sil ""
-
+    sil "No."
+ 
 # game/script.rpy:1146
 translate english silbonRoute_068ab38b:
-
+ 
     # p "!"
-    p ""
-
+    p "!"
+ 
 # game/script.rpy:1147
 translate english silbonRoute_59e5ba55:
-
+ 
     # p "?"
-    p ""
-
+    p "?"
+ 
 # game/script.rpy:1148
 translate english silbonRoute_411cb229:
-
+ 
     # sil "No podríamos. {w}No, no. Mala. No. Terrible idea."
-    sil ""
-
+    sil "We couldn't. {w}No, no. Bad. No. Terrible idea."
+ 
 # game/script.rpy:1149
 translate english silbonRoute_1a032839:
-
+ 
     # p "... ¿Por qué no?"
-    p ""
-
+    p "... Why not?"
+ 
 # game/script.rpy:1150
 translate english silbonRoute_4372cc35:
-
+ 
     # sil "No tengo amigos, nunca los tuve. {w}Solo eran mamá y papá."
-    sil ""
-
+    sil "I have no friends, I never did. {w}It was just mom and dad."
+ 
 # game/script.rpy:1151
 translate english silbonRoute_922a8bd1:
-
+ 
     # sil "Y el abuelo."
-    sil ""
-
+    sil "And grandpa."
+ 
 # game/script.rpy:1152
 translate english silbonRoute_c8ea8a4a_2:
-
-    # p ". . ."
-    p ""
-
+ 
+    # p "..."
+    p "..."
+ 
 # game/script.rpy:1153
 translate english silbonRoute_b7887f0f:
-
+ 
     # sil "El Maestro... {w}Me recordaba a mi abuelo."
-    sil ""
-
+    sil "The Master... {w}He reminded me of my grandfather."
+ 
 # game/script.rpy:1157
 translate english silbonRoute_f88d2c22:
-
+ 
     # mm "Quedé bajo las órdenes del Maestro, he vivido en esta caja por cuarenta largos años"
-    mm "I ended up under Maestro's orders, I've lived in this box for forty long years"
-
+    mm "I've been under the orders of the Master, I have lived in this box for forty long years"
+ 
 # game/script.rpy:1162
 translate english silbonRoute_d0687f17:
-
+ 
     # "Inaru llamaba a mi abuelo Maestro. Estaba segura que Wiija también estaba hablando de él."
-    ""
-
+    "Inaru called my grandfather Master. I was sure Wiija was also talking about him."
+ 
 # game/script.rpy:1163
 translate english silbonRoute_b30e15b7:
-
+ 
     # sil "Fuerte. {w}Listo. {w}Severo. {w}Si si, severo era él."
-    sil ""
-
+    sil "Strong. {w}Clever. {w}Severe. {w}Yes yes, stern was he."
+ 
 # game/script.rpy:1164
 translate english silbonRoute_3b076dd0:
-
+ 
     # sil "Menos severo que mi abuelo."
-    sil ""
-
+    sil "Less severe than my grandfather."
+ 
 # game/script.rpy:1165
 translate english silbonRoute_6495074f:
-
+ 
     # sil "Un día hice algo... Malo."
-    sil ""
-
+    sil "One day I did something... Bad."
+ 
 # game/script.rpy:1166
 translate english silbonRoute_6e3398fc:
-
+ 
     # sil "Si si, era malo. Lo recuerdo. {w}Era divertido, entretenido, pero también malo."
-    sil ""
-
+    sil "Yes yes, it was bad. I remember. {w}It was funny, entertaining, but also bad."
+ 
 # game/script.rpy:1167
 translate english silbonRoute_368c76a7:
-
+ 
     # sil "A mamá no le gustó, y al abuelo mucho menos."
-    sil ""
-
+    sil "Mom didn't like it, and Grandpa even less."
+ 
 # game/script.rpy:1168
 translate english silbonRoute_5cdaf57c:
-
+ 
     # sil "Con látigos y perros me hizo escarmentar y ahora no puedo volver."
-    sil ""
-
+    sil "With whips and dogs he taught me a lesson and now I can't return"
+ 
 # game/script.rpy:1169
 translate english silbonRoute_e47eb59b:
-
+ 
     # sil "Quería odiarlo. {w}ODIARLO. {w}ODIARLO. {w}Me convirtió en esto."
-    sil ""
-
+    sil "I wanted to hate him. {w}HATE HIM. {w}HATE HIM. {w}He turned me into this."
+ 
 # game/script.rpy:1170
 translate english silbonRoute_1659e935:
-
+ 
     # sil "Pero no pude, no puedo."
-    sil ""
-
+    sil "But I couldn't, I can't."
+ 
 # game/script.rpy:1171
 translate english silbonRoute_64358804:
-
+ 
     # sil "Odio a papá. {w}Siempre odié a papá."
-    sil ""
-
+    sil "I hate dad. {w}I always hated dad."
+ 
 # game/script.rpy:1172
 translate english silbonRoute_0838d53d:
-
+ 
     # sil "Apestaba a aguardiente."
-    sil ""
-
+    sil "He reeked of Aguardiente"
+ 
 # game/script.rpy:1173
 translate english silbonRoute_445a3ca1:
-
+ 
     # sil "¡Lo odiaba, lo odiaba!"
-    sil ""
-
+    sil "Hated it, hated it!"
+ 
 # game/script.rpy:1175
 translate english silbonRoute_082d9a67:
-
+ 
     # p "Puedes pasarla bien en familia."
-    p ""
-
+    p "You can have a good time as a family."
+ 
 # game/script.rpy:1176
 translate english silbonRoute_6c851899_3:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1177
 translate english silbonRoute_74b8391a:
-
+ 
     # p "Recuerdo que mi mamá adoraba este lugar y-"
-    p ""
-
+    p "I remember my mom loved this place and-"
+ 
 # game/script.rpy:1178
 translate english silbonRoute_f92bfc8d:
-
+ 
     # sil "No tengo familia."
-    sil ""
-
+    sil "I have no family."
+ 
 # game/script.rpy:1179
 translate english silbonRoute_093604b4:
-
+ 
     # p "¿Eh? ¿Y tus padres?"
-    p ""
-
+    p "Huh? And your parents?"
+ 
 # game/script.rpy:1180
 translate english silbonRoute_6c851899_4:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1181
 translate english silbonRoute_576eab20:
-
+ 
     # "Sus puños se apretaron fuertemente."
-    ""
-
+    "His fists clenched tightly."
+ 
 # game/script.rpy:1182
 translate english silbonRoute_041d98de:
-
+ 
     # sil "No {w}tengo."
-    sil ""
-
+    sil "I don't {w}have."
+ 
 # game/script.rpy:1183
 translate english silbonRoute_a81de006:
-
+ 
     # p "...?"
-    p ""
-
+    p "...?"
+ 
 # game/script.rpy:1184
 translate english silbonRoute_e8e332fb:
-
+ 
     # "Con cada palabra, se empezó a proximar hacia mí. {w}Estando tan cerca, pude ver sus ojos a través de la máscara. {w}Poseían tanto odio que me hizo retroceder varios pasos. {w}Wiija siguió avanzando, arrastrando su bolsa."
-    ""
-
+    "With each word, he began to move closer to me. {w}Being so close, I could see his eyes through the mask. {w}They held so much hatred that I had to take several steps back. {w}Wiija kept moving forward, dragging his sack."
+ 
 # game/script.rpy:1185
 translate english silbonRoute_ed4a97f5:
-
+ 
     # sil "Mi madre no está. {w}Se ha ido. {w}No existe."
-    sil ""
-
+    sil "My mother isn't here. {w} She is gone. {w} Doesn't exist."
+ 
 # game/script.rpy:1186
 translate english silbonRoute_a9ba8b47:
-
+ 
     # sil "Mi padre..."
-    sil ""
-
+    sil "My father..."
+ 
 # game/script.rpy:1187
 translate english silbonRoute_707df077:
-
+ 
     # "Hizo silencio, su cabeza torciéndose hacia un lado."
-    ""
-
+    "He was silent, his head lolling to one side."
+ 
 # game/script.rpy:1188
 translate english silbonRoute_d285323e:
-
+ 
     # sil "Aún me acompaña."
-    sil ""
-
+    sil "He's still with me."
+ 
 # game/script.rpy:1191
 translate english silbonRoute_b2108185_1:
-
+ 
     # p "Wiija..."
-    p ""
-
+    p "Wiija..."
+ 
 # game/script.rpy:1193
 translate english silbonRoute_bc7cc0dc:
-
+ 
     # p "Ven conmigo."
-    p ""
-
+    p "Come with me."
+ 
 # game/script.rpy:1194
 translate english silbonRoute_7c7f08f4:
-
+ 
     # "Me di media vuelta y me acerqué a unos puestos a comprar helado."
-    ""
-
+    "I turned around and moved closer to some stalls to buy some ice cream."
+ 
 # game/script.rpy:1195
 translate english silbonRoute_5ff6abb6:
-
+ 
     # p "¿Has probado alguna vez?"
-    p ""
-
+    p "Have you ever tried?"
+ 
 # game/script.rpy:1196
 translate english silbonRoute_6cf8d48a:
-
+ 
     # "Wiija negó con la cabeza."
-    ""
-
+    "Wiija shook his head."
+ 
 # game/script.rpy:1197
 translate english silbonRoute_4026a58c:
-
+ 
     # "Una vez el vendedor me los entregó. Me di vuelta y caminé fuera del area principal. La feria aún estaba visible. Pero menos gente pasaba cerca de nosotros."
-    ""
-
+    "Once the vendor handed them over to me, I turned around and walked out of the main area. The fair was still visible. But fewer people passed by near us."
+ 
 # game/script.rpy:1198
 translate english silbonRoute_6cbf4cca:
-
+ 
     # p "Ten."
-    p ""
-
+    p "Here."
+ 
 # game/script.rpy:1199
 translate english silbonRoute_a4ebff90:
-
+ 
     # "Le ofrecí el helado."
-    ""
-
+    "I offered him the ice cream."
+ 
 # game/script.rpy:1200
 translate english silbonRoute_60b70a53:
-
+ 
     # "Podía ver que estaba desconfiado. {w}Pero aún así, se sentó junto a mí, llevándose el helado en la abertura de la boca."
-    ""
-
+    "I could see that he was suspicious. {W} But still, he sat next to me, taking the ice cream towards his mouth."
+ 
 # game/script.rpy:1201
 translate english silbonRoute_82d77656:
-
+ 
     # sil "Está frío."
-    sil ""
-
+    sil "It's cold."
+ 
 # game/script.rpy:1202
 translate english silbonRoute_57aed5d6:
-
+ 
     # p "¡Es la idea! ¡Es dulce! ¿Te gusta lo dulce?"
-    p ""
-
+    p "That's the idea! It's sweet! Do you like sweet things?"
+ 
 # game/script.rpy:1203
 translate english silbonRoute_7c1881f6:
-
+ 
     # sil "Es extraño. Raro. {w}No es carne."
-    sil ""
-
+    sil "It's weird. Rare. {w}It's not meat."
+ 
 # game/script.rpy:1204
 translate english silbonRoute_6b7174a1:
-
+ 
     # p "No lo es, no."
-    p ""
-
+    p "It's not, no."
+ 
 # game/script.rpy:1205
 translate english silbonRoute_a380935c:
-
+ 
     # "Por un largo rato, seguimos disfrutando del helado. {w}A veces, Wiija hacia preguntas, y yo hacia lo mejor para contestarla."
-    ""
-
+    "For a long time, we continued to enjoy the ice-cream. {w}Sometimes, Wiija would ask questions, and I would do my best to answer them."
+ 
 # game/script.rpy:1206
 translate english silbonRoute_7410f63f:
-
+ 
     # "Con cada respuesta, él silbaba en una tonada particular."
-    ""
-
+    "With each reply, he whistled at a particular tone."
+ 
 # game/script.rpy:1207
 translate english silbonRoute_5737d743:
-
+ 
     # "Otras veces llevaba su mano al saco que descansaba junto a nuestra banca. {w}Hacia tintinear su interior y luego volvía a su helado."
-    ""
-
+    "Other times he would take his hand to the sack that rested next to our bench. {W} He would tinkle its insides and then return to his ice-cream."
+ 
 # game/script.rpy:1209
 translate english silbonRoute_7af940d4:
-
+ 
     # "La curiosidad me invadió. Quizá esa era la forma de acercarme a él."
-    ""
-
+    "Curiosity invaded me. Maybe that was the way to approach him."
+ 
 # game/script.rpy:1212
 translate english silbonRoute_b2108185_2:
-
+ 
     # p "Wiija..."
-    p ""
-
+    p "Wiija..."
+ 
 # game/script.rpy:1214
 translate english silbonRoute_af8ed3de:
-
+ 
     # p "¿Qué hay en la bolsa?"
-    p ""
-
+    p "What's in the sack?"
+ 
 # game/script.rpy:1215
 translate english silbonRoute_f4a5b22f:
-
+ 
     # sil "Ja... Jaja." with vpunch
-    sil "" with vpunch
-
+    sil "Ha... Haha." with vpunch
+ 
 # game/script.rpy:1216
 translate english silbonRoute_388cf04c:
-
+ 
     # "Una mano palmó el costado de la bolsa."
-    ""
-
+    "A hand patted the side of the sack."
+ 
 # game/script.rpy:1217
 translate english silbonRoute_81ffb1b6:
-
+ 
     # sil "Cosas malas."
-    sil ""
-
+    sil "Bad things."
+ 
 # game/script.rpy:1219
 translate english silbonRoute_ca38e3bc:
-
+ 
     # sil "La gente es mala. Hace cosas malas."
-    sil ""
-
+    sil "People are bad. They do bad things."
+ 
 # game/script.rpy:1220
 translate english silbonRoute_676803b5:
-
+ 
     # sil "Miente, engaña. Bebe, bebe mucho."
-    sil ""
-
+    sil "Lie, cheat. Drink, drink a lot."
+ 
 # game/script.rpy:1221
 translate english silbonRoute_1b5d0c4d:
-
+ 
     # sil "yY es tonta."
-    sil ""
-
+    sil "And it's dumb."
+ 
 # game/script.rpy:1222
 translate english silbonRoute_186d32b0:
-
+ 
     # sil "Odio a la gente mala."
-    sil ""
-
+    sil "I hate mean people."
+ 
 # game/script.rpy:1223
 translate english silbonRoute_d08252d7:
-
+ 
     # sil "Y odio a la gente tonta."
-    sil ""
-
+    sil "And I hate dumb people."
+ 
 # game/script.rpy:1224
 translate english silbonRoute_945891b4:
-
+ 
     # "Su cabeza se giró hacia mi, el helado chorrendo entre sus dedos."
-    ""
-
+    "His head turned towards me, ice-cream dripping between his fingers."
+ 
 # game/script.rpy:1225
 translate english silbonRoute_7b49635c:
-
+ 
     # sil "Eres mala, [playerName!q]"
-    sil ""
-
+    sil "You're mean, [playerName!q]"
+ 
 # game/script.rpy:1227
 translate english silbonRoute_6d56d392_1:
-
+ 
     # p "!!"
-    p ""
-
+    p "!!"
+ 
 # game/script.rpy:1228
 translate english silbonRoute_43ae6a48:
-
+ 
     # "Mi nombre en su boca... Se oía como si lo estuviera masticando. Saboreando..."
-    ""
-
+    "My name in his mouth... It sounded like he was chewing it. Tasting..."
+ 
 # game/script.rpy:1229
 translate english silbonRoute_2711c65a:
-
+ 
     # sil "No. Nono. No eres mala."
-    sil ""
-
+    sil "No. Nono. You're not mean."
+ 
 # game/script.rpy:1231
 translate english silbonRoute_36848728:
-
+ 
     # sil "Pero eres tonta."
-    sil ""
-
+    sil "But you're dumb."
+ 
 # game/script.rpy:1232
 translate english silbonRoute_fc0e4ba3:
-
+ 
     # sil "¿Qué has hecho para merecer esto?"
-    sil ""
-
+    sil "What have you done to deserve this?"
+ 
 # game/script.rpy:1233
 translate english silbonRoute_b4d5c2f5:
-
+ 
     # sil "Nunca lo sabré. Nunca lo sabrás."
-    sil ""
-
+    sil "I'll never know. You'll never know."
+ 
 # game/script.rpy:1234
 translate english silbonRoute_6ed1620e:
-
+ 
     # "Luego, volvió a su helado, murmurando para sí."
-    ""
-
+    "Then he went back to his ice-cream, muttering to himself."
+ 
 # game/script.rpy:1235
 translate english silbonRoute_ef7abb21:
-
+ 
     # sil "La bolsa... {w}Apesta a aguardiente."
-    sil ""
-
+    sil "The sack... {w}Stinks of aguardiente."
+ 
 # game/script.rpy:1239
 translate english silbonRoute_36574f04:
-
+ 
     # p "¿Quién te enseñó a silbar?"
-    p ""
-
+    p "Who taught you to whistle?"
+ 
 # game/script.rpy:1240
 translate english silbonRoute_1ae064cc:
-
+ 
     # sil "¿Hm?"
-    sil ""
-
+    sil "Hm?"
+ 
 # game/script.rpy:1241
 translate english silbonRoute_2827ceb3:
-
+ 
     # "Wiija se quedó pensativo. {w}Por un largo momento hubo silencio, como si él se hubiera ido a otro lugar. {w}Muy lejos de aquí."
-    ""
-
+    "Wiija stood pensive. {w}For a long moment there was silence, as if he had gone somewhere else. {w}A long way from here."
+ 
 # game/script.rpy:1242
 translate english silbonRoute_e1f21c2d:
-
+ 
     # sil "Mi abuelo me enseñó."
-    sil ""
-
+    sil "My grandfather taught me."
+ 
 # game/script.rpy:1244
 translate english silbonRoute_748b75ce:
-
+ 
     # sil "Era un niño, era débil, asustaba a los demás cuando silbaba."
-    sil ""
-
+    sil "I was a kid, weak, I scared others when I whistled."
+ 
 # game/script.rpy:1245
 translate english silbonRoute_10b79dea:
-
+ 
     # sil "Lo oían lejos, y creían que no había peligro."
-    sil ""
-
+    sil "They heard him far away, and thought there was no danger."
+ 
 # game/script.rpy:1246
 translate english silbonRoute_72434440:
-
+ 
     # sil "Lo oían cerca, y el miedo los invadía"
-    sil ""
-
+    sil "They heard it nearby, and fear invaded them"
+ 
 # game/script.rpy:1247
 translate english silbonRoute_04882980:
-
+ 
     # sil "Yo era listo. Muy, muy listo."
-    sil ""
-
+    sil "I was smart. Very, very smart."
+ 
 # game/script.rpy:1248
 translate english silbonRoute_7e121eb0:
-
+ 
     # sil "Mi abuelo era severo."
-    sil ""
-
+    sil "My grandfather was severe."
+ 
 # game/script.rpy:1249
 translate english silbonRoute_ef7e60be:
-
+ 
     # sil "Pero era bueno conmigo."
-    sil ""
-
+    sil "But he was good to me."
+ 
 # game/script.rpy:1250
 translate english silbonRoute_fff7ad7c:
-
+ 
     # sil "Por eso..."
-    sil ""
-
+    sil "That's why..."
+ 
 # game/script.rpy:1251
 translate english silbonRoute_c719a985:
-
+ 
     # "Giró la cabeza de lado a lado, una mano se la llevó a su hombro."
-    ""
-
+    "He turned his head from side to side, brought one hand to his shoulder."
+ 
 # game/script.rpy:1252
 translate english silbonRoute_e3ce3c69:
-
+ 
     # sil "Duele..."
-    sil ""
-
+    sil "It hurts..."
+ 
 # game/script.rpy:1253
 translate english silbonRoute_bcdf21ff:
-
+ 
     # sil "El cuero. {w}Chocando contra la piel."
-    sil ""
-
+    sil "The leather. {w}Bumping against the skin."
+ 
 # game/script.rpy:1254
 translate english silbonRoute_428bfff5:
-
+ 
     # sil "Y los perros."
-    sil ""
-
+    sil "And the dogs."
+ 
 # game/script.rpy:1255
 translate english silbonRoute_dc4f882f:
-
+ 
     # sil "Perros malos. {w}Odio a los perros."
-    sil ""
-
+    sil "Bad dogs. {w}I hate dogs."
+ 
 # game/script.rpy:1256
 translate english silbonRoute_371031e6:
-
+ 
     # sil "El abuelo..."
-    sil ""
-
+    sil "Grandpa..."
+ 
 # game/script.rpy:1257
 translate english silbonRoute_7b013bf1:
-
-    # p ". . ." with vpunch
-    p "" with vpunch
-
+ 
+    # p "..." with vpunch
+    p "..." with vpunch
+ 
 # game/script.rpy:1258
 translate english silbonRoute_e79e3327:
-
+ 
     # "Mi mano se posó sobre su brazo."
-    ""
-
+    "My hand rested on his arm."
+ 
 # game/script.rpy:1259
 translate english silbonRoute_1782f4e5:
-
+ 
     # sil "!!"
-    sil ""
-
+    sil "!!"
+ 
 # game/script.rpy:1260
 translate english silbonRoute_f3cf61c0:
-
+ 
     # "Wiija se movió sobresaltado."
-    ""
-
+    "Wiija moved startled."
+ 
 # game/script.rpy:1261
 translate english silbonRoute_ec3f19e4:
-
+ 
     # sil "La familia tendría que ser algo imporante. Sí sí."
-    sil ""
-
+    sil "Family should be something important. Yes yes."
+ 
 # game/script.rpy:1262
 translate english silbonRoute_6e351d70:
-
+ 
     # sil "Yo no era familia."
-    sil ""
-
+    sil "I was not family."
+ 
 # game/script.rpy:1263
 translate english silbonRoute_57052844:
-
+ 
     # sil "Mi abuelo me traicionó"
-    sil ""
-
+    sil "My grandfather betrayed me"
+ 
 # game/script.rpy:1264
 translate english silbonRoute_9958248c:
-
+ 
     # sil "Y yo lo traicioné a él."
-    sil ""
-
+    sil "And I betrayed him."
+ 
 # game/script.rpy:1265
 translate english silbonRoute_02fe4231:
-
+ 
     # p "Te ha causado mucho dolor, ¿verdad?"
-    p ""
-
+    p "He has caused you a lot of pain, hasn't he?"
+ 
 # game/script.rpy:1266
 translate english silbonRoute_672a9625:
-
+ 
     # sil "No fueron los latigazos. Ni los perros."
-    sil ""
-
+    sil "It wasn't the whipping. It wasn't the dogs."
+ 
 # game/script.rpy:1267
 translate english silbonRoute_3666ecad:
-
+ 
     # sil "Ni las heridas."
-    sil ""
-
+    sil "Not even the wounds."
+ 
 # game/script.rpy:1268
 translate english silbonRoute_130ff94d:
-
+ 
     # sil "Él no me sacó a tiempo. {w}No hubo amigos. No hubo abrazos."
-    sil ""
-
+    sil "He didn't get me out in time. {w}No friends. No hugs."
+ 
 # game/script.rpy:1269
 translate english silbonRoute_1f66ff6c:
-
+ 
     # sil "Yo les hice pagar. Le hice pagar a él."
-    sil ""
-
+    sil "I made them pay. I made him pay."
+ 
 # game/script.rpy:1270
 translate english silbonRoute_e9c1abc4:
-
+ 
     # sil "Y él me hizo pagar a mi."
-    sil ""
-
+    sil "And he made me pay."
+ 
 # game/script.rpy:1271
 translate english silbonRoute_b03294fb:
-
+ 
     # sil "Él me hizo desaparecer."
-    sil ""
-
+    sil "He made me disappear."
+ 
 # game/script.rpy:1272
 translate english silbonRoute_59f0c026:
-
+ 
     # sil "Puff."
-    sil ""
-
+    sil "Puff."
+ 
 # game/script.rpy:1273
 translate english silbonRoute_e98c0a66:
-
+ 
     # sil "Él murió con su pena."
-    sil ""
-
+    sil "He died with his sorrow"
+ 
 # game/script.rpy:1274
 translate english silbonRoute_c14f407b:
-
+ 
     # sil "Y yo vivo cargando con la mía."
-    sil ""
-
+    sil "And I still carry mine."
+ 
 # game/script.rpy:1275
 translate english silbonRoute_151b2cd7:
-
+ 
     # sil "Vago..."
-    sil ""
-
+    sil "I wander"
+ 
 # game/script.rpy:1276
 translate english silbonRoute_3dd5c2cc:
-
+ 
     # sil "Como Leyenda."
-    sil ""
-
+    sil "as a Leyenda"
+ 
 # game/script.rpy:1278
 translate english silbonRoute_7b013bf1_1:
-
-    # p ". . ." with vpunch
-    p "" with vpunch
-
+ 
+    # p "..." with vpunch
+    p "..." with vpunch
+ 
 # game/script.rpy:1279
 translate english silbonRoute_921cf1d2:
-
+ 
     # "Luego de eso, busqué cambiar el tema. {w}Seguimos hablando de trivialidades del pueblo. La gente, las costumbres."
-    ""
-
+    "After that, I tried to change the subject. {w}We moved on talking about trivialities of the town. The people, the customs."
+ 
 # game/script.rpy:1282
 translate english silbonRoute_99399335:
-
+ 
     # centered "Pueblo Liwen. \n31 de Octubre. \n6:00am."
-    centered ""
-
+    centered "Liwen Town. \nOctober 31st. \n6:00am."
+ 
 # game/script.rpy:1284
 translate english silbonRoute_691beb1b:
-
+ 
     # "Wiija era... {w}Una criatura como ninguna otra."
-    ""
-
+    "Wiija was... {w}A creature like no other."
+ 
 # game/script.rpy:1285
 translate english silbonRoute_77f31d1a:
-
+ 
     # "Hablamos y hablamos hasta que el Sol comenzó a aparecer entre los edificios. {w}Para ese entonces, la mayoría de la gente se había marchado."
-    ""
-
+    "We talked and talked until the Sun began to break through the buildings. {w}By then, most of the people had left."
+ 
 # game/script.rpy:1286
 translate english silbonRoute_c418d554:
-
+ 
     # "De pronto, Wiija se levantó."
-    ""
-
+    "Suddenly, Wiija got up."
+ 
 # game/script.rpy:1289
 translate english silbonRoute_d21eb616:
-
+ 
     # p "Wiija?"
-    p ""
-
+    p "Wiija?"
+ 
 # game/script.rpy:1290
 translate english silbonRoute_f9a789ba:
-
+ 
     # "Me levanté con él. {w}Aún no sabía como sellarlo y él parecía que estaba a punto de marcharse."
-    ""
-
+    "I got up with him. {w}I still didn't know how to seal him and he looked like he was about to leave."
+ 
 # game/script.rpy:1298
 translate english silbonGoodEnding_b86d87d3:
-
+ 
     # sil "¿Por qué haces esto?"
-    sil ""
-
+    sil "Why are you doing this?"
+ 
 # game/script.rpy:1299
 translate english silbonGoodEnding_d8b1b2b9:
-
+ 
     # p "¿Eh?"
-    p ""
-
+    p "Huh?"
+ 
 # game/script.rpy:1300
 translate english silbonGoodEnding_300446cc:
-
+ 
     # "De pronto, comenzó a alejarse."
-    ""
-
+    "Suddenly, he started to walk away."
+ 
 # game/script.rpy:1302
 translate english silbonGoodEnding_a2c45895:
-
+ 
     # p "¡Espera!"
-    p ""
-
+    p "Wait!"
+ 
 # game/script.rpy:1304
 translate english silbonGoodEnding_4e39f94a:
-
+ 
     # "Lo empecé a seguir. {w}Se metía cada vez más entre los edificios. {w}Ya no había nadie en las calles. Solo los restos del festival."
-    ""
-
+    "I started following him. {W} He was getting deeper and deeper into the buildings. {W} There was no one in the streets anymore. Just the remnants of the festival."
+ 
 # game/script.rpy:1307
 translate english silbonGoodEnding_23a6392f:
-
+ 
     # sil "¿Vas a castigarme, verdad? ¿Cómo él me castigó?"
-    sil ""
-
+    sil "You're going to punish me, right? Just like he did?"
+ 
 # game/script.rpy:1308
 translate english silbonGoodEnding_256ef290:
-
+ 
     # "Lo sabe..."
-    ""
-
+    "He knows..."
+ 
 # game/script.rpy:1309
 translate english silbonGoodEnding_7b013bf1:
-
-    # p ". . ." with vpunch
-    p "" with vpunch
-
+ 
+    # p "..." with vpunch
+    p "..." with vpunch
+ 
 # game/script.rpy:1310
 translate english silbonGoodEnding_cde92cc7:
-
+ 
     # p "No."
-    p ""
-
+    p "No."
+ 
 # game/script.rpy:1311
 translate english silbonGoodEnding_f9357734:
-
+ 
     # p "No voy a castigarte."
-    p ""
-
+    p "I won't punish you."
+ 
 # game/script.rpy:1312
 translate english silbonGoodEnding_cde455e8:
-
+ 
     # sil "Sí lo harás. {w}Eres como mi abuelo."
-    sil ""
-
+    sil "Yes, you will. {w}You're like my grandfather."
+ 
 # game/script.rpy:1313
 translate english silbonGoodEnding_c6b2b4ef:
-
+ 
     # sil "Eres igual al Maestro también."
-    sil ""
-
+    sil "You are like the Master too."
+ 
 # game/script.rpy:1314
 translate english silbonGoodEnding_010dacad:
-
+ 
     # p "Wiija."
-    p ""
-
+    p "Wiija."
+ 
 # game/script.rpy:1315
 translate english silbonGoodEnding_b42679a8:
-
+ 
     # p "Necesito ayudar a mi abuelo."
-    p ""
-
+    p "I need to help my grandfather."
+ 
 # game/script.rpy:1316
 translate english silbonGoodEnding_98118eab:
-
+ 
     # p "Él... Es importante para mí."
-    p ""
-
+    p "He... is important to me."
+ 
 # game/script.rpy:1317
 translate english silbonGoodEnding_d4fcee9a:
-
+ 
     # sil "¿Importante?"
-    sil ""
-
+    sil "Important?"
+ 
 # game/script.rpy:1318
 translate english silbonGoodEnding_0fe26725:
-
+ 
     # p "Si pudieras volver atrás, ¿No querrías hacer lo mismo?"
-    p ""
-
+    p "If you could go back, wouldn't you want to do the same?"
+ 
 # game/script.rpy:1319
 translate english silbonGoodEnding_4839f1ce:
-
+ 
     # p "Huir con tu abuelo, protegerlo. Tener amigos."
-    p ""
-
+    p "Run away with your grandfather, protect him. Have friends."
+ 
 # game/script.rpy:1320
 translate english silbonGoodEnding_8f15ed8f:
-
+ 
     # "Wiija miró al suelo. {w}Sumido en sus pensamientos. Dí un paso adelante. Y luego otro."
-    ""
-
+    "Wiija looked at the ground. {W} Deep in his thoughts. I took a step forward. And then another."
+ 
 # game/script.rpy:1322
 translate english silbonGoodEnding_fcebaa09:
-
+ 
     # p "Seamos amigos."
-    p ""
-
+    p "Let's be friends."
+ 
 # game/script.rpy:1323
 translate english silbonGoodEnding_46af17e1:
-
+ 
     # sil "Te iras. {w}Me abandonarás."
-    sil ""
-
+    sil "You will leave. {w}You will abandon me."
+ 
 # game/script.rpy:1325
 translate english silbonGoodEnding_cafe5e8f:
-
+ 
     # sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más."
-    sil ""
-
+    sil "Good people grow tired of people like me. They deserve more. Much more."
+ 
 # game/script.rpy:1326
 translate english silbonGoodEnding_c8ea8a4a:
-
-    # p ". . ."
-    p ""
-
+ 
+    # p "..."
+    p "..."
+ 
 # game/script.rpy:1327
 translate english silbonGoodEnding_0a94de6b:
-
+ 
     # "Comencé a dudar. {w}Wiija... Tenía miedo. Y yo no sabía que decir. {w}Era cierto, ¿Qué haría con los Vestigios una vez los sellara nuevamente? {w}¿Abandonaría la caja para siempre?"
-    ""
-
+    "I began to wonder. {w}Wiija... was afraid. And I didn't know what to say. {w}It was true, what would I do with the Vestigios once I sealed them again? {w}Would I leave the box behind forever?"
+ 
 # game/script.rpy:1328
 translate english silbonGoodEnding_a20cefa7:
-
-    # ". . ."
-    ""
-
+ 
+    # "..."
+    "..."
+ 
 # game/script.rpy:1329
 translate english silbonGoodEnding_6b41d48d:
-
+ 
     # "No. No podía hacer eso."
-    ""
-
+    "No. I couldn't do that."
+ 
 # game/script.rpy:1331
 translate english silbonGoodEnding_c8ab80c8:
-
+ 
     # p "No te voy abandonar."
-    p ""
-
+    p "I will not abandon you."
+ 
 # game/script.rpy:1332
 translate english silbonGoodEnding_61040549:
-
+ 
     # p "Estaremos juntos. {w}E iremos a otros festivales."
-    p ""
-
+    p "We will be together. {w}And we will go to other festivals."
+ 
 # game/script.rpy:1333
 translate english silbonGoodEnding_42279d16:
-
+ 
     # p "Lo prometo."
-    p ""
-
+    p "I promise."
+ 
 # game/script.rpy:1334
 translate english silbonGoodEnding_07eba4f8:
-
+ 
     # p "Solo... Déjame hacer esto, dejame salvar a mi abuelo. Ayúdame a salvar a mi abuelo"
-    p ""
-
+    p "Just... Let me do this, let me save my grandpa. Help me save my grandpa"
+ 
 # game/script.rpy:1335
 translate english silbonGoodEnding_6c851899:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1336
 translate english silbonGoodEnding_fa935526:
-
+ 
     # sil "A tu abuelo."
-    sil ""
-
+    sil "Your grandpa."
+ 
 # game/script.rpy:1337
 translate english silbonGoodEnding_6c851899_1:
-
-    # sil ". . ."
-    sil ""
-
+ 
+    # sil "..."
+    sil "..."
+ 
 # game/script.rpy:1338
 translate english silbonGoodEnding_f0983b05:
-
+ 
     # sil "Tu abuelo. Era bueno."
-    sil ""
-
+    sil "Your grandfather. He was good."
+ 
 # game/script.rpy:1341
 translate english silbonGoodEnding_50ebd564:
-
+ 
     # "Su mano tomó la mía, y se llevó mi dedo a su boca."
-    ""
-
+    "His hand grabbed mine, and he put my finger in his mouth."
+ 
 # game/script.rpy:1342
 translate english silbonGoodEnding_f4bcd20e:
-
+ 
     # "En un lento movimiento, sus dientes presionaron contra la piel, cortando en ella. Luego, sus labios se posaron contra la yema. Allí se quedó un rato."
-    ""
-
+    "In slow motion, his teeth pressed against the skin, cutting into it. Then his lips rested against the pad. He stayed there for a while."
+ 
 # game/script.rpy:1343
 translate english silbonGoodEnding_7b013bf1_1:
-
-    # p ". . ." with vpunch
-    p "" with vpunch
-
+ 
+    # p "..." with vpunch
+    p "..." with vpunch
+ 
 # game/script.rpy:1344
 translate english silbonGoodEnding_1b1589b5:
-
+ 
     # sil "Ja... Jaja."
-    sil ""
-
+    sil "Ha… Haha."
+ 
 # game/script.rpy:1345
 translate english silbonGoodEnding_794ef56b:
-
+ 
     # sil "Amigos..."
-    sil ""
-
+    sil "Friends..."
+ 
 # game/script.rpy:1347
 translate english silbonGoodEnding_ef1f574d:
-
+ 
     # "Un parpadeo, y Wiija desapareció. Bajé la mano, y vi solo el costal que venía cargando desde que lo vi la primera vez."
-    ""
-
+    "A blink, and Wiija disappeared. I lowered my hand, and saw only the sack he had been carrying since I first saw him."
+ 
 # game/script.rpy:1349
 translate english silbonGoodEnding_d8a7c44a:
-
+ 
     # "Jamás había visto a alguien cargar con sus pecados así. Y no podía armarme de valor para juzgarlo."
-    ""
-
+    "I had never seen someone carry their sins like this. And I couldn't bring myself to judge him."
+ 
 # game/script.rpy:1350
 translate english silbonGoodEnding_1665d391:
-
+ 
     # "Sin su dueño, la bolsa comenzó a hacerse polvo, envejeciendo frente a mis ojos."
-    ""
-
+    "Without the owner of it, the sack began to turn to dust, aging before my eyes."
+ 
 # game/script.rpy:1352
 translate english silbonGoodEnding_14492487:
-
+ 
     # "Ya no había más que hacer aquí. Así que di la vuelta, y volví a casa."
-    ""
-
+    "There was nothing else to do here. So I turned around, and went back home."
+ 
 # game/script.rpy:1357
 translate english silbonBadEnding_3cc8cfce:
-
+ 
     # sil "Niña tonta. Mentirosa..."
-    sil ""
-
+    sil "Silly girl. Liar..."
+ 
 # game/script.rpy:1359
 translate english silbonBadEnding_d8b1b2b9:
-
+ 
     # p "¿Eh?"
-    p ""
-
+    p "Huh?"
+ 
 # game/script.rpy:1361
 translate english silbonBadEnding_a1657483:
-
+ 
     # "!!" with vpunch
-    "" with vpunch
-
+    "!!" with vpunch
+ 
 # game/script.rpy:1362
 translate english silbonBadEnding_04cfe9b8:
-
+ 
     # "Una fuerte mano se apretó contra mi cuello. Sus dedos apretando. Apretando..."
-    ""
-
+    "A strong hand pressed against my neck. His fingers tightening. Squeezing..."
+ 
 # game/script.rpy:1365
 translate english silbonBadEnding_51dee9c4:
-
+ 
     # p "AGH-!" with vpunch
-    p "" with vpunch
-
+    p "AGH-!" with vpunch
+ 
 # game/script.rpy:1367
 translate english silbonBadEnding_449f326e:
-
+ 
     # sil "¿Me ibas a entregar a ella, verdad?"
-    sil ""
-
+    sil "You were going to give me to her, didn’t you?"
+ 
 # game/script.rpy:1368
 translate english silbonBadEnding_e57b73f1:
-
+ 
     # sil "Niña tonta. Niña mala."
-    sil ""
-
+    sil "Silly girl. Silly girl."
+ 
 # game/script.rpy:1369
 translate english silbonBadEnding_dcbb55bb:
-
+ 
     # sil "¡No me vas a encerrar! ¡NO ERES MI PADRE, NO PUEDES DECIRME QUE HACER!"
-    sil ""
-
+    sil "You are not going to lock me up! YOU ARE NOT MY FATHER, YOU CAN’T TELL ME WHAT TO DO!"
+ 
 # game/script.rpy:1371
 translate english silbonBadEnding_01363c0e:
-
+ 
     # p "Unghh-!" with vpunch
-    p "" with vpunch
-
+    p "Unghh-!" with vpunch
+ 
 # game/script.rpy:1372
 translate english silbonBadEnding_1bc38012:
-
+ 
     # sil "Tu abuelo. Es tu abuelo. Yo lo sé. Yo lo sé."
-    sil ""
-
+    sil "Your grandfather. It's your grandfather. I know it. I know it. "
+ 
 # game/script.rpy:1373
 translate english silbonBadEnding_8c10f78a:
-
+ 
     # sil "Era como el mío. Bueno y malo. Malo y bueno."
-    sil ""
-
+    sil "He was like mine, good and bad. Bad and good"
+ 
 # game/script.rpy:1374
 translate english silbonBadEnding_a013662a:
-
+ 
     # sil "No te preocupes."
-    sil ""
-
+    sil "Don’t worry."
+ 
 # game/script.rpy:1375
 translate english silbonBadEnding_99c64cd2:
-
+ 
     # sil "Te voy a ayudar."
-    sil ""
-
+    sil "I’m going to help you."
+ 
 # game/script.rpy:1376
 translate english silbonBadEnding_2d72f19d:
-
+ 
     # "Mis pies abandonaron el suelo cuando él me levantó, haciendo presión. No podía pelear, me estaba debilitando."
-    ""
-
+    "My feet left the ground when he lifted me up, pressing down. I couldn’t fight back, I was getting weak."
+ 
 # game/script.rpy:1377
 translate english silbonBadEnding_018660e6:
-
+ 
     # "Y luego, sentí mi cuerpo chocar. ¿La banca, la pared? No lo sabía..."
-    ""
-
+    "And then. i felt my body crash. The bench?, the wall?" I didn’t know...
+ 
 # game/script.rpy:1379
 translate english silbonBadEnding_eb41afa0:
-
+ 
     # "{i}CRACK{/i}" with vpunch
-    "" with vpunch
-
+    "{i}CRACK{/i}" with vpunch
+ 
 # game/script.rpy:1380
 translate english silbonBadEnding_3d40c069:
-
+ 
     # "Me siento... {w}Cansada..."
-    ""
-
+    "I feel…{w}Tired..."
+ 
 # game/script.rpy:1382
 translate english silbonBadEnding_e32e7611:
-
+ 
     # "... Negro"
-    ""
-
+    "... Black"
+ 
 # game/script.rpy:1383
 translate english silbonBadEnding_75a3d474:
-
+ 
     # "Todo negro"
-    ""
-
+    "Everything black"
+ 
 # game/script.rpy:1384
 translate english silbonBadEnding_c8ea8a4a:
-
-    # p ". . ."
-    p ""
-
+ 
+    # p "..."
+    p "..."
+ 
 # game/script.rpy:1385
 translate english silbonBadEnding_2473a0e4:
-
+ 
     # "No puedo hablar. No puedo moverme."
-    ""
-
+    "I can’t speak. I can’t move."
+ 
 # game/script.rpy:1386
 translate english silbonBadEnding_7a3506a8:
-
+ 
     # "Ayuda... {w}Auxilio."
-    ""
-
+    "Help…{w}Help"
+ 
 # game/script.rpy:1387
 translate english silbonBadEnding_918af3f6:
-
+ 
     # "Siento movimiento, mi cuerpo está..."
-    ""
-
+    "I feel movement, my body is..."
+ 
 # game/script.rpy:1388
 translate english silbonBadEnding_a20cefa7:
-
-    # ". . ."
-    ""
-
+ 
+    # "..."
+    "..."
+ 
 # game/script.rpy:1389
 translate english silbonBadEnding_e7957df4:
-
+ 
     # "Una bolsa..."
-    ""
-
+    "A bag..."
+ 
 # game/script.rpy:1390
 translate english silbonBadEnding_c7bd4c7a:
-
+ 
     # "¿Qué- Qué es esto?"
-    ""
-
+    "What- What is this?"
+ 
 # game/script.rpy:1391
 translate english silbonBadEnding_a20cefa7_1:
-
-    # ". . ."
-    ""
-
+ 
+    # "..."
+    "..."
+ 
 # game/script.rpy:1392
 translate english silbonBadEnding_8200bf0d:
-
+ 
     # "Huesos."
-    ""
-
+    "Bones"
+ 
 # game/script.rpy:1393
 translate english silbonBadEnding_f74e6b6d:
-
+ 
     # "Son huesos."
-    ""
-
+    "Those are bones."
+ 
 # game/script.rpy:1394
 translate english silbonBadEnding_a0d2b5c7:
-
+ 
     # sil "Somos amigos ahora. {w}Sí sí sí. {w}Tú cuida de papá allí."
-    sil ""
-
+    sil "We are friends now. {w}Yeah yes yes. {w}Take care of your dad there."
+ 
 # game/script.rpy:1395
 translate english silbonBadEnding_bb7bbab3:
-
+ 
     # sil "Es hora de ir a hacer más amigos." with vpunch
     sil "" with vpunch
-
+ 
 # game/script.rpy:1398
 translate english silbonBadEnding_254a1224:
-
+ 
     # "Bad Ending."
-    ""
+    "Bag ending"
 
 # game/script.rpy:1406
 translate english normalEnding_5f283eb2:
@@ -6226,4 +6233,19 @@ translate english trueEnding_7e4424ae:
 
     # abu "Inaru sólo es un eco de mis sentimientos y mis recuerdos, igual que todos los demás."
     abu "Inaru is just an echo of my feelings and memories, like the rest of them."
+
+# TODO: Translation updated at 2022-09-30 14:27
+
+# game/script.rpy:17
+translate english splashscreen_66ddc5b0:
+
+    # centered "{u}{b}Advertencia{/b}{/u}\nEste juego contiene violencia, temas maduros, sangre y uso de tabaco.\n Los personajes y escenarios están basados en la cultura Latinoamericana con el objetivo de entretener y no está dirigido a reemplazar fuentes educativas."
+    centered "{u}{b}Disclaimer{/b}{/u}\nThis game contains violence, mature themes, blood and use of tobacco.\n
+Characters and scenery are based on Latin American culture for entertainment purposes only and is not meant to replace true educational sources."
+
+# game/script.rpy:1464
+translate english normalEnding_986d5bef:
+
+    # centered "Casa del Abuelo. \n31 de Octubre. \n6:30am."
+    centered "centered "Grandpa's house. \nOctober 31st. \n6:30am.""
 
