@@ -5787,49 +5787,49 @@ translate english trueEnding_62d4b5db:
 translate english trueEnding_d93f8896:
 
     # "Una mano se apoyó en su brazo. {w}Ésta era una de las decisiones más difíciles que tuve que tomar."
-    "I rested my hand in her arm. {w}This was one of the "
+    "I rested my hand in her arm. {w}This was one of the toughest decisions I've ever had to make."
 
 # game/script.rpy:1628
 translate english trueEnding_72c2c5a8:
 
     # p "Yo tampoco quiero perderlo..."
-    p ""
+    p "I don't want to loose him either..."
 
 # game/script.rpy:1629
 translate english trueEnding_15891ea7:
 
     # p "Pero él decidió hacer con su tiempo lo que más deseaba."
-    p ""
+    p "But he choose to make with his time what he wanted the most."
 
 # game/script.rpy:1631
 translate english trueEnding_5e5c6c1f:
 
     # p "Creemos algo nuevo a partir de lo que nos dejó."
-    p ""
+    p "Let's make something new from what he left us."
 
 # game/script.rpy:1632
 translate english trueEnding_7c72c870:
 
     # mm ". . ."
-    mm ""
+    mm ". . ."
 
 # game/script.rpy:1633
 translate english trueEnding_9229bf46:
 
     # "Sus ramas sujeron mi mano. Su agarre tenso y su cuerpo aún temblando."
-    ""
+    "He branches held my hand. Her grip was tight and her body was still shaking."
 
 # game/script.rpy:1634
 translate english trueEnding_29175b76:
 
     # mm "Lo has dejado morir... {w}No puedo perdonarte por eso."
-    mm ""
+    mm "You let him die... {w}I can't forgive you for that."
 
 # game/script.rpy:1635
 translate english trueEnding_f7449763:
 
     # mm "Pero no puedo sostenerlo cuando se escapa de mis manos."
-    mm ""
+    mm "But I can't held him when he slips out of my hands."
 
 # game/script.rpy:1636
 translate english trueEnding_cf62ff03:
