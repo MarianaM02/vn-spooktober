@@ -1857,7 +1857,7 @@ translate english calchonaGoodEnding_4347f37a:
 translate english calchonaGoodEnding_5f9256ca:
 
     # cal "¿Debe doler, no? Ser una buena persona, forzada a hacer cosas malas..."
-    cal "It hurts, doesn't it? To be a good person forced to do bada things..."
+    cal "It must hurt, doesn't it? Being a good person forced to do bad things..."
 
 # game/script.rpy:683
 translate english calchonaGoodEnding_a52e8ec6:
@@ -5331,7 +5331,7 @@ translate english trueEnding_c2504ae7:
 translate english trueEnding_a171c9bb:
 
     # abu "Es lo que solía hacer. {w}Otorgaba mi energía a las Leyendas que encontraba. {w}Les daba un poco de mi ser."
-    abu "That's what I used to do. {w}I granted my energy to the Leyendas I met. {w}I gave them a little part of my being." #Elithne
+    abu "That's what I used to do. {w}I granted my energy to the Leyendas I met. {w}I gave them a little part of me." #Elithne: Fixed
 
 # game/script.rpy:1521
 translate english trueEnding_ac702c14:
@@ -5349,19 +5349,19 @@ translate english trueEnding_ad7fc908:
 translate english trueEnding_fb87f001:
 
     # cal "¿Debe doler, no? Ser una buena persona forzada a hacer cosas malas..."
-    cal "It must hurt, doesn't it? Being a good person forced to do bad things..." #Elithne
+    cal "It must hurt, doesn't it? Being a good person forced to do bad things..." #Elithne: Fixed.
 
 # game/script.rpy:1533
 translate english trueEnding_97284e28:
 
     # pom "Si algo me da tranquilidad, es que aún hay criaturas como tú."
-    pom "What brings me some peace of mind, is that creatures like you exist." #Elithne
+    pom "What brings me some peace of mind, is that creatures like you exist." #Elithne: Fixed (Aura's Draft)
 
 # game/script.rpy:1536
 translate english trueEnding_cafe5e8f:
 
     # sil "Las personas buenas se cansan de personas como yo. Merecen más. Mucho más." 
-    sil "Good people grow tired of people like me. They deserve more. Much more." #Elithne
+    sil "Good people grow tired of people like me. They deserve more. Much more." #Elithne: fixed
 
 # game/script.rpy:1542
 translate english trueEnding_b560ba01:
@@ -5427,7 +5427,7 @@ translate english trueEnding_4b895f2e:
 translate english trueEnding_0ea350ab:
 
     # p "¿Cómo es que estás aquí?"
-    p "How is it possible that you are here?" #Elithne
+    p "You're here... How?" #Elithne: Así está mejor.
 
 # game/script.rpy:1554
 translate english trueEnding_47390352:
@@ -5883,7 +5883,7 @@ translate english trueEnding_54be5188:
 translate english trueEnding_4a76dea3:
 
     # mm "Vaya..."
-    mm "Well.." #wow? Elithne
+    mm "Wow.." #wow? Elithne: Si
 
 # game/script.rpy:1647
 translate english trueEnding_b4ca5ab7:
