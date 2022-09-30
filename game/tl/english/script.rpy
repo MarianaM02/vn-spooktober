@@ -5499,73 +5499,73 @@ translate english trueEnding_c7bd810d:
 translate english trueEnding_3d01f136:
 
     # abu "Y temía por mí, por lo que ocurriría con mi alma una vez ésta abandonase mi cuerpo."
-    abu ""
+    abu "And she feared for me, for what would happened to my soul once it left my body."
 
 # game/script.rpy:1566
 translate english trueEnding_baf0bb18:
 
     # abu "Así que selló una parte de mí en sí misma antes de irse."
-    abu ""
+    abu "So she sealed a part of me in her before she left."
 
 # game/script.rpy:1567
 translate english trueEnding_f992c951:
 
     # abu "Creía que así podría protegerme. Y ella nunca se volvería a acercar a los Vestigios."
-    abu ""
+    abu "She believe she could protect me that way. And she never would have to go near the Vestigios again."
 
 # game/script.rpy:1568
 translate english trueEnding_dd213996:
 
     # abu "Pero luego, tú naciste. {w}Creo que ninguno de nosotros sabía realmente que ahora tú llevabas mi alma."
-    abu ""
+    abu "But then, you were born. {w}I think none of us knew you had that part of my soul."
 
 # game/script.rpy:1569
 translate english trueEnding_e75a08ac:
 
     # abu "Cuando me di cuenta, ya era demasiado tarde. {w}Y con una conexión tan débil, no pude advertirte."
-    abu ""
+    abu "When I realize that, it was too late. {w}And with a conection this weak, I couldn't warn you."
 
 # game/script.rpy:1570
 translate english trueEnding_4da442a1:
 
     # p "Entonces esa voz que oí..."
-    p ""
+    p "So that voice I heard..."
 
 # game/script.rpy:1571
 translate english trueEnding_44b149fe:
 
     # abu "Era yo."
-    abu ""
+    abu "It was me."
 
 # game/script.rpy:1572
 translate english trueEnding_4b2836b0:
 
     # abu "Sabía que Inaru intentaría recuperar los fragmentos de mi alma."
-    abu ""
+    abu "I knew Inaru would try to retrieve the fragments of my soul."
 
 # game/script.rpy:1573
 translate english trueEnding_43dd542f:
 
     # abu "Pero ella, al igual que yo, no contaba con que tú fueras el último Vestigio."
-    abu ""
+    abu "But her, like me, wasn't expecting that you were the last Vestigio. "
 
 # game/script.rpy:1574
 translate english trueEnding_f1f3384b:
 
     # abu "Eso nos da una esperanza."
-    abu ""
+    abu "That give us hope."
 
 # game/script.rpy:1575
 translate english trueEnding_1acf7790:
 
     # abu "Y lamento que haya llegado a esto."
-    abu ""
+    abu "And I am sorry that it has come to this."
 
 # game/script.rpy:1576
 translate english trueEnding_e9838418:
 
     # p "Lo sé."
-    p ""
+    p "I know."
 
 # game/script.rpy:1577
 translate english trueEnding_7d577ec4:
@@ -5577,85 +5577,85 @@ translate english trueEnding_7d577ec4:
 translate english trueEnding_985bcb00:
 
     # p "Está bien, abuelo. Mamá, papá y tú... {w}Son mi familia. Haría lo que sea por ustedes."
-    p ""
+    p "It's OK, grandpa. Mum, dad, and you... {w}You are my family. I would do anything for you."
 
 # game/script.rpy:1580
 translate english trueEnding_ab2faf40:
 
     # p "Inaru me pidió que selle a las Leyendas, usando mi sangre. {w}Eso hizo que ellas volvieran a quedar encerradas en los Vestigios."
-    p ""
+    p "Inaru ask me to seal away Leyendas using my blood. {w}That locked them up again in the Vestigios."
 
 # game/script.rpy:1581
 translate english trueEnding_7b4e1655:
 
     # abu "Todas las Leyendas. Menos una."
-    abu ""
+    abu "All Leyendas. But one."
 
 # game/script.rpy:1582
 translate english trueEnding_8da6423c:
 
     # p "Significa que ahora..."
-    p ""
+    p "That means that now..."
 
 # game/script.rpy:1583
 translate english trueEnding_17f13030:
 
     # abu "Debes sellar a Inaru. Si."
-    abu ""
+    abu "You have to seal away Inaru. Yes."
 
 # game/script.rpy:1585
 translate english trueEnding_c8ea8a4a_3:
 
     # p ". . ."
-    p ""
+    p ". . ."
 
 # game/script.rpy:1587
 translate english trueEnding_d459c838:
 
     # p "¿Cómo haré eso?"
-    p ""
+    p "How will I do that?"
 
 # game/script.rpy:1588
 translate english trueEnding_49256b3f:
 
     # abu "A través de mí. Por supuesto."
-    abu ""
+    abu "Through me. Of course."
 
 # game/script.rpy:1590
 translate english trueEnding_2d895503:
 
     # abu "Tú tienes la última parte de mi alma. {w}Ella tiene las demás, pero es tu sangre la que mantiene la conexión."
-    abu ""
+    abu "You have the last part of my soul. {w}She has the rest of them, but your blood is what holds the conection."
 
 # game/script.rpy:1591
 translate english trueEnding_2f7257cc:
 
     # abu "Si lo haces-"
-    abu ""
+    abu "If you do that-"
 
 # game/script.rpy:1592
 translate english trueEnding_e37a6a1f:
 
     # p "Los sello a ambos."
-    p ""
+    p "I seal both of you."
 
 # game/script.rpy:1593
 translate english trueEnding_c8ea8a4a_4:
 
     # p ". . ."
-    p ""
+    p ". . . "
 
 # game/script.rpy:1595
 translate english trueEnding_cc3020ff:
 
     # p "¿Qué pasará contigo?"
-    p ""
+    p "What will happen to you?"
 
 # game/script.rpy:1596
 translate english trueEnding_26420d04:
 
     # abu "Yo no tengo un Vestigio. Este lugar le pertenece a Inaru. {w}Cuando lo hagas, mi alma se irá."
-    abu ""
+    abu "I don't have a Vestigio. This place belongs to Inaru. {w}When you seal it, my soul will leave."
 
 # game/script.rpy:1598
 translate english trueEnding_4b895f2e_1:
